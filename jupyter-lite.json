@@ -1,0 +1,8 @@
+{
+  "jupyter-config-data": {
+    "appName": "Corndel Jupyter",
+    "appVersion": "0.0.0",
+    "faviconUrl": "https://www.corndel.com/app/uploads/2022/10/cropped-favicon-32x32.png",
+    "disabledExtensions": ["@jupyterlab/application-extension:logo"]
+  }
+}

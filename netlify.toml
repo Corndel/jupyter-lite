@@ -7,5 +7,5 @@ Cross-Origin-Embedder-Policy = "require-corp"
 
 [build]
 environment = { PYTHON_VERSION = "3.11" }
-command = "pip install -r requirements.txt && jupyter lite build --contents content --output-dir dist"
+command = "jupyter lite build --contents content --output-dir dist"
 publish = "dist"
