@@ -7,4 +7,4 @@ Cross-Origin-Embedder-Policy = "require-corp"
 
 [build]
 publish = "dist"
-command = "scripts/install.sh && scripts/dev.sh"
+command = "scripts/install.sh && scripts/build.sh"
