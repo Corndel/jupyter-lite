@@ -18,7 +18,7 @@ micromamba create -n jupyterenv python=3.11 -c conda-forge -y
 micromamba activate jupyterenv
 
 # install the dependencies
-python -m pip install -r requirements-deploy.txt
+python -m pip install -r requirements.txt
 
 # build the JupyterLite site
 jupyter lite --version
