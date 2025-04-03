@@ -1,3 +1,0 @@
-jupyterlab~=3.4
-jupyterlite-core
-jupyterlite-pyodide-kernel
