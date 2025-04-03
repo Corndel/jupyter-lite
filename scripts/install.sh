@@ -12,11 +12,17 @@ export MAMBA_ROOT_PREFIX="$ROOT_DIR/micromamba"
 "$ROOT_DIR/bin/micromamba" shell init -s bash --no-modify-profile -p $MAMBA_ROOT_PREFIX
 
 # Source Micromamba environment directly
-eval "$(./bin/micromamba shell hook -s bash)"
+eval "$("$ROOT_DIR/bin/micromamba" shell hook -s bash)"
 
 # Activate the Micromamba environment
 micromamba create -n jupyterenv python=3.11 -c conda-forge -y
 micromamba activate jupyterenv
 
 # install the dependencies
+echo "Using Python: $(which python)"
+python --version
 python -m pip install -r requirements.txt
+
+# build the JupyterLite site
+jupyter lite --version
+jupyter lite build --contents content --output-dir dist
