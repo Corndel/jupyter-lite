@@ -4,11 +4,12 @@ yum install wget -y
 
 wget -qO- https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
 
-export PATH="$PWD/bin:$PATH"
-export MAMBA_ROOT_PREFIX="$PWD/micromamba"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+export PATH="$ROOT_DIR/bin:$PATH"
+export MAMBA_ROOT_PREFIX="$ROOT_DIR/micromamba"
 
 # Initialize Micromamba shell
-./bin/micromamba shell init -s bash --no-modify-profile -p $MAMBA_ROOT_PREFIX
+"$ROOT_DIR/bin/micromamba" shell init -s bash --no-modify-profile -p $MAMBA_ROOT_PREFIX
 
 # Source Micromamba environment directly
 eval "$(./bin/micromamba shell hook -s bash)"
@@ -19,7 +20,3 @@ micromamba activate jupyterenv
 
 # install the dependencies
 python -m pip install -r requirements.txt
-
-# build the JupyterLite site
-jupyter lite --version
-jupyter lite build --contents content --output-dir dist
