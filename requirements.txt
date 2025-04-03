@@ -10,6 +10,9 @@ jupyterlite-javascript-kernel==0.3.0
 # JupyterLab Plugins
 jupyterlab-fasta>=3.3.0,<4
 jupyterlab-geojson>=3.4.0,<4
+jupyterlab-black
+jupysql
+duckdb-engine
 
 # JupyterLab Themes
 jupyterlab-night

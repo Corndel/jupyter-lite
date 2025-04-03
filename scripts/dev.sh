@@ -1,1 +1,0 @@
-jupyter lite serve --lite-dir dist
