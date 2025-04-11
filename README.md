@@ -119,11 +119,6 @@ learner knows what came from Corndel. The learners own created or uploaded
 content shares the same file system so we need to make sure the learner has
 sovereignty over anything not in the `handouts/` subdirectory.
 
-I'd also suggest keeping the directory structure relatively flat - just
-`notebooks/` and `data/`. This is because pathing is a bit of a pain. We can
-make organisation and discoverability solutions outisde of Jupyter Lite (because
-each notebook gets its own URL).
-
 An open question is: how many data sets and notebooks can we reasonably add?
 It's something to return to once we get this into practice. The docs suggest not
 having any files larger than 50MB. If the deployment gets too big then the app
