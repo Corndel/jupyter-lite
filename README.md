@@ -28,6 +28,12 @@ To serve locally,
 jupyter lite serve
 ```
 
+To build locally,
+
+```bash
+jupyter lite build
+```
+
 ## Deployment
 
 Netlify is configured to rebuild and deploy on merge into `main`. See
