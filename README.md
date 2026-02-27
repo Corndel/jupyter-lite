@@ -22,16 +22,22 @@ Install packages
 pip install -r requirements.txt
 ```
 
-To serve locally,
-
-```bash
-jupyter lite serve
-```
-
 To build locally,
 
 ```bash
-jupyter lite build
+python build.py
+```
+
+To build a single module (faster iteration),
+
+```bash
+python build.py --modules python-101 --skip-base
+```
+
+To serve the built site locally,
+
+```bash
+python -m http.server -d dist 8000
 ```
 
 ## Deployment
@@ -108,24 +114,48 @@ The piplite install looks uses Jupyter "magics":
 The `-q` means "quiet", and note the `%`. Using this method, you can silently
 install any pure python package from pypi at the top of any notebook.
 
-## Adding notebooks
+## Adding modules
 
-Anything we put in the `content/` directory is available to the learner and will
-show up in their Jupyter Lite file system. These are downloaded as static assets
-when the learner opens the page.
+Content is organised into **modules** under the `modules/` directory. Each module
+gets its own isolated JupyterLite instance so learners only see relevant content.
 
-I'm suggesting we keep everything in a `content/handouts/` directory so that the
-learner knows what came from Corndel. The learners own created or uploaded
-content shares the same file system so we need to make sure the learner has
-sovereignty over anything not in the `handouts/` subdirectory.
+To add a new module:
 
-I'd also suggest keeping the directory structure relatively flat - just
-`notebooks/` and `data/`. This is because pathing is a bit of a pain. We can
-make organisation and discoverability solutions outisde of Jupyter Lite (because
-each notebook gets its own URL).
+1. Create a directory under `modules/`:
 
-An open question is: how many data sets and notebooks can we reasonably add?
-It's something to return to once we get this into practice. The docs suggest not
-having any files larger than 50MB. If the deployment gets too big then the app
-will start to strain. There might be a possibility of hosting data elsewhere and
-loading it over the network, which we could explore if needed.
+   ```
+   modules/
+     my-new-module/
+       module.json
+       notebooks/
+         my_notebook.ipynb
+       data/
+         my_data.csv
+   ```
+
+2. Add a `module.json` with a title and description:
+
+   ```json
+   {
+     "title": "My New Module",
+     "description": "A short description for the landing page"
+   }
+   ```
+
+3. Push to main. The build script auto-discovers all module directories and
+   creates a JupyterLite instance for each one. No other config changes needed.
+
+Each module is available at `jupyter.corndel.com/{module-name}/lab/index.html`.
+The landing page at `jupyter.corndel.com/` links to all modules.
+
+### Shared content
+
+If multiple modules need the same data files, put them in `modules/_shared/`.
+Shared files are copied into every module at build time.
+
+### How the build works
+
+`build.py` builds JupyterLite once (the expensive part: Pyodide, extensions,
+themes), then stamps out lightweight per-module copies. The heavy assets
+(`build/`, `extensions/`) are shared at the root so they are not duplicated.
+Adding a new module adds only a few MB to the total deployment size.

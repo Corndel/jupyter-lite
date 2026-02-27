@@ -1,0 +1,5 @@
+{
+  "title": "Sandbox",
+  "description": "A blank Jupyter environment for your own notebooks",
+  "sandbox": true
+}
