@@ -142,12 +142,61 @@ def generate_manifests(files_dir, module_output):
     process_dir(files_dir, "")
 
 
+def patch_service_worker_ready(module_output):
+    """
+    Patch every entry-point index.html to pre-register the service worker
+    and wait for it to be active BEFORE booting JupyterLite.
+
+    The Pyodide kernel accesses files via synchronous XHR that the service
+    worker must intercept.  Without this patch there is a race: JupyterLite
+    can open a notebook and start the kernel before the SW is active,
+    causing every `open()` call to fail with FileNotFoundError.
+    """
+    for html_file in module_output.rglob("index.html"):
+        html = html_file.read_text()
+
+        # Each entry-point loads config-utils.js relative to its own depth.
+        # Match "await import(\n  '<dots>/config-utils.js" regardless of
+        # the relative prefix, and insert the SW gate just before it.
+        marker = "await import("
+        if marker not in html or "config-utils.js" not in html:
+            continue
+
+        # Find the exact indented line so we preserve formatting.
+        idx = html.index(marker)
+        # Walk backwards to find the start of the line (for indentation).
+        line_start = html.rfind("\n", 0, idx) + 1
+        indent = html[line_start:idx]
+
+        # Determine the relative path to service-worker.js from this file.
+        rel = html_file.parent.relative_to(module_output)
+        depth = len(rel.parts)  # e.g. lab/ → 1, consoles/ → 1, root → 0
+        sw_path = "../" * depth + "service-worker.js" if depth else "./service-worker.js"
+
+        sw_gate = (
+            f"{indent}// Ensure the service worker is active before JupyterLite boots.\n"
+            f"{indent}// The Pyodide kernel relies on the SW to relay file-system requests;\n"
+            f"{indent}// without it every open() in a notebook would fail.\n"
+            f"{indent}if ('serviceWorker' in navigator) {{\n"
+            f"{indent}  try {{\n"
+            f"{indent}    await navigator.serviceWorker.register('{sw_path}');\n"
+            f"{indent}    await navigator.serviceWorker.ready;\n"
+            f"{indent}  }} catch (_e) {{ /* proceed without SW */ }}\n"
+            f"{indent}}}\n"
+        )
+
+        # Insert before the "await import" line, keeping original indent.
+        html = html[:line_start] + sw_gate + html[line_start:]
+        html_file.write_text(html)
+
+
 def stamp_module(module_dir, output_dir):
     """
     Create a module-specific JupyterLite instance by:
     1. Copying the entire base build (self-contained, no path tricks)
     2. Copying module content into files/
     3. Generating api/contents/ manifests
+    4. Patching lab/index.html so the service worker is ready before boot
     """
     module_name = module_dir.name
     module_output = output_dir / module_name
@@ -179,6 +228,9 @@ def stamp_module(module_dir, output_dir):
 
     # Generate api/contents/ manifests
     generate_manifests(files_dir, module_output)
+
+    # Ensure service worker is active before JupyterLite boots
+    patch_service_worker_ready(module_output)
 
     print(f"     Done: {module_output}")
 
@@ -315,7 +367,7 @@ def main():
     generate_landing_page(all_modules, output_dir)
 
     print(f"\n==> Build complete! Output: {output_dir}")
-    print(f"    Serve with: python -m http.server -d {args.output_dir} 8000")
+    print(f"    Serve with: python serve.py")
 
 
 if __name__ == "__main__":
