@@ -35,6 +35,14 @@ def build_base():
     if BASE_BUILD_DIR.exists():
         shutil.rmtree(BASE_BUILD_DIR)
 
+    # Clean stale doit state and default _output/ that jupyter-lite leaves
+    # behind — they confuse the task runner when --output-dir is overridden.
+    for stale in [REPO_ROOT / ".jupyterlite.doit.db", REPO_ROOT / "_output"]:
+        if stale.is_dir():
+            shutil.rmtree(stale)
+        elif stale.exists():
+            stale.unlink()
+
     subprocess.run(
         [
             sys.executable, "-m", "jupyter", "lite", "build",
@@ -142,6 +150,17 @@ def generate_manifests(files_dir, module_output):
     process_dir(files_dir, "")
 
 
+def strip_notebook_outputs(files_dir):
+    """Remove cell outputs from all notebooks so learners start fresh."""
+    for nb_path in files_dir.rglob("*.ipynb"):
+        nb = json.loads(nb_path.read_text())
+        for cell in nb.get("cells", []):
+            if cell.get("cell_type") == "code":
+                cell["outputs"] = []
+                cell["execution_count"] = None
+        nb_path.write_text(json.dumps(nb, indent=1) + "\n")
+
+
 def patch_service_worker_ready(module_output):
     """
     Patch every entry-point index.html to pre-register the service worker
@@ -225,6 +244,9 @@ def stamp_module(module_dir, output_dir):
             shutil.copytree(item, dest, dirs_exist_ok=True)
         else:
             shutil.copy2(item, dest)
+
+    # Strip saved outputs from notebooks so learners step through fresh
+    strip_notebook_outputs(files_dir)
 
     # Generate api/contents/ manifests
     generate_manifests(files_dir, module_output)
