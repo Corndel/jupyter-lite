@@ -1,11 +1,10 @@
 [[headers]]
-for = "/*"
-
-[headers.values]
-Cross-Origin-Opener-Policy = "same-origin"
-Cross-Origin-Embedder-Policy = "require-corp"
+  for = "/*"
+  [headers.values]
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "require-corp"
 
 [build]
-environment = { PYTHON_VERSION = "3.11" }
-command = "jupyter lite build --contents content --output-dir dist"
-publish = "dist"
+  environment = { PYTHON_VERSION = "3.11" }
+  command = "pip install -r requirements.txt && python build.py"
+  publish = "dist"

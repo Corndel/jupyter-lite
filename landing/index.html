@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corndel Jupyter</title>
+  <link rel="icon" href="https://www.corndel.com/app/uploads/2022/10/cropped-favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --neutral-50: #fffdfb;
+      --neutral-100: #f9f4eb;
+      --neutral-200: #e9e4d8;
+      --neutral-300: #d6d0c2;
+      --neutral-400: #afafaf;
+      --neutral-500: #8c8c8c;
+      --neutral-600: #696969;
+      --neutral-700: #464646;
+      --neutral-800: #2b2b2b;
+      --neutral-900: #1c1c1c;
+      --neutral-950: #111111;
+      --coral-500: #f58455;
+      --coral-600: #db6130;
+      --sky-50: #f0f9ff;
+      --sky-100: #e0f2fe;
+      --sky-600: #0284c7;
+      --sky-700: #0369a1;
+      --jade-50: #f0fdfa;
+      --jade-100: #ccfbf1;
+      --jade-600: #0d9488;
+      --jade-700: #0f766e;
+      --lilac-50: #fdf4ff;
+      --lilac-100: #fae8ff;
+      --lilac-600: #c026d3;
+      --lilac-700: #a21caf;
+      --radius-asymmetric: 6px 30px 30px 30px;
+      --radius-asymmetric-small: 4px 20px 20px 20px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Public Sans", sans-serif;
+      background: var(--neutral-50);
+      color: var(--neutral-800);
+      line-height: 1.5;
+    }
+
+    .header {
+      background: var(--neutral-950);
+      color: var(--neutral-50);
+      padding: 2.5rem 1.5rem 2rem;
+    }
+
+    .header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .header p {
+      color: var(--neutral-400);
+      margin-top: 0.25rem;
+      font-size: 0.95rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+    }
+
+    /* Sandbox section */
+    .sandbox-section {
+      margin-top: 2rem;
+    }
+
+    .sandbox-card {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      background: var(--neutral-100);
+      border: 1px solid var(--neutral-200);
+      border-radius: var(--radius-asymmetric);
+      padding: 1.25rem 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .sandbox-card:hover {
+      border-color: var(--coral-500);
+      box-shadow: 0 2px 12px rgba(245, 132, 85, 0.12);
+    }
+
+    .sandbox-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--coral-500);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .sandbox-icon svg {
+      width: 24px;
+      height: 24px;
+      fill: white;
+    }
+
+    .sandbox-text h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--neutral-900);
+    }
+
+    .sandbox-text p {
+      font-size: 0.875rem;
+      color: var(--neutral-500);
+      margin-top: 0.125rem;
+    }
+
+    /* Programme sections */
+    .programme-section {
+      margin-top: 2.5rem;
+    }
+
+    .programme-heading {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--neutral-500);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--neutral-200);
+      margin-bottom: 0.75rem;
+    }
+
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .module-card {
+      display: block;
+      background: white;
+      border: 1px solid var(--neutral-200);
+      border-radius: var(--radius-asymmetric-small);
+      padding: 1.25rem 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .module-card:hover {
+      border-color: var(--sky-600);
+      box-shadow: 0 2px 12px rgba(3, 105, 161, 0.1);
+    }
+
+    .module-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--neutral-900);
+    }
+
+    .module-card p {
+      font-size: 0.85rem;
+      color: var(--neutral-500);
+      margin-top: 0.25rem;
+    }
+
+    .programme-empty {
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--neutral-400);
+      font-size: 0.875rem;
+      border: 1px dashed var(--neutral-200);
+      border-radius: var(--radius-asymmetric-small);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-inner">
+      <h1>Corndel Jupyter</h1>
+      <p>Interactive notebooks for apprenticeship programmes</p>
+    </div>
+  </div>
+  <div class="container">
+<!-- SANDBOX_SECTION -->
+<!-- PROGRAMME_SECTIONS -->
+  </div>
+</body>
+</html>
