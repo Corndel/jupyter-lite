@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue agency="Global Climate Data Alliance" updated="2024-06-01">
+  <dataset id="SAT-001">
+    <name>MODIS Terra Surface Temperature</name>
+    <satellite>Terra</satellite>
+    <instrument>MODIS</instrument>
+    <resolution_km>1</resolution_km>
+    <temporal_coverage>
+      <start>2000-02-24</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="LST_Day" unit="K" />
+      <variable name="LST_Night" unit="K" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-002">
+    <name>MODIS Aqua Ocean Colour</name>
+    <satellite>Aqua</satellite>
+    <instrument>MODIS</instrument>
+    <resolution_km>4</resolution_km>
+    <temporal_coverage>
+      <start>2002-07-04</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="chlor_a" unit="mg/m^3" />
+      <variable name="Rrs_443" unit="sr^-1" />
+      <variable name="Rrs_555" unit="sr^-1" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-003">
+    <name>Landsat 8 Surface Reflectance</name>
+    <satellite>Landsat 8</satellite>
+    <instrument>OLI</instrument>
+    <resolution_km>0.03</resolution_km>
+    <temporal_coverage>
+      <start>2013-04-11</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="SR_B1" unit="reflectance" />
+      <variable name="SR_B2" unit="reflectance" />
+      <variable name="SR_B3" unit="reflectance" />
+      <variable name="SR_B4" unit="reflectance" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-004">
+    <name>Sentinel-2 MSI Level-2A</name>
+    <satellite>Sentinel-2A</satellite>
+    <instrument>MSI</instrument>
+    <resolution_km>0.01</resolution_km>
+    <temporal_coverage>
+      <start>2015-06-23</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="B02_Blue" unit="reflectance" />
+      <variable name="B03_Green" unit="reflectance" />
+      <variable name="B04_Red" unit="reflectance" />
+      <variable name="B08_NIR" unit="reflectance" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-005">
+    <name>GOES-16 ABI Cloud and Moisture</name>
+    <satellite>GOES-16</satellite>
+    <instrument>ABI</instrument>
+    <resolution_km>2</resolution_km>
+    <temporal_coverage>
+      <start>2017-12-18</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="CMI_C08" unit="K" />
+      <variable name="CMI_C09" unit="K" />
+      <variable name="CMI_C10" unit="K" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-006">
+    <name>VIIRS Sea Surface Temperature</name>
+    <satellite>Suomi NPP</satellite>
+    <instrument>VIIRS</instrument>
+    <resolution_km>0.75</resolution_km>
+    <temporal_coverage>
+      <start>2012-01-19</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="SST" unit="K" />
+      <variable name="SST_quality" unit="flag" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-007">
+    <name>AIRS Atmospheric Temperature Profile</name>
+    <satellite>Aqua</satellite>
+    <instrument>AIRS</instrument>
+    <resolution_km>50</resolution_km>
+    <temporal_coverage>
+      <start>2002-08-30</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="TAirSup" unit="K" />
+      <variable name="TAirMid" unit="K" />
+      <variable name="H2OMMRSup" unit="g/kg" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-008">
+    <name>CERES Energy Balanced and Filled</name>
+    <satellite>Terra</satellite>
+    <instrument>CERES</instrument>
+    <resolution_km>100</resolution_km>
+    <temporal_coverage>
+      <start>2000-03-01</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="SW_TOA" unit="W/m^2" />
+      <variable name="LW_TOA" unit="W/m^2" />
+      <variable name="NET_TOA" unit="W/m^2" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-009">
+    <name>GRACE-FO Gravity Anomaly</name>
+    <satellite>GRACE-FO</satellite>
+    <instrument>MWI</instrument>
+    <resolution_km>300</resolution_km>
+    <temporal_coverage>
+      <start>2018-05-22</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="lwe_thickness" unit="cm" />
+      <variable name="uncertainty" unit="cm" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-010">
+    <name>ICESat-2 Ice Sheet Elevation</name>
+    <satellite>ICESat-2</satellite>
+    <instrument>ATLAS</instrument>
+    <resolution_km>0.01</resolution_km>
+    <temporal_coverage>
+      <start>2018-09-15</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="h_li" unit="m" />
+      <variable name="h_li_sigma" unit="m" />
+      <variable name="signal_conf" unit="flag" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-011">
+    <name>Sentinel-5P Tropospheric NO2</name>
+    <satellite>Sentinel-5P</satellite>
+    <instrument>TROPOMI</instrument>
+    <resolution_km>7</resolution_km>
+    <temporal_coverage>
+      <start>2018-04-30</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="tropospheric_NO2" unit="mol/m^2" />
+      <variable name="stratospheric_NO2" unit="mol/m^2" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-012">
+    <name>GPM IMERG Precipitation</name>
+    <satellite>GPM Core</satellite>
+    <instrument>GMI/DPR</instrument>
+    <resolution_km>10</resolution_km>
+    <temporal_coverage>
+      <start>2014-03-12</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="precipitation" unit="mm/hr" />
+      <variable name="precipitationQualityIndex" unit="unitless" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-013">
+    <name>SMAP Soil Moisture</name>
+    <satellite>SMAP</satellite>
+    <instrument>Radiometer</instrument>
+    <resolution_km>36</resolution_km>
+    <temporal_coverage>
+      <start>2015-03-31</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="soil_moisture" unit="cm^3/cm^3" />
+      <variable name="vegetation_water_content" unit="kg/m^2" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-014">
+    <name>CryoSat-2 Sea Ice Thickness</name>
+    <satellite>CryoSat-2</satellite>
+    <instrument>SIRAL</instrument>
+    <resolution_km>1</resolution_km>
+    <temporal_coverage>
+      <start>2010-07-08</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="sea_ice_thickness" unit="m" />
+      <variable name="freeboard" unit="m" />
+      <variable name="snow_depth" unit="m" />
+    </variables>
+  </dataset>
+  <dataset id="SAT-015">
+    <name>MetOp-C IASI Ozone Profile</name>
+    <satellite>MetOp-C</satellite>
+    <instrument>IASI</instrument>
+    <resolution_km>25</resolution_km>
+    <temporal_coverage>
+      <start>2018-11-07</start>
+      <end>2024-12-31</end>
+    </temporal_coverage>
+    <variables>
+      <variable name="ozone_total_column" unit="DU" />
+      <variable name="ozone_profile" unit="ppmv" />
+    </variables>
+  </dataset>
+</catalogue>

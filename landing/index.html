@@ -9,6 +9,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    @font-face {
+      font-family: 'DenimInk';
+      src: url('./fonts/DenimInk-Normal.woff') format('woff');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Lost';
+      src: url('./fonts/Lost-Normal.woff') format('woff');
+      font-display: swap;
+    }
+
     :root {
       --neutral-50: #fffdfb;
       --neutral-100: #f9f4eb;
@@ -23,18 +34,13 @@
       --neutral-950: #111111;
       --coral-500: #f58455;
       --coral-600: #db6130;
-      --sky-50: #f0f9ff;
       --sky-100: #e0f2fe;
       --sky-600: #0284c7;
       --sky-700: #0369a1;
-      --jade-50: #f0fdfa;
       --jade-100: #ccfbf1;
       --jade-600: #0d9488;
-      --jade-700: #0f766e;
-      --lilac-50: #fdf4ff;
       --lilac-100: #fae8ff;
       --lilac-600: #c026d3;
-      --lilac-700: #a21caf;
       --radius-asymmetric: 6px 30px 30px 30px;
       --radius-asymmetric-small: 4px 20px 20px 20px;
     }
@@ -42,44 +48,82 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: "Public Sans", sans-serif;
+      font-family: "Public Sans", -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--neutral-50);
       color: var(--neutral-800);
-      line-height: 1.5;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
     }
 
+    /* ---- Header ---- */
     .header {
-      background: var(--neutral-950);
-      color: var(--neutral-50);
-      padding: 2.5rem 1.5rem 2rem;
+      background: var(--neutral-50);
+      border-bottom: 1px solid var(--neutral-200);
+      padding: 1.25rem 1.5rem;
     }
 
     .header-inner {
       max-width: 960px;
       margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
     }
 
-    .header h1 {
-      font-size: 1.75rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
+    .header-logo {
+      height: 36px;
+      width: auto;
     }
 
-    .header p {
-      color: var(--neutral-400);
-      margin-top: 0.25rem;
-      font-size: 0.95rem;
+    .header-divider {
+      width: 1px;
+      height: 24px;
+      background: var(--neutral-300);
     }
 
+    .header-title {
+      font-family: 'DenimInk', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: var(--neutral-700);
+      letter-spacing: -0.01em;
+    }
+
+    /* ---- Hero ---- */
+    .hero {
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: 'DenimInk', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: var(--neutral-900);
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+    }
+
+    .hero p {
+      font-family: 'Lost', sans-serif;
+      color: var(--neutral-600);
+      margin-top: 0.75rem;
+      font-size: 1.1rem;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ---- Container ---- */
     .container {
       max-width: 960px;
       margin: 0 auto;
-      padding: 0 1.5rem 3rem;
+      padding: 0 1.5rem 4rem;
     }
 
-    /* Sandbox section */
+    /* ---- Sandbox ---- */
     .sandbox-section {
-      margin-top: 2rem;
+      margin-bottom: 2.5rem;
     }
 
     .sandbox-card {
@@ -97,7 +141,7 @@
 
     .sandbox-card:hover {
       border-color: var(--coral-500);
-      box-shadow: 0 2px 12px rgba(245, 132, 85, 0.12);
+      box-shadow: 0 2px 16px rgba(245, 132, 85, 0.12);
     }
 
     .sandbox-icon {
@@ -118,8 +162,9 @@
     }
 
     .sandbox-text h2 {
-      font-size: 1.05rem;
-      font-weight: 600;
+      font-family: 'DenimInk', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 400;
       color: var(--neutral-900);
     }
 
@@ -129,29 +174,29 @@
       margin-top: 0.125rem;
     }
 
-    /* Programme sections */
+    /* ---- Programme sections ---- */
     .programme-section {
       margin-top: 2.5rem;
     }
 
     .programme-heading {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--neutral-500);
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--neutral-200);
-      margin-bottom: 0.75rem;
+      font-family: 'DenimInk', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--neutral-900);
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--neutral-200);
+      margin-bottom: 1rem;
+      letter-spacing: -0.01em;
     }
 
-    .module-grid {
+    .lab-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 0.75rem;
     }
 
-    .module-card {
+    .lab-card {
       display: block;
       background: white;
       border: 1px solid var(--neutral-200);
@@ -159,24 +204,39 @@
       padding: 1.25rem 1.5rem;
       text-decoration: none;
       color: inherit;
-      transition: border-color 0.2s, box-shadow 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
     }
 
-    .module-card:hover {
+    .lab-card:hover {
       border-color: var(--sky-600);
-      box-shadow: 0 2px 12px rgba(3, 105, 161, 0.1);
+      box-shadow: 0 4px 20px rgba(3, 105, 161, 0.08);
+      transform: translateY(-1px);
     }
 
-    .module-card h3 {
-      font-size: 1rem;
+    .lab-card-number {
+      display: inline-block;
+      font-size: 0.75rem;
       font-weight: 600;
-      color: var(--neutral-900);
+      color: var(--sky-700);
+      background: var(--sky-100);
+      padding: 0.125rem 0.5rem;
+      border-radius: 999px;
+      margin-bottom: 0.5rem;
     }
 
-    .module-card p {
+    .lab-card h3 {
+      font-family: 'DenimInk', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 400;
+      color: var(--neutral-900);
+      letter-spacing: -0.01em;
+    }
+
+    .lab-card p {
       font-size: 0.85rem;
       color: var(--neutral-500);
       margin-top: 0.25rem;
+      line-height: 1.5;
     }
 
     .programme-empty {
@@ -187,18 +247,35 @@
       border: 1px dashed var(--neutral-200);
       border-radius: var(--radius-asymmetric-small);
     }
+
+    /* ---- Footer ---- */
+    .footer {
+      border-top: 1px solid var(--neutral-200);
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--neutral-400);
+      font-size: 0.8rem;
+    }
   </style>
 </head>
 <body>
   <div class="header">
     <div class="header-inner">
-      <h1>Corndel Jupyter</h1>
-      <p>Interactive notebooks for apprenticeship programmes</p>
+      <img src="./logo-light.png" alt="Corndel" class="header-logo">
+      <div class="header-divider"></div>
+      <span class="header-title">Jupyter</span>
     </div>
+  </div>
+  <div class="hero">
+    <h1>Interactive notebooks</h1>
+    <p>Hands-on labs for your apprenticeship programme</p>
   </div>
   <div class="container">
 <!-- SANDBOX_SECTION -->
 <!-- PROGRAMME_SECTIONS -->
+  </div>
+  <div class="footer">
+    &copy; 2025 Corndel Limited
   </div>
 </body>
 </html>

@@ -1,0 +1,128 @@
+network:
+  name: "Global Climate Monitoring Network"
+  version: "2.1"
+  contact:
+    email: "ops@gcmn-climate.org"
+    phone: "+41-44-555-0100"
+
+defaults:
+  sampling_interval_s: 600
+  transmission_protocol: "MQTT"
+  data_format: "JSON"
+  retry_attempts: 3
+
+stations:
+  - id: "WS001"
+    name: "Zurich Central"
+    country: "Switzerland"
+    location:
+      lat: 47.3769
+      lon: 8.5417
+      elevation_m: 408
+    sensors:
+      - temperature
+      - humidity
+      - pressure
+      - wind_speed
+      - wind_direction
+    calibration_date: "2024-01-15"
+    status: "active"
+    notes: "Primary reference station for Alpine region"
+
+  - id: "WS002"
+    name: "Sao Paulo Paulista"
+    country: "Brazil"
+    location:
+      lat: -23.5505
+      lon: -46.6333
+      elevation_m: 760
+    sensors:
+      - temperature
+      - humidity
+      - pressure
+      - rainfall
+    calibration_date: "2024-02-20"
+    status: "active"
+    notes: "Urban heat island study participant"
+
+  - id: "WS003"
+    name: "Malmo Harbour"
+    country: "Sweden"
+    location:
+      lat: 55.6050
+      lon: 13.0038
+      elevation_m: 12
+    sensors:
+      - temperature
+      - humidity
+      - wind_speed
+      - wind_direction
+      - sea_surface_temp
+    calibration_date: "2023-11-10"
+    status: "active"
+    notes: "Coastal station, co-located with tide gauge"
+
+  - id: "WS004"
+    name: "London Heathrow"
+    country: "United Kingdom"
+    location:
+      lat: 51.4700
+      lon: -0.4543
+      elevation_m: 25
+    sensors:
+      - temperature
+      - humidity
+      - pressure
+      - wind_speed
+      - wind_direction
+      - visibility
+    calibration_date: "2024-03-01"
+    status: "active"
+    notes: "Aviation weather station, high-frequency sampling"
+
+  - id: "WS014"
+    name: "Reykjavik Port"
+    country: "Iceland"
+    location:
+      lat: 64.1466
+      lon: -21.9426
+      elevation_m: 14
+    sensors:
+      - temperature
+      - humidity
+      - pressure
+      - wind_speed
+      - wind_direction
+    calibration_date: "2023-09-22"
+    status: "maintenance"
+    notes: "Wind sensor replacement scheduled"
+
+  - id: "WS015"
+    name: "Tromso Arctic"
+    country: "Norway"
+    location:
+      lat: 69.6492
+      lon: 18.9553
+      elevation_m: 10
+    sensors:
+      - temperature
+      - humidity
+      - pressure
+      - uv_index
+      - aurora_activity
+    calibration_date: "2024-01-05"
+    status: "active"
+    notes: "Part of Arctic monitoring programme"
+
+alerts:
+  temperature_range:
+    min_c: -60
+    max_c: 60
+  wind_speed_max_ms: 75
+  pressure_range:
+    min_hpa: 870
+    max_hpa: 1084
+  notification_channels:
+    - email
+    - sms
+    - slack

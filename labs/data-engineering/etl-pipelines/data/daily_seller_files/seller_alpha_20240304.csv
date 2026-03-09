@@ -1,0 +1,22 @@
+product_id,product_name,price,currency,category,stock_quantity,last_updated
+ALP-P001,Premium Canvas Tote,139.93,GBP,stationery,43,04/03/2024
+ALP-P002,Natural Clay Planter,54.32,GBP,garden,200,04/03/2024
+ALP-P003,Luxury Velvet Pouch,92.94,GBP,decor,194,04/03/2024
+ALP-P004,Rustic Jute Rug,124.82,GBP,decor,29,04/03/2024
+ALP-P005,Elegant Silver Ring,83.81,GBP,jewellery,104,04/03/2024
+ALP-P006,Handmade Oak Cutting Board,38.19,GBP,garden,189,04/03/2024
+ALP-P007,Handmade Iron Bookend,118.91,GBP,stationery,103,04/03/2024
+ALP-P008,Bespoke Cotton Scarf,70.77,GBP,home,103,04/03/2024
+ALP-P009,Modern Brass Candleholder,135.55,GBP,kitchen,3,04/03/2024
+ALP-P010,Classic Tin Candle,5.33,GBP,kitchen,21,04/03/2024
+ALP-P011,Bespoke Resin Earrings,29.79,GBP,decor,161,04/03/2024
+ALP-P012,Classic Oak Cutting Board,102.71,GBP,accessories,100,04/03/2024
+ALP-P013,Bespoke Jute Rug,100.64,GBP,home,198,04/03/2024
+ALP-P014,Classic Clay Planter,148.39,GBP,accessories,175,04/03/2024
+ALP-P015,Premium Porcelain Plate,87.57,GBP,accessories,133,04/03/2024
+ALP-P016,Bespoke Tin Candle,140.87,GBP,accessories,146,04/03/2024
+ALP-P017,Organic Oak Cutting Board,87.34,GBP,garden,193,04/03/2024
+ALP-P018,Natural Leather Wallet,85.84,GBP,fashion,60,04/03/2024
+ALP-P019,Rustic Wicker Basket,93.3,GBP,fashion,200,04/03/2024
+ALP-P020,Elegant Jute Rug,7.34,GBP,kitchen,32,04/03/2024
+ALP-P021,Handmade Jute Rug,52.98,GBP,home,154,04/03/2024

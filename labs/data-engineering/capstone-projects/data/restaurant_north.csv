@@ -1,0 +1,801 @@
+order_id,order_date,item_name,quantity,unit_price,total,payment_method,server_name
+N-0001,27/06/2024,Sticky Toffee Pudding,2,6.18,12.36,contactless,Dave
+N-0002,19/06/2024,Tea or Coffee,1,2.63,2.63,card,Sarah
+N-0003,07/02/2024,Bangers and Mash,2,10.36,20.72,card,Lisa
+N-0004,26/05/2024,Steak and Ale Pie,1,13.91,13.91,contactless,Emma
+N-0005,29/01/2024,Black Pudding Starter,1,5.89,5.89,contactless,Jenny
+N-0006,07/04/2024,Pie and Mash,1,10.62,10.62,contactless,Emma
+N-0007,01/01/2024,Ploughman's Lunch,1,9.13,9.13,card,Mike
+N-0008,26/06/2024,Scampi and Chips,1,11.2,11.2,cash,Tom
+N-0009,09/03/2024,Bangers and Mash,1,10.47,10.47,cash,Paul
+N-0010,27/03/2024,Sunday Roast,2,14.31,28.62,card,Sarah
+N-0011,17/01/2024,Bangers and Mash,2,10.86,21.72,card,Emma
+N-0012,15/02/2024,Gammon and Eggs,1,10.62,10.62,card,Dave
+N-0013,14/02/2024,Bangers and Mash,1,10.37,10.37,contactless,Tom
+N-0014,30/03/2024,Pie and Mash,1,11.36,11.36,contactless,Paul
+N-0015,28/04/2024,Chips and Gravy,1,5.09,5.09,card,Sarah
+N-0016,21/02/2024,Sunday Roast,2,14.97,29.94,card,Tom
+N-0017,20/02/2024,Mushy Peas (side),1,2.71,2.71,contactless,Paul
+N-0018,02/02/2024,Bangers and Mash,2,10.96,21.92,contactless,Paul
+N-0019,15/02/2024,Sunday Roast,1,14.33,14.33,contactless,Tom
+N-0020,04/01/2024,Gammon and Eggs,2,10.5,21.0,card,Paul
+N-0021,29/01/2024,Shepherd's Pie,2,9.51,19.02,card,Tom
+N-0022,01/06/2024,Tea or Coffee,2,2.58,5.16,card,Jenny
+N-0023,07/06/2024,Ploughman's Lunch,1,9.43,9.43,card,Tom
+N-0024,12/05/2024,Bangers and Mash,2,10.92,21.84,card,Lisa
+N-0025,01/03/2024,Ploughman's Lunch,1,9.96,9.96,card,Tom
+N-0026,17/01/2024,Pint of Bitter,1,4.65,4.65,contactless,Dave
+N-0027,24/04/2024,Scampi and Chips,1,11.39,11.39,card,Lisa
+N-0028,07/03/2024,Soft Drink,1,2.74,2.74,card,Paul
+N-0029,23/01/2024,Shepherd's Pie,3,9.7,29.1,card,Emma
+N-0030,05/06/2024,Fish and Chips,1,12.92,12.92,contactless,Jenny
+N-0031,11/01/2024,Pie and Mash,1,10.98,10.98,card,Lisa
+N-0032,08/04/2024,Chips and Gravy,1,5.39,5.39,card,Sarah
+N-0033,24/02/2024,Gammon and Eggs,1,11.25,11.25,card,Jenny
+N-0034,22/02/2024,Tea or Coffee,1,2.88,2.88,card,Dave
+N-0035,31/01/2024,Sunday Roast,1,14.18,14.18,contactless,Lisa
+N-0036,04/06/2024,Ploughman's Lunch,1,9.9,9.9,card,Mike
+N-0037,23/04/2024,Steak and Ale Pie,2,13.51,27.02,card,Sarah
+N-0038,30/03/2024,Black Pudding Starter,1,5.87,5.87,contactless,Paul
+N-0039,04/01/2024,Sticky Toffee Pudding,1,6.05,6.05,card,Tom
+N-0040,19/03/2024,Pint of Bitter,1,4.76,4.76,card,Sarah
+N-0041,22/02/2024,Chips and Gravy,1,5.34,5.34,card,Mike
+N-0042,09/03/2024,Sticky Toffee Pudding,1,6.93,6.93,card,Dave
+N-0043,13/04/2024,Tea or Coffee,1,2.82,2.82,card,Jenny
+N-0044,31/05/2024,Chips and Gravy,2,5.67,11.34,contactless,Paul
+N-0045,07/01/2024,Gammon and Eggs,2,11.2,22.4,card,Mike
+N-0046,28/02/2024,Bangers and Mash,1,10.6,10.6,card,Emma
+N-0047,12/03/2024,Scampi and Chips,2,11.79,23.58,card,Dave
+N-0048,19/02/2024,Bangers and Mash,2,10.65,21.3,card,Paul
+N-0049,09/05/2024,Gammon and Eggs,1,10.86,10.86,card,Tom
+N-0050,12/05/2024,Bangers and Mash,1,10.82,10.82,contactless,Paul
+N-0051,16/03/2024,Yorkshire Pudding Wrap,1,8.97,8.97,contactless,Mike
+N-0052,27/04/2024,Glass of House Wine,2,5.12,10.24,card,Sarah
+N-0053,11/06/2024,Bangers and Mash,1,10.62,10.62,cash,Jenny
+N-0054,12/04/2024,Sticky Toffee Pudding,1,6.31,6.31,card,Sarah
+N-0055,31/01/2024,Tea or Coffee,1,2.8,2.8,card,Dave
+N-0056,30/01/2024,Mushy Peas (side),1,2.45,2.45,card,Mike
+N-0057,20/02/2024,Sunday Roast,2,14.68,29.36,cash,Emma
+N-0058,15/06/2024,Shepherd's Pie,2,9.85,19.7,card,Tom
+N-0059,25/06/2024,Mushy Peas (side),1,2.92,2.92,card,Sarah
+N-0060,12/06/2024,Soft Drink,1,2.85,2.85,card,Sarah
+N-0061,14/02/2024,Tea or Coffee,1,3.17,3.17,card,Sarah
+N-0062,11/02/2024,Bangers and Mash,1,10.64,10.64,card,Tom
+N-0063,12/06/2024,Sticky Toffee Pudding,2,6.81,13.62,card,Jenny
+N-0064,10/04/2024,Yorkshire Pudding Wrap,1,8.12,8.12,contactless,Emma
+N-0065,07/01/2024,Sticky Toffee Pudding,2,6.46,12.92,card,Emma
+N-0066,01/02/2024,Steak and Ale Pie,1,13.36,13.36,card,Mike
+N-0067,29/01/2024,Shepherd's Pie,2,9.51,19.02,contactless,Lisa
+N-0068,11/05/2024,Bangers and Mash,3,10.78,32.34,card,Emma
+N-0069,07/06/2024,Yorkshire Pudding Wrap,2,8.08,16.16,contactless,Paul
+N-0070,11/06/2024,Steak and Ale Pie,1,13.7,13.7,card,Dave
+N-0071,03/04/2024,Scampi and Chips,1,11.51,11.51,card,Lisa
+N-0072,01/06/2024,Sunday Roast,1,14.79,14.79,contactless,Lisa
+N-0073,01/04/2024,Steak and Ale Pie,1,13.85,13.85,card,Emma
+N-0074,03/05/2024,Pie and Mash,1,10.68,10.68,contactless,Tom
+N-0075,31/03/2024,Tea or Coffee,2,3.11,6.22,contactless,Tom
+N-0076,04/02/2024,Steak and Ale Pie,1,13.84,13.84,contactless,Emma
+N-0077,15/02/2024,Bangers and Mash,1,10.19,10.19,contactless,Paul
+N-0078,24/04/2024,Chips and Gravy,1,5.25,5.25,contactless,Jenny
+N-0079,26/04/2024,Fish and Chips,1,12.84,12.84,card,Mike
+N-0080,22/02/2024,Pie and Mash,1,10.5,10.5,cash,Lisa
+N-0081,01/04/2024,Glass of House Wine,1,5.79,5.79,card,Lisa
+N-0082,15/06/2024,Bangers and Mash,1,10.39,10.39,cash,Lisa
+N-0083,25/06/2024,Black Pudding Starter,2,6.14,12.28,card,Paul
+N-0084,22/02/2024,Glass of House Wine,1,5.28,5.28,card,Dave
+N-0085,24/02/2024,Black Pudding Starter,3,5.89,17.67,card,Paul
+N-0086,19/06/2024,Pie and Mash,1,10.63,10.63,card,Sarah
+N-0087,23/06/2024,Pint of Bitter,1,4.63,4.63,cash,Lisa
+N-0088,27/02/2024,Sunday Roast,1,14.53,14.53,card,Lisa
+N-0089,16/02/2024,Steak and Ale Pie,1,13.51,13.51,card,Sarah
+N-0090,24/04/2024,Steak and Ale Pie,2,13.46,26.92,cash,Dave
+N-0091,03/03/2024,Sticky Toffee Pudding,2,6.09,12.18,contactless,Mike
+N-0092,15/05/2024,Pint of Bitter,1,4.33,4.33,cash,Emma
+N-0093,23/01/2024,Mushy Peas (side),1,2.67,2.67,card,Tom
+N-0094,27/03/2024,Fish and Chips,3,12.84,38.52,card,Emma
+N-0095,13/01/2024,Black Pudding Starter,1,5.77,5.77,card,Dave
+N-0096,26/06/2024,Glass of House Wine,1,5.66,5.66,card,Lisa
+N-0097,28/02/2024,Sticky Toffee Pudding,1,6.97,6.97,card,Lisa
+N-0098,09/06/2024,Yorkshire Pudding Wrap,2,8.18,16.36,contactless,Dave
+N-0099,05/02/2024,Pint of Bitter,1,4.86,4.86,card,Dave
+N-0100,30/01/2024,Scampi and Chips,1,11.55,11.55,cash,Jenny
+N-0101,01/06/2024,Scampi and Chips,1,11.19,11.19,card,Lisa
+N-0102,11/06/2024,Bangers and Mash,1,10.35,10.35,contactless,Jenny
+N-0103,08/03/2024,Yorkshire Pudding Wrap,1,8.79,8.79,contactless,Paul
+N-0104,08/01/2024,Glass of House Wine,2,5.78,11.56,contactless,Jenny
+N-0105,04/05/2024,Gammon and Eggs,1,10.88,10.88,contactless,Dave
+N-0106,08/04/2024,Fish and Chips,2,12.43,24.86,contactless,Dave
+N-0107,17/04/2024,Sticky Toffee Pudding,1,6.03,6.03,card,Jenny
+N-0108,15/02/2024,Tea or Coffee,1,3.03,3.03,contactless,Sarah
+N-0109,17/06/2024,Sticky Toffee Pudding,1,6.73,6.73,card,Dave
+N-0110,10/03/2024,Ploughman's Lunch,3,9.91,29.73,contactless,Jenny
+N-0111,23/03/2024,Chips and Gravy,1,5.1,5.1,card,Tom
+N-0112,20/04/2024,Bangers and Mash,1,10.35,10.35,card,Mike
+N-0113,15/03/2024,Sunday Roast,2,14.07,28.14,cash,Tom
+N-0114,21/05/2024,Bangers and Mash,2,10.14,20.28,card,Mike
+N-0115,08/04/2024,Scampi and Chips,1,11.54,11.54,contactless,Mike
+N-0116,30/04/2024,Chips and Gravy,2,5.54,11.08,contactless,Paul
+N-0117,08/05/2024,Tea or Coffee,1,2.62,2.62,card,Tom
+N-0118,24/03/2024,Gammon and Eggs,2,11.01,22.02,card,Dave
+N-0119,04/06/2024,Ploughman's Lunch,1,9.88,9.88,card,Paul
+N-0120,25/03/2024,Bangers and Mash,1,10.18,10.18,card,Tom
+N-0121,06/03/2024,Mushy Peas (side),1,2.62,2.62,contactless,Tom
+N-0122,25/03/2024,Pint of Bitter,1,5.16,5.16,card,Dave
+N-0123,13/02/2024,Chips and Gravy,2,5.06,10.12,card,Sarah
+N-0124,20/03/2024,Gammon and Eggs,2,11.32,22.64,cash,Mike
+N-0125,22/05/2024,Black Pudding Starter,1,5.51,5.51,cash,Jenny
+N-0126,23/04/2024,Black Pudding Starter,3,6.34,19.02,cash,Sarah
+N-0127,19/05/2024,Tea or Coffee,1,2.4,2.4,card,Emma
+N-0128,15/05/2024,Pie and Mash,1,10.61,10.61,card,Dave
+N-0129,10/05/2024,Mushy Peas (side),2,2.28,4.56,card,Lisa
+N-0130,28/02/2024,Shepherd's Pie,1,9.85,9.85,cash,Sarah
+N-0131,24/05/2024,Yorkshire Pudding Wrap,2,8.08,16.16,cash,Tom
+N-0132,02/04/2024,Shepherd's Pie,2,9.9,19.8,card,Mike
+N-0133,19/01/2024,Black Pudding Starter,1,5.84,5.84,contactless,Paul
+N-0134,14/02/2024,Fish and Chips,1,12.85,12.85,card,Emma
+N-0135,13/06/2024,Black Pudding Starter,2,5.8,11.6,card,Jenny
+N-0136,27/04/2024,Pint of Bitter,1,4.47,4.47,card,Lisa
+N-0137,19/04/2024,Ploughman's Lunch,2,9.08,18.16,card,Jenny
+N-0138,31/03/2024,Sticky Toffee Pudding,1,6.54,6.54,cash,Emma
+N-0139,21/02/2024,Shepherd's Pie,2,9.96,19.92,contactless,Sarah
+N-0140,31/05/2024,Pie and Mash,3,10.74,32.22,card,Jenny
+N-0141,23/01/2024,Bangers and Mash,1,10.01,10.01,contactless,Lisa
+N-0142,25/06/2024,Ploughman's Lunch,3,9.78,29.34,card,Jenny
+N-0143,23/02/2024,Yorkshire Pudding Wrap,1,8.94,8.94,contactless,Lisa
+N-0144,19/06/2024,Sunday Roast,1,14.63,14.63,cash,Dave
+N-0145,06/05/2024,Mushy Peas (side),1,2.92,2.92,contactless,Emma
+N-0146,04/02/2024,Chips and Gravy,2,5.59,11.18,contactless,Sarah
+N-0147,27/01/2024,Soft Drink,1,2.97,2.97,contactless,Dave
+N-0148,22/04/2024,Gammon and Eggs,2,11.36,22.72,cash,Lisa
+N-0149,19/06/2024,Scampi and Chips,1,11.89,11.89,contactless,Emma
+N-0150,12/01/2024,Mushy Peas (side),1,2.14,2.14,card,Emma
+N-0151,14/04/2024,Black Pudding Starter,1,5.98,5.98,contactless,Lisa
+N-0152,10/03/2024,Gammon and Eggs,2,10.88,21.76,card,Dave
+N-0153,15/02/2024,Tea or Coffee,1,2.93,2.93,contactless,Emma
+N-0154,02/02/2024,Ploughman's Lunch,1,9.55,9.55,cash,Mike
+N-0155,30/01/2024,Gammon and Eggs,2,11.35,22.7,contactless,Paul
+N-0156,16/02/2024,Gammon and Eggs,1,11.17,11.17,contactless,Mike
+N-0157,02/05/2024,Chips and Gravy,1,5.27,5.27,contactless,Dave
+N-0158,16/06/2024,Mushy Peas (side),1,2.17,2.17,contactless,Tom
+N-0159,15/03/2024,Gammon and Eggs,1,11.32,11.32,contactless,Paul
+N-0160,09/05/2024,Soft Drink,2,2.57,5.14,card,Jenny
+N-0161,07/02/2024,Sunday Roast,1,14.62,14.62,contactless,Jenny
+N-0162,18/02/2024,Pie and Mash,1,11.42,11.42,cash,Emma
+N-0163,03/06/2024,Yorkshire Pudding Wrap,1,9.0,9.0,contactless,Lisa
+N-0164,16/04/2024,Mushy Peas (side),2,2.87,5.74,card,Tom
+N-0165,16/04/2024,Steak and Ale Pie,2,13.26,26.52,card,Tom
+N-0166,25/01/2024,Gammon and Eggs,1,11.43,11.43,contactless,Paul
+N-0167,14/03/2024,Bangers and Mash,1,10.49,10.49,card,Jenny
+N-0168,22/04/2024,Fish and Chips,2,12.26,24.52,card,Tom
+N-0169,02/02/2024,Bangers and Mash,2,10.13,20.26,card,Paul
+N-0170,06/01/2024,Scampi and Chips,2,11.87,23.74,cash,Lisa
+N-0171,17/04/2024,Fish and Chips,2,12.75,25.5,contactless,Sarah
+N-0172,09/06/2024,Glass of House Wine,2,5.05,10.1,card,Dave
+N-0173,22/04/2024,Shepherd's Pie,3,9.78,29.34,card,Lisa
+N-0174,01/03/2024,Fish and Chips,1,12.96,12.96,contactless,Emma
+N-0175,28/04/2024,Shepherd's Pie,2,9.65,19.3,card,Paul
+N-0176,23/04/2024,Chips and Gravy,1,5.28,5.28,contactless,Paul
+N-0177,16/01/2024,Sunday Roast,2,14.74,29.48,cash,Lisa
+N-0178,22/05/2024,Yorkshire Pudding Wrap,1,8.76,8.76,contactless,Tom
+N-0179,25/06/2024,Gammon and Eggs,1,10.85,10.85,card,Mike
+N-0180,29/01/2024,Shepherd's Pie,2,9.94,19.88,contactless,Lisa
+N-0181,06/02/2024,Gammon and Eggs,1,10.59,10.59,card,Emma
+N-0182,16/01/2024,Black Pudding Starter,2,6.01,12.02,contactless,Emma
+N-0183,05/02/2024,Fish and Chips,2,13.0,26.0,card,Lisa
+N-0184,07/03/2024,Pint of Bitter,1,4.38,4.38,contactless,Lisa
+N-0185,21/05/2024,Sunday Roast,2,14.7,29.4,card,Tom
+N-0186,21/05/2024,Sunday Roast,2,14.23,28.46,card,Jenny
+N-0187,08/04/2024,Shepherd's Pie,1,10.48,10.48,card,Sarah
+N-0188,20/06/2024,Yorkshire Pudding Wrap,2,8.25,16.5,contactless,Jenny
+N-0189,02/01/2024,Yorkshire Pudding Wrap,3,8.56,25.68,card,Emma
+N-0190,26/06/2024,Gammon and Eggs,1,10.67,10.67,card,Paul
+N-0191,06/04/2024,Sunday Roast,1,14.03,14.03,card,Sarah
+N-0192,26/05/2024,Scampi and Chips,2,11.74,23.48,contactless,Paul
+N-0193,24/01/2024,Soft Drink,2,2.61,5.22,card,Paul
+N-0194,24/03/2024,Ploughman's Lunch,3,10.0,30.0,contactless,Sarah
+N-0195,17/03/2024,Scampi and Chips,1,11.02,11.02,cash,Emma
+N-0196,23/05/2024,Scampi and Chips,3,11.87,35.61,contactless,Emma
+N-0197,18/03/2024,Ploughman's Lunch,1,9.38,9.38,card,Sarah
+N-0198,13/03/2024,Steak and Ale Pie,1,13.76,13.76,contactless,Paul
+N-0199,25/01/2024,Soft Drink,1,2.96,2.96,card,Tom
+N-0200,17/01/2024,Yorkshire Pudding Wrap,1,8.81,8.81,card,Sarah
+N-0201,16/06/2024,Chips and Gravy,1,5.79,5.79,card,Jenny
+N-0202,05/01/2024,Pie and Mash,1,11.18,11.18,card,Mike
+N-0203,09/05/2024,Pint of Bitter,3,4.9,14.7,card,Emma
+N-0204,28/02/2024,Pint of Bitter,1,5.04,5.04,card,Tom
+N-0205,13/06/2024,Bangers and Mash,1,10.02,10.02,card,Lisa
+N-0206,05/02/2024,Pie and Mash,3,10.98,32.94,card,Tom
+N-0207,02/01/2024,Ploughman's Lunch,1,9.5,9.5,card,Sarah
+N-0208,19/02/2024,Chips and Gravy,2,5.94,11.88,card,Tom
+N-0209,22/03/2024,Scampi and Chips,2,11.16,22.32,contactless,Lisa
+N-0210,23/03/2024,Sticky Toffee Pudding,1,6.96,6.96,card,Mike
+N-0211,13/02/2024,Soft Drink,2,2.34,4.68,cash,Tom
+N-0212,24/01/2024,Chips and Gravy,2,5.75,11.5,card,Lisa
+N-0213,21/03/2024,Soft Drink,2,2.77,5.54,card,Jenny
+N-0214,18/02/2024,Ploughman's Lunch,1,9.01,9.01,contactless,Jenny
+N-0215,28/01/2024,Sunday Roast,1,14.12,14.12,card,Emma
+N-0216,05/02/2024,Ploughman's Lunch,2,9.7,19.4,card,Emma
+N-0217,25/06/2024,Pie and Mash,2,11.01,22.02,cash,Jenny
+N-0218,04/04/2024,Steak and Ale Pie,1,13.74,13.74,contactless,Sarah
+N-0219,20/01/2024,Bangers and Mash,1,10.52,10.52,card,Jenny
+N-0220,18/06/2024,Pie and Mash,1,11.01,11.01,card,Jenny
+N-0221,22/02/2024,Pie and Mash,2,11.1,22.2,card,Sarah
+N-0222,10/06/2024,Tea or Coffee,2,3.24,6.48,contactless,Dave
+N-0223,11/02/2024,Fish and Chips,2,12.86,25.72,card,Mike
+N-0224,23/05/2024,Black Pudding Starter,1,6.16,6.16,card,Sarah
+N-0225,19/05/2024,Bangers and Mash,1,10.27,10.27,card,Paul
+N-0226,15/02/2024,Tea or Coffee,2,2.55,5.1,card,Dave
+N-0227,02/04/2024,Tea or Coffee,2,2.82,5.64,card,Paul
+N-0228,08/05/2024,Pie and Mash,1,10.96,10.96,card,Dave
+N-0229,15/02/2024,Mushy Peas (side),1,2.28,2.28,card,Jenny
+N-0230,16/06/2024,Scampi and Chips,1,11.94,11.94,contactless,Paul
+N-0231,10/03/2024,Soft Drink,1,2.27,2.27,contactless,Mike
+N-0232,24/06/2024,Glass of House Wine,1,5.03,5.03,cash,Emma
+N-0233,05/04/2024,Mushy Peas (side),2,2.98,5.96,card,Tom
+N-0234,21/05/2024,Tea or Coffee,1,2.34,2.34,card,Jenny
+N-0235,12/04/2024,Ploughman's Lunch,1,9.65,9.65,cash,Lisa
+N-0236,08/06/2024,Gammon and Eggs,1,10.86,10.86,card,Sarah
+N-0237,10/03/2024,Pie and Mash,2,11.28,22.56,card,Tom
+N-0238,28/03/2024,Mushy Peas (side),1,2.32,2.32,card,Jenny
+N-0239,15/06/2024,Steak and Ale Pie,1,13.91,13.91,card,Lisa
+N-0240,23/06/2024,Pint of Bitter,1,4.36,4.36,cash,Emma
+N-0241,01/04/2024,Gammon and Eggs,1,10.91,10.91,contactless,Tom
+N-0242,19/03/2024,Black Pudding Starter,1,5.89,5.89,card,Dave
+N-0243,14/05/2024,Scampi and Chips,1,11.47,11.47,cash,Paul
+N-0244,30/01/2024,Bangers and Mash,1,10.26,10.26,card,Mike
+N-0245,17/06/2024,Ploughman's Lunch,1,9.83,9.83,contactless,Paul
+N-0246,03/01/2024,Gammon and Eggs,1,11.42,11.42,contactless,Lisa
+N-0247,14/02/2024,Steak and Ale Pie,1,13.89,13.89,contactless,Lisa
+N-0248,06/01/2024,Sticky Toffee Pudding,1,6.29,6.29,contactless,Tom
+N-0249,16/05/2024,Soft Drink,1,2.81,2.81,contactless,Paul
+N-0250,17/01/2024,Tea or Coffee,1,2.41,2.41,card,Lisa
+N-0251,22/04/2024,Gammon and Eggs,1,11.02,11.02,contactless,Jenny
+N-0252,21/04/2024,Fish and Chips,2,12.64,25.28,card,Emma
+N-0253,29/02/2024,Pie and Mash,1,10.72,10.72,card,Dave
+N-0254,29/04/2024,Pint of Bitter,1,4.57,4.57,card,Jenny
+N-0255,19/02/2024,Sticky Toffee Pudding,1,6.93,6.93,contactless,Emma
+N-0256,14/01/2024,Yorkshire Pudding Wrap,2,8.34,16.68,cash,Jenny
+N-0257,22/02/2024,Ploughman's Lunch,2,9.82,19.64,card,Jenny
+N-0258,23/01/2024,Glass of House Wine,3,5.73,17.19,card,Tom
+N-0259,08/06/2024,Black Pudding Starter,1,6.2,6.2,card,Lisa
+N-0260,01/03/2024,Mushy Peas (side),1,2.02,2.02,cash,Dave
+N-0261,01/02/2024,Yorkshire Pudding Wrap,2,8.75,17.5,contactless,Mike
+N-0262,07/04/2024,Ploughman's Lunch,1,9.9,9.9,cash,Dave
+N-0263,23/04/2024,Soft Drink,1,2.85,2.85,card,Emma
+N-0264,01/05/2024,Soft Drink,1,2.69,2.69,card,Dave
+N-0265,05/04/2024,Sticky Toffee Pudding,2,6.13,12.26,cash,Sarah
+N-0266,12/05/2024,Black Pudding Starter,1,5.89,5.89,card,Mike
+N-0267,12/04/2024,Chips and Gravy,1,5.74,5.74,contactless,Sarah
+N-0268,13/03/2024,Pint of Bitter,1,5.11,5.11,card,Sarah
+N-0269,20/05/2024,Sunday Roast,1,14.82,14.82,card,Emma
+N-0270,21/01/2024,Scampi and Chips,2,11.95,23.9,cash,Jenny
+N-0271,29/01/2024,Mushy Peas (side),2,2.53,5.06,card,Mike
+N-0272,29/04/2024,Black Pudding Starter,1,6.2,6.2,contactless,Tom
+N-0273,20/04/2024,Chips and Gravy,2,5.37,10.74,card,Paul
+N-0274,12/06/2024,Tea or Coffee,1,3.06,3.06,card,Emma
+N-0275,29/02/2024,Pint of Bitter,1,4.59,4.59,card,Emma
+N-0276,17/02/2024,Pint of Bitter,1,4.56,4.56,card,Jenny
+N-0277,01/02/2024,Tea or Coffee,1,2.33,2.33,card,Jenny
+N-0278,18/04/2024,Pint of Bitter,1,4.81,4.81,contactless,Sarah
+N-0279,25/03/2024,Scampi and Chips,2,11.27,22.54,card,Jenny
+N-0280,22/04/2024,Chips and Gravy,1,5.59,5.59,card,Dave
+N-0281,10/03/2024,Bangers and Mash,2,10.25,20.5,card,Paul
+N-0282,22/01/2024,Ploughman's Lunch,1,9.39,9.39,card,Lisa
+N-0283,24/05/2024,Pie and Mash,1,10.9,10.9,card,Emma
+N-0284,25/04/2024,Yorkshire Pudding Wrap,2,8.76,17.52,contactless,Tom
+N-0285,10/01/2024,Fish and Chips,1,12.28,12.28,cash,Emma
+N-0286,31/05/2024,Soft Drink,1,2.52,2.52,contactless,Dave
+N-0287,18/01/2024,Gammon and Eggs,2,11.22,22.44,card,Emma
+N-0288,26/05/2024,Ploughman's Lunch,1,9.82,9.82,card,Emma
+N-0289,17/05/2024,Ploughman's Lunch,2,9.39,18.78,contactless,Emma
+N-0290,28/05/2024,Soft Drink,2,2.6,5.2,card,Emma
+N-0291,23/06/2024,Tea or Coffee,1,3.25,3.25,contactless,Dave
+N-0292,07/05/2024,Soft Drink,2,2.99,5.98,contactless,Jenny
+N-0293,13/05/2024,Sunday Roast,1,14.88,14.88,contactless,Jenny
+N-0294,13/04/2024,Shepherd's Pie,1,9.78,9.78,card,Sarah
+N-0295,05/06/2024,Yorkshire Pudding Wrap,1,8.79,8.79,contactless,Paul
+N-0296,07/03/2024,Gammon and Eggs,2,10.98,21.96,card,Paul
+N-0297,25/06/2024,Ploughman's Lunch,2,9.73,19.46,card,Lisa
+N-0298,06/01/2024,Scampi and Chips,1,11.31,11.31,contactless,Tom
+N-0299,08/05/2024,Tea or Coffee,2,3.14,6.28,contactless,Lisa
+N-0300,27/05/2024,Yorkshire Pudding Wrap,1,8.26,8.26,cash,Dave
+N-0301,02/02/2024,Tea or Coffee,2,3.29,6.58,card,Tom
+N-0302,26/02/2024,Pint of Bitter,1,5.17,5.17,card,Mike
+N-0303,30/06/2024,Sticky Toffee Pudding,1,6.19,6.19,card,Dave
+N-0304,01/02/2024,Chips and Gravy,1,5.91,5.91,card,Tom
+N-0305,04/06/2024,Steak and Ale Pie,2,13.54,27.08,contactless,Dave
+N-0306,26/05/2024,Gammon and Eggs,1,11.11,11.11,card,Jenny
+N-0307,15/05/2024,Yorkshire Pudding Wrap,1,8.23,8.23,contactless,Sarah
+N-0308,15/02/2024,Shepherd's Pie,1,9.51,9.51,contactless,Lisa
+N-0309,26/05/2024,Tea or Coffee,1,2.93,2.93,card,Dave
+N-0310,15/02/2024,Steak and Ale Pie,1,13.15,13.15,cash,Jenny
+N-0311,13/02/2024,Sunday Roast,2,14.24,28.48,contactless,Jenny
+N-0312,28/04/2024,Tea or Coffee,1,3.18,3.18,card,Tom
+N-0313,03/01/2024,Black Pudding Starter,3,5.78,17.34,card,Jenny
+N-0314,23/05/2024,Scampi and Chips,1,11.33,11.33,contactless,Jenny
+N-0315,14/02/2024,Fish and Chips,2,12.04,24.08,card,Mike
+N-0316,17/06/2024,Shepherd's Pie,1,10.3,10.3,contactless,Sarah
+N-0317,26/02/2024,Pie and Mash,2,11.13,22.26,cash,Lisa
+N-0318,22/03/2024,Glass of House Wine,1,5.05,5.05,card,Paul
+N-0319,06/03/2024,Fish and Chips,2,12.81,25.62,card,Sarah
+N-0320,05/04/2024,Bangers and Mash,1,10.97,10.97,card,Mike
+N-0321,13/02/2024,Sticky Toffee Pudding,1,6.11,6.11,contactless,Mike
+N-0322,27/05/2024,Scampi and Chips,1,11.06,11.06,card,Mike
+N-0323,19/02/2024,Steak and Ale Pie,2,13.72,27.44,cash,Jenny
+N-0324,25/05/2024,Shepherd's Pie,1,10.43,10.43,contactless,Sarah
+N-0325,13/03/2024,Steak and Ale Pie,1,13.49,13.49,card,Mike
+N-0326,26/01/2024,Mushy Peas (side),2,2.78,5.56,cash,Paul
+N-0327,24/01/2024,Pie and Mash,1,11.19,11.19,contactless,Lisa
+N-0328,27/02/2024,Shepherd's Pie,1,10.46,10.46,card,Emma
+N-0329,08/05/2024,Sticky Toffee Pudding,2,7.0,14.0,contactless,Sarah
+N-0330,16/03/2024,Chips and Gravy,2,5.64,11.28,contactless,Tom
+N-0331,25/06/2024,Bangers and Mash,1,10.62,10.62,card,Sarah
+N-0332,04/05/2024,Black Pudding Starter,1,5.74,5.74,card,Sarah
+N-0333,28/01/2024,Scampi and Chips,2,11.28,22.56,contactless,Sarah
+N-0334,21/04/2024,Pint of Bitter,1,5.3,5.3,card,Sarah
+N-0335,01/01/2024,Sticky Toffee Pudding,2,6.67,13.34,card,Mike
+N-0336,08/01/2024,Black Pudding Starter,1,5.76,5.76,card,Dave
+N-0337,10/06/2024,Fish and Chips,1,12.62,12.62,card,Emma
+N-0338,18/02/2024,Black Pudding Starter,1,6.27,6.27,contactless,Jenny
+N-0339,05/06/2024,Pint of Bitter,3,4.43,13.29,contactless,Mike
+N-0340,14/01/2024,Yorkshire Pudding Wrap,1,8.38,8.38,contactless,Emma
+N-0341,07/06/2024,Bangers and Mash,1,10.88,10.88,contactless,Sarah
+N-0342,06/02/2024,Pint of Bitter,3,5.12,15.36,card,Tom
+N-0343,10/03/2024,Fish and Chips,1,12.1,12.1,card,Emma
+N-0344,03/02/2024,Yorkshire Pudding Wrap,1,8.8,8.8,contactless,Mike
+N-0345,20/03/2024,Pint of Bitter,1,5.11,5.11,card,Dave
+N-0346,11/04/2024,Tea or Coffee,1,2.73,2.73,card,Paul
+N-0347,30/01/2024,Steak and Ale Pie,2,13.94,27.88,contactless,Mike
+N-0348,26/06/2024,Shepherd's Pie,1,10.04,10.04,cash,Tom
+N-0349,04/01/2024,Shepherd's Pie,1,9.9,9.9,contactless,Paul
+N-0350,13/05/2024,Mushy Peas (side),1,2.32,2.32,card,Paul
+N-0351,16/06/2024,Shepherd's Pie,2,9.67,19.34,card,Sarah
+N-0352,08/06/2024,Fish and Chips,1,12.41,12.41,contactless,Mike
+N-0353,29/06/2024,Pint of Bitter,1,4.85,4.85,card,Dave
+N-0354,28/03/2024,Black Pudding Starter,2,5.8,11.6,contactless,Sarah
+N-0355,03/05/2024,Shepherd's Pie,1,10.08,10.08,card,Sarah
+N-0356,21/03/2024,Chips and Gravy,3,5.22,15.66,card,Jenny
+N-0357,19/02/2024,Tea or Coffee,1,2.6,2.6,card,Mike
+N-0358,16/04/2024,Pint of Bitter,1,4.81,4.81,card,Sarah
+N-0359,13/01/2024,Steak and Ale Pie,2,13.91,27.82,card,Lisa
+N-0360,25/06/2024,Shepherd's Pie,1,9.54,9.54,card,Lisa
+N-0361,06/06/2024,Soft Drink,1,2.01,2.01,card,Dave
+N-0362,28/03/2024,Tea or Coffee,1,3.11,3.11,contactless,Lisa
+N-0363,21/01/2024,Glass of House Wine,1,5.75,5.75,contactless,Lisa
+N-0364,09/01/2024,Mushy Peas (side),1,2.99,2.99,contactless,Tom
+N-0365,29/06/2024,Shepherd's Pie,1,10.25,10.25,card,Tom
+N-0366,22/03/2024,Scampi and Chips,1,11.27,11.27,card,Jenny
+N-0367,19/01/2024,Bangers and Mash,2,10.81,21.62,card,Tom
+N-0368,29/05/2024,Sticky Toffee Pudding,2,6.9,13.8,card,Jenny
+N-0369,06/02/2024,Yorkshire Pudding Wrap,2,8.67,17.34,contactless,Tom
+N-0370,09/02/2024,Pint of Bitter,2,5.25,10.5,card,Paul
+N-0371,26/02/2024,Fish and Chips,1,12.85,12.85,card,Lisa
+N-0372,06/01/2024,Sticky Toffee Pudding,1,6.97,6.97,contactless,Paul
+N-0373,30/06/2024,Sticky Toffee Pudding,1,6.07,6.07,card,Mike
+N-0374,09/05/2024,Sunday Roast,2,14.01,28.02,card,Mike
+N-0375,30/03/2024,Bangers and Mash,1,10.16,10.16,card,Tom
+N-0376,07/04/2024,Steak and Ale Pie,1,13.24,13.24,cash,Paul
+N-0377,06/04/2024,Scampi and Chips,2,11.83,23.66,card,Jenny
+N-0378,10/06/2024,Black Pudding Starter,1,6.37,6.37,contactless,Tom
+N-0379,22/06/2024,Ploughman's Lunch,1,9.2,9.2,contactless,Dave
+N-0380,21/01/2024,Scampi and Chips,1,11.4,11.4,card,Lisa
+N-0381,25/03/2024,Gammon and Eggs,2,11.07,22.14,card,Paul
+N-0382,23/04/2024,Ploughman's Lunch,3,9.34,28.02,card,Jenny
+N-0383,22/06/2024,Gammon and Eggs,1,11.31,11.31,card,Emma
+N-0384,08/03/2024,Bangers and Mash,1,10.66,10.66,contactless,Paul
+N-0385,03/04/2024,Black Pudding Starter,2,6.19,12.38,card,Paul
+N-0386,20/03/2024,Fish and Chips,1,12.4,12.4,card,Lisa
+N-0387,10/05/2024,Gammon and Eggs,1,10.61,10.61,cash,Paul
+N-0388,26/05/2024,Black Pudding Starter,1,5.96,5.96,card,Mike
+N-0389,12/03/2024,Black Pudding Starter,1,6.43,6.43,card,Jenny
+N-0390,18/04/2024,Steak and Ale Pie,1,13.5,13.5,card,Paul
+N-0391,17/02/2024,Soft Drink,1,2.21,2.21,contactless,Tom
+N-0392,23/04/2024,Pint of Bitter,1,4.93,4.93,contactless,Jenny
+N-0393,27/02/2024,Chips and Gravy,2,5.41,10.82,cash,Dave
+N-0394,30/04/2024,Tea or Coffee,1,3.24,3.24,contactless,Dave
+N-0395,04/04/2024,Ploughman's Lunch,3,9.28,27.84,cash,Jenny
+N-0396,25/03/2024,Tea or Coffee,2,3.14,6.28,cash,Paul
+N-0397,21/06/2024,Scampi and Chips,1,11.92,11.92,card,Dave
+N-0398,09/06/2024,Gammon and Eggs,2,10.61,21.22,card,Tom
+N-0399,21/05/2024,Glass of House Wine,3,5.38,16.14,contactless,Lisa
+N-0400,25/04/2024,Gammon and Eggs,2,10.81,21.62,cash,Jenny
+N-0401,06/04/2024,Ploughman's Lunch,2,9.66,19.32,card,Paul
+N-0402,13/04/2024,Steak and Ale Pie,1,13.14,13.14,card,Mike
+N-0403,23/01/2024,Pint of Bitter,1,4.52,4.52,card,Paul
+N-0404,17/04/2024,Pint of Bitter,1,4.53,4.53,card,Dave
+N-0405,05/05/2024,Steak and Ale Pie,1,13.5,13.5,card,Jenny
+N-0406,15/04/2024,Scampi and Chips,1,11.71,11.71,card,Emma
+N-0407,27/06/2024,Black Pudding Starter,1,5.91,5.91,contactless,Emma
+N-0408,09/06/2024,Bangers and Mash,1,10.42,10.42,card,Mike
+N-0409,11/04/2024,Bangers and Mash,1,10.95,10.95,card,Jenny
+N-0410,06/03/2024,Mushy Peas (side),1,2.81,2.81,card,Mike
+N-0411,09/03/2024,Mushy Peas (side),1,2.59,2.59,card,Tom
+N-0412,17/05/2024,Steak and Ale Pie,1,13.42,13.42,card,Sarah
+N-0413,07/01/2024,Yorkshire Pudding Wrap,1,8.92,8.92,contactless,Sarah
+N-0414,23/05/2024,Chips and Gravy,1,5.2,5.2,cash,Emma
+N-0415,04/01/2024,Chips and Gravy,2,5.63,11.26,card,Paul
+N-0416,16/04/2024,Glass of House Wine,1,5.01,5.01,card,Dave
+N-0417,16/05/2024,Yorkshire Pudding Wrap,1,8.09,8.09,card,Paul
+N-0418,15/01/2024,Gammon and Eggs,1,11.07,11.07,card,Lisa
+N-0419,16/04/2024,Sunday Roast,2,14.06,28.12,cash,Emma
+N-0420,01/04/2024,Soft Drink,1,2.38,2.38,contactless,Dave
+N-0421,07/03/2024,Pie and Mash,2,11.31,22.62,cash,Paul
+N-0422,20/01/2024,Gammon and Eggs,1,10.91,10.91,contactless,Sarah
+N-0423,21/02/2024,Fish and Chips,1,12.4,12.4,card,Lisa
+N-0424,19/02/2024,Black Pudding Starter,2,5.59,11.18,contactless,Dave
+N-0425,15/03/2024,Soft Drink,1,2.79,2.79,cash,Lisa
+N-0426,16/06/2024,Glass of House Wine,3,5.89,17.67,contactless,Emma
+N-0427,02/04/2024,Soft Drink,1,2.71,2.71,contactless,Dave
+N-0428,13/02/2024,Sticky Toffee Pudding,1,6.76,6.76,card,Sarah
+N-0429,25/02/2024,Tea or Coffee,2,2.9,5.8,card,Jenny
+N-0430,27/03/2024,Sticky Toffee Pudding,2,6.76,13.52,contactless,Tom
+N-0431,27/03/2024,Tea or Coffee,2,3.21,6.42,card,Dave
+N-0432,28/03/2024,Pint of Bitter,1,5.21,5.21,cash,Sarah
+N-0433,31/05/2024,Yorkshire Pudding Wrap,1,8.13,8.13,card,Lisa
+N-0434,22/06/2024,Pint of Bitter,1,4.94,4.94,card,Lisa
+N-0435,12/06/2024,Gammon and Eggs,1,10.92,10.92,cash,Lisa
+N-0436,29/01/2024,Shepherd's Pie,1,10.02,10.02,card,Emma
+N-0437,07/06/2024,Black Pudding Starter,1,5.73,5.73,card,Jenny
+N-0438,20/02/2024,Ploughman's Lunch,1,9.99,9.99,card,Paul
+N-0439,21/05/2024,Chips and Gravy,2,5.39,10.78,card,Emma
+N-0440,11/01/2024,Pie and Mash,1,11.29,11.29,cash,Jenny
+N-0441,10/03/2024,Ploughman's Lunch,2,9.12,18.24,card,Mike
+N-0442,21/02/2024,Yorkshire Pudding Wrap,1,8.41,8.41,card,Tom
+N-0443,19/02/2024,Chips and Gravy,1,5.37,5.37,contactless,Mike
+N-0444,05/01/2024,Yorkshire Pudding Wrap,1,8.49,8.49,contactless,Sarah
+N-0445,26/02/2024,Tea or Coffee,1,2.72,2.72,card,Emma
+N-0446,04/02/2024,Soft Drink,1,2.45,2.45,card,Lisa
+N-0447,12/04/2024,Sticky Toffee Pudding,1,6.8,6.8,contactless,Jenny
+N-0448,31/01/2024,Pie and Mash,1,10.97,10.97,contactless,Dave
+N-0449,02/05/2024,Fish and Chips,3,12.02,36.06,card,Paul
+N-0450,11/01/2024,Tea or Coffee,1,2.87,2.87,card,Jenny
+N-0451,13/06/2024,Yorkshire Pudding Wrap,1,8.98,8.98,card,Tom
+N-0452,03/04/2024,Glass of House Wine,1,5.92,5.92,contactless,Sarah
+N-0453,02/04/2024,Black Pudding Starter,1,5.71,5.71,card,Sarah
+N-0454,05/01/2024,Sunday Roast,1,14.84,14.84,card,Sarah
+N-0455,16/02/2024,Ploughman's Lunch,2,9.02,18.04,card,Mike
+N-0456,19/04/2024,Soft Drink,1,2.28,2.28,cash,Sarah
+N-0457,15/04/2024,Pie and Mash,1,10.7,10.7,contactless,Tom
+N-0458,02/02/2024,Pie and Mash,1,10.9,10.9,card,Lisa
+N-0459,14/05/2024,Fish and Chips,1,12.27,12.27,card,Lisa
+N-0460,26/01/2024,Sunday Roast,1,14.66,14.66,card,Jenny
+N-0461,29/05/2024,Steak and Ale Pie,1,13.07,13.07,card,Jenny
+N-0462,11/06/2024,Gammon and Eggs,1,11.0,11.0,card,Jenny
+N-0463,19/02/2024,Mushy Peas (side),2,2.39,4.78,card,Paul
+N-0464,12/04/2024,Soft Drink,1,2.13,2.13,cash,Emma
+N-0465,23/02/2024,Glass of House Wine,2,5.01,10.02,card,Emma
+N-0466,15/03/2024,Black Pudding Starter,1,6.35,6.35,card,Lisa
+N-0467,05/01/2024,Soft Drink,1,2.52,2.52,contactless,Emma
+N-0468,08/01/2024,Sticky Toffee Pudding,2,6.27,12.54,card,Lisa
+N-0469,05/03/2024,Steak and Ale Pie,1,13.56,13.56,card,Emma
+N-0470,09/06/2024,Mushy Peas (side),1,2.17,2.17,card,Jenny
+N-0471,19/05/2024,Pie and Mash,1,10.85,10.85,contactless,Emma
+N-0472,31/05/2024,Mushy Peas (side),1,2.74,2.74,card,Dave
+N-0473,31/01/2024,Soft Drink,1,2.76,2.76,cash,Dave
+N-0474,29/04/2024,Scampi and Chips,2,11.79,23.58,card,Jenny
+N-0475,17/06/2024,Tea or Coffee,2,3.17,6.34,card,Paul
+N-0476,03/01/2024,Fish and Chips,2,12.86,25.72,card,Emma
+N-0477,11/01/2024,Soft Drink,3,2.24,6.72,contactless,Lisa
+N-0478,15/03/2024,Soft Drink,1,2.88,2.88,card,Jenny
+N-0479,23/06/2024,Ploughman's Lunch,1,9.78,9.78,cash,Lisa
+N-0480,25/02/2024,Black Pudding Starter,1,5.73,5.73,contactless,Sarah
+N-0481,25/06/2024,Gammon and Eggs,1,11.0,11.0,contactless,Emma
+N-0482,15/06/2024,Tea or Coffee,1,2.36,2.36,contactless,Tom
+N-0483,05/03/2024,Scampi and Chips,1,11.79,11.79,card,Mike
+N-0484,08/03/2024,Bangers and Mash,1,10.29,10.29,card,Tom
+N-0485,24/03/2024,Steak and Ale Pie,1,13.1,13.1,card,Sarah
+N-0486,11/01/2024,Scampi and Chips,1,11.52,11.52,contactless,Paul
+N-0487,02/06/2024,Mushy Peas (side),1,2.8,2.8,card,Sarah
+N-0488,08/04/2024,Yorkshire Pudding Wrap,1,8.73,8.73,cash,Emma
+N-0489,21/05/2024,Pint of Bitter,3,5.06,15.18,contactless,Sarah
+N-0490,08/01/2024,Yorkshire Pudding Wrap,1,8.4,8.4,card,Paul
+N-0491,15/02/2024,Mushy Peas (side),2,2.42,4.84,cash,Mike
+N-0492,28/03/2024,Glass of House Wine,1,5.54,5.54,contactless,Jenny
+N-0493,26/03/2024,Glass of House Wine,1,5.55,5.55,card,Jenny
+N-0494,19/04/2024,Fish and Chips,1,12.22,12.22,cash,Sarah
+N-0495,12/06/2024,Steak and Ale Pie,1,13.28,13.28,cash,Lisa
+N-0496,11/03/2024,Glass of House Wine,3,5.61,16.83,contactless,Tom
+N-0497,08/03/2024,Bangers and Mash,1,10.54,10.54,card,Paul
+N-0498,11/05/2024,Ploughman's Lunch,1,9.69,9.69,card,Mike
+N-0499,16/05/2024,Pie and Mash,2,11.01,22.02,card,Sarah
+N-0500,08/01/2024,Scampi and Chips,1,11.59,11.59,card,Jenny
+N-0501,27/02/2024,Soft Drink,1,2.02,2.02,card,Mike
+N-0502,05/05/2024,Steak and Ale Pie,1,13.13,13.13,contactless,Emma
+N-0503,21/03/2024,Tea or Coffee,2,3.04,6.08,cash,Paul
+N-0504,04/02/2024,Scampi and Chips,2,11.57,23.14,card,Emma
+N-0505,17/01/2024,Soft Drink,1,2.37,2.37,contactless,Emma
+N-0506,23/04/2024,Pint of Bitter,1,5.13,5.13,cash,Lisa
+N-0507,06/06/2024,Ploughman's Lunch,1,9.52,9.52,card,Mike
+N-0508,15/06/2024,Pint of Bitter,1,4.81,4.81,contactless,Sarah
+N-0509,24/01/2024,Soft Drink,1,2.75,2.75,card,Jenny
+N-0510,24/06/2024,Mushy Peas (side),2,2.77,5.54,contactless,Tom
+N-0511,10/01/2024,Shepherd's Pie,2,9.93,19.86,cash,Jenny
+N-0512,26/03/2024,Tea or Coffee,1,3.2,3.2,card,Emma
+N-0513,13/03/2024,Ploughman's Lunch,1,9.37,9.37,contactless,Lisa
+N-0514,20/05/2024,Sticky Toffee Pudding,1,6.16,6.16,card,Lisa
+N-0515,09/06/2024,Mushy Peas (side),1,2.92,2.92,card,Paul
+N-0516,29/04/2024,Yorkshire Pudding Wrap,1,8.43,8.43,contactless,Paul
+N-0517,14/04/2024,Tea or Coffee,1,2.82,2.82,card,Jenny
+N-0518,31/05/2024,Shepherd's Pie,2,10.17,20.34,contactless,Jenny
+N-0519,21/02/2024,Glass of House Wine,2,5.2,10.4,card,Tom
+N-0520,14/01/2024,Soft Drink,1,2.1,2.1,card,Tom
+N-0521,23/05/2024,Pie and Mash,1,11.27,11.27,card,Tom
+N-0522,05/02/2024,Pint of Bitter,1,4.53,4.53,cash,Mike
+N-0523,24/01/2024,Yorkshire Pudding Wrap,1,8.48,8.48,card,Tom
+N-0524,29/06/2024,Mushy Peas (side),2,2.71,5.42,card,Paul
+N-0525,21/01/2024,Steak and Ale Pie,3,13.01,39.03,card,Emma
+N-0526,08/01/2024,Pie and Mash,1,10.62,10.62,card,Tom
+N-0527,19/04/2024,Scampi and Chips,3,11.15,33.45,contactless,Mike
+N-0528,08/02/2024,Scampi and Chips,1,11.41,11.41,card,Emma
+N-0529,16/04/2024,Shepherd's Pie,3,10.34,31.02,contactless,Dave
+N-0530,18/04/2024,Black Pudding Starter,1,6.42,6.42,card,Paul
+N-0531,06/05/2024,Pie and Mash,1,11.42,11.42,cash,Emma
+N-0532,13/01/2024,Sunday Roast,1,14.83,14.83,card,Lisa
+N-0533,03/05/2024,Scampi and Chips,1,11.23,11.23,card,Mike
+N-0534,28/03/2024,Pint of Bitter,1,4.86,4.86,card,Sarah
+N-0535,27/01/2024,Glass of House Wine,1,5.65,5.65,contactless,Lisa
+N-0536,27/06/2024,Gammon and Eggs,1,11.12,11.12,contactless,Emma
+N-0537,19/05/2024,Sunday Roast,1,14.5,14.5,card,Sarah
+N-0538,02/04/2024,Tea or Coffee,1,2.89,2.89,contactless,Paul
+N-0539,05/02/2024,Chips and Gravy,1,5.6,5.6,card,Dave
+N-0540,08/05/2024,Pint of Bitter,1,4.37,4.37,cash,Lisa
+N-0541,12/04/2024,Steak and Ale Pie,1,13.76,13.76,cash,Dave
+N-0542,07/03/2024,Glass of House Wine,1,5.71,5.71,card,Tom
+N-0543,12/01/2024,Black Pudding Starter,2,6.16,12.32,card,Lisa
+N-0544,31/05/2024,Pie and Mash,1,11.31,11.31,card,Dave
+N-0545,18/05/2024,Black Pudding Starter,2,6.49,12.98,card,Paul
+N-0546,22/02/2024,Sunday Roast,2,14.05,28.1,card,Tom
+N-0547,14/02/2024,Ploughman's Lunch,3,9.47,28.41,card,Emma
+N-0548,15/06/2024,Black Pudding Starter,1,5.64,5.64,contactless,Tom
+N-0549,30/04/2024,Fish and Chips,3,13.0,39.0,card,Dave
+N-0550,04/04/2024,Black Pudding Starter,2,6.4,12.8,card,Mike
+N-0551,13/04/2024,Gammon and Eggs,2,11.09,22.18,card,Mike
+N-0552,14/01/2024,Bangers and Mash,1,10.99,10.99,card,Sarah
+N-0553,05/03/2024,Soft Drink,1,2.82,2.82,cash,Mike
+N-0554,29/06/2024,Soft Drink,1,2.39,2.39,card,Sarah
+N-0555,21/01/2024,Tea or Coffee,1,2.32,2.32,card,Lisa
+N-0556,19/02/2024,Scampi and Chips,1,11.59,11.59,card,Mike
+N-0557,21/06/2024,Black Pudding Starter,2,5.75,11.5,contactless,Tom
+N-0558,24/04/2024,Soft Drink,2,2.92,5.84,card,Mike
+N-0559,17/03/2024,Yorkshire Pudding Wrap,2,8.69,17.38,card,Emma
+N-0560,16/05/2024,Bangers and Mash,1,10.72,10.72,cash,Emma
+N-0561,08/02/2024,Ploughman's Lunch,1,9.76,9.76,card,Jenny
+N-0562,07/06/2024,Steak and Ale Pie,2,13.7,27.4,card,Tom
+N-0563,24/01/2024,Ploughman's Lunch,1,9.88,9.88,card,Lisa
+N-0564,14/03/2024,Sticky Toffee Pudding,2,6.03,12.06,contactless,Tom
+N-0565,04/05/2024,Yorkshire Pudding Wrap,1,8.35,8.35,cash,Jenny
+N-0566,17/04/2024,Pie and Mash,1,11.31,11.31,contactless,Mike
+N-0567,13/06/2024,Sticky Toffee Pudding,2,6.58,13.16,card,Sarah
+N-0568,04/01/2024,Glass of House Wine,1,5.86,5.86,card,Emma
+N-0569,11/05/2024,Black Pudding Starter,1,6.0,6.0,card,Paul
+N-0570,03/01/2024,Fish and Chips,2,12.28,24.56,card,Tom
+N-0571,28/03/2024,Glass of House Wine,1,5.61,5.61,contactless,Lisa
+N-0572,28/02/2024,Pint of Bitter,1,4.51,4.51,card,Lisa
+N-0573,21/02/2024,Pint of Bitter,1,4.45,4.45,card,Emma
+N-0574,31/01/2024,Steak and Ale Pie,1,13.92,13.92,card,Lisa
+N-0575,19/01/2024,Sticky Toffee Pudding,1,6.65,6.65,card,Paul
+N-0576,01/06/2024,Steak and Ale Pie,1,13.92,13.92,card,Sarah
+N-0577,06/02/2024,Scampi and Chips,1,11.72,11.72,card,Tom
+N-0578,14/01/2024,Shepherd's Pie,2,10.1,20.2,card,Lisa
+N-0579,01/03/2024,Soft Drink,2,3.0,6.0,card,Dave
+N-0580,21/04/2024,Mushy Peas (side),1,2.04,2.04,contactless,Emma
+N-0581,09/03/2024,Tea or Coffee,2,2.87,5.74,card,Mike
+N-0582,19/04/2024,Chips and Gravy,1,5.91,5.91,card,Tom
+N-0583,11/04/2024,Sunday Roast,2,14.01,28.02,card,Jenny
+N-0584,29/01/2024,Tea or Coffee,1,3.21,3.21,card,Emma
+N-0585,04/06/2024,Sticky Toffee Pudding,1,6.99,6.99,contactless,Lisa
+N-0586,27/01/2024,Yorkshire Pudding Wrap,1,8.59,8.59,card,Dave
+N-0587,03/03/2024,Yorkshire Pudding Wrap,2,8.42,16.84,card,Emma
+N-0588,03/01/2024,Gammon and Eggs,1,10.58,10.58,cash,Dave
+N-0589,02/06/2024,Bangers and Mash,1,10.49,10.49,card,Lisa
+N-0590,03/03/2024,Pint of Bitter,2,4.45,8.9,card,Emma
+N-0591,08/03/2024,Fish and Chips,1,12.56,12.56,card,Emma
+N-0592,27/05/2024,Pint of Bitter,1,4.66,4.66,contactless,Sarah
+N-0593,02/04/2024,Sticky Toffee Pudding,3,6.32,18.96,cash,Paul
+N-0594,17/03/2024,Ploughman's Lunch,1,9.75,9.75,card,Mike
+N-0595,13/05/2024,Tea or Coffee,2,2.53,5.06,contactless,Emma
+N-0596,01/01/2024,Pie and Mash,1,11.09,11.09,cash,Paul
+N-0597,21/05/2024,Shepherd's Pie,1,10.27,10.27,contactless,Emma
+N-0598,31/03/2024,Glass of House Wine,1,5.93,5.93,card,Emma
+N-0599,17/02/2024,Ploughman's Lunch,1,9.05,9.05,contactless,Lisa
+N-0600,01/05/2024,Tea or Coffee,1,2.71,2.71,card,Lisa
+N-0601,21/05/2024,Mushy Peas (side),2,2.1,4.2,contactless,Dave
+N-0602,10/01/2024,Ploughman's Lunch,1,9.93,9.93,card,Tom
+N-0603,12/04/2024,Steak and Ale Pie,1,13.02,13.02,card,Mike
+N-0604,06/06/2024,Soft Drink,2,2.24,4.48,card,Tom
+N-0605,22/01/2024,Fish and Chips,1,12.18,12.18,contactless,Mike
+N-0606,01/06/2024,Gammon and Eggs,2,10.7,21.4,contactless,Dave
+N-0607,15/02/2024,Black Pudding Starter,1,5.81,5.81,contactless,Mike
+N-0608,23/05/2024,Pie and Mash,1,10.73,10.73,contactless,Mike
+N-0609,13/02/2024,Black Pudding Starter,2,5.82,11.64,cash,Emma
+N-0610,28/04/2024,Steak and Ale Pie,1,13.58,13.58,card,Lisa
+N-0611,29/04/2024,Soft Drink,1,2.2,2.2,card,Sarah
+N-0612,02/02/2024,Chips and Gravy,1,5.02,5.02,card,Lisa
+N-0613,05/02/2024,Black Pudding Starter,1,5.55,5.55,cash,Sarah
+N-0614,17/02/2024,Chips and Gravy,1,5.92,5.92,card,Dave
+N-0615,20/01/2024,Shepherd's Pie,1,9.67,9.67,contactless,Jenny
+N-0616,23/06/2024,Black Pudding Starter,1,5.85,5.85,contactless,Sarah
+N-0617,16/01/2024,Sunday Roast,2,14.03,28.06,card,Lisa
+N-0618,15/02/2024,Pie and Mash,2,11.23,22.46,cash,Sarah
+N-0619,18/01/2024,Pint of Bitter,1,4.42,4.42,card,Lisa
+N-0620,09/06/2024,Bangers and Mash,1,10.08,10.08,contactless,Lisa
+N-0621,06/01/2024,Sticky Toffee Pudding,2,6.11,12.22,contactless,Lisa
+N-0622,16/01/2024,Sunday Roast,1,14.11,14.11,card,Emma
+N-0623,25/03/2024,Pie and Mash,1,11.49,11.49,card,Dave
+N-0624,19/02/2024,Pie and Mash,1,11.09,11.09,cash,Emma
+N-0625,06/06/2024,Bangers and Mash,3,10.28,30.84,card,Sarah
+N-0626,02/06/2024,Sunday Roast,1,14.03,14.03,card,Sarah
+N-0627,06/03/2024,Gammon and Eggs,1,11.2,11.2,cash,Emma
+N-0628,22/03/2024,Black Pudding Starter,1,5.56,5.56,card,Jenny
+N-0629,16/03/2024,Tea or Coffee,1,3.02,3.02,card,Sarah
+N-0630,10/02/2024,Pint of Bitter,1,4.64,4.64,card,Mike
+N-0631,18/03/2024,Glass of House Wine,1,5.61,5.61,cash,Lisa
+N-0632,16/02/2024,Chips and Gravy,2,5.68,11.36,contactless,Tom
+N-0633,01/05/2024,Yorkshire Pudding Wrap,2,8.01,16.02,contactless,Sarah
+N-0634,03/05/2024,Tea or Coffee,2,2.49,4.98,card,Paul
+N-0635,10/03/2024,Pie and Mash,2,11.49,22.98,contactless,Lisa
+N-0636,15/05/2024,Yorkshire Pudding Wrap,1,8.51,8.51,card,Lisa
+N-0637,30/03/2024,Pint of Bitter,1,4.78,4.78,cash,Emma
+N-0638,25/04/2024,Scampi and Chips,3,11.47,34.41,card,Mike
+N-0639,28/04/2024,Sunday Roast,2,14.06,28.12,card,Sarah
+N-0640,09/01/2024,Sticky Toffee Pudding,2,6.17,12.34,card,Dave
+N-0641,01/05/2024,Ploughman's Lunch,2,9.92,19.84,card,Paul
+N-0642,15/05/2024,Shepherd's Pie,1,10.36,10.36,card,Emma
+N-0643,17/05/2024,Fish and Chips,1,12.01,12.01,contactless,Paul
+N-0644,30/01/2024,Black Pudding Starter,1,6.1,6.1,card,Lisa
+N-0645,03/03/2024,Mushy Peas (side),1,2.71,2.71,cash,Emma
+N-0646,17/03/2024,Soft Drink,1,2.1,2.1,card,Jenny
+N-0647,31/05/2024,Mushy Peas (side),2,2.28,4.56,card,Paul
+N-0648,12/04/2024,Steak and Ale Pie,1,13.41,13.41,card,Sarah
+N-0649,29/05/2024,Soft Drink,2,2.11,4.22,card,Jenny
+N-0650,18/02/2024,Mushy Peas (side),2,2.91,5.82,contactless,Tom
+N-0651,21/01/2024,Yorkshire Pudding Wrap,2,8.92,17.84,card,Mike
+N-0652,28/04/2024,Pint of Bitter,1,4.77,4.77,cash,Jenny
+N-0653,04/04/2024,Tea or Coffee,3,2.92,8.76,contactless,Paul
+N-0654,31/01/2024,Gammon and Eggs,1,10.52,10.52,cash,Sarah
+N-0655,03/03/2024,Glass of House Wine,1,5.5,5.5,card,Emma
+N-0656,17/06/2024,Pint of Bitter,1,4.97,4.97,contactless,Mike
+N-0657,26/05/2024,Chips and Gravy,1,5.06,5.06,contactless,Emma
+N-0658,30/04/2024,Shepherd's Pie,1,10.32,10.32,cash,Dave
+N-0659,04/06/2024,Fish and Chips,2,12.86,25.72,contactless,Lisa
+N-0660,07/01/2024,Mushy Peas (side),1,2.41,2.41,card,Dave
+N-0661,26/03/2024,Fish and Chips,1,12.42,12.42,contactless,Mike
+N-0662,03/04/2024,Scampi and Chips,2,11.73,23.46,card,Emma
+N-0663,20/02/2024,Pint of Bitter,1,4.94,4.94,card,Dave
+N-0664,08/03/2024,Bangers and Mash,1,10.58,10.58,card,Sarah
+N-0665,15/04/2024,Bangers and Mash,3,10.5,31.5,card,Emma
+N-0666,25/05/2024,Pint of Bitter,1,5.06,5.06,contactless,Dave
+N-0667,25/03/2024,Chips and Gravy,1,5.81,5.81,cash,Sarah
+N-0668,21/06/2024,Steak and Ale Pie,2,13.33,26.66,card,Paul
+N-0669,13/03/2024,Pint of Bitter,1,4.32,4.32,contactless,Lisa
+N-0670,12/01/2024,Steak and Ale Pie,1,13.2,13.2,card,Tom
+N-0671,30/06/2024,Mushy Peas (side),1,2.84,2.84,card,Paul
+N-0672,01/04/2024,Pie and Mash,1,10.72,10.72,card,Dave
+N-0673,03/01/2024,Glass of House Wine,1,5.26,5.26,card,Mike
+N-0674,21/04/2024,Tea or Coffee,1,2.44,2.44,card,Dave
+N-0675,06/02/2024,Bangers and Mash,2,10.91,21.82,card,Mike
+N-0676,13/01/2024,Glass of House Wine,1,5.66,5.66,card,Emma
+N-0677,26/05/2024,Scampi and Chips,1,11.71,11.71,contactless,Emma
+N-0678,27/01/2024,Soft Drink,1,2.43,2.43,card,Mike
+N-0679,04/04/2024,Fish and Chips,1,12.81,12.81,card,Emma
+N-0680,03/03/2024,Black Pudding Starter,2,5.84,11.68,card,Tom
+N-0681,30/05/2024,Shepherd's Pie,1,10.35,10.35,cash,Lisa
+N-0682,28/01/2024,Bangers and Mash,2,10.01,20.02,contactless,Sarah
+N-0683,06/05/2024,Soft Drink,3,2.2,6.6,card,Emma
+N-0684,19/01/2024,Pie and Mash,1,11.09,11.09,contactless,Paul
+N-0685,18/04/2024,Bangers and Mash,1,10.48,10.48,card,Sarah
+N-0686,14/05/2024,Soft Drink,2,2.89,5.78,contactless,Emma
+N-0687,06/04/2024,Fish and Chips,1,12.42,12.42,card,Sarah
+N-0688,03/02/2024,Scampi and Chips,1,11.34,11.34,card,Lisa
+N-0689,18/05/2024,Mushy Peas (side),1,2.57,2.57,contactless,Emma
+N-0690,17/05/2024,Steak and Ale Pie,2,13.84,27.68,card,Dave
+N-0691,20/05/2024,Ploughman's Lunch,1,9.27,9.27,card,Jenny
+N-0692,11/03/2024,Pie and Mash,1,10.68,10.68,card,Lisa
+N-0693,31/05/2024,Sunday Roast,1,14.06,14.06,cash,Emma
+N-0694,21/03/2024,Black Pudding Starter,1,5.88,5.88,card,Emma
+N-0695,28/05/2024,Fish and Chips,2,12.84,25.68,card,Sarah
+N-0696,17/05/2024,Black Pudding Starter,1,6.26,6.26,cash,Dave
+N-0697,29/04/2024,Ploughman's Lunch,1,9.55,9.55,card,Tom
+N-0698,29/02/2024,Pint of Bitter,1,4.3,4.3,card,Mike
+N-0699,14/05/2024,Pint of Bitter,1,4.95,4.95,card,Emma
+N-0700,14/04/2024,Sunday Roast,2,14.95,29.9,card,Tom
+N-0701,16/05/2024,Glass of House Wine,1,5.47,5.47,cash,Sarah
+N-0702,26/02/2024,Bangers and Mash,1,10.02,10.02,card,Mike
+N-0703,07/03/2024,Scampi and Chips,2,11.2,22.4,card,Emma
+N-0704,28/01/2024,Tea or Coffee,2,3.24,6.48,card,Mike
+N-0705,16/02/2024,Pint of Bitter,1,4.42,4.42,card,Tom
+N-0706,14/04/2024,Black Pudding Starter,2,6.34,12.68,card,Paul
+N-0707,03/04/2024,Tea or Coffee,1,2.55,2.55,contactless,Sarah
+N-0708,14/06/2024,Pie and Mash,1,10.72,10.72,card,Emma
+N-0709,19/02/2024,Black Pudding Starter,1,5.8,5.8,cash,Mike
+N-0710,21/01/2024,Steak and Ale Pie,1,13.3,13.3,contactless,Emma
+N-0711,20/04/2024,Sticky Toffee Pudding,1,6.07,6.07,contactless,Mike
+N-0712,01/02/2024,Chips and Gravy,3,5.96,17.88,contactless,Sarah
+N-0713,04/03/2024,Gammon and Eggs,1,11.03,11.03,card,Dave
+N-0714,13/02/2024,Soft Drink,1,2.16,2.16,card,Mike
+N-0715,15/02/2024,Fish and Chips,3,12.5,37.5,contactless,Sarah
+N-0716,25/02/2024,Scampi and Chips,1,11.03,11.03,card,Jenny
+N-0717,14/04/2024,Black Pudding Starter,2,6.02,12.04,card,Tom
+N-0718,03/06/2024,Shepherd's Pie,1,9.99,9.99,card,Emma
+N-0719,12/03/2024,Sticky Toffee Pudding,1,6.49,6.49,card,Lisa
+N-0720,25/04/2024,Bangers and Mash,1,10.95,10.95,card,Lisa
+N-0721,10/03/2024,Black Pudding Starter,1,6.04,6.04,card,Paul
+N-0722,11/01/2024,Mushy Peas (side),2,2.07,4.14,card,Sarah
+N-0723,02/05/2024,Glass of House Wine,1,5.11,5.11,card,Tom
+N-0724,10/03/2024,Sticky Toffee Pudding,2,6.19,12.38,card,Paul
+N-0725,24/02/2024,Steak and Ale Pie,1,13.27,13.27,cash,Tom
+N-0726,12/02/2024,Scampi and Chips,2,11.97,23.94,contactless,Tom
+N-0727,30/04/2024,Bangers and Mash,1,10.17,10.17,card,Sarah
+N-0728,08/04/2024,Tea or Coffee,1,2.34,2.34,contactless,Mike
+N-0729,10/03/2024,Shepherd's Pie,1,9.75,9.75,card,Emma
+N-0730,10/04/2024,Glass of House Wine,1,5.97,5.97,card,Jenny
+N-0731,27/05/2024,Bangers and Mash,2,10.55,21.1,card,Dave
+N-0732,02/04/2024,Soft Drink,2,2.53,5.06,card,Tom
+N-0733,11/05/2024,Steak and Ale Pie,2,13.28,26.56,contactless,Sarah
+N-0734,18/01/2024,Soft Drink,2,2.52,5.04,contactless,Tom
+N-0735,12/04/2024,Pint of Bitter,1,4.35,4.35,cash,Paul
+N-0736,03/06/2024,Ploughman's Lunch,1,9.54,9.54,card,Sarah
+N-0737,08/01/2024,Gammon and Eggs,2,10.75,21.5,contactless,Emma
+N-0738,13/02/2024,Sunday Roast,1,14.56,14.56,card,Mike
+N-0739,10/04/2024,Sunday Roast,1,14.4,14.4,card,Tom
+N-0740,09/04/2024,Sticky Toffee Pudding,3,6.61,19.83,card,Dave
+N-0741,29/01/2024,Glass of House Wine,1,5.35,5.35,card,Dave
+N-0742,27/06/2024,Fish and Chips,1,12.07,12.07,cash,Tom
+N-0743,31/05/2024,Chips and Gravy,1,5.33,5.33,card,Sarah
+N-0744,08/02/2024,Glass of House Wine,1,5.94,5.94,contactless,Lisa
+N-0745,02/03/2024,Ploughman's Lunch,1,9.96,9.96,card,Mike
+N-0746,18/06/2024,Tea or Coffee,1,2.54,2.54,card,Sarah
+N-0747,09/02/2024,Chips and Gravy,1,5.5,5.5,cash,Emma
+N-0748,12/03/2024,Pie and Mash,1,10.56,10.56,card,Mike
+N-0749,08/04/2024,Steak and Ale Pie,2,13.54,27.08,card,Jenny
+N-0750,12/02/2024,Chips and Gravy,1,5.66,5.66,contactless,Jenny
+N-0751,22/03/2024,Gammon and Eggs,1,10.97,10.97,card,Tom
+N-0752,07/02/2024,Sticky Toffee Pudding,1,6.82,6.82,card,Mike
+N-0753,18/04/2024,Sticky Toffee Pudding,1,6.93,6.93,contactless,Jenny
+N-0754,13/06/2024,Chips and Gravy,2,5.22,10.44,card,Paul
+N-0755,12/01/2024,Ploughman's Lunch,1,9.18,9.18,card,Lisa
+N-0756,06/04/2024,Bangers and Mash,2,10.5,21.0,card,Jenny
+N-0757,19/03/2024,Mushy Peas (side),1,2.67,2.67,card,Jenny
+N-0758,07/01/2024,Soft Drink,1,2.8,2.8,contactless,Sarah
+N-0759,27/05/2024,Shepherd's Pie,2,9.79,19.58,contactless,Mike
+N-0760,12/03/2024,Bangers and Mash,1,10.81,10.81,card,Jenny
+N-0761,01/04/2024,Glass of House Wine,1,5.37,5.37,contactless,Jenny
+N-0762,08/02/2024,Fish and Chips,1,12.76,12.76,card,Tom
+N-0763,07/06/2024,Tea or Coffee,1,2.34,2.34,contactless,Mike
+N-0764,05/06/2024,Chips and Gravy,1,5.41,5.41,card,Sarah
+N-0765,11/03/2024,Scampi and Chips,2,11.34,22.68,card,Tom
+N-0766,13/03/2024,Mushy Peas (side),1,2.73,2.73,card,Emma
+N-0767,26/02/2024,Glass of House Wine,1,5.15,5.15,card,Jenny
+N-0768,22/02/2024,Mushy Peas (side),1,2.53,2.53,contactless,Lisa
+N-0769,05/04/2024,Pint of Bitter,2,4.94,9.88,contactless,Jenny
+N-0770,06/05/2024,Tea or Coffee,1,2.64,2.64,card,Jenny
+N-0771,20/01/2024,Bangers and Mash,3,10.86,32.58,card,Jenny
+N-0772,30/01/2024,Shepherd's Pie,1,10.36,10.36,card,Paul
+N-0773,26/06/2024,Gammon and Eggs,1,10.94,10.94,card,Dave
+N-0774,31/03/2024,Glass of House Wine,2,5.11,10.22,cash,Lisa
+N-0775,08/06/2024,Sunday Roast,1,14.65,14.65,card,Jenny
+N-0776,29/02/2024,Scampi and Chips,2,11.4,22.8,contactless,Lisa
+N-0777,27/03/2024,Fish and Chips,1,12.12,12.12,card,Tom
+N-0778,29/01/2024,Pie and Mash,1,11.21,11.21,card,Sarah
+N-0779,20/01/2024,Chips and Gravy,2,5.44,10.88,card,Dave
+N-0780,18/06/2024,Shepherd's Pie,1,9.63,9.63,card,Jenny
+N-0781,18/05/2024,Steak and Ale Pie,1,13.85,13.85,contactless,Dave
+N-0782,11/04/2024,Tea or Coffee,3,2.69,8.07,card,Paul
+N-0783,17/04/2024,Chips and Gravy,1,5.0,5.0,card,Paul
+N-0784,13/03/2024,Tea or Coffee,1,3.26,3.26,card,Emma
+N-0785,21/03/2024,Black Pudding Starter,1,6.06,6.06,card,Lisa
+N-0786,26/05/2024,Sunday Roast,1,14.09,14.09,card,Tom
+N-0787,28/05/2024,Ploughman's Lunch,1,9.53,9.53,cash,Jenny
+N-0788,07/02/2024,Pint of Bitter,1,4.67,4.67,contactless,Paul
+N-0789,04/06/2024,Sticky Toffee Pudding,2,6.85,13.7,card,Mike
+N-0790,15/01/2024,Sunday Roast,2,14.84,29.68,contactless,Dave
+N-0791,11/04/2024,Yorkshire Pudding Wrap,1,8.78,8.78,card,Paul
+N-0792,04/06/2024,Sunday Roast,1,14.83,14.83,card,Paul
+N-0793,20/03/2024,Bangers and Mash,1,10.98,10.98,contactless,Paul
+N-0794,16/03/2024,Mushy Peas (side),2,2.92,5.84,card,Mike
+N-0795,19/02/2024,Black Pudding Starter,2,6.28,12.56,card,Emma
+N-0796,23/05/2024,Shepherd's Pie,1,9.93,9.93,card,Dave
+N-0797,01/01/2024,Sticky Toffee Pudding,1,6.46,6.46,card,Paul
+N-0798,11/01/2024,Fish and Chips,1,12.83,12.83,contactless,Tom
+N-0799,17/06/2024,Ploughman's Lunch,1,9.91,9.91,contactless,Tom
+N-0800,07/06/2024,Pint of Bitter,2,4.55,9.1,contactless,Dave

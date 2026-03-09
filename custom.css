@@ -1,0 +1,272 @@
+/*
+ * Corndel JupyterLite — Custom Stylesheet
+ *
+ * Brings the notebook experience closer to the Metis Studio prose pages:
+ *   - Constrained line length (Knuth would approve)
+ *   - Larger, more readable markdown
+ *   - Generous vertical rhythm between cells
+ *   - Code cells with proper breathing room
+ *   - Warm neutral palette echoing the house style
+ */
+
+/* ------------------------------------------------------------------ */
+/*  1. JupyterLab CSS custom properties                                */
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/*  0. Custom fonts                                                    */
+/* ------------------------------------------------------------------ */
+
+@font-face {
+  font-family: 'DenimInk';
+  src: url('./fonts/DenimInk-Normal.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lost';
+  src: url('./fonts/Lost-Normal.woff') format('woff');
+  font-display: swap;
+}
+
+/*
+ * We define our own CSS variables here for colours the theme doesn't
+ * touch. Typography variables (--jp-content-font-size1, etc.) are
+ * NOT set here because the theme loads later and clobbers :root values.
+ * Instead we apply typography directly on elements below.
+ */
+:root {
+  /* Warm neutral tint — just enough to take the clinical edge off */
+  --jp-layout-color0: #fffdfb;
+  --jp-layout-color1: #f9f4eb;
+  --jp-layout-color2: #e9e4d8;
+
+  /* Primary accent — sky-700 from house palette */
+  --jp-brand-color1: #0369a1;
+  --jp-brand-color2: #0ea5e9;
+}
+
+/* ------------------------------------------------------------------ */
+/*  2. Notebook width — the Knuth rule                                 */
+/*     ~72 chars at 16px ≈ 48rem. We go slightly wider to give code   */
+/*     cells room, but cap prose at a comfortable measure.             */
+/* ------------------------------------------------------------------ */
+
+/* Let the notebook fill the panel so the scrollbar runs the full height */
+.jp-Notebook {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Push content away from top/bottom edges via first/last cell margins */
+.jp-Notebook .jp-Cell:first-child {
+  margin-top: 2rem;
+}
+
+.jp-Notebook .jp-Cell:last-child {
+  margin-bottom: 4rem;
+}
+
+/* Constrain individual cells and centre them */
+.jp-Notebook .jp-Cell {
+  max-width: 54rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 1.25rem;
+}
+
+.jp-Cell + .jp-Cell {
+  margin-top: 0.5rem;
+}
+
+/* Markdown cells get a touch more breathing room */
+.jp-MarkdownCell + .jp-CodeCell,
+.jp-CodeCell + .jp-MarkdownCell {
+  margin-top: 1.5rem;
+}
+
+/* ------------------------------------------------------------------ */
+/*  4. Rendered markdown — prose styling                               */
+/* ------------------------------------------------------------------ */
+
+.jp-RenderedHTMLCommon {
+  font-family: "Lost", "Public Sans", -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 17px !important;
+  line-height: 1.75 !important;
+}
+
+/* Headings use the display font */
+.jp-RenderedHTMLCommon h1,
+.jp-RenderedHTMLCommon h2,
+.jp-RenderedHTMLCommon h3,
+.jp-RenderedHTMLCommon h4,
+.jp-RenderedHTMLCommon h5,
+.jp-RenderedHTMLCommon h6 {
+  font-family: "DenimInk", "Public Sans", sans-serif !important;
+}
+
+/* Headings — generous spacing matching Metis mt-12/mb-6 pattern */
+.jp-RenderedHTMLCommon h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.jp-RenderedHTMLCommon h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--jp-layout-color2);
+  letter-spacing: -0.01em;
+}
+
+.jp-RenderedHTMLCommon h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.jp-RenderedHTMLCommon h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.jp-RenderedHTMLCommon p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Lists — matching Metis ps-6, my-5, leading-7 */
+.jp-RenderedHTMLCommon ul,
+.jp-RenderedHTMLCommon ol {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.jp-RenderedHTMLCommon li {
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+  line-height: 1.75;
+}
+
+/* Inline code — Metis style: subtle background, rounded */
+.jp-RenderedHTMLCommon code {
+  font-size: 0.875em;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.375rem;
+  background-color: var(--jp-layout-color1);
+  border: 1px solid var(--jp-layout-color2);
+}
+
+/* Code blocks inside markdown */
+.jp-RenderedHTMLCommon pre {
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--jp-layout-color1);
+  border: 1px solid var(--jp-layout-color2);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+
+.jp-RenderedHTMLCommon pre code {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: inherit;
+}
+
+/* Blockquotes — left border accent like Metis */
+.jp-RenderedHTMLCommon blockquote {
+  border-left: 4px solid var(--jp-brand-color2);
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: #696969;
+}
+
+/* Tables */
+.jp-RenderedHTMLCommon table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--jp-layout-color2);
+  font-size: 0.9375rem;
+}
+
+.jp-RenderedHTMLCommon th {
+  background-color: var(--jp-layout-color1);
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--jp-layout-color2);
+}
+
+.jp-RenderedHTMLCommon td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--jp-layout-color2);
+}
+
+.jp-RenderedHTMLCommon tr:last-child td {
+  border-bottom: none;
+}
+
+/* Links — sky primary with underline on hover */
+.jp-RenderedHTMLCommon a {
+  color: var(--jp-brand-color1);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.jp-RenderedHTMLCommon a:hover {
+  border-bottom-color: var(--jp-brand-color1);
+}
+
+/* Horizontal rules */
+.jp-RenderedHTMLCommon hr {
+  border: none;
+  border-top: 1px solid var(--jp-layout-color2);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* ------------------------------------------------------------------ */
+/*  5. Code cells — more padding, softer chrome                        */
+/* ------------------------------------------------------------------ */
+
+/* Input area (where you type code) */
+.jp-InputArea-editor {
+  padding: 0.75rem 1rem !important;
+  border-radius: 0.5rem !important;
+}
+
+/* Output area — a little padding so results don't feel cramped */
+.jp-OutputArea-output {
+  padding: 0.5rem 1rem;
+}
+
+/* ------------------------------------------------------------------ */
+/*  6. Dark mode overrides                                             */
+/* ------------------------------------------------------------------ */
+
+body[data-jp-theme-light="false"] {
+  --jp-layout-color0: #111111;
+  --jp-layout-color1: #1c1c1c;
+  --jp-layout-color2: #2b2b2b;
+}

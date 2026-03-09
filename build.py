@@ -7,8 +7,8 @@ copy with only that module's content. Each module is a self-contained
 JupyterLite instance with no path rewriting needed.
 
 Usage:
-    python build.py                          # build all modules
-    python build.py --modules python-101     # build one module
+    python build.py                          # build all labs
+    python build.py --labs python-foundations # build one lab
     python build.py --skip-base              # reuse existing _base/
     python build.py --output-dir dist        # custom output directory
 """
@@ -22,8 +22,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent
-MODULES_DIR = REPO_ROOT / "modules"
-SHARED_DIR = MODULES_DIR / "_shared"
+LABS_DIR = REPO_ROOT / "labs"
+SHARED_DIR = LABS_DIR / "_shared"
 BASE_BUILD_DIR = REPO_ROOT / "_base"
 LANDING_TEMPLATE = REPO_ROOT / "landing" / "index.html"
 
@@ -61,14 +61,37 @@ def build_base():
     print(f"==> Base build complete: {BASE_BUILD_DIR}")
 
 
-def get_modules(filter_list=None):
-    """Discover module directories under modules/."""
-    modules = []
-    for entry in sorted(MODULES_DIR.iterdir()):
-        if entry.is_dir() and not entry.name.startswith(("_", ".")):
-            if filter_list is None or entry.name in filter_list:
-                modules.append(entry)
-    return modules
+def get_labs(filter_list=None):
+    """Discover lab directories under labs/ (supports course nesting).
+
+    A lab is any directory containing a lab.json file.  Its course (programme)
+    is read from course.json in the parent directory, if present.
+    """
+    labs = []
+    for lab_json in sorted(LABS_DIR.rglob("lab.json")):
+        lab_dir = lab_json.parent
+        if any(part.startswith(("_", ".")) for part in lab_dir.relative_to(LABS_DIR).parts):
+            continue
+        if filter_list is None or lab_dir.name in filter_list:
+            labs.append(lab_dir)
+    return labs
+
+
+def get_lab_meta(lab_dir):
+    """Load lab metadata, inheriting the course title from course.json."""
+    lab_json = lab_dir / "lab.json"
+    meta = json.loads(lab_json.read_text()) if lab_json.exists() else {}
+    meta["_slug"] = lab_dir.name
+    meta.setdefault("title", lab_dir.name.replace("-", " ").title())
+    meta.setdefault("description", "")
+
+    # Inherit programme from parent course.json
+    course_json = lab_dir.parent / "course.json"
+    if course_json.exists() and "programme" not in meta:
+        course = json.loads(course_json.read_text())
+        meta["programme"] = course.get("title", "")
+
+    return meta
 
 
 def generate_manifests(files_dir, module_output):
@@ -161,6 +184,26 @@ def strip_notebook_outputs(files_dir):
         nb_path.write_text(json.dumps(nb, indent=1) + "\n")
 
 
+def patch_custom_css(module_output):
+    """
+    Inject a <link> to custom.css into every entry-point index.html.
+    The CSS file is copied to the module output root during stamp_module.
+    """
+    for html_file in module_output.rglob("index.html"):
+        html = html_file.read_text()
+        if "custom.css" in html:
+            continue
+        marker = "</head>"
+        if marker not in html:
+            continue
+        rel = html_file.parent.relative_to(module_output)
+        depth = len(rel.parts)
+        css_path = "../" * depth + "custom.css" if depth else "./custom.css"
+        link_tag = f'    <link rel="stylesheet" href="{css_path}" />\n  '
+        html = html.replace(marker, link_tag + marker)
+        html_file.write_text(html)
+
+
 def patch_service_worker_ready(module_output):
     """
     Patch every entry-point index.html to pre-register the service worker
@@ -209,35 +252,35 @@ def patch_service_worker_ready(module_output):
         html_file.write_text(html)
 
 
-def stamp_module(module_dir, output_dir):
+def stamp_lab(lab_dir, output_dir):
     """
-    Create a module-specific JupyterLite instance by:
+    Create a lab-specific JupyterLite instance by:
     1. Copying the entire base build (self-contained, no path tricks)
-    2. Copying module content into files/
+    2. Copying lab content into files/
     3. Generating api/contents/ manifests
-    4. Patching lab/index.html so the service worker is ready before boot
+    4. Patching index.html so the service worker is ready before boot
     """
-    module_name = module_dir.name
-    module_output = output_dir / module_name
+    lab_name = lab_dir.name
+    lab_output = output_dir / lab_name
 
-    print(f"  -> Stamping module: {module_name}")
+    print(f"  -> Stamping lab: {lab_name}")
 
     # Copy the entire base build as-is
-    if module_output.exists():
-        shutil.rmtree(module_output)
-    shutil.copytree(BASE_BUILD_DIR, module_output)
+    if lab_output.exists():
+        shutil.rmtree(lab_output)
+    shutil.copytree(BASE_BUILD_DIR, lab_output)
 
-    # Copy module content into files/
-    files_dir = module_output / "files"
+    # Copy lab content into files/
+    files_dir = lab_output / "files"
     files_dir.mkdir(parents=True, exist_ok=True)
 
     # Shared content first (if _shared/ exists)
     if SHARED_DIR.is_dir():
         shutil.copytree(SHARED_DIR, files_dir, dirs_exist_ok=True)
 
-    # Module-specific content (overwrites shared on conflict)
-    for item in module_dir.iterdir():
-        if item.name in ("module.json",):
+    # Lab-specific content (overwrites shared on conflict)
+    for item in lab_dir.iterdir():
+        if item.name in ("lab.json",):
             continue
         dest = files_dir / item.name
         if item.is_dir():
@@ -249,41 +292,48 @@ def stamp_module(module_dir, output_dir):
     strip_notebook_outputs(files_dir)
 
     # Generate api/contents/ manifests
-    generate_manifests(files_dir, module_output)
+    generate_manifests(files_dir, lab_output)
+
+    # Copy custom stylesheet and fonts into lab root
+    custom_css = REPO_ROOT / "custom.css"
+    if custom_css.exists():
+        shutil.copy2(custom_css, lab_output / "custom.css")
+        patch_custom_css(lab_output)
+    fonts_dir = REPO_ROOT / "fonts"
+    if fonts_dir.is_dir():
+        shutil.copytree(fonts_dir, lab_output / "fonts", dirs_exist_ok=True)
 
     # Ensure service worker is active before JupyterLite boots
-    patch_service_worker_ready(module_output)
+    patch_service_worker_ready(lab_output)
 
-    print(f"     Done: {module_output}")
+    print(f"     Done: {lab_output}")
 
 
-def generate_landing_page(modules, output_dir):
+def generate_landing_page(labs, output_dir):
     """Generate the landing page grouped by programme, with sandbox at the top."""
-    # Load module metadata
-    module_metas = []
-    for module_dir in modules:
-        meta_path = module_dir / "module.json"
-        meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
-        meta["_slug"] = module_dir.name
-        meta.setdefault("title", module_dir.name.replace("-", " ").title())
-        meta.setdefault("description", "")
-        module_metas.append(meta)
+    # Load lab metadata (course title inherited from course.json)
+    lab_metas = []
+    for lab_dir in labs:
+        lab_metas.append(get_lab_meta(lab_dir))
 
     # Load programme list (defines order and allows empty programmes)
     programmes_path = REPO_ROOT / "programmes.json"
     if programmes_path.exists():
         programmes = json.loads(programmes_path.read_text())
     else:
-        programmes = sorted({m.get("programme") for m in module_metas if m.get("programme")})
+        programmes = sorted({m.get("programme") for m in lab_metas if m.get("programme")})
 
     # Split sandbox modules from programme modules
-    sandboxes = [m for m in module_metas if m.get("sandbox")]
-    programme_modules = [m for m in module_metas if not m.get("sandbox")]
+    sandboxes = [m for m in lab_metas if m.get("sandbox")]
+    programme_labs = [m for m in lab_metas if not m.get("sandbox")]
 
     # Group modules by programme
     by_programme = {}
     for prog in programmes:
-        by_programme[prog] = [m for m in programme_modules if m.get("programme") == prog]
+        by_programme[prog] = sorted(
+            [m for m in programme_labs if m.get("programme") == prog],
+            key=lambda m: (m.get("order", 999), m.get("title", "")),
+        )
 
     # Build sandbox section HTML
     sandbox_html = ""
@@ -307,17 +357,19 @@ def generate_landing_page(modules, output_dir):
         mods = by_programme.get(prog_name, [])
         programmes_html += f"""    <div class="programme-section">
       <div class="programme-heading">{prog_name}</div>
-      <div class="module-grid">
+      <div class="lab-grid">
 """
         if mods:
             for m in mods:
-                programmes_html += f"""        <a class="module-card" href="/{m['_slug']}/lab/index.html">
-          <h3>{m['title']}</h3>
+                order = m.get("order", "")
+                number_html = f'<span class="lab-card-number">Lab {order}</span>\n          ' if order else ""
+                programmes_html += f"""        <a class="lab-card" href="/{m['_slug']}/lab/index.html">
+          {number_html}<h3>{m['title']}</h3>
           <p>{m['description']}</p>
         </a>
 """
         else:
-            programmes_html += """        <div class="programme-empty">No modules yet</div>
+            programmes_html += """        <div class="programme-empty">No labs yet</div>
 """
         programmes_html += """      </div>
     </div>
@@ -332,14 +384,28 @@ def generate_landing_page(modules, output_dir):
         html = f"<html><body>{sandbox_html}{programmes_html}</body></html>"
 
     (output_dir / "index.html").write_text(html)
+
+    # Copy static assets from landing/ (fonts, images, etc.)
+    landing_dir = LANDING_TEMPLATE.parent
+    for item in landing_dir.iterdir():
+        if item.name == "index.html":
+            continue
+        dest = output_dir / item.name
+        if item.is_dir():
+            if dest.exists():
+                shutil.rmtree(dest)
+            shutil.copytree(item, dest)
+        else:
+            shutil.copy2(item, dest)
+
     print(f"==> Landing page: {output_dir / 'index.html'}")
 
 
 def main():
     parser = argparse.ArgumentParser(description="Multi-module JupyterLite build")
     parser.add_argument(
-        "--modules",
-        help="Comma-separated module names to build (default: all)",
+        "--labs",
+        help="Comma-separated lab names to build (default: all)",
     )
     parser.add_argument(
         "--output-dir",
@@ -354,7 +420,7 @@ def main():
     args = parser.parse_args()
 
     output_dir = REPO_ROOT / args.output_dir
-    filter_list = args.modules.split(",") if args.modules else None
+    filter_list = args.labs.split(",") if args.labs else None
 
     # Clean dist/ first so `jupyter lite build` doesn't find stale
     # jupyter-lite.json files from a previous build
@@ -374,19 +440,19 @@ def main():
     # Step 2: Set up output directory
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Step 3: Stamp each module (full copy of base + module content)
-    modules = get_modules(filter_list)
-    if not modules:
-        print("Warning: No modules found in modules/")
+    # Step 3: Stamp each lab (full copy of base + lab content)
+    labs = get_labs(filter_list)
+    if not labs:
+        print("Warning: No labs found in labs/")
         sys.exit(1)
 
-    print(f"==> Building {len(modules)} module(s)...")
-    for module_dir in modules:
-        stamp_module(module_dir, output_dir)
+    print(f"==> Building {len(labs)} lab(s)...")
+    for lab_dir in labs:
+        stamp_lab(lab_dir, output_dir)
 
     # Step 4: Generate landing page
-    all_modules = get_modules()  # always list all modules on landing page
-    generate_landing_page(all_modules, output_dir)
+    all_labs = get_labs()  # always list all labs on landing page
+    generate_landing_page(all_labs, output_dir)
 
     print(f"\n==> Build complete! Output: {output_dir}")
     print(f"    Serve with: python serve.py")
