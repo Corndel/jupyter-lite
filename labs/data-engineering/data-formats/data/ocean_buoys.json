@@ -1,0 +1,1902 @@
+[
+  {
+    "buoy_id": "NDBC-44013",
+    "location": {
+      "lat": 42.345499999999994,
+      "lon": -70.6493,
+      "name": "Boston Harbor"
+    },
+    "measurements": {
+      "water_temp_c": 17.0,
+      "wave_height_m": 3.9,
+      "wave_period_s": 5.5,
+      "wind": {
+        "speed_ms": 9.6,
+        "direction_deg": 17
+      }
+    },
+    "timestamp": "2024-03-15T00:55:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-41002",
+    "location": {
+      "lat": 32.306,
+      "lon": -75.4781,
+      "name": "South Atlantic Bight"
+    },
+    "measurements": {
+      "water_temp_c": 10.9,
+      "wave_height_m": 4.5,
+      "wave_period_s": 4.8,
+      "wind": {
+        "speed_ms": 2.4,
+        "direction_deg": 47
+      }
+    },
+    "timestamp": "2024-03-15T03:04:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "NDBC-46029",
+    "location": {
+      "lat": 46.1457,
+      "lon": -124.51339999999999,
+      "name": "Columbia River Bar"
+    },
+    "measurements": {
+      "water_temp_c": 2.8,
+      "wave_height_m": 4.7,
+      "wave_period_s": 4.8,
+      "wind": {
+        "speed_ms": 17.9,
+        "direction_deg": 80
+      }
+    },
+    "timestamp": "2024-03-15T06:45:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-51003",
+    "location": {
+      "lat": 19.195700000000002,
+      "lon": -160.6381,
+      "name": "Western Hawaii"
+    },
+    "measurements": {
+      "water_temp_c": 20.1,
+      "wave_height_m": 3.7,
+      "wave_period_s": 11.0,
+      "wind": {
+        "speed_ms": 6.0,
+        "direction_deg": 144
+      }
+    },
+    "timestamp": "2024-03-15T09:26:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-42001",
+    "location": {
+      "lat": 25.8872,
+      "lon": -89.65520000000001,
+      "name": "Gulf of Mexico Central"
+    },
+    "measurements": {
+      "water_temp_c": 16.3,
+      "wave_height_m": 2.6,
+      "wave_period_s": 3.6,
+      "wind": {
+        "speed_ms": 1.1,
+        "direction_deg": 44
+      }
+    },
+    "timestamp": "2024-03-15T12:36:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62163",
+    "location": {
+      "lat": 58.199000000000005,
+      "lon": -5.099799999999999,
+      "name": "North Minch"
+    },
+    "measurements": {
+      "water_temp_c": 7.2,
+      "wave_height_m": 0.4,
+      "wave_period_s": 4.9,
+      "wind": {
+        "speed_ms": 6.5,
+        "direction_deg": 41
+      }
+    },
+    "timestamp": "2024-03-15T15:30:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62105",
+    "location": {
+      "lat": 50.098600000000005,
+      "lon": -6.098599999999999,
+      "name": "Seven Stones Light"
+    },
+    "measurements": {
+      "water_temp_c": 14.7,
+      "wave_height_m": 3.4,
+      "wave_period_s": 4.0,
+      "wind": {
+        "speed_ms": 11.3,
+        "direction_deg": 94
+      }
+    },
+    "timestamp": "2024-03-15T18:30:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62303",
+    "location": {
+      "lat": 53.5031,
+      "lon": -3.4987,
+      "name": "Liverpool Bay"
+    },
+    "measurements": {
+      "water_temp_c": 3.2,
+      "wave_height_m": 2.4,
+      "wave_period_s": 5.9,
+      "wind": {
+        "speed_ms": 16.9,
+        "direction_deg": 288
+      }
+    },
+    "timestamp": "2024-03-15T21:28:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-21004",
+    "location": {
+      "lat": 28.9964,
+      "lon": 134.9987,
+      "name": "Southeast of Honshu"
+    },
+    "measurements": {
+      "water_temp_c": 19.4,
+      "wave_height_m": 4.1,
+      "wave_period_s": 7.6,
+      "wind": {
+        "speed_ms": 15.4,
+        "direction_deg": 116
+      }
+    },
+    "timestamp": "2024-03-16T00:05:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-22001",
+    "location": {
+      "lat": 33.9992,
+      "lon": 145.0001,
+      "name": "Northwest Pacific"
+    },
+    "measurements": {
+      "water_temp_c": 27.1,
+      "wave_height_m": 3.5,
+      "wave_period_s": 13.3,
+      "wind": {
+        "speed_ms": 11.9,
+        "direction_deg": 120
+      }
+    },
+    "timestamp": "2024-03-16T03:26:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55015",
+    "location": {
+      "lat": -33.9976,
+      "lon": 151.4023,
+      "name": "Sydney Offshore"
+    },
+    "measurements": {
+      "water_temp_c": 16.9,
+      "wave_height_m": 2.7,
+      "wave_period_s": 9.3,
+      "wind": {
+        "speed_ms": 19.7,
+        "direction_deg": 75
+      }
+    },
+    "timestamp": "2024-03-16T06:32:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55019",
+    "location": {
+      "lat": -27.5063,
+      "lon": 153.6027,
+      "name": "Brisbane Approaches"
+    },
+    "measurements": {
+      "water_temp_c": 27.3,
+      "wave_height_m": 4.1,
+      "wave_period_s": 4.4,
+      "wind": {
+        "speed_ms": 9.0,
+        "direction_deg": 349
+      }
+    },
+    "timestamp": "2024-03-16T09:10:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76923",
+    "location": {
+      "lat": 65.9985,
+      "lon": 2.0013,
+      "name": "Norwegian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 17.5,
+      "wave_height_m": 1.8,
+      "wave_period_s": 11.0,
+      "wind": {
+        "speed_ms": 16.3,
+        "direction_deg": 44
+      }
+    },
+    "timestamp": "2024-03-16T12:53:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76928",
+    "location": {
+      "lat": 72.997,
+      "lon": 12.9982,
+      "name": "Barents Sea South"
+    },
+    "measurements": {
+      "water_temp_c": 9.2,
+      "wave_height_m": 2.5,
+      "wave_period_s": 12.6,
+      "wind": {
+        "speed_ms": 15.9,
+        "direction_deg": 319
+      }
+    },
+    "timestamp": "2024-03-16T15:54:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BSH-FINO1",
+    "location": {
+      "lat": 54.0173,
+      "lon": 6.5868,
+      "name": "German Bight"
+    },
+    "measurements": {
+      "water_temp_c": 5.9,
+      "wave_height_m": 3.0,
+      "wave_period_s": 9.4,
+      "wind": {
+        "speed_ms": 19.3,
+        "direction_deg": 51
+      }
+    },
+    "timestamp": "2024-03-16T18:26:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "IFREMER-08501",
+    "location": {
+      "lat": 47.4985,
+      "lon": -8.5022,
+      "name": "Bay of Biscay North"
+    },
+    "measurements": {
+      "water_temp_c": 9.4,
+      "wave_height_m": 2.8,
+      "wave_period_s": 6.8,
+      "wind": {
+        "speed_ms": 8.8,
+        "direction_deg": 196
+      }
+    },
+    "timestamp": "2024-03-16T21:50:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "IFREMER-08504",
+    "location": {
+      "lat": 43.5041,
+      "lon": -1.499,
+      "name": "Bay of Biscay South"
+    },
+    "measurements": {
+      "water_temp_c": 6.5,
+      "wave_height_m": 2.2,
+      "wave_period_s": 9.8,
+      "wind": {
+        "speed_ms": 13.9,
+        "direction_deg": 205
+      }
+    },
+    "timestamp": "2024-03-17T00:02:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "CDIP-071",
+    "location": {
+      "lat": 33.2191,
+      "lon": -117.437,
+      "name": "San Diego Nearshore"
+    },
+    "measurements": {
+      "water_temp_c": 8.2,
+      "wave_height_m": 3.8,
+      "wave_period_s": 13.1,
+      "wind": {
+        "speed_ms": 18.0,
+        "direction_deg": 10
+      }
+    },
+    "timestamp": "2024-03-17T03:44:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "CDIP-073",
+    "location": {
+      "lat": 34.4556,
+      "lon": -120.646,
+      "name": "Santa Barbara Channel"
+    },
+    "measurements": {
+      "water_temp_c": 23.9,
+      "wave_height_m": 4.3,
+      "wave_period_s": 10.5,
+      "wind": {
+        "speed_ms": 19.5,
+        "direction_deg": 116
+      }
+    },
+    "timestamp": "2024-03-17T06:17:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "INCOIS-AD07",
+    "location": {
+      "lat": 14.9959,
+      "lon": 69.0016,
+      "name": "Arabian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 23.5,
+      "wave_height_m": 1.6,
+      "wave_period_s": 7.6,
+      "wind": {
+        "speed_ms": 13.3,
+        "direction_deg": 96
+      }
+    },
+    "timestamp": "2024-03-17T09:49:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-44013",
+    "location": {
+      "lat": 42.34889999999999,
+      "lon": -70.6497,
+      "name": "Boston Harbor"
+    },
+    "measurements": {
+      "water_temp_c": 14.6,
+      "wave_height_m": 2.7,
+      "wave_period_s": 7.1,
+      "wind": {
+        "speed_ms": 2.1,
+        "direction_deg": 81
+      }
+    },
+    "timestamp": "2024-03-17T12:47:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-41002",
+    "location": {
+      "lat": 32.309799999999996,
+      "lon": -75.4843,
+      "name": "South Atlantic Bight"
+    },
+    "measurements": {
+      "water_temp_c": 22.3,
+      "wave_height_m": 2.8,
+      "wave_period_s": 9.3,
+      "wind": {
+        "speed_ms": 4.3,
+        "direction_deg": 102
+      }
+    },
+    "timestamp": "2024-03-17T15:08:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "NDBC-46029",
+    "location": {
+      "lat": 46.1404,
+      "lon": -124.51129999999999,
+      "name": "Columbia River Bar"
+    },
+    "measurements": {
+      "water_temp_c": 25.9,
+      "wave_height_m": 3.6,
+      "wave_period_s": 6.0,
+      "wind": {
+        "speed_ms": 16.6,
+        "direction_deg": 258
+      }
+    },
+    "timestamp": "2024-03-17T18:03:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-51003",
+    "location": {
+      "lat": 19.194300000000002,
+      "lon": -160.6396,
+      "name": "Western Hawaii"
+    },
+    "measurements": {
+      "water_temp_c": 11.7,
+      "wave_height_m": 3.1,
+      "wave_period_s": 5.0,
+      "wind": {
+        "speed_ms": 17.5,
+        "direction_deg": 300
+      }
+    },
+    "timestamp": "2024-03-17T21:15:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "NDBC-42001",
+    "location": {
+      "lat": 25.8883,
+      "lon": -89.6594,
+      "name": "Gulf of Mexico Central"
+    },
+    "measurements": {
+      "water_temp_c": 23.6,
+      "wave_height_m": 0.7,
+      "wave_period_s": 3.3,
+      "wind": {
+        "speed_ms": 1.9,
+        "direction_deg": 292
+      }
+    },
+    "timestamp": "2024-03-18T00:47:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62163",
+    "location": {
+      "lat": 58.2044,
+      "lon": -5.099799999999999,
+      "name": "North Minch"
+    },
+    "measurements": {
+      "water_temp_c": 7.9,
+      "wave_height_m": 1.3,
+      "wave_period_s": 10.2,
+      "wind": {
+        "speed_ms": 10.8,
+        "direction_deg": 349
+      }
+    },
+    "timestamp": "2024-03-18T03:41:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62105",
+    "location": {
+      "lat": 50.0993,
+      "lon": -6.0958,
+      "name": "Seven Stones Light"
+    },
+    "measurements": {
+      "water_temp_c": 22.8,
+      "wave_height_m": 1.4,
+      "wave_period_s": 9.7,
+      "wind": {
+        "speed_ms": 18.9,
+        "direction_deg": 329
+      }
+    },
+    "timestamp": "2024-03-18T06:38:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62303",
+    "location": {
+      "lat": 53.4998,
+      "lon": -3.5001,
+      "name": "Liverpool Bay"
+    },
+    "measurements": {
+      "water_temp_c": 8.6,
+      "wave_height_m": 2.5,
+      "wave_period_s": 10.4,
+      "wind": {
+        "speed_ms": 16.7,
+        "direction_deg": 203
+      }
+    },
+    "timestamp": "2024-03-18T09:29:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-21004",
+    "location": {
+      "lat": 28.9992,
+      "lon": 135.0014,
+      "name": "Southeast of Honshu"
+    },
+    "measurements": {
+      "water_temp_c": 18.8,
+      "wave_height_m": 3.2,
+      "wave_period_s": 6.3,
+      "wind": {
+        "speed_ms": 3.1,
+        "direction_deg": 32
+      }
+    },
+    "timestamp": "2024-03-18T12:35:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-22001",
+    "location": {
+      "lat": 34.002,
+      "lon": 145.0028,
+      "name": "Northwest Pacific"
+    },
+    "measurements": {
+      "water_temp_c": 9.2,
+      "wave_height_m": 3.4,
+      "wave_period_s": 13.5,
+      "wind": {
+        "speed_ms": 13.4,
+        "direction_deg": 96
+      }
+    },
+    "timestamp": "2024-03-18T15:55:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55015",
+    "location": {
+      "lat": -34.0005,
+      "lon": 151.3971,
+      "name": "Sydney Offshore"
+    },
+    "measurements": {
+      "water_temp_c": 24.3,
+      "wave_height_m": 4.1,
+      "wave_period_s": 7.4,
+      "wind": {
+        "speed_ms": 7.1,
+        "direction_deg": 71
+      }
+    },
+    "timestamp": "2024-03-18T18:51:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "BOM-55019",
+    "location": {
+      "lat": -27.4993,
+      "lon": 153.5983,
+      "name": "Brisbane Approaches"
+    },
+    "measurements": {
+      "water_temp_c": 25.6,
+      "wave_height_m": 2.2,
+      "wave_period_s": 11.1,
+      "wind": {
+        "speed_ms": 12.1,
+        "direction_deg": 292
+      }
+    },
+    "timestamp": "2024-03-18T21:16:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76923",
+    "location": {
+      "lat": 65.9996,
+      "lon": 2.0012,
+      "name": "Norwegian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 15.9,
+      "wave_height_m": 4.0,
+      "wave_period_s": 13.0,
+      "wind": {
+        "speed_ms": 13.8,
+        "direction_deg": 259
+      }
+    },
+    "timestamp": "2024-03-19T00:43:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76928",
+    "location": {
+      "lat": 73.0001,
+      "lon": 12.9987,
+      "name": "Barents Sea South"
+    },
+    "measurements": {
+      "water_temp_c": 9.6,
+      "wave_height_m": 2.5,
+      "wave_period_s": 11.2,
+      "wind": {
+        "speed_ms": 14.8,
+        "direction_deg": 286
+      }
+    },
+    "timestamp": "2024-03-19T03:11:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BSH-FINO1",
+    "location": {
+      "lat": 54.0132,
+      "lon": 6.5899,
+      "name": "German Bight"
+    },
+    "measurements": {
+      "water_temp_c": 4.3,
+      "wave_height_m": 2.0,
+      "wave_period_s": 11.2,
+      "wind": {
+        "speed_ms": 6.8,
+        "direction_deg": 169
+      }
+    },
+    "timestamp": "2024-03-19T06:41:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "IFREMER-08501",
+    "location": {
+      "lat": 47.5038,
+      "lon": -8.4982,
+      "name": "Bay of Biscay North"
+    },
+    "measurements": {
+      "water_temp_c": 5.1,
+      "wave_height_m": 0.6,
+      "wave_period_s": 10.0,
+      "wind": {
+        "speed_ms": 12.0,
+        "direction_deg": 317
+      }
+    },
+    "timestamp": "2024-03-19T09:54:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "IFREMER-08504",
+    "location": {
+      "lat": 43.5009,
+      "lon": -1.499,
+      "name": "Bay of Biscay South"
+    },
+    "measurements": {
+      "water_temp_c": 24.6,
+      "wave_height_m": 2.1,
+      "wave_period_s": 6.3,
+      "wind": {
+        "speed_ms": 2.0,
+        "direction_deg": 77
+      }
+    },
+    "timestamp": "2024-03-19T12:07:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "CDIP-071",
+    "location": {
+      "lat": 33.221399999999996,
+      "lon": -117.4423,
+      "name": "San Diego Nearshore"
+    },
+    "measurements": {
+      "water_temp_c": 25.2,
+      "wave_height_m": 4.9,
+      "wave_period_s": 4.6,
+      "wind": {
+        "speed_ms": 17.4,
+        "direction_deg": 92
+      }
+    },
+    "timestamp": "2024-03-19T15:36:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "CDIP-073",
+    "location": {
+      "lat": 34.451,
+      "lon": -120.65050000000001,
+      "name": "Santa Barbara Channel"
+    },
+    "measurements": {
+      "water_temp_c": 18.5,
+      "wave_height_m": 0.3,
+      "wave_period_s": 6.0,
+      "wind": {
+        "speed_ms": 15.5,
+        "direction_deg": 86
+      }
+    },
+    "timestamp": "2024-03-19T18:20:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "INCOIS-AD07",
+    "location": {
+      "lat": 15.0025,
+      "lon": 69.0001,
+      "name": "Arabian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 18.0,
+      "wave_height_m": 3.3,
+      "wave_period_s": 7.4,
+      "wind": {
+        "speed_ms": 19.3,
+        "direction_deg": 196
+      }
+    },
+    "timestamp": "2024-03-19T21:08:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-44013",
+    "location": {
+      "lat": 42.344899999999996,
+      "lon": -70.65209999999999,
+      "name": "Boston Harbor"
+    },
+    "measurements": {
+      "water_temp_c": 25.2,
+      "wave_height_m": 3.9,
+      "wave_period_s": 8.8,
+      "wind": {
+        "speed_ms": 1.3,
+        "direction_deg": 2
+      }
+    },
+    "timestamp": "2024-03-20T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-41002",
+    "location": {
+      "lat": 32.308499999999995,
+      "lon": -75.48140000000001,
+      "name": "South Atlantic Bight"
+    },
+    "measurements": {
+      "water_temp_c": 5.4,
+      "wave_height_m": 2.1,
+      "wave_period_s": 9.5,
+      "wind": {
+        "speed_ms": 4.2,
+        "direction_deg": 23
+      }
+    },
+    "timestamp": "2024-03-20T03:19:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-46029",
+    "location": {
+      "lat": 46.1432,
+      "lon": -124.51299999999999,
+      "name": "Columbia River Bar"
+    },
+    "measurements": {
+      "water_temp_c": 15.6,
+      "wave_height_m": 2.3,
+      "wave_period_s": 10.6,
+      "wind": {
+        "speed_ms": 3.5,
+        "direction_deg": 250
+      }
+    },
+    "timestamp": "2024-03-20T06:38:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-51003",
+    "location": {
+      "lat": 19.195,
+      "lon": -160.639,
+      "name": "Western Hawaii"
+    },
+    "measurements": {
+      "water_temp_c": 7.9,
+      "wave_height_m": 3.7,
+      "wave_period_s": 4.4,
+      "wind": {
+        "speed_ms": 14.9,
+        "direction_deg": 301
+      }
+    },
+    "timestamp": "2024-03-20T09:01:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-42001",
+    "location": {
+      "lat": 25.8865,
+      "lon": -89.6605,
+      "name": "Gulf of Mexico Central"
+    },
+    "measurements": {
+      "water_temp_c": 24.8,
+      "wave_height_m": 1.5,
+      "wave_period_s": 8.9,
+      "wind": {
+        "speed_ms": 1.9,
+        "direction_deg": 24
+      }
+    },
+    "timestamp": "2024-03-20T12:24:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62163",
+    "location": {
+      "lat": 58.199600000000004,
+      "lon": -5.101299999999999,
+      "name": "North Minch"
+    },
+    "measurements": {
+      "water_temp_c": 19.9,
+      "wave_height_m": 2.3,
+      "wave_period_s": 7.2,
+      "wind": {
+        "speed_ms": 11.4,
+        "direction_deg": 242
+      }
+    },
+    "timestamp": "2024-03-20T15:03:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62105",
+    "location": {
+      "lat": 50.1025,
+      "lon": -6.097099999999999,
+      "name": "Seven Stones Light"
+    },
+    "measurements": {
+      "water_temp_c": 12.9,
+      "wave_height_m": 0.8,
+      "wave_period_s": 8.7,
+      "wind": {
+        "speed_ms": 12.8,
+        "direction_deg": 358
+      }
+    },
+    "timestamp": "2024-03-20T18:19:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62303",
+    "location": {
+      "lat": 53.4973,
+      "lon": -3.5022,
+      "name": "Liverpool Bay"
+    },
+    "measurements": {
+      "water_temp_c": 20.7,
+      "wave_height_m": 0.9,
+      "wave_period_s": 4.3,
+      "wind": {
+        "speed_ms": 3.0,
+        "direction_deg": 101
+      }
+    },
+    "timestamp": "2024-03-20T21:32:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-21004",
+    "location": {
+      "lat": 28.9991,
+      "lon": 134.9979,
+      "name": "Southeast of Honshu"
+    },
+    "measurements": {
+      "water_temp_c": 11.3,
+      "wave_height_m": 2.2,
+      "wave_period_s": 4.8,
+      "wind": {
+        "speed_ms": 11.4,
+        "direction_deg": 106
+      }
+    },
+    "timestamp": "2024-03-21T00:12:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-22001",
+    "location": {
+      "lat": 34.0005,
+      "lon": 145.0007,
+      "name": "Northwest Pacific"
+    },
+    "measurements": {
+      "water_temp_c": 2.3,
+      "wave_height_m": 0.7,
+      "wave_period_s": 4.2,
+      "wind": {
+        "speed_ms": 11.9,
+        "direction_deg": 252
+      }
+    },
+    "timestamp": "2024-03-21T03:00:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55015",
+    "location": {
+      "lat": -34.0001,
+      "lon": 151.4006,
+      "name": "Sydney Offshore"
+    },
+    "measurements": {
+      "water_temp_c": 20.8,
+      "wave_height_m": 0.8,
+      "wave_period_s": 5.8,
+      "wind": {
+        "speed_ms": 5.4,
+        "direction_deg": 151
+      }
+    },
+    "timestamp": "2024-03-21T06:04:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55019",
+    "location": {
+      "lat": -27.4972,
+      "lon": 153.6019,
+      "name": "Brisbane Approaches"
+    },
+    "measurements": {
+      "water_temp_c": 3.0,
+      "wave_height_m": 1.7,
+      "wave_period_s": 11.8,
+      "wind": {
+        "speed_ms": 6.9,
+        "direction_deg": 59
+      }
+    },
+    "timestamp": "2024-03-21T09:55:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76923",
+    "location": {
+      "lat": 66.0015,
+      "lon": 1.9996,
+      "name": "Norwegian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 24.2,
+      "wave_height_m": 3.4,
+      "wave_period_s": 4.9,
+      "wind": {
+        "speed_ms": 7.8,
+        "direction_deg": 224
+      }
+    },
+    "timestamp": "2024-03-21T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76928",
+    "location": {
+      "lat": 73.0016,
+      "lon": 12.9974,
+      "name": "Barents Sea South"
+    },
+    "measurements": {
+      "water_temp_c": 23.2,
+      "wave_height_m": 1.2,
+      "wave_period_s": 7.4,
+      "wind": {
+        "speed_ms": 19.3,
+        "direction_deg": 139
+      }
+    },
+    "timestamp": "2024-03-21T15:23:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "BSH-FINO1",
+    "location": {
+      "lat": 54.0188,
+      "lon": 6.5876,
+      "name": "German Bight"
+    },
+    "measurements": {
+      "water_temp_c": 13.0,
+      "wave_height_m": 4.5,
+      "wave_period_s": 4.8,
+      "wind": {
+        "speed_ms": 3.5,
+        "direction_deg": 30
+      }
+    },
+    "timestamp": "2024-03-21T18:51:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "IFREMER-08501",
+    "location": {
+      "lat": 47.4986,
+      "lon": -8.4987,
+      "name": "Bay of Biscay North"
+    },
+    "measurements": {
+      "water_temp_c": 25.7,
+      "wave_height_m": 2.6,
+      "wave_period_s": 9.3,
+      "wind": {
+        "speed_ms": 9.3,
+        "direction_deg": 312
+      }
+    },
+    "timestamp": "2024-03-21T21:26:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "IFREMER-08504",
+    "location": {
+      "lat": 43.5016,
+      "lon": -1.4987,
+      "name": "Bay of Biscay South"
+    },
+    "measurements": {
+      "water_temp_c": 19.8,
+      "wave_height_m": 4.2,
+      "wave_period_s": 13.7,
+      "wind": {
+        "speed_ms": 3.5,
+        "direction_deg": 249
+      }
+    },
+    "timestamp": "2024-03-22T00:55:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "CDIP-071",
+    "location": {
+      "lat": 33.2208,
+      "lon": -117.4414,
+      "name": "San Diego Nearshore"
+    },
+    "measurements": {
+      "water_temp_c": 8.8,
+      "wave_height_m": 1.8,
+      "wave_period_s": 10.8,
+      "wind": {
+        "speed_ms": 13.9,
+        "direction_deg": 295
+      }
+    },
+    "timestamp": "2024-03-22T03:04:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "CDIP-073",
+    "location": {
+      "lat": 34.4491,
+      "lon": -120.64970000000001,
+      "name": "Santa Barbara Channel"
+    },
+    "measurements": {
+      "water_temp_c": 15.6,
+      "wave_height_m": 3.6,
+      "wave_period_s": 4.0,
+      "wind": {
+        "speed_ms": 13.6,
+        "direction_deg": 127
+      }
+    },
+    "timestamp": "2024-03-22T06:33:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "INCOIS-AD07",
+    "location": {
+      "lat": 15.0022,
+      "lon": 68.999,
+      "name": "Arabian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 23.8,
+      "wave_height_m": 2.9,
+      "wave_period_s": 13.9,
+      "wind": {
+        "speed_ms": 2.0,
+        "direction_deg": 329
+      }
+    },
+    "timestamp": "2024-03-22T09:09:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "NDBC-44013",
+    "location": {
+      "lat": 42.346599999999995,
+      "lon": -70.6511,
+      "name": "Boston Harbor"
+    },
+    "measurements": {
+      "water_temp_c": 14.9,
+      "wave_height_m": 1.1,
+      "wave_period_s": 11.3,
+      "wind": {
+        "speed_ms": 7.1,
+        "direction_deg": 169
+      }
+    },
+    "timestamp": "2024-03-22T12:54:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-41002",
+    "location": {
+      "lat": 32.305299999999995,
+      "lon": -75.4817,
+      "name": "South Atlantic Bight"
+    },
+    "measurements": {
+      "water_temp_c": 18.7,
+      "wave_height_m": 2.2,
+      "wave_period_s": 5.6,
+      "wind": {
+        "speed_ms": 9.7,
+        "direction_deg": 293
+      }
+    },
+    "timestamp": "2024-03-22T15:35:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "NDBC-46029",
+    "location": {
+      "lat": 46.146499999999996,
+      "lon": -124.51339999999999,
+      "name": "Columbia River Bar"
+    },
+    "measurements": {
+      "water_temp_c": 5.1,
+      "wave_height_m": 2.6,
+      "wave_period_s": 10.2,
+      "wind": {
+        "speed_ms": 3.0,
+        "direction_deg": 211
+      }
+    },
+    "timestamp": "2024-03-22T18:20:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-51003",
+    "location": {
+      "lat": 19.1948,
+      "lon": -160.6408,
+      "name": "Western Hawaii"
+    },
+    "measurements": {
+      "water_temp_c": 17.7,
+      "wave_height_m": 3.2,
+      "wave_period_s": 6.4,
+      "wind": {
+        "speed_ms": 10.7,
+        "direction_deg": 105
+      }
+    },
+    "timestamp": "2024-03-22T21:50:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-42001",
+    "location": {
+      "lat": 25.8854,
+      "lon": -89.65990000000001,
+      "name": "Gulf of Mexico Central"
+    },
+    "measurements": {
+      "water_temp_c": 23.5,
+      "wave_height_m": 4.1,
+      "wave_period_s": 12.3,
+      "wind": {
+        "speed_ms": 7.3,
+        "direction_deg": 317
+      }
+    },
+    "timestamp": "2024-03-23T00:23:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62163",
+    "location": {
+      "lat": 58.2025,
+      "lon": -5.1045,
+      "name": "North Minch"
+    },
+    "measurements": {
+      "water_temp_c": 13.8,
+      "wave_height_m": 0.8,
+      "wave_period_s": 10.2,
+      "wind": {
+        "speed_ms": 1.0,
+        "direction_deg": 181
+      }
+    },
+    "timestamp": "2024-03-23T03:45:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "EMB-62105",
+    "location": {
+      "lat": 50.1014,
+      "lon": -6.103,
+      "name": "Seven Stones Light"
+    },
+    "measurements": {
+      "water_temp_c": 15.6,
+      "wave_height_m": 3.6,
+      "wave_period_s": 3.5,
+      "wind": {
+        "speed_ms": 4.1,
+        "direction_deg": 71
+      }
+    },
+    "timestamp": "2024-03-23T06:35:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62303",
+    "location": {
+      "lat": 53.4966,
+      "lon": -3.4991,
+      "name": "Liverpool Bay"
+    },
+    "measurements": {
+      "water_temp_c": 8.6,
+      "wave_height_m": 1.2,
+      "wave_period_s": 4.3,
+      "wind": {
+        "speed_ms": 17.2,
+        "direction_deg": 110
+      }
+    },
+    "timestamp": "2024-03-23T09:06:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-21004",
+    "location": {
+      "lat": 29.0003,
+      "lon": 134.9978,
+      "name": "Southeast of Honshu"
+    },
+    "measurements": {
+      "water_temp_c": 21.7,
+      "wave_height_m": 0.5,
+      "wave_period_s": 10.0,
+      "wind": {
+        "speed_ms": 13.8,
+        "direction_deg": 63
+      }
+    },
+    "timestamp": "2024-03-23T12:06:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-22001",
+    "location": {
+      "lat": 34.0012,
+      "lon": 144.9981,
+      "name": "Northwest Pacific"
+    },
+    "measurements": {
+      "water_temp_c": 5.5,
+      "wave_height_m": 2.6,
+      "wave_period_s": 8.8,
+      "wind": {
+        "speed_ms": 1.9,
+        "direction_deg": 221
+      }
+    },
+    "timestamp": "2024-03-23T15:32:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55015",
+    "location": {
+      "lat": -33.9977,
+      "lon": 151.4018,
+      "name": "Sydney Offshore"
+    },
+    "measurements": {
+      "water_temp_c": 26.0,
+      "wave_height_m": 1.1,
+      "wave_period_s": 9.4,
+      "wind": {
+        "speed_ms": 14.9,
+        "direction_deg": 65
+      }
+    },
+    "timestamp": "2024-03-23T18:49:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55019",
+    "location": {
+      "lat": -27.4999,
+      "lon": 153.5984,
+      "name": "Brisbane Approaches"
+    },
+    "measurements": {
+      "water_temp_c": 10.4,
+      "wave_height_m": 4.4,
+      "wave_period_s": 7.6,
+      "wind": {
+        "speed_ms": 12.6,
+        "direction_deg": 354
+      }
+    },
+    "timestamp": "2024-03-23T21:56:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76923",
+    "location": {
+      "lat": 65.9991,
+      "lon": 2.003,
+      "name": "Norwegian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 13.8,
+      "wave_height_m": 0.9,
+      "wave_period_s": 7.5,
+      "wind": {
+        "speed_ms": 14.3,
+        "direction_deg": 262
+      }
+    },
+    "timestamp": "2024-03-24T00:18:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76928",
+    "location": {
+      "lat": 72.9983,
+      "lon": 12.9958,
+      "name": "Barents Sea South"
+    },
+    "measurements": {
+      "water_temp_c": 21.2,
+      "wave_height_m": 2.9,
+      "wave_period_s": 5.4,
+      "wind": {
+        "speed_ms": 5.0,
+        "direction_deg": 148
+      }
+    },
+    "timestamp": "2024-03-24T03:45:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BSH-FINO1",
+    "location": {
+      "lat": 54.0142,
+      "lon": 6.5847,
+      "name": "German Bight"
+    },
+    "measurements": {
+      "water_temp_c": 18.9,
+      "wave_height_m": 4.8,
+      "wave_period_s": 8.5,
+      "wind": {
+        "speed_ms": 14.2,
+        "direction_deg": 165
+      }
+    },
+    "timestamp": "2024-03-24T06:45:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "IFREMER-08501",
+    "location": {
+      "lat": 47.4991,
+      "lon": -8.4962,
+      "name": "Bay of Biscay North"
+    },
+    "measurements": {
+      "water_temp_c": 17.2,
+      "wave_height_m": 4.7,
+      "wave_period_s": 10.8,
+      "wind": {
+        "speed_ms": 13.8,
+        "direction_deg": 273
+      }
+    },
+    "timestamp": "2024-03-24T09:30:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "IFREMER-08504",
+    "location": {
+      "lat": 43.5,
+      "lon": -1.5012,
+      "name": "Bay of Biscay South"
+    },
+    "measurements": {
+      "water_temp_c": 4.8,
+      "wave_height_m": 2.1,
+      "wave_period_s": 3.6,
+      "wind": {
+        "speed_ms": 2.1,
+        "direction_deg": 136
+      }
+    },
+    "timestamp": "2024-03-24T12:33:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "CDIP-071",
+    "location": {
+      "lat": 33.224599999999995,
+      "lon": -117.4393,
+      "name": "San Diego Nearshore"
+    },
+    "measurements": {
+      "water_temp_c": 8.5,
+      "wave_height_m": 4.2,
+      "wave_period_s": 10.6,
+      "wind": {
+        "speed_ms": 6.6,
+        "direction_deg": 277
+      }
+    },
+    "timestamp": "2024-03-24T15:43:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "CDIP-073",
+    "location": {
+      "lat": 34.450199999999995,
+      "lon": -120.64850000000001,
+      "name": "Santa Barbara Channel"
+    },
+    "measurements": {
+      "water_temp_c": 24.6,
+      "wave_height_m": 3.8,
+      "wave_period_s": 12.5,
+      "wind": {
+        "speed_ms": 15.1,
+        "direction_deg": 287
+      }
+    },
+    "timestamp": "2024-03-24T18:39:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "INCOIS-AD07",
+    "location": {
+      "lat": 14.999,
+      "lon": 69.0023,
+      "name": "Arabian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 19.3,
+      "wave_height_m": 4.7,
+      "wave_period_s": 7.3,
+      "wind": {
+        "speed_ms": 19.2,
+        "direction_deg": 350
+      }
+    },
+    "timestamp": "2024-03-24T21:44:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-44013",
+    "location": {
+      "lat": 42.348699999999994,
+      "lon": -70.65259999999999,
+      "name": "Boston Harbor"
+    },
+    "measurements": {
+      "water_temp_c": 8.5,
+      "wave_height_m": 3.2,
+      "wave_period_s": 11.6,
+      "wind": {
+        "speed_ms": 17.5,
+        "direction_deg": 115
+      }
+    },
+    "timestamp": "2024-03-25T00:47:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-41002",
+    "location": {
+      "lat": 32.308699999999995,
+      "lon": -75.4818,
+      "name": "South Atlantic Bight"
+    },
+    "measurements": {
+      "water_temp_c": 17.3,
+      "wave_height_m": 3.8,
+      "wave_period_s": 5.2,
+      "wind": {
+        "speed_ms": 14.8,
+        "direction_deg": 99
+      }
+    },
+    "timestamp": "2024-03-25T03:48:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-46029",
+    "location": {
+      "lat": 46.143,
+      "lon": -124.5144,
+      "name": "Columbia River Bar"
+    },
+    "measurements": {
+      "water_temp_c": 27.0,
+      "wave_height_m": 3.8,
+      "wave_period_s": 4.3,
+      "wind": {
+        "speed_ms": 1.8,
+        "direction_deg": 142
+      }
+    },
+    "timestamp": "2024-03-25T06:11:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-51003",
+    "location": {
+      "lat": 19.198400000000003,
+      "lon": -160.64020000000002,
+      "name": "Western Hawaii"
+    },
+    "measurements": {
+      "water_temp_c": 8.6,
+      "wave_height_m": 1.9,
+      "wave_period_s": 10.8,
+      "wind": {
+        "speed_ms": 3.9,
+        "direction_deg": 78
+      }
+    },
+    "timestamp": "2024-03-25T09:54:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "NDBC-42001",
+    "location": {
+      "lat": 25.883000000000003,
+      "lon": -89.6588,
+      "name": "Gulf of Mexico Central"
+    },
+    "measurements": {
+      "water_temp_c": 19.2,
+      "wave_height_m": 2.6,
+      "wave_period_s": 9.3,
+      "wind": {
+        "speed_ms": 7.8,
+        "direction_deg": 162
+      }
+    },
+    "timestamp": "2024-03-25T12:53:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62163",
+    "location": {
+      "lat": 58.2002,
+      "lon": -5.098599999999999,
+      "name": "North Minch"
+    },
+    "measurements": {
+      "water_temp_c": 22.4,
+      "wave_height_m": 1.0,
+      "wave_period_s": 9.0,
+      "wind": {
+        "speed_ms": 8.7,
+        "direction_deg": 178
+      }
+    },
+    "timestamp": "2024-03-25T15:04:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62105",
+    "location": {
+      "lat": 50.1025,
+      "lon": -6.1049999999999995,
+      "name": "Seven Stones Light"
+    },
+    "measurements": {
+      "water_temp_c": 11.4,
+      "wave_height_m": 1.3,
+      "wave_period_s": 11.3,
+      "wind": {
+        "speed_ms": 11.1,
+        "direction_deg": 287
+      }
+    },
+    "timestamp": "2024-03-25T18:21:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "EMB-62303",
+    "location": {
+      "lat": 53.5,
+      "lon": -3.4994,
+      "name": "Liverpool Bay"
+    },
+    "measurements": {
+      "water_temp_c": 19.4,
+      "wave_height_m": 2.4,
+      "wave_period_s": 12.9,
+      "wind": {
+        "speed_ms": 12.7,
+        "direction_deg": 318
+      }
+    },
+    "timestamp": "2024-03-25T21:07:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-21004",
+    "location": {
+      "lat": 29.0024,
+      "lon": 135.0004,
+      "name": "Southeast of Honshu"
+    },
+    "measurements": {
+      "water_temp_c": 25.8,
+      "wave_height_m": 4.7,
+      "wave_period_s": 7.2,
+      "wind": {
+        "speed_ms": 11.3,
+        "direction_deg": 144
+      }
+    },
+    "timestamp": "2024-03-26T00:24:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "JMA-22001",
+    "location": {
+      "lat": 33.9996,
+      "lon": 145.0007,
+      "name": "Northwest Pacific"
+    },
+    "measurements": {
+      "water_temp_c": 22.9,
+      "wave_height_m": 2.4,
+      "wave_period_s": 3.5,
+      "wind": {
+        "speed_ms": 18.1,
+        "direction_deg": 98
+      }
+    },
+    "timestamp": "2024-03-26T03:32:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55015",
+    "location": {
+      "lat": -34.0017,
+      "lon": 151.39700000000002,
+      "name": "Sydney Offshore"
+    },
+    "measurements": {
+      "water_temp_c": 27.3,
+      "wave_height_m": 3.9,
+      "wave_period_s": 8.9,
+      "wind": {
+        "speed_ms": 12.9,
+        "direction_deg": 107
+      }
+    },
+    "timestamp": "2024-03-26T06:10:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BOM-55019",
+    "location": {
+      "lat": -27.5029,
+      "lon": 153.59619999999998,
+      "name": "Brisbane Approaches"
+    },
+    "measurements": {
+      "water_temp_c": 4.7,
+      "wave_height_m": 2.8,
+      "wave_period_s": 10.7,
+      "wind": {
+        "speed_ms": 19.5,
+        "direction_deg": 222
+      }
+    },
+    "timestamp": "2024-03-26T09:53:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76923",
+    "location": {
+      "lat": 65.9976,
+      "lon": 1.9991,
+      "name": "Norwegian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 13.9,
+      "wave_height_m": 1.9,
+      "wave_period_s": 4.0,
+      "wind": {
+        "speed_ms": 2.0,
+        "direction_deg": 128
+      }
+    },
+    "timestamp": "2024-03-26T12:01:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "METNO-76928",
+    "location": {
+      "lat": 72.9992,
+      "lon": 13.0006,
+      "name": "Barents Sea South"
+    },
+    "measurements": {
+      "water_temp_c": 8.7,
+      "wave_height_m": 2.1,
+      "wave_period_s": 9.9,
+      "wind": {
+        "speed_ms": 9.2,
+        "direction_deg": 8
+      }
+    },
+    "timestamp": "2024-03-26T15:58:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "BSH-FINO1",
+    "location": {
+      "lat": 54.0135,
+      "lon": 6.5898,
+      "name": "German Bight"
+    },
+    "measurements": {
+      "water_temp_c": 20.7,
+      "wave_height_m": 0.6,
+      "wave_period_s": 11.2,
+      "wind": {
+        "speed_ms": 1.9,
+        "direction_deg": 37
+      }
+    },
+    "timestamp": "2024-03-26T18:41:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "IFREMER-08501",
+    "location": {
+      "lat": 47.4977,
+      "lon": -8.4982,
+      "name": "Bay of Biscay North"
+    },
+    "measurements": {
+      "water_temp_c": 19.8,
+      "wave_height_m": 3.2,
+      "wave_period_s": 6.1,
+      "wind": {
+        "speed_ms": 18.6,
+        "direction_deg": 195
+      }
+    },
+    "timestamp": "2024-03-26T21:50:00Z",
+    "status": "inactive"
+  },
+  {
+    "buoy_id": "IFREMER-08504",
+    "location": {
+      "lat": 43.4992,
+      "lon": -1.4973,
+      "name": "Bay of Biscay South"
+    },
+    "measurements": {
+      "water_temp_c": 15.9,
+      "wave_height_m": 0.9,
+      "wave_period_s": 7.3,
+      "wind": {
+        "speed_ms": 16.2,
+        "direction_deg": 279
+      }
+    },
+    "timestamp": "2024-03-27T00:10:00Z",
+    "status": "maintenance"
+  },
+  {
+    "buoy_id": "CDIP-071",
+    "location": {
+      "lat": 33.218599999999995,
+      "lon": -117.4408,
+      "name": "San Diego Nearshore"
+    },
+    "measurements": {
+      "water_temp_c": 25.1,
+      "wave_height_m": 4.8,
+      "wave_period_s": 12.5,
+      "wind": {
+        "speed_ms": 13.3,
+        "direction_deg": 5
+      }
+    },
+    "timestamp": "2024-03-27T03:43:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "CDIP-073",
+    "location": {
+      "lat": 34.452799999999996,
+      "lon": -120.6468,
+      "name": "Santa Barbara Channel"
+    },
+    "measurements": {
+      "water_temp_c": 2.1,
+      "wave_height_m": 3.1,
+      "wave_period_s": 8.9,
+      "wind": {
+        "speed_ms": 19.0,
+        "direction_deg": 156
+      }
+    },
+    "timestamp": "2024-03-27T06:02:00Z",
+    "status": "active"
+  },
+  {
+    "buoy_id": "INCOIS-AD07",
+    "location": {
+      "lat": 14.9989,
+      "lon": 68.999,
+      "name": "Arabian Sea"
+    },
+    "measurements": {
+      "water_temp_c": 12.7,
+      "wave_height_m": 3.3,
+      "wave_period_s": 8.6,
+      "wind": {
+        "speed_ms": 4.1,
+        "direction_deg": 113
+      }
+    },
+    "timestamp": "2024-03-27T09:13:00Z",
+    "status": "active"
+  }
+]

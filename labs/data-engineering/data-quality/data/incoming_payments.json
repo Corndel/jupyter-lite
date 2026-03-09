@@ -1,0 +1,2397 @@
+[
+  {
+    "id": "PAY0001",
+    "amount": 452.6,
+    "currency": "USD",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "58853935",
+    "timestamp": "2024-11-09T16:29:09Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0002",
+    "amount": 153.12,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "21515366",
+    "timestamp": "2024-12-10T07:54:10Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0003",
+    "amount": 477.02,
+    "currency": "USD",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "33216014",
+    "timestamp": "2024-12-25T06:00:30Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0004",
+    "amount": "60-83-71",
+    "currency": "USD",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "41611553",
+    "timestamp": "2024-11-02T13:15:39Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0005",
+    "amount": 13.51,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "23154594",
+    "timestamp": "2024-11-03T22:07:38Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0006",
+    "amount": 123.37,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "22759388",
+    "timestamp": "2024-12-11T13:38:35Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0007",
+    "amount": 67.9,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "98424685",
+    "timestamp": "2024-12-05T22:50:47Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0008",
+    "amount": 247.35,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "27997991",
+    "timestamp": "2026-04-21T05:23:05Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0009",
+    "amount": 372.92,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "32660251",
+    "timestamp": "2024-11-09T09:35:49Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0010",
+    "amount": 90.73,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "10348938",
+    "timestamp": "2024-11-15T08:08:32Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0011",
+    "amount": 313.19,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "25122949",
+    "timestamp": "2024-11-17T02:17:06Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0012",
+    "amount": -33.25,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "65624704",
+    "timestamp": "2024-11-28T00:12:31Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0013",
+    "amount": 311.98,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "68614591",
+    "timestamp": "2024-11-06T02:56:54Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0014",
+    "amount": 118.06,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "28877039",
+    "timestamp": "2024-12-29T23:26:24Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0015",
+    "amount": 367.17,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "85833080",
+    "timestamp": "2024-11-22T16:22:54Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0016",
+    "amount": 218.73,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "60109016",
+    "timestamp": "2024-12-13T17:03:43Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0017",
+    "amount": 158.99,
+    "currency": "EUR",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "71794653",
+    "timestamp": "2024-11-22T05:49:50Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0018",
+    "amount": 130.57,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "46595810",
+    "timestamp": "2024-11-16T23:42:01Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0019",
+    "amount": 379.24,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "99271900",
+    "timestamp": "2024-11-26T17:54:59Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0020",
+    "amount": 270.4,
+    "sender_sort_code": "30-12-89",
+    "sender_account": "81384856",
+    "timestamp": "2024-11-08T17:09:47Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0021",
+    "amount": 203.09,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "61830280",
+    "timestamp": "2024-11-23T12:34:05Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0022",
+    "amount": 263.98,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "75526134",
+    "timestamp": "2024-12-22T04:42:55Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0023",
+    "amount": 75.05,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "96417047",
+    "timestamp": "2024-12-13T23:57:38Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0024",
+    "amount": 83.57,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "28663467",
+    "timestamp": "2024-11-26T23:13:37Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0025",
+    "amount": 258.66,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "84653674",
+    "timestamp": "2024-11-05T17:10:48Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0026",
+    "amount": 174.47,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "43738820",
+    "timestamp": "2024-11-09T04:22:24Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0027",
+    "amount": 176.85,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "75114399",
+    "timestamp": "2024-11-01T10:41:36Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0028",
+    "amount": "30-12-89",
+    "currency": "EUR",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "72491314",
+    "timestamp": "2024-11-26T10:55:55Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0029",
+    "amount": 175.37,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "46084834",
+    "timestamp": "2024-12-06T04:09:27Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0030",
+    "amount": 379.05,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "61903356",
+    "timestamp": "2024-11-14T00:22:29Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0031",
+    "amount": 152.96,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "43114608",
+    "timestamp": "2024-11-17T02:48:45Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0032",
+    "amount": 190.23,
+    "currency": "EUR",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "41130147",
+    "timestamp": "2024-12-05T14:31:49Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0033",
+    "amount": 377.98,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "59532326",
+    "timestamp": "2024-12-10T03:00:44Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0034",
+    "amount": 461.44,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "timestamp": "2024-11-16T19:55:31Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0035",
+    "amount": 164.51,
+    "currency": "USD",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "82979983",
+    "timestamp": "2024-11-28T00:40:35Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0036",
+    "amount": 396.89,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "66843546",
+    "timestamp": "2024-11-01T00:45:52Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0037",
+    "amount": 153.87,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "33258437",
+    "timestamp": "2024-12-10T13:30:16Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0038",
+    "amount": 308.25,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "69531427",
+    "timestamp": "2024-11-18T02:46:20Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0039",
+    "amount": 128.91,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "32147889",
+    "timestamp": "2024-12-28T23:54:24Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0040",
+    "amount": 463.2,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "25723764",
+    "timestamp": "2024-12-23T06:57:38Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0041",
+    "amount": 215.36,
+    "currency": "USD",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "10779279",
+    "timestamp": "2024-11-09T00:15:11Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0042",
+    "amount": 91.92,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "85118187",
+    "timestamp": "2024-12-14T11:22:35Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0043",
+    "amount": 499.1,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "10578957",
+    "timestamp": "2024-12-05T19:35:31Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0044",
+    "amount": 61.93,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "57837567",
+    "timestamp": "2024-12-09T19:18:31Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0045",
+    "amount": -103.31,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "46741248",
+    "timestamp": "2024-12-11T17:22:48Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0046",
+    "amount": 82.62,
+    "currency": "EUR",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "38397722",
+    "timestamp": "2024-12-22T22:03:39Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0047",
+    "amount": 161.0,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "27542699",
+    "timestamp": "2024-11-02T08:45:36Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0048",
+    "amount": 282.91,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "32733181",
+    "timestamp": "2024-12-18T21:04:10Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0049",
+    "amount": 395.47,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "72225091",
+    "timestamp": "2024-12-12T11:28:25Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0050",
+    "amount": 395.99,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "38410696",
+    "timestamp": "2024-11-14T22:07:34Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0051",
+    "amount": 7.2,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "50218240",
+    "timestamp": "2024-12-09T22:16:11Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0052",
+    "amount": 120.32,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "96145904",
+    "timestamp": "2024-12-17T07:57:42Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0053",
+    "amount": 29.37,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "75863181",
+    "timestamp": "2024-11-23T18:53:48Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0054",
+    "amount": 11.68,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "29920796",
+    "timestamp": "2024-12-01T14:32:03Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0055",
+    "amount": 85.02,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "88588889",
+    "timestamp": "2024-12-11T11:29:57Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0056",
+    "amount": 46.71,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "53830786",
+    "timestamp": "2024-11-12T04:58:22Z",
+    "merchant": {
+      "name": null,
+      "category": null
+    }
+  },
+  {
+    "id": "PAY0057",
+    "amount": 15.66,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "65921449",
+    "timestamp": "2024-12-05T08:27:17Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0058",
+    "amount": 143.93,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "71299469",
+    "timestamp": "2024-11-07T13:48:45Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0059",
+    "amount": "40-07-23",
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "24761278",
+    "timestamp": "2024-11-15T01:58:56Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0060",
+    "amount": 67.29,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "75545024",
+    "timestamp": "2024-11-21T15:14:12Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0061",
+    "amount": 303.09,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "24183423",
+    "timestamp": "2024-11-26T13:32:43Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0062",
+    "amount": 381.24,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "79945984",
+    "timestamp": "2024-12-12T22:03:16Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0063",
+    "amount": 247.67,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "69268805",
+    "timestamp": "2026-09-25T23:13:55Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0064",
+    "amount": 312.32,
+    "currency": "EUR",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "86099387",
+    "timestamp": "2024-12-24T06:03:58Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0065",
+    "amount": 154.5,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "75082587",
+    "timestamp": "2024-12-11T06:57:39Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0066",
+    "amount": 492.52,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "16927393",
+    "timestamp": "2024-12-07T00:16:36Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0067",
+    "amount": 186.42,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "96464447",
+    "timestamp": "2024-11-14T03:16:58Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0068",
+    "amount": 314.63,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "56886451",
+    "timestamp": "2024-11-29T05:05:54Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0069",
+    "amount": 377.88,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "45662493",
+    "timestamp": "2024-11-06T04:47:09Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0070",
+    "amount": 127.56,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "81548855",
+    "timestamp": "2024-12-26T18:12:51Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0071",
+    "amount": 235.81,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "99484103",
+    "timestamp": "2024-11-23T12:33:05Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0072",
+    "amount": 429.84,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "56016483",
+    "timestamp": "2024-12-30T21:35:40Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0073",
+    "amount": 132.11,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "80052669",
+    "timestamp": "2024-12-13T13:38:14Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0074",
+    "amount": 356.43,
+    "currency": "EUR",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "93746679",
+    "timestamp": "2024-11-20T12:20:53Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0075",
+    "amount": 106.62,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "55070639",
+    "timestamp": "2024-11-24T15:14:19Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0076",
+    "amount": 64.39,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "66780441",
+    "timestamp": "2024-11-14T09:09:40Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0077",
+    "amount": 495.65,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "70471936",
+    "timestamp": "2024-12-15T16:02:14Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0078",
+    "amount": 413.76,
+    "sender_sort_code": "20-45-67",
+    "sender_account": "86077521",
+    "timestamp": "2024-11-01T06:54:43Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0079",
+    "amount": 140.48,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "43288211",
+    "timestamp": "2024-11-17T06:47:03Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0080",
+    "amount": 136.43,
+    "currency": "USD",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "61598472",
+    "timestamp": "2024-12-26T04:21:23Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0081",
+    "amount": 291.74,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "20776680",
+    "timestamp": "2024-12-01T00:50:33Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0082",
+    "amount": 301.07,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "53720160",
+    "timestamp": "2024-11-21T18:45:03Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0083",
+    "amount": 449.62,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "63781826",
+    "timestamp": "2024-11-17T04:23:40Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0084",
+    "amount": 487.46,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "44435716",
+    "timestamp": "2024-11-18T00:25:36Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0085",
+    "amount": 439.82,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "16631274",
+    "timestamp": "2024-11-03T00:10:52Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0086",
+    "amount": 308.55,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "65888148",
+    "timestamp": "2024-11-06T14:28:35Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0087",
+    "amount": 47.45,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "38983728",
+    "timestamp": "2024-11-29T05:43:08Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0088",
+    "amount": 13.52,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "62258608",
+    "timestamp": "2024-12-25T22:19:42Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0089",
+    "amount": 6.44,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "16467218",
+    "timestamp": "2024-12-04T20:03:12Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0090",
+    "amount": -108.02,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "86085656",
+    "timestamp": "2024-11-17T16:26:54Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0091",
+    "amount": 33.41,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "60400063",
+    "timestamp": "2024-11-07T06:33:45Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0092",
+    "amount": 13.74,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "60445291",
+    "timestamp": "2024-12-19T06:24:00Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0093",
+    "amount": 272.45,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "91243219",
+    "timestamp": "2024-11-20T16:33:03Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0094",
+    "amount": 346.84,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "48829636",
+    "timestamp": "2024-12-13T18:25:36Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0095",
+    "amount": 264.99,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "89718573",
+    "timestamp": "2024-12-23T01:30:22Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0096",
+    "amount": 442.77,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "61702813",
+    "timestamp": "2024-12-28T20:58:50Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0097",
+    "amount": 385.64,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "72038497",
+    "timestamp": "2024-11-25T14:52:00Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0098",
+    "amount": 237.14,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "78983668",
+    "timestamp": "2024-12-26T08:23:10Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0099",
+    "amount": 34.17,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "60451460",
+    "timestamp": "2024-12-06T21:26:25Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0100",
+    "amount": 247.81,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "timestamp": "2024-12-17T14:10:37Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0101",
+    "amount": 128.54,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "72308679",
+    "timestamp": "2024-12-14T02:26:10Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0102",
+    "amount": 325.18,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "55018869",
+    "timestamp": "2024-12-14T00:05:46Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0103",
+    "amount": 370.17,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "97278989",
+    "timestamp": "2024-11-28T19:14:38Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0104",
+    "amount": 19.59,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "58667774",
+    "timestamp": "2024-12-30T20:22:52Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0105",
+    "amount": 197.57,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "51749519",
+    "timestamp": "2024-11-27T02:01:10Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0106",
+    "amount": 471.68,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "18200490",
+    "timestamp": "2024-12-19T06:26:43Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0107",
+    "amount": 161.21,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "91640064",
+    "timestamp": "2024-11-06T13:08:49Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0108",
+    "amount": 274.81,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "44443356",
+    "timestamp": "2024-12-18T20:17:34Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0109",
+    "amount": 299.57,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "86259548",
+    "timestamp": "2024-11-04T19:49:25Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0110",
+    "amount": 493.25,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "92581312",
+    "timestamp": "2024-12-10T13:19:33Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0111",
+    "amount": 155.24,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "13765010",
+    "timestamp": "2024-12-09T16:37:06Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0112",
+    "amount": 326.34,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "86700721",
+    "timestamp": "2024-12-26T10:00:53Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0113",
+    "amount": "60-83-71",
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "24700338",
+    "timestamp": "2024-12-25T04:41:57Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0114",
+    "amount": 450.84,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "39137582",
+    "timestamp": "2024-11-24T10:08:20Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0115",
+    "amount": 80.11,
+    "currency": "EUR",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "75238729",
+    "timestamp": "2024-11-16T09:44:05Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0116",
+    "amount": 56.37,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "34392190",
+    "timestamp": "2024-12-29T14:42:45Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0117",
+    "amount": 205.17,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "74534089",
+    "timestamp": "2024-12-25T03:10:50Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0118",
+    "amount": 142.34,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "18818225",
+    "timestamp": "2024-12-16T10:13:51Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0119",
+    "amount": 115.75,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "68742024",
+    "timestamp": "2024-11-03T13:22:25Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0120",
+    "amount": 286.57,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "66574070",
+    "timestamp": "2024-12-30T12:11:04Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0121",
+    "amount": 89.81,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "26074216",
+    "timestamp": "2024-12-22T09:25:27Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0122",
+    "amount": 94.2,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "96723170",
+    "timestamp": "2024-11-26T04:06:28Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0123",
+    "amount": 430.28,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "71889453",
+    "timestamp": "2024-11-21T14:22:07Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0124",
+    "amount": 397.52,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "19037643",
+    "timestamp": "2024-11-27T01:49:43Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0125",
+    "amount": 413.41,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "55025538",
+    "timestamp": "2024-12-26T05:24:35Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0126",
+    "amount": 105.12,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "21037085",
+    "timestamp": "2024-12-17T11:29:00Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0127",
+    "amount": 87.21,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "96388307",
+    "timestamp": "2024-12-22T17:37:33Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0128",
+    "amount": 202.53,
+    "currency": "EUR",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "15783301",
+    "timestamp": "2024-12-15T01:16:19Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0129",
+    "amount": 462.43,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "70822689",
+    "timestamp": "2024-12-30T08:19:30Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0130",
+    "amount": 381.29,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "39538723",
+    "timestamp": "2024-11-21T09:46:31Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0131",
+    "amount": 425.82,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "78060162",
+    "timestamp": "2026-08-31T22:47:48Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0132",
+    "amount": 344.79,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "71839901",
+    "timestamp": "2024-12-17T14:22:27Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0133",
+    "amount": 192.46,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "82870353",
+    "timestamp": "2024-12-04T18:18:20Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0134",
+    "amount": 435.89,
+    "currency": "EUR",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "56254397",
+    "timestamp": "2024-12-06T05:10:26Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0135",
+    "amount": 36.25,
+    "currency": "USD",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "58834294",
+    "timestamp": "2024-11-24T00:57:26Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0136",
+    "amount": 497.4,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "38083607",
+    "timestamp": "2024-11-10T15:48:55Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0137",
+    "amount": 6.55,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "84099045",
+    "timestamp": "2024-12-01T17:07:51Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0138",
+    "amount": 135.11,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "54883494",
+    "timestamp": "2024-12-19T17:57:15Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0139",
+    "amount": 93.31,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "27964277",
+    "timestamp": "2024-12-03T16:25:12Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0140",
+    "amount": 428.17,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "36176623",
+    "timestamp": "2024-11-05T16:15:06Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0141",
+    "amount": 496.92,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "19715625",
+    "timestamp": "2024-12-13T13:09:16Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0142",
+    "amount": 197.17,
+    "currency": "EUR",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "73545375",
+    "timestamp": "2024-12-05T21:57:33Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0143",
+    "amount": 208.43,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "30205498",
+    "timestamp": "2024-12-20T23:55:54Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0144",
+    "amount": 72.49,
+    "currency": "USD",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "75163811",
+    "timestamp": "2024-11-14T16:32:33Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0145",
+    "amount": 317.87,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "74365434",
+    "timestamp": "2024-12-29T02:06:51Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0146",
+    "amount": 361.95,
+    "sender_sort_code": "40-07-23",
+    "sender_account": "61086917",
+    "timestamp": "2024-11-11T08:43:07Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0147",
+    "amount": 149.81,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "16349546",
+    "timestamp": "2024-11-11T16:41:58Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0148",
+    "amount": 495.71,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "70411843",
+    "timestamp": "2024-11-19T16:00:13Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0149",
+    "amount": 400.72,
+    "currency": "EUR",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "98861366",
+    "timestamp": "2024-12-28T08:48:53Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0150",
+    "amount": 373.13,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "21337856",
+    "timestamp": "2024-12-26T01:41:30Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0151",
+    "amount": -93.97,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "19222194",
+    "timestamp": "2024-12-07T19:35:42Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0152",
+    "amount": 32.5,
+    "currency": "EUR",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "92614210",
+    "timestamp": "2024-12-19T17:03:16Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0153",
+    "amount": 28.5,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "94631534",
+    "timestamp": "2024-12-28T01:43:36Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0154",
+    "amount": 418.3,
+    "currency": "USD",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "22540266",
+    "timestamp": "2024-12-22T18:50:50Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0155",
+    "amount": 24.86,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "20087808",
+    "timestamp": "2024-12-23T02:29:56Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0156",
+    "amount": 28.79,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "45220074",
+    "timestamp": "2024-11-20T21:25:27Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0157",
+    "amount": 449.75,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "51787337",
+    "timestamp": "2024-12-03T02:10:26Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0158",
+    "amount": 104.12,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "56492875",
+    "timestamp": "2024-12-21T12:16:57Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0159",
+    "amount": 318.29,
+    "currency": "EUR",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "38260831",
+    "timestamp": "2024-11-09T03:03:26Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0160",
+    "amount": 302.21,
+    "currency": "EUR",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "40882998",
+    "timestamp": "2024-11-10T23:47:43Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0161",
+    "amount": 266.76,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "34344975",
+    "timestamp": "2024-12-03T15:55:34Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0162",
+    "amount": 409.47,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "75997038",
+    "timestamp": "2024-12-13T15:38:02Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0163",
+    "amount": 160.66,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "72095994",
+    "timestamp": "2024-11-13T19:12:26Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0164",
+    "amount": 285.58,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "90010183",
+    "timestamp": "2024-11-16T09:05:19Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0165",
+    "amount": 386.75,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "19787667",
+    "timestamp": "2024-11-21T13:11:54Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0166",
+    "amount": 293.07,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "44785156",
+    "timestamp": "2024-12-11T19:48:52Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0167",
+    "amount": 364.9,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "20230008",
+    "timestamp": "2024-11-16T22:07:30Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0168",
+    "amount": "40-07-23",
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "83032104",
+    "timestamp": "2024-11-10T19:13:48Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0169",
+    "amount": 229.78,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "95141564",
+    "timestamp": "2024-12-19T06:14:18Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0170",
+    "amount": 180.78,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "81922965",
+    "timestamp": "2024-12-10T21:23:13Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0171",
+    "amount": 44.79,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "51659749",
+    "timestamp": "2024-11-16T17:57:55Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0172",
+    "amount": 74.52,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "94466056",
+    "timestamp": "2024-12-15T13:49:50Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0173",
+    "amount": 360.36,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "44456934",
+    "timestamp": "2024-11-29T18:41:40Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0174",
+    "amount": 120.98,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "37243675",
+    "timestamp": "2024-12-03T02:30:30Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0175",
+    "amount": 201.3,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "64119306",
+    "timestamp": "2024-12-27T12:13:45Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0176",
+    "amount": 135.65,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "38395332",
+    "timestamp": "2024-12-15T09:17:44Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0177",
+    "amount": 223.54,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "54970801",
+    "timestamp": "2024-12-21T07:57:53Z",
+    "merchant": {
+      "name": "Nando's",
+      "category": "dining"
+    }
+  },
+  {
+    "id": "PAY0178",
+    "amount": 321.08,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "65466469",
+    "timestamp": "2024-12-11T00:46:39Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0179",
+    "amount": 18.06,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "93242970",
+    "timestamp": "2024-12-22T04:13:43Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0180",
+    "amount": 281.86,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "38703415",
+    "timestamp": "2024-11-10T15:41:45Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0181",
+    "amount": 62.3,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "56125422",
+    "timestamp": "2024-12-06T23:05:56Z",
+    "merchant": {
+      "name": null,
+      "category": null
+    }
+  },
+  {
+    "id": "PAY0182",
+    "amount": 467.75,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "35542074",
+    "timestamp": "2024-12-04T20:46:56Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0183",
+    "amount": 163.63,
+    "currency": "EUR",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "78462439",
+    "timestamp": "2024-11-27T13:04:24Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0184",
+    "amount": 321.09,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "77157526",
+    "timestamp": "2024-11-20T07:27:19Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0185",
+    "amount": 257.17,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "58754131",
+    "timestamp": "2024-11-21T17:50:07Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0186",
+    "amount": 233.0,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "45584076",
+    "timestamp": "2024-12-01T03:12:23Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0187",
+    "amount": 40.34,
+    "currency": "GBP",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "95174635",
+    "timestamp": "2024-12-27T02:01:50Z",
+    "merchant": {
+      "name": "Boots",
+      "category": "healthcare"
+    }
+  },
+  {
+    "id": "PAY0188",
+    "amount": 92.69,
+    "currency": "EUR",
+    "sender_sort_code": "11-22-33",
+    "sender_account": "31750910",
+    "timestamp": "2024-11-14T19:15:45Z",
+    "merchant": {
+      "name": "Ryanair",
+      "category": "travel"
+    }
+  },
+  {
+    "id": "PAY0189",
+    "amount": 436.51,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "26525870",
+    "timestamp": "2024-11-25T13:43:47Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0190",
+    "amount": 303.26,
+    "currency": "GBP",
+    "sender_sort_code": "40-07-23",
+    "sender_account": "21178113",
+    "timestamp": "2024-11-21T13:51:11Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0191",
+    "amount": 195.54,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "19353583",
+    "timestamp": "2024-11-13T17:53:52Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0192",
+    "amount": 145.54,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "45112659",
+    "timestamp": "2024-12-18T23:35:18Z",
+    "merchant": {
+      "name": "TfL",
+      "category": "transport"
+    }
+  },
+  {
+    "id": "PAY0193",
+    "amount": 41.33,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "26792376",
+    "timestamp": "2024-12-08T00:34:48Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0194",
+    "amount": 54.57,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "96845012",
+    "timestamp": "2024-11-05T17:37:09Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0195",
+    "amount": 279.07,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "58035383",
+    "timestamp": "2024-12-02T05:22:37Z",
+    "merchant": {
+      "name": "Shell",
+      "category": "fuel"
+    }
+  },
+  {
+    "id": "PAY0196",
+    "amount": 461.58,
+    "currency": "GBP",
+    "sender_sort_code": "30-12-89",
+    "sender_account": "13194488",
+    "timestamp": "2024-11-10T02:12:51Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0197",
+    "amount": 405.66,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "32135304",
+    "timestamp": "2024-11-26T14:28:55Z",
+    "merchant": {
+      "name": "Netflix",
+      "category": "subscriptions"
+    }
+  },
+  {
+    "id": "PAY0198",
+    "amount": 204.91,
+    "currency": "EUR",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "68877011",
+    "timestamp": "2024-12-02T19:55:00Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  },
+  {
+    "id": "PAY0199",
+    "amount": 355.21,
+    "currency": "GBP",
+    "sender_sort_code": "60-83-71",
+    "sender_account": "31327804",
+    "timestamp": "2024-11-27T21:38:52Z",
+    "merchant": {
+      "name": "Amazon",
+      "category": "retail"
+    }
+  },
+  {
+    "id": "PAY0200",
+    "amount": 472.8,
+    "currency": "GBP",
+    "sender_sort_code": "20-45-67",
+    "sender_account": "12468271",
+    "timestamp": "2024-12-10T19:02:19Z",
+    "merchant": {
+      "name": "Tesco",
+      "category": "groceries"
+    }
+  }
+]

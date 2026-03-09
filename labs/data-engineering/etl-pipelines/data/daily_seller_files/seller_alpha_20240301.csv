@@ -1,0 +1,22 @@
+product_id,product_name,price,currency,category,stock_quantity,last_updated
+ALP-P001,Classic Silk Cushion,39.43,GBP,kitchen,104,01/03/2024
+ALP-P002,Handmade Linen Tablecloth,38.89,GBP,jewellery,157,01/03/2024
+ALP-P003,Luxury Cotton Scarf,12.74,GBP,jewellery,115,01/03/2024
+ALP-P004,Luxury Denim Apron,7.62,GBP,home,129,01/03/2024
+ALP-P005,Classic Stone Mortar,89.22,GBP,accessories,74,01/03/2024
+ALP-P006,Premium Stone Mortar,31.36,GBP,home,182,01/03/2024
+ALP-P007,Modern Wool Blanket,89.52,GBP,kitchen,103,01/03/2024
+ALP-P008,Natural Denim Apron,88.05,GBP,stationery,196,01/03/2024
+ALP-P009,Natural Stone Mortar,122.17,GBP,fashion,141,01/03/2024
+ALP-P010,Bespoke Wicker Basket,115.13,GBP,garden,22,01/03/2024
+ALP-P011,Elegant Silk Cushion,26.05,GBP,jewellery,148,01/03/2024
+ALP-P012,Rustic Enamel Pin,143.03,GBP,decor,37,01/03/2024
+ALP-P013,Classic Stone Mortar,19.93,GBP,home,197,01/03/2024
+ALP-P014,Elegant Silk Cushion,87.57,GBP,decor,44,01/03/2024
+ALP-P015,Artisan Cotton Scarf,31.82,GBP,decor,75,01/03/2024
+ALP-P016,Organic Tin Candle,145.52,GBP,stationery,144,01/03/2024
+ALP-P017,Elegant Leather Wallet,64.13,GBP,home,142,01/03/2024
+ALP-P018,Modern Glass Vase,62.71,GBP,accessories,117,01/03/2024
+ALP-P019,Rustic Ceramic Mug,98.08,GBP,kitchen,191,01/03/2024
+ALP-P020,Artisan Silk Cushion,86.44,GBP,decor,133,01/03/2024
+ALP-P021,Natural Brass Candleholder,52.24,GBP,jewellery,166,01/03/2024
