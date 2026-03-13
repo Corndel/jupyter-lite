@@ -1,0 +1,5 @@
+{
+  "title": "Toxic Content Detection",
+  "description": "Classify text comments using NLP techniques and balance precision and recall with F1",
+  "order": 5
+}

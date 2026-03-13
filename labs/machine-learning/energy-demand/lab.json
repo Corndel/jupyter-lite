@@ -1,0 +1,5 @@
+{
+  "title": "National Energy Demand Forecasting",
+  "description": "Forecast power demand with time series data, mixed features, and gradient boosting",
+  "order": 6
+}

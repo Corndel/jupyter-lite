@@ -1,0 +1,5 @@
+{
+  "title": "Object Detection for Autonomous Vehicles",
+  "description": "Evaluate a pretrained object detection model on dashcam imagery",
+  "order": 1
+}
