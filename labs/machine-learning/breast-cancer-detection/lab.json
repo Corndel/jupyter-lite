@@ -1,5 +1,6 @@
 {
   "title": "Breast Cancer Detection",
   "description": "Build a binary classifier and learn why recall matters in medical screening",
-  "order": 3
+  "order": 3,
+  "programme": "Machine Learning Level 6"
 }
