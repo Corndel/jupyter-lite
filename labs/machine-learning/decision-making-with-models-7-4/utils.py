@@ -281,16 +281,20 @@ def validate_recommendation(path="recommendation.md", sections=None, min_words=N
     current_head = None
     in_fence     = False
     fence_lines  = []
-    body_lines   = []
 
     for line in text.splitlines():
         stripped = line.strip()
 
+        # Toggle fence state — only content inside fences counts as an answer
         if stripped.startswith("```"):
             if in_fence:
                 in_fence = False
                 if current_head is not None:
-                    body_lines.extend(fence_lines)
+                    # Save fence content against the current section
+                    raw_sections.append(
+                        (current_num, current_head,
+                         " ".join(fence_lines).strip())
+                    )
                 fence_lines = []
             else:
                 in_fence = True
@@ -300,28 +304,19 @@ def validate_recommendation(path="recommendation.md", sections=None, min_words=N
             fence_lines.append(stripped)
             continue
 
+        # Outside fences: only look for new section headings
         if stripped.startswith("## "):
-            if current_head is not None:
-                raw_sections.append(
-                    (current_num, current_head, " ".join(body_lines).strip())
-                )
             heading_text = stripped[3:].strip()
             try:
                 current_num = int(heading_text.split(".")[0].strip())
             except ValueError:
                 current_num = None
             current_head = heading_text
-            body_lines   = []
+            # Note: we do NOT reset fence_lines here — a section has exactly
+            # one fence block. If somehow there are two, the second wins.
 
-        elif current_head is not None and stripped:
-            if not (stripped.startswith("*") or stripped.startswith("_")
-                    or stripped == "---"):
-                body_lines.append(stripped)
-
-    if current_head is not None:
-        raw_sections.append(
-            (current_num, current_head, " ".join(body_lines).strip())
-        )
+        # Everything else outside a fence (guidance text, blank lines, ---) 
+        # is deliberately ignored — it must not be counted as answer content.
 
     raw_sections = [(n, h, b) for n, h, b in raw_sections if n is not None]
 
