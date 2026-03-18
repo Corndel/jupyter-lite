@@ -252,7 +252,7 @@ def check_response(label, text, min_words):
 
 # ── ✅ Recommendation validator ───────────────────────────────────────────────
 
-def validate_recommendation(path="recommendation.md", sections=None, min_words=15):
+def validate_recommendation(path="recommendation.md", sections=None, min_words=None):
     """
     Check that specified sections of recommendation.md have been filled in.
 
@@ -261,12 +261,18 @@ def validate_recommendation(path="recommendation.md", sections=None, min_words=1
 
     Parameters
     ----------
-    path      : str       — path to the recommendation file
-    sections  : list[int] — section numbers to check (1-indexed). None = all.
-    min_words : int       — minimum word count required per section answer.
+    path      : str            — path to the recommendation file
+    sections  : list[int]      — section numbers to check (1-indexed). None = all.
+    min_words : int or dict    — minimum word count per section. Pass a single int
+                                 to apply the same minimum to all sections, or a
+                                 dict mapping section number to minimum, e.g.
+                                 {1: 6, 2: 10, 3: 10, 4: 12, 5: 12}.
+                                 Defaults to 15 if not specified.
 
     Raises ValueError if any required section is missing, untouched, or brief.
     """
+    if min_words is None:
+        min_words = 15
     with open(path, encoding="utf-8") as f:
         text = f.read()
 
@@ -353,11 +359,17 @@ def validate_recommendation(path="recommendation.md", sections=None, min_words=1
             )
             continue
 
+        # Resolve per-section minimum
+        if isinstance(min_words, dict):
+            section_min = min_words.get(num, 15)
+        else:
+            section_min = min_words
+
         word_count = len(answer.split())
-        if word_count < min_words:
+        if word_count < section_min:
             problems.append(
                 f"\n  Section {num}: {word_count} word(s) — aim for at "
-                f"least {min_words}. Be more specific."
+                f"least {section_min}. Be more specific."
             )
         else:
             print(f"  ✓  Section {num}: {word_count} words")
