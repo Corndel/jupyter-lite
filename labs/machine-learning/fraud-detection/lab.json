@@ -1,5 +1,6 @@
 {
   "title": "Fraud Detection",
   "description": "Build a classifier for heavily imbalanced transaction data and learn why precision matters",
-  "order": 4
+  "order": 4,
+  "programme": "Machine Learning Level 6"
 }

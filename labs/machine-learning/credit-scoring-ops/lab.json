@@ -1,5 +1,6 @@
 {
   "title": "Credit Scoring Model Operations",
   "description": "Inherit, monitor, evaluate, and maintain a deployed credit scoring model",
-  "order": 8
+  "order": 8,
+  "programme": "Machine Learning Level 6"
 }

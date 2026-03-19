@@ -1,5 +1,6 @@
 {
   "title": "Object Detection for Autonomous Vehicles",
   "description": "Evaluate a pretrained object detection model on dashcam imagery",
-  "order": 1
+  "order": 1,
+  "programme": "Machine Learning Level 6"
 }
