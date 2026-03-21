@@ -1,0 +1,1501 @@
+country,year,source,generation_twh,pct_of_total
+UK,2000,coal,112.87,33.3
+UK,2000,gas,142.55,42.06
+UK,2000,nuclear,77.61,22.9
+UK,2000,solar,0.1,0.03
+UK,2000,wind,0.99,0.29
+UK,2000,hydro,4.78,1.41
+UK,2001,coal,98.12,30.37
+UK,2001,gas,141.21,43.71
+UK,2001,nuclear,77.43,23.97
+UK,2001,solar,0.14,0.04
+UK,2001,wind,1.2,0.37
+UK,2001,hydro,4.94,1.53
+UK,2002,coal,86.21,27.19
+UK,2002,gas,147.16,46.41
+UK,2002,nuclear,76.73,24.2
+UK,2002,solar,0.18,0.06
+UK,2002,wind,1.39,0.44
+UK,2002,hydro,5.39,1.7
+UK,2003,coal,70.77,23.43
+UK,2003,gas,147.25,48.76
+UK,2003,nuclear,76.91,25.47
+UK,2003,solar,0.25,0.08
+UK,2003,wind,1.74,0.58
+UK,2003,hydro,5.07,1.68
+UK,2004,coal,70.4,23.53
+UK,2004,gas,143.75,48.05
+UK,2004,nuclear,77.66,25.96
+UK,2004,solar,0.33,0.11
+UK,2004,wind,1.9,0.64
+UK,2004,hydro,5.11,1.71
+UK,2005,coal,57.56,20.2
+UK,2005,gas,148.04,51.94
+UK,2005,nuclear,71.27,25.01
+UK,2005,solar,0.48,0.17
+UK,2005,wind,2.28,0.8
+UK,2005,hydro,5.39,1.89
+UK,2006,coal,49.54,17.07
+UK,2006,gas,149.92,51.67
+UK,2006,nuclear,82.47,28.42
+UK,2006,solar,0.59,0.2
+UK,2006,wind,2.58,0.89
+UK,2006,hydro,5.07,1.75
+UK,2007,coal,45.59,15.98
+UK,2007,gas,153.22,53.72
+UK,2007,nuclear,77.45,27.16
+UK,2007,solar,0.81,0.28
+UK,2007,wind,3.03,1.06
+UK,2007,hydro,5.11,1.79
+UK,2008,coal,41.03,14.93
+UK,2008,gas,153.72,55.94
+UK,2008,nuclear,69.49,25.29
+UK,2008,solar,1.1,0.4
+UK,2008,wind,3.92,1.43
+UK,2008,hydro,5.54,2.02
+UK,2009,coal,35.4,13.04
+UK,2009,gas,154.54,56.92
+UK,2009,nuclear,70.36,25.92
+UK,2009,solar,1.45,0.53
+UK,2009,wind,4.44,1.64
+UK,2009,hydro,5.31,1.96
+UK,2010,coal,31.17,11.73
+UK,2010,gas,152.43,57.34
+UK,2010,nuclear,69.85,26.28
+UK,2010,solar,1.96,0.74
+UK,2010,wind,5.05,1.9
+UK,2010,hydro,5.36,2.02
+UK,2011,coal,25.09,9.4
+UK,2011,gas,154.63,57.96
+UK,2011,nuclear,72.59,27.21
+UK,2011,solar,2.84,1.06
+UK,2011,wind,6.19,2.32
+UK,2011,hydro,5.44,2.04
+UK,2012,coal,23.44,8.88
+UK,2012,gas,154.23,58.45
+UK,2012,nuclear,69.48,26.33
+UK,2012,solar,3.83,1.45
+UK,2012,wind,7.5,2.84
+UK,2012,hydro,5.39,2.04
+UK,2013,coal,22.96,8.41
+UK,2013,gas,159.18,58.33
+UK,2013,nuclear,71.51,26.2
+UK,2013,solar,4.99,1.83
+UK,2013,wind,8.54,3.13
+UK,2013,hydro,5.71,2.09
+UK,2014,coal,19.2,7.26
+UK,2014,gas,154.17,58.32
+UK,2014,nuclear,68.67,25.98
+UK,2014,solar,6.76,2.56
+UK,2014,wind,10.39,3.93
+UK,2014,hydro,5.14,1.94
+UK,2015,coal,15.07,5.72
+UK,2015,gas,153.24,58.2
+UK,2015,nuclear,68.66,26.07
+UK,2015,solar,8.99,3.41
+UK,2015,wind,12.1,4.6
+UK,2015,hydro,5.26,2.0
+UK,2016,coal,13.7,4.38
+UK,2016,gas,154.2,49.3
+UK,2016,nuclear,68.79,21.99
+UK,2016,solar,40.79,13.04
+UK,2016,wind,29.77,9.52
+UK,2016,hydro,5.54,1.77
+UK,2017,coal,12.45,3.56
+UK,2017,gas,172.51,49.27
+UK,2017,nuclear,67.16,19.18
+UK,2017,solar,57.54,16.43
+UK,2017,wind,35.12,10.03
+UK,2017,hydro,5.35,1.53
+UK,2018,coal,10.3,2.72
+UK,2018,gas,168.25,44.4
+UK,2018,nuclear,67.26,17.75
+UK,2018,solar,84.49,22.3
+UK,2018,wind,43.08,11.37
+UK,2018,hydro,5.53,1.46
+UK,2019,coal,10.19,2.39
+UK,2019,gas,169.33,39.73
+UK,2019,nuclear,65.09,15.27
+UK,2019,solar,122.07,28.64
+UK,2019,wind,54.21,12.72
+UK,2019,hydro,5.29,1.24
+UK,2020,coal,8.5,1.67
+UK,2020,gas,171.14,33.61
+UK,2020,nuclear,69.05,13.56
+UK,2020,solar,185.94,36.52
+UK,2020,wind,69.11,13.57
+UK,2020,hydro,5.41,1.06
+UK,2021,coal,7.66,1.29
+UK,2021,gas,166.64,28.11
+UK,2021,nuclear,65.38,11.03
+UK,2021,solar,266.41,44.94
+UK,2021,wind,80.82,13.63
+UK,2021,hydro,5.89,0.99
+UK,2022,coal,6.72,0.93
+UK,2022,gas,164.31,22.75
+UK,2022,nuclear,65.19,9.03
+UK,2022,solar,378.13,52.37
+UK,2022,wind,102.08,14.14
+UK,2022,hydro,5.66,0.78
+UK,2023,coal,5.88,0.63
+UK,2023,gas,165.24,17.6
+UK,2023,nuclear,61.28,6.53
+UK,2023,solar,569.9,60.69
+UK,2023,wind,130.88,13.94
+UK,2023,hydro,5.93,0.63
+UK,2024,coal,5.39,0.46
+UK,2024,gas,166.8,14.27
+UK,2024,nuclear,64.31,5.5
+UK,2024,solar,763.83,65.34
+UK,2024,wind,162.96,13.94
+UK,2024,hydro,5.68,0.49
+Germany,2000,coal,144.86,33.56
+Germany,2000,gas,84.82,19.65
+Germany,2000,nuclear,173.28,40.14
+Germany,2000,solar,0.09,0.02
+Germany,2000,wind,9.08,2.1
+Germany,2000,hydro,19.56,4.53
+Germany,2001,coal,141.47,33.99
+Germany,2001,gas,80.46,19.33
+Germany,2001,nuclear,162.84,39.12
+Germany,2001,solar,0.12,0.03
+Germany,2001,wind,10.18,2.45
+Germany,2001,hydro,21.19,5.09
+Germany,2002,coal,129.25,33.17
+Germany,2002,gas,83.76,21.49
+Germany,2002,nuclear,144.76,37.15
+Germany,2002,solar,0.17,0.04
+Germany,2002,wind,11.51,2.95
+Germany,2002,hydro,20.26,5.2
+Germany,2003,coal,121.06,31.99
+Germany,2003,gas,89.38,23.62
+Germany,2003,nuclear,135.52,35.81
+Germany,2003,solar,0.22,0.06
+Germany,2003,wind,12.4,3.28
+Germany,2003,hydro,19.82,5.24
+Germany,2004,coal,121.44,33.17
+Germany,2004,gas,86.21,23.54
+Germany,2004,nuclear,123.47,33.72
+Germany,2004,solar,0.28,0.08
+Germany,2004,wind,14.42,3.94
+Germany,2004,hydro,20.33,5.55
+Germany,2005,coal,112.61,32.04
+Germany,2005,gas,87.84,24.99
+Germany,2005,nuclear,114.83,32.67
+Germany,2005,solar,0.38,0.11
+Germany,2005,wind,15.81,4.5
+Germany,2005,hydro,19.98,5.69
+Germany,2006,coal,100.56,30.61
+Germany,2006,gas,88.09,26.82
+Germany,2006,nuclear,100.04,30.45
+Germany,2006,solar,0.5,0.15
+Germany,2006,wind,17.74,5.4
+Germany,2006,hydro,21.58,6.57
+Germany,2007,coal,103.92,31.82
+Germany,2007,gas,91.96,28.16
+Germany,2007,nuclear,90.43,27.69
+Germany,2007,solar,0.62,0.19
+Germany,2007,wind,19.85,6.08
+Germany,2007,hydro,19.79,6.06
+Germany,2008,coal,90.75,28.73
+Germany,2008,gas,94.54,29.93
+Germany,2008,nuclear,86.04,27.24
+Germany,2008,solar,0.8,0.25
+Germany,2008,wind,21.78,6.9
+Germany,2008,hydro,21.93,6.94
+Germany,2009,coal,85.54,28.06
+Germany,2009,gas,93.23,30.58
+Germany,2009,nuclear,79.37,26.03
+Germany,2009,solar,1.09,0.36
+Germany,2009,wind,24.45,8.02
+Germany,2009,hydro,21.22,6.96
+Germany,2010,coal,82.56,26.63
+Germany,2010,gas,99.71,32.16
+Germany,2010,nuclear,76.95,24.82
+Germany,2010,solar,1.36,0.44
+Germany,2010,wind,28.9,9.32
+Germany,2010,hydro,20.52,6.62
+Germany,2011,coal,75.04,24.92
+Germany,2011,gas,103.04,34.22
+Germany,2011,nuclear,69.61,23.11
+Germany,2011,solar,1.79,0.59
+Germany,2011,wind,30.19,10.02
+Germany,2011,hydro,21.48,7.13
+Germany,2012,coal,70.04,24.44
+Germany,2012,gas,98.65,34.42
+Germany,2012,nuclear,61.29,21.38
+Germany,2012,solar,2.35,0.82
+Germany,2012,wind,32.83,11.45
+Germany,2012,hydro,21.46,7.49
+Germany,2013,coal,67.45,23.18
+Germany,2013,gas,101.67,34.94
+Germany,2013,nuclear,59.29,20.38
+Germany,2013,solar,3.08,1.06
+Germany,2013,wind,38.56,13.25
+Germany,2013,hydro,20.91,7.19
+Germany,2014,coal,64.39,22.43
+Germany,2014,gas,100.76,35.1
+Germany,2014,nuclear,52.37,18.24
+Germany,2014,solar,3.86,1.34
+Germany,2014,wind,44.08,15.36
+Germany,2014,hydro,21.58,7.52
+Germany,2015,coal,59.36,20.17
+Germany,2015,gas,111.34,37.84
+Germany,2015,nuclear,49.0,16.65
+Germany,2015,solar,5.07,1.72
+Germany,2015,wind,47.47,16.13
+Germany,2015,hydro,22.02,7.48
+Germany,2016,coal,56.62,16.3
+Germany,2016,gas,114.6,32.99
+Germany,2016,nuclear,43.77,12.6
+Germany,2016,solar,19.43,5.59
+Germany,2016,wind,91.37,26.3
+Germany,2016,hydro,21.6,6.22
+Germany,2017,coal,52.41,14.52
+Germany,2017,gas,106.26,29.43
+Germany,2017,nuclear,42.21,11.69
+Germany,2017,solar,27.52,7.62
+Germany,2017,wind,109.4,30.3
+Germany,2017,hydro,23.24,6.44
+Germany,2018,coal,48.78,12.88
+Germany,2018,gas,114.14,30.14
+Germany,2018,nuclear,37.91,10.01
+Germany,2018,solar,39.71,10.49
+Germany,2018,wind,115.96,30.62
+Germany,2018,hydro,22.2,5.86
+Germany,2019,coal,44.25,11.01
+Germany,2019,gas,107.52,26.76
+Germany,2019,nuclear,32.75,8.15
+Germany,2019,solar,49.99,12.44
+Germany,2019,wind,145.93,36.31
+Germany,2019,hydro,21.42,5.33
+Germany,2020,coal,43.22,9.56
+Germany,2020,gas,114.73,25.38
+Germany,2020,nuclear,32.67,7.23
+Germany,2020,solar,70.1,15.51
+Germany,2020,wind,169.92,37.59
+Germany,2020,hydro,21.44,4.74
+Germany,2021,coal,39.97,7.88
+Germany,2021,gas,121.7,23.99
+Germany,2021,nuclear,29.53,5.82
+Germany,2021,solar,105.07,20.71
+Germany,2021,wind,189.64,37.38
+Germany,2021,hydro,21.4,4.22
+Germany,2022,coal,37.8,6.64
+Germany,2022,gas,121.55,21.35
+Germany,2022,nuclear,27.74,4.87
+Germany,2022,solar,141.68,24.89
+Germany,2022,wind,217.65,38.23
+Germany,2022,hydro,22.9,4.02
+Germany,2023,coal,35.57,5.36
+Germany,2023,gas,125.64,18.93
+Germany,2023,nuclear,25.11,3.78
+Germany,2023,solar,203.61,30.67
+Germany,2023,wind,251.76,37.92
+Germany,2023,hydro,22.19,3.34
+Germany,2024,coal,32.91,4.34
+Germany,2024,gas,131.32,17.31
+Germany,2024,nuclear,22.58,2.98
+Germany,2024,solar,273.41,36.04
+Germany,2024,wind,275.25,36.28
+Germany,2024,hydro,23.25,3.06
+France,2000,coal,28.8,5.42
+France,2000,gas,19.53,3.67
+France,2000,nuclear,412.7,77.61
+France,2000,solar,0.1,0.02
+France,2000,wind,0.5,0.09
+France,2000,hydro,70.16,13.19
+France,2001,coal,26.77,4.99
+France,2001,gas,21.22,3.96
+France,2001,nuclear,415.9,77.52
+France,2001,solar,0.12,0.02
+France,2001,wind,0.57,0.11
+France,2001,hydro,71.91,13.4
+France,2002,coal,24.4,4.75
+France,2002,gas,20.57,4.0
+France,2002,nuclear,397.55,77.34
+France,2002,solar,0.18,0.04
+France,2002,wind,0.72,0.14
+France,2002,hydro,70.62,13.74
+France,2003,coal,22.82,4.52
+France,2003,gas,22.05,4.37
+France,2003,nuclear,388.17,76.87
+France,2003,solar,0.23,0.05
+France,2003,wind,0.85,0.17
+France,2003,hydro,70.86,14.03
+France,2004,coal,21.38,4.31
+France,2004,gas,21.54,4.34
+France,2004,nuclear,380.14,76.67
+France,2004,solar,0.31,0.06
+France,2004,wind,1.08,0.22
+France,2004,hydro,71.36,14.39
+France,2005,coal,20.21,3.9
+France,2005,gas,22.64,4.37
+France,2005,nuclear,400.96,77.35
+France,2005,solar,0.4,0.08
+France,2005,wind,1.25,0.24
+France,2005,hydro,72.9,14.06
+France,2006,coal,18.23,3.63
+France,2006,gas,21.87,4.35
+France,2006,nuclear,388.43,77.27
+France,2006,solar,0.5,0.1
+France,2006,wind,1.49,0.3
+France,2006,hydro,72.15,14.35
+France,2007,coal,17.36,3.42
+France,2007,gas,23.08,4.54
+France,2007,nuclear,396.96,78.1
+France,2007,solar,0.7,0.14
+France,2007,wind,1.74,0.34
+France,2007,hydro,68.46,13.47
+France,2008,coal,14.95,2.97
+France,2008,gas,22.47,4.46
+France,2008,nuclear,391.58,77.7
+France,2008,solar,0.92,0.18
+France,2008,wind,2.19,0.43
+France,2008,hydro,71.86,14.26
+France,2009,coal,14.61,3.0
+France,2009,gas,24.66,5.07
+France,2009,nuclear,374.95,77.09
+France,2009,solar,1.21,0.25
+France,2009,wind,2.54,0.52
+France,2009,hydro,68.42,14.07
+France,2010,coal,13.3,2.71
+France,2010,gas,25.25,5.15
+France,2010,nuclear,380.37,77.51
+France,2010,solar,1.58,0.32
+France,2010,wind,3.2,0.65
+France,2010,hydro,67.05,13.66
+France,2011,coal,12.05,2.47
+France,2011,gas,24.97,5.13
+France,2011,nuclear,372.06,76.42
+France,2011,solar,2.21,0.45
+France,2011,wind,3.82,0.78
+France,2011,hydro,71.78,14.74
+France,2012,coal,11.0,2.25
+France,2012,gas,25.07,5.13
+France,2012,nuclear,370.86,75.83
+France,2012,solar,2.69,0.55
+France,2012,wind,4.64,0.95
+France,2012,hydro,74.8,15.29
+France,2013,coal,10.39,2.02
+France,2013,gas,25.02,4.87
+France,2013,nuclear,398.16,77.51
+France,2013,solar,3.91,0.76
+France,2013,wind,5.38,1.05
+France,2013,hydro,70.81,13.79
+France,2014,coal,9.09,1.89
+France,2014,gas,26.72,5.57
+France,2014,nuclear,362.68,75.61
+France,2014,solar,4.87,1.02
+France,2014,wind,6.63,1.38
+France,2014,hydro,69.7,14.53
+France,2015,coal,9.11,1.9
+France,2015,gas,28.18,5.88
+France,2015,nuclear,357.26,74.54
+France,2015,solar,6.16,1.29
+France,2015,wind,7.64,1.59
+France,2015,hydro,70.95,14.8
+France,2016,coal,7.84,1.51
+France,2016,gas,25.33,4.87
+France,2016,nuclear,366.64,70.55
+France,2016,solar,27.54,5.3
+France,2016,wind,19.5,3.75
+France,2016,hydro,72.84,14.02
+France,2017,coal,6.94,1.29
+France,2017,gas,28.54,5.31
+France,2017,nuclear,364.84,67.83
+France,2017,solar,39.14,7.28
+France,2017,wind,25.58,4.76
+France,2017,hydro,72.83,13.54
+France,2018,coal,6.8,1.25
+France,2018,gas,28.13,5.16
+France,2018,nuclear,350.8,64.4
+France,2018,solar,52.85,9.7
+France,2018,wind,31.87,5.85
+France,2018,hydro,74.25,13.63
+France,2019,coal,6.22,1.04
+France,2019,gas,28.69,4.8
+France,2019,nuclear,368.26,61.56
+France,2019,solar,78.03,13.04
+France,2019,wind,39.02,6.52
+France,2019,hydro,77.96,13.03
+France,2020,coal,5.62,0.85
+France,2020,gas,29.04,4.42
+France,2020,nuclear,388.19,59.04
+France,2020,solar,105.51,16.05
+France,2020,wind,52.95,8.05
+France,2020,hydro,76.14,11.58
+France,2021,coal,4.95,0.74
+France,2021,gas,30.42,4.55
+France,2021,nuclear,354.36,53.06
+France,2021,solar,142.72,21.37
+France,2021,wind,60.68,9.09
+France,2021,hydro,74.77,11.19
+France,2022,coal,4.88,0.65
+France,2022,gas,31.28,4.18
+France,2022,nuclear,354.95,47.42
+France,2022,solar,205.52,27.46
+France,2022,wind,78.36,10.47
+France,2022,hydro,73.52,9.82
+France,2023,coal,4.27,0.5
+France,2023,gas,31.35,3.66
+France,2023,nuclear,356.2,41.6
+France,2023,solar,290.15,33.88
+France,2023,wind,101.03,11.8
+France,2023,hydro,73.28,8.56
+France,2024,coal,4.05,0.4
+France,2024,gas,32.66,3.21
+France,2024,nuclear,356.56,35.04
+France,2024,solar,428.18,42.08
+France,2024,wind,121.84,11.97
+France,2024,hydro,74.36,7.31
+USA,2000,coal,1986.36,55.37
+USA,2000,gas,611.54,17.05
+USA,2000,nuclear,714.04,19.91
+USA,2000,solar,0.5,0.01
+USA,2000,wind,6.22,0.17
+USA,2000,hydro,268.55,7.49
+USA,2001,coal,1866.18,52.85
+USA,2001,gas,632.43,17.91
+USA,2001,nuclear,753.29,21.33
+USA,2001,solar,0.69,0.02
+USA,2001,wind,6.91,0.2
+USA,2001,hydro,271.78,7.7
+USA,2002,coal,1736.19,50.6
+USA,2002,gas,645.64,18.82
+USA,2002,nuclear,773.53,22.54
+USA,2002,solar,0.91,0.03
+USA,2002,wind,7.89,0.23
+USA,2002,hydro,267.08,7.78
+USA,2003,coal,1728.92,50.36
+USA,2003,gas,657.61,19.15
+USA,2003,nuclear,763.57,22.24
+USA,2003,solar,1.2,0.03
+USA,2003,wind,8.84,0.26
+USA,2003,hydro,273.3,7.96
+USA,2004,coal,1610.84,47.93
+USA,2004,gas,708.18,21.07
+USA,2004,nuclear,764.66,22.75
+USA,2004,solar,1.64,0.05
+USA,2004,wind,10.63,0.32
+USA,2004,hydro,264.74,7.88
+USA,2005,coal,1581.93,47.07
+USA,2005,gas,743.84,22.13
+USA,2005,nuclear,750.71,22.34
+USA,2005,solar,2.25,0.07
+USA,2005,wind,11.78,0.35
+USA,2005,hydro,270.03,8.04
+USA,2006,coal,1469.93,45.19
+USA,2006,gas,758.75,23.33
+USA,2006,nuclear,739.34,22.73
+USA,2006,solar,2.9,0.09
+USA,2006,wind,13.95,0.43
+USA,2006,hydro,267.58,8.23
+USA,2007,coal,1331.01,42.88
+USA,2007,gas,785.9,25.32
+USA,2007,nuclear,693.49,22.34
+USA,2007,solar,4.17,0.13
+USA,2007,wind,16.37,0.53
+USA,2007,hydro,273.36,8.81
+USA,2008,coal,1267.97,40.93
+USA,2008,gas,797.85,25.75
+USA,2008,nuclear,728.87,23.53
+USA,2008,solar,5.12,0.17
+USA,2008,wind,18.45,0.6
+USA,2008,hydro,279.82,9.03
+USA,2009,coal,1229.97,39.55
+USA,2009,gas,841.32,27.06
+USA,2009,nuclear,733.98,23.6
+USA,2009,solar,7.53,0.24
+USA,2009,wind,21.8,0.7
+USA,2009,hydro,275.05,8.85
+USA,2010,coal,1155.1,37.7
+USA,2010,gas,875.86,28.59
+USA,2010,nuclear,731.77,23.88
+USA,2010,solar,10.52,0.34
+USA,2010,wind,24.04,0.78
+USA,2010,hydro,266.75,8.71
+USA,2011,coal,1091.29,36.51
+USA,2011,gas,865.58,28.96
+USA,2011,nuclear,732.8,24.51
+USA,2011,solar,13.02,0.44
+USA,2011,wind,26.88,0.9
+USA,2011,hydro,259.64,8.69
+USA,2012,coal,1028.81,34.02
+USA,2012,gas,977.0,32.31
+USA,2012,nuclear,694.98,22.98
+USA,2012,solar,17.36,0.57
+USA,2012,wind,32.27,1.07
+USA,2012,hydro,273.72,9.05
+USA,2013,coal,1024.4,32.95
+USA,2013,gas,1021.24,32.85
+USA,2013,nuclear,721.09,23.2
+USA,2013,solar,23.77,0.76
+USA,2013,wind,36.78,1.18
+USA,2013,hydro,281.26,9.05
+USA,2014,coal,943.92,31.11
+USA,2014,gas,994.2,32.77
+USA,2014,nuclear,742.89,24.49
+USA,2014,solar,32.98,1.09
+USA,2014,wind,41.93,1.38
+USA,2014,hydro,277.79,9.16
+USA,2015,coal,940.9,30.08
+USA,2015,gas,1089.11,34.82
+USA,2015,nuclear,709.78,22.69
+USA,2015,solar,46.0,1.47
+USA,2015,wind,51.97,1.66
+USA,2015,hydro,289.8,9.27
+USA,2016,coal,884.55,26.52
+USA,2016,gas,1085.95,32.55
+USA,2016,nuclear,795.26,23.84
+USA,2016,solar,194.48,5.83
+USA,2016,wind,102.6,3.08
+USA,2016,hydro,272.92,8.18
+USA,2017,coal,863.9,25.2
+USA,2017,gas,1183.47,34.52
+USA,2017,nuclear,682.14,19.9
+USA,2017,solar,295.88,8.63
+USA,2017,wind,126.03,3.68
+USA,2017,hydro,276.66,8.07
+USA,2018,coal,753.87,21.52
+USA,2018,gas,1189.05,33.94
+USA,2018,nuclear,701.2,20.01
+USA,2018,solar,427.37,12.2
+USA,2018,wind,145.86,4.16
+USA,2018,hydro,286.06,8.17
+USA,2019,coal,722.2,19.34
+USA,2019,gas,1198.45,32.1
+USA,2019,nuclear,692.67,18.55
+USA,2019,solar,646.54,17.31
+USA,2019,wind,174.02,4.66
+USA,2019,hydro,300.14,8.04
+USA,2020,coal,716.63,17.52
+USA,2020,gas,1268.75,31.02
+USA,2020,nuclear,688.58,16.84
+USA,2020,solar,910.73,22.27
+USA,2020,wind,204.12,4.99
+USA,2020,hydro,301.03,7.36
+USA,2021,coal,650.96,14.1
+USA,2021,gas,1395.19,30.22
+USA,2021,nuclear,734.99,15.92
+USA,2021,solar,1311.2,28.4
+USA,2021,wind,245.3,5.31
+USA,2021,hydro,279.26,6.05
+USA,2022,coal,644.29,12.34
+USA,2022,gas,1459.31,27.96
+USA,2022,nuclear,703.22,13.47
+USA,2022,solar,1833.66,35.13
+USA,2022,wind,302.55,5.8
+USA,2022,hydro,276.43,5.3
+USA,2023,coal,565.84,9.13
+USA,2023,gas,1447.88,23.36
+USA,2023,nuclear,669.84,10.81
+USA,2023,solar,2833.99,45.72
+USA,2023,wind,382.15,6.17
+USA,2023,hydro,298.46,4.82
+USA,2024,coal,565.33,7.36
+USA,2024,gas,1516.42,19.74
+USA,2024,nuclear,712.24,9.27
+USA,2024,solar,4181.13,54.42
+USA,2024,wind,426.08,5.55
+USA,2024,hydro,282.05,3.67
+China,2000,coal,1172.83,81.8
+China,2000,gas,29.9,2.09
+China,2000,nuclear,16.75,1.17
+China,2000,solar,0.1,0.01
+China,2000,wind,1.02,0.07
+China,2000,hydro,213.26,14.87
+China,2001,coal,1157.31,80.44
+China,2001,gas,32.42,2.25
+China,2001,nuclear,19.39,1.35
+China,2001,solar,0.15,0.01
+China,2001,wind,1.28,0.09
+China,2001,hydro,228.16,15.86
+China,2002,coal,1201.36,80.53
+China,2002,gas,37.28,2.5
+China,2002,nuclear,23.19,1.55
+China,2002,solar,0.21,0.01
+China,2002,wind,1.63,0.11
+China,2002,hydro,228.15,15.29
+China,2003,coal,1298.72,80.35
+China,2003,gas,44.35,2.74
+China,2003,nuclear,24.3,1.5
+China,2003,solar,0.32,0.02
+China,2003,wind,1.84,0.11
+China,2003,hydro,246.8,15.27
+China,2004,coal,1381.54,80.45
+China,2004,gas,48.37,2.82
+China,2004,nuclear,26.92,1.57
+China,2004,solar,0.42,0.02
+China,2004,wind,2.4,0.14
+China,2004,hydro,257.65,15.0
+China,2005,coal,1432.6,79.97
+China,2005,gas,52.52,2.93
+China,2005,nuclear,32.98,1.84
+China,2005,solar,0.63,0.04
+China,2005,wind,2.97,0.17
+China,2005,hydro,269.62,15.05
+China,2006,coal,1587.59,80.65
+China,2006,gas,61.76,3.14
+China,2006,nuclear,38.55,1.96
+China,2006,solar,0.92,0.05
+China,2006,wind,3.82,0.19
+China,2006,hydro,275.91,14.02
+China,2007,coal,1651.41,80.87
+China,2007,gas,63.21,3.1
+China,2007,nuclear,45.72,2.24
+China,2007,solar,1.31,0.06
+China,2007,wind,4.63,0.23
+China,2007,hydro,275.71,13.5
+China,2008,coal,1814.3,80.96
+China,2008,gas,73.97,3.3
+China,2008,nuclear,53.8,2.4
+China,2008,solar,1.97,0.09
+China,2008,wind,5.66,0.25
+China,2008,hydro,291.3,13.0
+China,2009,coal,1900.68,80.75
+China,2009,gas,81.28,3.45
+China,2009,nuclear,57.85,2.46
+China,2009,solar,2.82,0.12
+China,2009,wind,7.41,0.31
+China,2009,hydro,303.62,12.9
+China,2010,coal,1950.66,79.37
+China,2010,gas,91.84,3.74
+China,2010,nuclear,63.43,2.58
+China,2010,solar,4.17,0.17
+China,2010,wind,9.09,0.37
+China,2010,hydro,338.4,13.77
+China,2011,coal,2016.08,78.78
+China,2011,gas,99.41,3.88
+China,2011,nuclear,81.91,3.2
+China,2011,solar,5.67,0.22
+China,2011,wind,11.42,0.45
+China,2011,hydro,344.75,13.47
+China,2012,coal,2191.53,78.94
+China,2012,gas,111.07,4.0
+China,2012,nuclear,91.47,3.29
+China,2012,solar,8.59,0.31
+China,2012,wind,15.11,0.54
+China,2012,hydro,358.45,12.91
+China,2013,coal,2559.89,80.12
+China,2013,gas,124.44,3.89
+China,2013,nuclear,104.53,3.27
+China,2013,solar,12.12,0.38
+China,2013,wind,18.82,0.59
+China,2013,hydro,375.35,11.75
+China,2014,coal,2543.25,78.7
+China,2014,gas,143.19,4.43
+China,2014,nuclear,117.6,3.64
+China,2014,solar,17.06,0.53
+China,2014,wind,23.9,0.74
+China,2014,hydro,386.78,11.97
+China,2015,coal,2615.58,77.67
+China,2015,gas,168.81,5.01
+China,2015,nuclear,141.45,4.2
+China,2015,solar,27.1,0.8
+China,2015,wind,27.04,0.8
+China,2015,hydro,387.72,11.51
+China,2016,coal,2810.77,73.12
+China,2016,gas,185.87,4.84
+China,2016,nuclear,163.65,4.26
+China,2016,solar,153.86,4.0
+China,2016,wind,90.6,2.36
+China,2016,hydro,439.32,11.43
+China,2017,coal,3023.54,71.46
+China,2017,gas,211.36,5.0
+China,2017,nuclear,182.84,4.32
+China,2017,solar,257.27,6.08
+China,2017,wind,126.05,2.98
+China,2017,hydro,429.91,10.16
+China,2018,coal,3255.06,68.99
+China,2018,gas,224.64,4.76
+China,2018,nuclear,214.11,4.54
+China,2018,solar,409.4,8.68
+China,2018,wind,154.87,3.28
+China,2018,hydro,460.36,9.76
+China,2019,coal,3260.74,63.79
+China,2019,gas,252.14,4.93
+China,2019,nuclear,241.93,4.73
+China,2019,solar,668.38,13.08
+China,2019,wind,211.89,4.15
+China,2019,hydro,476.52,9.32
+China,2020,coal,3450.4,59.91
+China,2020,gas,290.06,5.04
+China,2020,nuclear,268.41,4.66
+China,2020,solar,984.19,17.09
+China,2020,wind,285.15,4.95
+China,2020,hydro,481.49,8.36
+China,2021,coal,3902.33,55.51
+China,2021,gas,322.15,4.58
+China,2021,nuclear,318.07,4.52
+China,2021,solar,1647.93,23.44
+China,2021,wind,361.41,5.14
+China,2021,hydro,478.47,6.81
+China,2022,coal,4118.63,49.15
+China,2022,gas,367.52,4.39
+China,2022,nuclear,344.06,4.11
+China,2022,solar,2518.97,30.06
+China,2022,wind,482.45,5.76
+China,2022,hydro,548.67,6.55
+China,2023,coal,4109.83,41.37
+China,2023,gas,399.49,4.02
+China,2023,nuclear,411.6,4.14
+China,2023,solar,3861.16,38.87
+China,2023,wind,633.49,6.38
+China,2023,hydro,518.88,5.22
+China,2024,coal,4316.04,34.16
+China,2024,gas,433.41,3.43
+China,2024,nuclear,464.77,3.68
+China,2024,solar,6024.08,47.68
+China,2024,wind,843.99,6.68
+China,2024,hydro,552.36,4.37
+India,2000,coal,462.34,74.71
+India,2000,gas,60.86,9.83
+India,2000,nuclear,14.98,2.42
+India,2000,solar,0.1,0.02
+India,2000,wind,1.97,0.32
+India,2000,hydro,78.58,12.7
+India,2001,coal,507.63,76.52
+India,2001,gas,63.29,9.54
+India,2001,nuclear,14.67,2.21
+India,2001,solar,0.14,0.02
+India,2001,wind,2.15,0.32
+India,2001,hydro,75.52,11.38
+India,2002,coal,535.13,77.21
+India,2002,gas,63.58,9.17
+India,2002,nuclear,17.12,2.47
+India,2002,solar,0.19,0.03
+India,2002,wind,2.69,0.39
+India,2002,hydro,74.39,10.73
+India,2003,coal,551.3,76.58
+India,2003,gas,68.34,9.49
+India,2003,nuclear,18.15,2.52
+India,2003,solar,0.27,0.04
+India,2003,wind,3.22,0.45
+India,2003,hydro,78.6,10.92
+India,2004,coal,575.55,76.94
+India,2004,gas,64.38,8.61
+India,2004,nuclear,19.94,2.67
+India,2004,solar,0.38,0.05
+India,2004,wind,3.37,0.45
+India,2004,hydro,84.4,11.28
+India,2005,coal,635.32,78.23
+India,2005,gas,73.24,9.02
+India,2005,nuclear,19.21,2.37
+India,2005,solar,0.54,0.07
+India,2005,wind,3.95,0.49
+India,2005,hydro,79.9,9.84
+India,2006,coal,663.38,78.32
+India,2006,gas,71.06,8.39
+India,2006,nuclear,21.64,2.55
+India,2006,solar,0.76,0.09
+India,2006,wind,4.91,0.58
+India,2006,hydro,85.29,10.07
+India,2007,coal,633.7,77.19
+India,2007,gas,76.98,9.38
+India,2007,nuclear,22.6,2.75
+India,2007,solar,1.07,0.13
+India,2007,wind,5.48,0.67
+India,2007,hydro,81.09,9.88
+India,2008,coal,702.16,77.16
+India,2008,gas,84.5,9.29
+India,2008,nuclear,25.02,2.75
+India,2008,solar,1.56,0.17
+India,2008,wind,6.05,0.66
+India,2008,hydro,90.77,9.97
+India,2009,coal,782.88,78.92
+India,2009,gas,88.47,8.92
+India,2009,nuclear,25.89,2.61
+India,2009,solar,2.12,0.21
+India,2009,wind,6.87,0.69
+India,2009,hydro,85.74,8.64
+India,2010,coal,804.92,78.72
+India,2010,gas,87.89,8.6
+India,2010,nuclear,26.84,2.62
+India,2010,solar,2.84,0.28
+India,2010,wind,8.0,0.78
+India,2010,hydro,92.06,9.0
+India,2011,coal,795.8,77.59
+India,2011,gas,92.56,9.02
+India,2011,nuclear,28.68,2.8
+India,2011,solar,4.04,0.39
+India,2011,wind,9.1,0.89
+India,2011,hydro,95.45,9.31
+India,2012,coal,910.44,79.54
+India,2012,gas,94.33,8.24
+India,2012,nuclear,31.3,2.73
+India,2012,solar,5.82,0.51
+India,2012,wind,9.85,0.86
+India,2012,hydro,92.95,8.12
+India,2013,coal,887.85,78.07
+India,2013,gas,102.25,8.99
+India,2013,nuclear,32.17,2.83
+India,2013,solar,8.05,0.71
+India,2013,wind,12.54,1.1
+India,2013,hydro,94.4,8.3
+India,2014,coal,929.08,78.4
+India,2014,gas,100.09,8.45
+India,2014,nuclear,33.74,2.85
+India,2014,solar,11.07,0.93
+India,2014,wind,14.22,1.2
+India,2014,hydro,96.8,8.17
+India,2015,coal,1025.02,78.31
+India,2015,gas,111.03,8.48
+India,2015,nuclear,37.62,2.87
+India,2015,solar,15.89,1.21
+India,2015,wind,16.36,1.25
+India,2015,hydro,102.98,7.87
+India,2016,coal,1066.95,74.0
+India,2016,gas,110.18,7.64
+India,2016,nuclear,39.58,2.75
+India,2016,solar,85.37,5.92
+India,2016,wind,36.64,2.54
+India,2016,hydro,103.07,7.15
+India,2017,coal,1110.87,72.09
+India,2017,gas,118.33,7.68
+India,2017,nuclear,40.39,2.62
+India,2017,solar,125.7,8.16
+India,2017,wind,41.18,2.67
+India,2017,hydro,104.41,6.78
+India,2018,coal,1216.14,70.24
+India,2018,gas,122.15,7.05
+India,2018,nuclear,42.9,2.48
+India,2018,solar,192.54,11.12
+India,2018,wind,49.61,2.87
+India,2018,hydro,108.06,6.24
+India,2019,coal,1210.62,66.59
+India,2019,gas,121.78,6.7
+India,2019,nuclear,45.34,2.49
+India,2019,solar,275.4,15.15
+India,2019,wind,59.39,3.27
+India,2019,hydro,105.39,5.8
+India,2020,coal,1308.61,62.32
+India,2020,gas,134.42,6.4
+India,2020,nuclear,48.51,2.31
+India,2020,solar,432.08,20.58
+India,2020,wind,71.41,3.4
+India,2020,hydro,104.88,4.99
+India,2021,coal,1293.26,55.41
+India,2021,gas,136.12,5.83
+India,2021,nuclear,51.52,2.21
+India,2021,solar,657.17,28.16
+India,2021,wind,81.75,3.5
+India,2021,hydro,114.13,4.89
+India,2022,coal,1385.01,49.56
+India,2022,gas,137.64,4.92
+India,2022,nuclear,54.59,1.95
+India,2022,solar,994.98,35.6
+India,2022,wind,104.34,3.73
+India,2022,hydro,118.26,4.23
+India,2023,coal,1506.83,43.87
+India,2023,gas,149.31,4.35
+India,2023,nuclear,55.84,1.63
+India,2023,solar,1479.24,43.07
+India,2023,wind,115.05,3.35
+India,2023,hydro,128.48,3.74
+India,2024,coal,1497.92,35.16
+India,2024,gas,152.83,3.59
+India,2024,nuclear,60.08,1.41
+India,2024,solar,2293.87,53.85
+India,2024,wind,141.31,3.32
+India,2024,hydro,113.87,2.67
+Brazil,2000,coal,9.7,2.92
+Brazil,2000,gas,14.37,4.32
+Brazil,2000,nuclear,5.98,1.8
+Brazil,2000,solar,0.1,0.03
+Brazil,2000,wind,0.2,0.06
+Brazil,2000,hydro,301.94,90.87
+Brazil,2001,coal,9.92,2.89
+Brazil,2001,gas,16.34,4.76
+Brazil,2001,nuclear,6.05,1.76
+Brazil,2001,solar,0.15,0.04
+Brazil,2001,wind,0.25,0.07
+Brazil,2001,hydro,310.5,90.47
+Brazil,2002,coal,10.08,2.97
+Brazil,2002,gas,17.06,5.03
+Brazil,2002,nuclear,6.3,1.86
+Brazil,2002,solar,0.21,0.06
+Brazil,2002,wind,0.34,0.1
+Brazil,2002,hydro,305.5,89.99
+Brazil,2003,coal,10.72,3.12
+Brazil,2003,gas,18.37,5.34
+Brazil,2003,nuclear,6.46,1.88
+Brazil,2003,solar,0.29,0.08
+Brazil,2003,wind,0.42,0.12
+Brazil,2003,hydro,307.46,89.45
+Brazil,2004,coal,10.33,3.07
+Brazil,2004,gas,19.19,5.71
+Brazil,2004,nuclear,6.32,1.88
+Brazil,2004,solar,0.46,0.14
+Brazil,2004,wind,0.57,0.17
+Brazil,2004,hydro,299.18,89.03
+Brazil,2005,coal,10.36,2.9
+Brazil,2005,gas,18.52,5.19
+Brazil,2005,nuclear,6.48,1.82
+Brazil,2005,solar,0.63,0.18
+Brazil,2005,wind,0.73,0.2
+Brazil,2005,hydro,320.03,89.71
+Brazil,2006,coal,10.49,2.76
+Brazil,2006,gas,20.9,5.49
+Brazil,2006,nuclear,7.06,1.85
+Brazil,2006,solar,0.96,0.25
+Brazil,2006,wind,0.93,0.24
+Brazil,2006,hydro,340.37,89.4
+Brazil,2007,coal,10.2,2.81
+Brazil,2007,gas,22.0,6.07
+Brazil,2007,nuclear,7.21,1.99
+Brazil,2007,solar,1.26,0.35
+Brazil,2007,wind,1.28,0.35
+Brazil,2007,hydro,320.43,88.42
+Brazil,2008,coal,10.78,2.77
+Brazil,2008,gas,23.78,6.1
+Brazil,2008,nuclear,7.39,1.9
+Brazil,2008,solar,1.91,0.49
+Brazil,2008,wind,1.63,0.42
+Brazil,2008,hydro,344.3,88.33
+Brazil,2009,coal,10.85,2.85
+Brazil,2009,gas,24.72,6.49
+Brazil,2009,nuclear,7.16,1.88
+Brazil,2009,solar,2.84,0.75
+Brazil,2009,wind,2.18,0.57
+Brazil,2009,hydro,333.31,87.47
+Brazil,2010,coal,10.9,2.77
+Brazil,2010,gas,27.12,6.9
+Brazil,2010,nuclear,7.28,1.85
+Brazil,2010,solar,4.09,1.04
+Brazil,2010,wind,2.76,0.7
+Brazil,2010,hydro,340.89,86.73
+Brazil,2011,coal,10.89,2.75
+Brazil,2011,gas,28.85,7.27
+Brazil,2011,nuclear,7.22,1.82
+Brazil,2011,solar,6.17,1.56
+Brazil,2011,wind,3.61,0.91
+Brazil,2011,hydro,339.85,85.69
+Brazil,2012,coal,11.36,2.74
+Brazil,2012,gas,30.33,7.32
+Brazil,2012,nuclear,7.78,1.88
+Brazil,2012,solar,8.94,2.16
+Brazil,2012,wind,4.61,1.11
+Brazil,2012,hydro,351.07,84.78
+Brazil,2013,coal,11.17,2.61
+Brazil,2013,gas,31.05,7.27
+Brazil,2013,nuclear,7.59,1.78
+Brazil,2013,solar,12.63,2.96
+Brazil,2013,wind,6.06,1.42
+Brazil,2013,hydro,358.7,83.97
+Brazil,2014,coal,11.24,2.52
+Brazil,2014,gas,34.27,7.7
+Brazil,2014,nuclear,7.8,1.75
+Brazil,2014,solar,17.59,3.95
+Brazil,2014,wind,7.84,1.76
+Brazil,2014,hydro,366.59,82.32
+Brazil,2015,coal,11.24,2.37
+Brazil,2015,gas,36.84,7.77
+Brazil,2015,nuclear,8.28,1.75
+Brazil,2015,solar,26.37,5.56
+Brazil,2015,wind,10.28,2.17
+Brazil,2015,hydro,381.0,80.38
+Brazil,2016,coal,11.71,1.81
+Brazil,2016,gas,39.12,6.03
+Brazil,2016,nuclear,8.65,1.33
+Brazil,2016,solar,159.04,24.52
+Brazil,2016,wind,39.35,6.07
+Brazil,2016,hydro,390.67,60.24
+Brazil,2017,coal,11.72,1.56
+Brazil,2017,gas,39.02,5.19
+Brazil,2017,nuclear,8.63,1.15
+Brazil,2017,solar,239.64,31.85
+Brazil,2017,wind,56.88,7.56
+Brazil,2017,hydro,396.5,52.7
+Brazil,2018,coal,12.03,1.32
+Brazil,2018,gas,42.88,4.72
+Brazil,2018,nuclear,9.02,0.99
+Brazil,2018,solar,387.28,42.61
+Brazil,2018,wind,72.43,7.97
+Brazil,2018,hydro,385.16,42.38
+Brazil,2019,coal,11.99,0.98
+Brazil,2019,gas,44.01,3.61
+Brazil,2019,nuclear,8.78,0.72
+Brazil,2019,solar,634.34,52.08
+Brazil,2019,wind,101.76,8.35
+Brazil,2019,hydro,417.23,34.25
+Brazil,2020,coal,11.69,0.73
+Brazil,2020,gas,46.26,2.88
+Brazil,2020,nuclear,9.02,0.56
+Brazil,2020,solar,995.12,61.98
+Brazil,2020,wind,146.8,9.14
+Brazil,2020,hydro,396.55,24.7
+Brazil,2021,coal,11.94,0.52
+Brazil,2021,gas,50.01,2.17
+Brazil,2021,nuclear,8.91,0.39
+Brazil,2021,solar,1612.13,70.06
+Brazil,2021,wind,198.63,8.63
+Brazil,2021,hydro,419.49,18.23
+Brazil,2022,coal,12.67,0.38
+Brazil,2022,gas,55.74,1.66
+Brazil,2022,nuclear,9.53,0.28
+Brazil,2022,solar,2574.81,76.88
+Brazil,2022,wind,286.6,8.56
+Brazil,2022,hydro,409.82,12.24
+Brazil,2023,coal,12.47,0.26
+Brazil,2023,gas,54.15,1.13
+Brazil,2023,nuclear,9.54,0.2
+Brazil,2023,solar,3906.65,81.29
+Brazil,2023,wind,394.07,8.2
+Brazil,2023,hydro,429.2,8.93
+Brazil,2024,coal,12.18,0.17
+Brazil,2024,gas,58.89,0.81
+Brazil,2024,nuclear,9.55,0.13
+Brazil,2024,solar,6221.65,85.7
+Brazil,2024,wind,543.95,7.49
+Brazil,2024,hydro,413.99,5.7
+Australia,2000,coal,150.21,76.84
+Australia,2000,gas,28.48,14.57
+Australia,2000,nuclear,0,0.0
+Australia,2000,solar,0.1,0.05
+Australia,2000,wind,0.96,0.49
+Australia,2000,hydro,15.73,8.05
+Australia,2001,coal,137.88,74.49
+Australia,2001,gas,29.59,15.99
+Australia,2001,nuclear,0,0.0
+Australia,2001,solar,0.14,0.08
+Australia,2001,wind,1.18,0.64
+Australia,2001,hydro,16.3,8.81
+Australia,2002,coal,137.16,73.01
+Australia,2002,gas,32.55,17.33
+Australia,2002,nuclear,0,0.0
+Australia,2002,solar,0.19,0.1
+Australia,2002,wind,1.31,0.7
+Australia,2002,hydro,16.65,8.86
+Australia,2003,coal,139.75,73.27
+Australia,2003,gas,33.43,17.53
+Australia,2003,nuclear,0,0.0
+Australia,2003,solar,0.27,0.14
+Australia,2003,wind,1.56,0.82
+Australia,2003,hydro,15.71,8.24
+Australia,2004,coal,123.15,70.36
+Australia,2004,gas,33.72,19.27
+Australia,2004,nuclear,0,0.0
+Australia,2004,solar,0.36,0.21
+Australia,2004,wind,1.79,1.02
+Australia,2004,hydro,16.0,9.14
+Australia,2005,coal,124.26,70.31
+Australia,2005,gas,33.37,18.88
+Australia,2005,nuclear,0,0.0
+Australia,2005,solar,0.52,0.29
+Australia,2005,wind,2.02,1.14
+Australia,2005,hydro,16.55,9.37
+Australia,2006,coal,123.42,68.52
+Australia,2006,gas,37.22,20.67
+Australia,2006,nuclear,0,0.0
+Australia,2006,solar,0.72,0.4
+Australia,2006,wind,2.27,1.26
+Australia,2006,hydro,16.48,9.15
+Australia,2007,coal,112.77,65.76
+Australia,2007,gas,38.08,22.21
+Australia,2007,nuclear,0,0.0
+Australia,2007,solar,0.97,0.57
+Australia,2007,wind,2.7,1.57
+Australia,2007,hydro,16.97,9.9
+Australia,2008,coal,107.53,64.36
+Australia,2008,gas,39.15,23.43
+Australia,2008,nuclear,0,0.0
+Australia,2008,solar,1.36,0.81
+Australia,2008,wind,3.09,1.85
+Australia,2008,hydro,15.95,9.55
+Australia,2009,coal,105.15,63.43
+Australia,2009,gas,39.35,23.74
+Australia,2009,nuclear,0,0.0
+Australia,2009,solar,1.78,1.07
+Australia,2009,wind,3.49,2.11
+Australia,2009,hydro,16.01,9.66
+Australia,2010,coal,104.78,62.51
+Australia,2010,gas,38.95,23.24
+Australia,2010,nuclear,0,0.0
+Australia,2010,solar,2.59,1.55
+Australia,2010,wind,4.12,2.46
+Australia,2010,hydro,17.18,10.25
+Australia,2011,coal,100.09,60.2
+Australia,2011,gas,41.14,24.74
+Australia,2011,nuclear,0,0.0
+Australia,2011,solar,3.54,2.13
+Australia,2011,wind,4.76,2.86
+Australia,2011,hydro,16.74,10.07
+Australia,2012,coal,88.42,55.58
+Australia,2012,gas,44.36,27.89
+Australia,2012,nuclear,0,0.0
+Australia,2012,solar,4.57,2.87
+Australia,2012,wind,5.48,3.44
+Australia,2012,hydro,16.25,10.21
+Australia,2013,coal,86.95,54.54
+Australia,2013,gas,42.57,26.7
+Australia,2013,nuclear,0,0.0
+Australia,2013,solar,6.42,4.03
+Australia,2013,wind,6.04,3.79
+Australia,2013,hydro,17.44,10.94
+Australia,2014,coal,85.45,51.73
+Australia,2014,gas,46.23,27.99
+Australia,2014,nuclear,0,0.0
+Australia,2014,solar,8.98,5.44
+Australia,2014,wind,7.09,4.29
+Australia,2014,hydro,17.43,10.55
+Australia,2015,coal,85.48,49.95
+Australia,2015,gas,48.0,28.05
+Australia,2015,nuclear,0,0.0
+Australia,2015,solar,12.92,7.55
+Australia,2015,wind,8.4,4.91
+Australia,2015,hydro,16.32,9.54
+Australia,2016,coal,80.12,35.8
+Australia,2016,gas,48.45,21.65
+Australia,2016,nuclear,0,0.0
+Australia,2016,solar,60.63,27.09
+Australia,2016,wind,17.07,7.63
+Australia,2016,hydro,17.55,7.84
+Australia,2017,coal,76.83,30.44
+Australia,2017,gas,47.36,18.77
+Australia,2017,nuclear,0,0.0
+Australia,2017,solar,90.49,35.85
+Australia,2017,wind,20.08,7.96
+Australia,2017,hydro,17.62,6.98
+Australia,2018,coal,71.23,23.62
+Australia,2018,gas,50.06,16.6
+Australia,2018,nuclear,0,0.0
+Australia,2018,solar,138.66,45.98
+Australia,2018,wind,24.69,8.19
+Australia,2018,hydro,16.93,5.61
+Australia,2019,coal,67.32,18.41
+Australia,2019,gas,52.32,14.31
+Australia,2019,nuclear,0,0.0
+Australia,2019,solar,198.96,54.41
+Australia,2019,wind,29.94,8.19
+Australia,2019,hydro,17.16,4.69
+Australia,2020,coal,71.73,14.77
+Australia,2020,gas,52.65,10.84
+Australia,2020,nuclear,0,0.0
+Australia,2020,solar,308.7,63.58
+Australia,2020,wind,34.31,7.07
+Australia,2020,hydro,18.12,3.73
+Australia,2021,coal,67.09,10.58
+Australia,2021,gas,55.16,8.7
+Australia,2021,nuclear,0,0.0
+Australia,2021,solar,451.4,71.16
+Australia,2021,wind,42.14,6.64
+Australia,2021,hydro,18.53,2.92
+Australia,2022,coal,62.74,7.0
+Australia,2022,gas,55.92,6.24
+Australia,2022,nuclear,0,0.0
+Australia,2022,solar,708.92,79.1
+Australia,2022,wind,51.1,5.7
+Australia,2022,hydro,17.5,1.95
+Australia,2023,coal,58.77,4.88
+Australia,2023,gas,57.79,4.8
+Australia,2023,nuclear,0,0.0
+Australia,2023,solar,1013.73,84.14
+Australia,2023,wind,56.15,4.66
+Australia,2023,hydro,18.44,1.53
+Australia,2024,coal,56.64,3.24
+Australia,2024,gas,62.96,3.6
+Australia,2024,nuclear,0,0.0
+Australia,2024,solar,1537.67,87.88
+Australia,2024,wind,74.32,4.25
+Australia,2024,hydro,18.24,1.04
+Japan,2000,coal,252.16,27.76
+Japan,2000,gas,274.11,30.17
+Japan,2000,nuclear,298.48,32.86
+Japan,2000,solar,0.2,0.02
+Japan,2000,wind,0.53,0.06
+Japan,2000,hydro,82.95,9.13
+Japan,2001,coal,237.35,27.69
+Japan,2001,gas,241.65,28.19
+Japan,2001,nuclear,295.66,34.49
+Japan,2001,solar,0.26,0.03
+Japan,2001,wind,0.6,0.07
+Japan,2001,hydro,81.79,9.54
+Japan,2002,coal,247.35,28.09
+Japan,2002,gas,264.18,30.0
+Japan,2002,nuclear,281.45,31.97
+Japan,2002,solar,0.34,0.04
+Japan,2002,wind,0.71,0.08
+Japan,2002,hydro,86.45,9.82
+Japan,2003,coal,239.83,28.22
+Japan,2003,gas,249.18,29.32
+Japan,2003,nuclear,272.37,32.05
+Japan,2003,solar,0.42,0.05
+Japan,2003,wind,0.84,0.1
+Japan,2003,hydro,87.13,10.25
+Japan,2004,coal,229.91,27.58
+Japan,2004,gas,262.47,31.49
+Japan,2004,nuclear,253.19,30.38
+Japan,2004,solar,0.59,0.07
+Japan,2004,wind,0.96,0.12
+Japan,2004,hydro,86.36,10.36
+Japan,2005,coal,233.54,27.58
+Japan,2005,gas,256.79,30.32
+Japan,2005,nuclear,266.87,31.51
+Japan,2005,solar,0.75,0.09
+Japan,2005,wind,1.14,0.13
+Japan,2005,hydro,87.72,10.36
+Japan,2006,coal,213.18,25.95
+Japan,2006,gas,270.11,32.88
+Japan,2006,nuclear,250.35,30.47
+Japan,2006,solar,1.0,0.12
+Japan,2006,wind,1.34,0.16
+Japan,2006,hydro,85.6,10.42
+Japan,2007,coal,219.44,27.08
+Japan,2007,gas,267.56,33.02
+Japan,2007,nuclear,233.86,28.86
+Japan,2007,solar,1.25,0.15
+Japan,2007,wind,1.65,0.2
+Japan,2007,hydro,86.56,10.68
+Japan,2008,coal,207.14,26.0
+Japan,2008,gas,276.53,34.71
+Japan,2008,nuclear,222.05,27.87
+Japan,2008,solar,1.53,0.19
+Japan,2008,wind,1.88,0.24
+Japan,2008,hydro,87.53,10.99
+Japan,2009,coal,209.82,26.55
+Japan,2009,gas,266.1,33.67
+Japan,2009,nuclear,227.04,28.73
+Japan,2009,solar,2.03,0.26
+Japan,2009,wind,2.23,0.28
+Japan,2009,hydro,83.09,10.51
+Japan,2010,coal,203.35,25.8
+Japan,2010,gas,278.32,35.31
+Japan,2010,nuclear,209.57,26.59
+Japan,2010,solar,2.71,0.34
+Japan,2010,wind,2.68,0.34
+Japan,2010,hydro,91.65,11.63
+Japan,2011,coal,191.15,24.64
+Japan,2011,gas,281.76,36.32
+Japan,2011,nuclear,206.63,26.63
+Japan,2011,solar,3.44,0.44
+Japan,2011,wind,3.24,0.42
+Japan,2011,hydro,89.61,11.55
+Japan,2012,coal,191.45,24.37
+Japan,2012,gas,283.56,36.1
+Japan,2012,nuclear,212.16,27.01
+Japan,2012,solar,4.68,0.6
+Japan,2012,wind,3.89,0.5
+Japan,2012,hydro,89.71,11.42
+Japan,2013,coal,174.99,23.29
+Japan,2013,gas,282.05,37.53
+Japan,2013,nuclear,197.45,26.28
+Japan,2013,solar,6.02,0.8
+Japan,2013,wind,4.3,0.57
+Japan,2013,hydro,86.65,11.53
+Japan,2014,coal,182.28,23.25
+Japan,2014,gas,299.12,38.15
+Japan,2014,nuclear,199.36,25.43
+Japan,2014,solar,7.72,0.98
+Japan,2014,wind,5.18,0.66
+Japan,2014,hydro,90.44,11.53
+Japan,2015,coal,191.66,24.83
+Japan,2015,gas,281.05,36.42
+Japan,2015,nuclear,194.42,25.19
+Japan,2015,solar,10.05,1.3
+Japan,2015,wind,6.19,0.8
+Japan,2015,hydro,88.39,11.45
+Japan,2016,coal,168.62,21.68
+Japan,2016,gas,293.46,37.74
+Japan,2016,nuclear,174.41,22.43
+Japan,2016,solar,38.59,4.96
+Japan,2016,wind,14.43,1.86
+Japan,2016,hydro,88.1,11.33
+Japan,2017,coal,169.42,21.36
+Japan,2017,gas,286.17,36.08
+Japan,2017,nuclear,174.22,21.96
+Japan,2017,solar,53.58,6.75
+Japan,2017,wind,18.53,2.34
+Japan,2017,hydro,91.34,11.51
+Japan,2018,coal,171.32,20.47
+Japan,2018,gas,310.46,37.1
+Japan,2018,nuclear,166.27,19.87
+Japan,2018,solar,76.58,9.15
+Japan,2018,wind,21.9,2.62
+Japan,2018,hydro,90.34,10.79
+Japan,2019,coal,173.57,20.08
+Japan,2019,gas,295.87,34.23
+Japan,2019,nuclear,172.23,19.93
+Japan,2019,solar,104.28,12.07
+Japan,2019,wind,29.13,3.37
+Japan,2019,hydro,89.16,10.32
+Japan,2020,coal,173.26,19.06
+Japan,2020,gas,310.97,34.2
+Japan,2020,nuclear,157.39,17.31
+Japan,2020,solar,150.9,16.6
+Japan,2020,wind,32.45,3.57
+Japan,2020,hydro,84.21,9.26
+Japan,2021,coal,167.75,17.12
+Japan,2021,gas,317.98,32.45
+Japan,2021,nuclear,158.49,16.17
+Japan,2021,solar,199.95,20.4
+Japan,2021,wind,43.33,4.42
+Japan,2021,hydro,92.45,9.43
+Japan,2022,coal,157.14,15.22
+Japan,2022,gas,318.01,30.8
+Japan,2022,nuclear,147.77,14.31
+Japan,2022,solar,275.43,26.67
+Japan,2022,wind,49.43,4.79
+Japan,2022,hydro,84.8,8.21
+Japan,2023,coal,151.54,13.08
+Japan,2023,gas,325.82,28.12
+Japan,2023,nuclear,143.99,12.43
+Japan,2023,solar,382.95,33.06
+Japan,2023,wind,60.79,5.25
+Japan,2023,hydro,93.43,8.06
+Japan,2024,coal,153.95,11.74
+Japan,2024,gas,322.11,24.56
+Japan,2024,nuclear,143.97,10.98
+Japan,2024,solar,522.22,39.82
+Japan,2024,wind,75.45,5.75
+Japan,2024,hydro,93.63,7.14
+South Africa,2000,coal,199.66,92.45
+South Africa,2000,gas,2.05,0.95
+South Africa,2000,nuclear,10.86,5.03
+South Africa,2000,solar,0.1,0.05
+South Africa,2000,wind,0.1,0.05
+South Africa,2000,hydro,3.2,1.48
+South Africa,2001,coal,194.97,91.68
+South Africa,2001,gas,2.1,0.99
+South Africa,2001,nuclear,12.36,5.81
+South Africa,2001,solar,0.14,0.07
+South Africa,2001,wind,0.13,0.06
+South Africa,2001,hydro,2.97,1.4
+South Africa,2002,coal,203.6,91.83
+South Africa,2002,gas,2.26,1.02
+South Africa,2002,nuclear,12.42,5.6
+South Africa,2002,solar,0.19,0.09
+South Africa,2002,wind,0.16,0.07
+South Africa,2002,hydro,3.09,1.39
+South Africa,2003,coal,182.22,90.79
+South Africa,2003,gas,2.28,1.14
+South Africa,2003,nuclear,12.71,6.33
+South Africa,2003,solar,0.26,0.13
+South Africa,2003,wind,0.2,0.1
+South Africa,2003,hydro,3.03,1.51
+South Africa,2004,coal,193.98,91.12
+South Africa,2004,gas,2.35,1.1
+South Africa,2004,nuclear,12.67,5.95
+South Africa,2004,solar,0.39,0.18
+South Africa,2004,wind,0.25,0.12
+South Africa,2004,hydro,3.25,1.53
+South Africa,2005,coal,197.35,91.35
+South Africa,2005,gas,2.57,1.19
+South Africa,2005,nuclear,12.15,5.62
+South Africa,2005,solar,0.56,0.26
+South Africa,2005,wind,0.29,0.13
+South Africa,2005,hydro,3.11,1.44
+South Africa,2006,coal,192.46,90.44
+South Africa,2006,gas,2.72,1.28
+South Africa,2006,nuclear,13.35,6.27
+South Africa,2006,solar,0.75,0.35
+South Africa,2006,wind,0.36,0.17
+South Africa,2006,hydro,3.16,1.48
+South Africa,2007,coal,187.39,89.94
+South Africa,2007,gas,2.78,1.33
+South Africa,2007,nuclear,13.41,6.44
+South Africa,2007,solar,1.05,0.5
+South Africa,2007,wind,0.46,0.22
+South Africa,2007,hydro,3.26,1.56
+South Africa,2008,coal,178.19,89.14
+South Africa,2008,gas,3.11,1.56
+South Africa,2008,nuclear,13.1,6.55
+South Africa,2008,solar,1.41,0.71
+South Africa,2008,wind,0.62,0.31
+South Africa,2008,hydro,3.48,1.74
+South Africa,2009,coal,171.72,88.34
+South Africa,2009,gas,3.19,1.64
+South Africa,2009,nuclear,13.31,6.85
+South Africa,2009,solar,2.08,1.07
+South Africa,2009,wind,0.75,0.39
+South Africa,2009,hydro,3.33,1.71
+South Africa,2010,coal,177.12,88.35
+South Africa,2010,gas,3.4,1.7
+South Africa,2010,nuclear,12.72,6.35
+South Africa,2010,solar,3.06,1.53
+South Africa,2010,wind,0.97,0.48
+South Africa,2010,hydro,3.2,1.6
+South Africa,2011,coal,179.04,87.58
+South Africa,2011,gas,3.57,1.75
+South Africa,2011,nuclear,13.19,6.45
+South Africa,2011,solar,4.03,1.97
+South Africa,2011,wind,1.15,0.56
+South Africa,2011,hydro,3.46,1.69
+South Africa,2012,coal,174.05,86.3
+South Africa,2012,gas,3.59,1.78
+South Africa,2012,nuclear,13.74,6.81
+South Africa,2012,solar,5.63,2.79
+South Africa,2012,wind,1.42,0.7
+South Africa,2012,hydro,3.24,1.61
+South Africa,2013,coal,167.51,84.98
+South Africa,2013,gas,3.64,1.85
+South Africa,2013,nuclear,12.95,6.57
+South Africa,2013,solar,7.76,3.94
+South Africa,2013,wind,1.84,0.93
+South Africa,2013,hydro,3.42,1.73
+South Africa,2014,coal,169.44,83.46
+South Africa,2014,gas,3.84,1.89
+South Africa,2014,nuclear,13.38,6.59
+South Africa,2014,solar,10.65,5.25
+South Africa,2014,wind,2.19,1.08
+South Africa,2014,hydro,3.52,1.73
+South Africa,2015,coal,164.76,80.19
+South Africa,2015,gas,4.16,2.02
+South Africa,2015,nuclear,13.67,6.65
+South Africa,2015,solar,16.69,8.12
+South Africa,2015,wind,2.69,1.31
+South Africa,2015,hydro,3.5,1.7
+South Africa,2016,coal,168.59,60.01
+South Africa,2016,gas,4.26,1.52
+South Africa,2016,nuclear,14.2,5.05
+South Africa,2016,solar,81.57,29.04
+South Africa,2016,wind,8.74,3.11
+South Africa,2016,hydro,3.56,1.27
+South Africa,2017,coal,170.56,51.17
+South Africa,2017,gas,4.76,1.43
+South Africa,2017,nuclear,13.95,4.18
+South Africa,2017,solar,128.85,38.65
+South Africa,2017,wind,11.89,3.57
+South Africa,2017,hydro,3.34,1.0
+South Africa,2018,coal,169.52,42.33
+South Africa,2018,gas,4.8,1.2
+South Africa,2018,nuclear,13.97,3.49
+South Africa,2018,solar,192.83,48.15
+South Africa,2018,wind,15.62,3.9
+South Africa,2018,hydro,3.7,0.92
+South Africa,2019,coal,164.82,33.1
+South Africa,2019,gas,5.17,1.04
+South Africa,2019,nuclear,14.79,2.97
+South Africa,2019,solar,289.17,58.07
+South Africa,2019,wind,20.34,4.08
+South Africa,2019,hydro,3.72,0.75
+South Africa,2020,coal,163.69,24.87
+South Africa,2020,gas,5.63,0.86
+South Africa,2020,nuclear,14.85,2.26
+South Africa,2020,solar,443.15,67.34
+South Africa,2020,wind,27.18,4.13
+South Africa,2020,hydro,3.62,0.55
+South Africa,2021,coal,162.42,18.47
+South Africa,2021,gas,5.38,0.61
+South Africa,2021,nuclear,14.27,1.62
+South Africa,2021,solar,656.6,74.68
+South Africa,2021,wind,36.77,4.18
+South Africa,2021,hydro,3.72,0.42
+South Africa,2022,coal,165.7,13.41
+South Africa,2022,gas,5.78,0.47
+South Africa,2022,nuclear,15.24,1.23
+South Africa,2022,solar,996.94,80.66
+South Africa,2022,wind,48.55,3.93
+South Africa,2022,hydro,3.76,0.3
+South Africa,2023,coal,148.88,8.69
+South Africa,2023,gas,6.16,0.36
+South Africa,2023,nuclear,14.8,0.86
+South Africa,2023,solar,1479.5,86.31
+South Africa,2023,wind,61.05,3.56
+South Africa,2023,hydro,3.72,0.22
+South Africa,2024,coal,148.29,6.04
+South Africa,2024,gas,6.62,0.27
+South Africa,2024,nuclear,15.13,0.62
+South Africa,2024,solar,2196.64,89.49
+South Africa,2024,wind,84.01,3.42
+South Africa,2024,hydro,3.9,0.16
