@@ -1,0 +1,801 @@
+id,origin,destination,weight_kg,cost_eur,ship_date,carrier,status
+SHP-10001,Marseille,Balboa,4815.73,33771.36,03/06/2024,Euro Logistics,delivered
+SHP-10002,London,Shenzhen,560.01,843.47,06/04/2024,Euro Logistics,delivered
+SHP-10003,Gothenburg,Kuala Lumpur,3248.87,21817.63,16/11/2024,North Sea Shipping,delivered
+SHP-10004,Dublin,New York,741.25,21122.87,29/02/2024,North Sea Shipping,delayed
+SHP-10005,Lisbon,Valencia,4819.35,23600.89,18/08/2024,North Sea Shipping,delivered
+SHP-10006,Gdansk,Lisbon,255.09,443.32,18/11/2024,Baltic Lines,customs_hold
+SHP-10007,Le Havre,Houston,3685.52,29812.19,10/10/2024,Continental Cargo,delivered
+SHP-10008,Genoa,Houston,2567.02,36244.48,13/12/2024,Baltic Lines,delivered
+SHP-10009,London,Vancouver,95.59,28841.35,10/10/2024,Euro Logistics,delivered
+SHP-10010,Gothenburg,Dublin,4445.76,5891.19,14/11/2024,Continental Cargo,delivered
+SHP-10011,Genoa,Tokyo,807.09,36324.15,28/08/2024,Continental Cargo,delivered
+SHP-10012,Istanbul,Busan,2938.5,34264.46,04/11/2024,Baltic Lines,delivered
+SHP-10013,Barcelona,Gothenburg,4799.04,41662.38,10/12/2024,Continental Cargo,in_transit
+SHP-10014,Dublin,Manila,3109.4,14158.74,14/02/2024,Baltic Lines,delivered
+SHP-10015,Antwerp,Manila,3028.94,5090.14,31/07/2024,Baltic Lines,delivered
+SHP-10016,Antwerp,Buenos Aires,235.72,955.62,13/05/2024,Continental Cargo,in_transit
+SHP-10017,Hamburg,Miami,160.33,3230.1,08/08/2024,Euro Logistics,in_transit
+SHP-10018,Rotterdam,Buenos Aires,1120.87,12928.22,23/06/2024,Continental Cargo,in_transit
+SHP-10019,Dublin,Buenos Aires,1337.82,7601.36,19/12/2024,Euro Logistics,in_transit
+SHP-10020,Valencia,Le Havre,3995.03,48134.22,26/02/2024,Euro Logistics,in_transit
+SHP-10021,Gdansk,Hong Kong,4118.14,2146.37,23/02/2024,North Sea Shipping,in_transit
+SHP-10022,Le Havre,Osaka,4554.97,7893.78,29/05/2024,Baltic Lines,in_transit
+SHP-10023,Piraeus,Hong Kong,771.9,18218.66,11/03/2024,Euro Logistics,delayed
+SHP-10024,Piraeus,Dublin,3846.21,379.05,30/08/2024,Continental Cargo,delivered
+SHP-10025,Hamburg,Bangkok,1330.45,35774.23,31/07/2024,Continental Cargo,in_transit
+SHP-10026,Antwerp,Kuala Lumpur,3766.15,26506.03,26/04/2024,North Sea Shipping,delayed
+SHP-10027,Genoa,Dublin,4490.38,47594.44,21/09/2024,Continental Cargo,customs_hold
+SHP-10028,Piraeus,Kuala Lumpur,3850.87,35895.41,21/09/2024,Euro Logistics,delivered
+SHP-10029,Marseille,Lisbon,4909.73,8258.02,01/02/2024,Baltic Lines,in_transit
+SHP-10030,Gothenburg,Manzanillo,755.19,28749.14,19/11/2024,Continental Cargo,delivered
+SHP-10031,Valencia,Balboa,3504.1,43683.64,09/06/2024,Continental Cargo,delivered
+SHP-10032,Barcelona,Vancouver,3052.2,7385.75,25/07/2024,Baltic Lines,in_transit
+SHP-10033,Valencia,Santos,3121.99,30928.46,14/08/2024,Continental Cargo,delayed
+SHP-10034,Dublin,Manzanillo,2022.83,9904.92,03/06/2024,Euro Logistics,delivered
+SHP-10035,Marseille,Gothenburg,3625.63,37015.61,05/03/2024,Continental Cargo,delivered
+SHP-10036,Istanbul,Buenos Aires,1561.61,17068.41,21/11/2024,North Sea Shipping,delivered
+SHP-10037,Valencia,Santos,2962.72,12104.92,04/06/2024,Baltic Lines,customs_hold
+SHP-10038,Rotterdam,Mumbai,4208.0,13024.84,16/09/2024,Continental Cargo,delivered
+SHP-10039,Dublin,Manzanillo,4706.74,22464.41,20/10/2024,Euro Logistics,delivered
+SHP-10040,Antwerp,Savannah,2828.2,44722.23,17/11/2024,North Sea Shipping,delivered
+SHP-10041,Barcelona,Kingston,3924.05,35756.98,10/12/2024,North Sea Shipping,in_transit
+SHP-10042,Istanbul,London,526.58,25846.77,08/04/2024,Continental Cargo,delivered
+SHP-10043,Hamburg,Le Havre,4142.27,4143.26,01/02/2024,Baltic Lines,delayed
+SHP-10044,Piraeus,Osaka,2231.1,18496.25,26/09/2024,Baltic Lines,in_transit
+SHP-10045,Istanbul,Lisbon,4360.14,29235.97,21/11/2024,Baltic Lines,customs_hold
+SHP-10046,Lisbon,Houston,3658.72,20875.27,24/03/2024,North Sea Shipping,delivered
+SHP-10047,Piraeus,New York,647.36,35241.01,27/09/2024,Euro Logistics,in_transit
+SHP-10048,Piraeus,Los Angeles,163.52,7884.14,13/10/2024,Continental Cargo,customs_hold
+SHP-10049,Rotterdam,Seattle,4261.66,5561.29,08/07/2024,Continental Cargo,delivered
+SHP-10050,Hamburg,Taipei,1857.65,49551.45,04/06/2024,Continental Cargo,delivered
+SHP-10051,Dublin,Kuala Lumpur,711.13,29501.73,25/01/2024,Continental Cargo,delayed
+SHP-10052,Antwerp,Hanoi,4095.72,24465.24,03/03/2024,Continental Cargo,delivered
+SHP-10053,London,Dublin,2406.14,15519.61,19/08/2024,Continental Cargo,in_transit
+SHP-10054,Piraeus,Seattle,664.48,6969.19,21/11/2024,Baltic Lines,in_transit
+SHP-10055,Gothenburg,Valencia,745.34,36406.81,15/02/2024,Baltic Lines,delivered
+SHP-10056,Valencia,Gothenburg,1695.32,2338.69,09/12/2024,Baltic Lines,in_transit
+SHP-10057,Gothenburg,Bangkok,4329.83,35375.07,19/10/2024,Continental Cargo,in_transit
+SHP-10058,Rotterdam,Manzanillo,2796.98,9661.72,12/11/2024,Euro Logistics,customs_hold
+SHP-10059,Istanbul,Shenzhen,3752.92,25156.81,10/01/2024,Euro Logistics,in_transit
+SHP-10060,Istanbul,Hanoi,4811.9,13784.38,15/04/2024,North Sea Shipping,delayed
+SHP-10061,Le Havre,Savannah,2221.43,40355.71,06/11/2024,Continental Cargo,delivered
+SHP-10062,London,Houston,4309.94,1212.0,11/08/2024,North Sea Shipping,delivered
+SHP-10063,Le Havre,Vancouver,1587.25,12896.03,28/02/2024,Euro Logistics,delivered
+SHP-10064,Barcelona,Kuala Lumpur,913.75,38426.82,19/03/2024,Continental Cargo,customs_hold
+SHP-10065,Gothenburg,Manila,295.04,48058.11,02/04/2024,Euro Logistics,in_transit
+SHP-10066,Barcelona,Gothenburg,494.17,7165.9,14/06/2024,Continental Cargo,delivered
+SHP-10067,Le Havre,Taipei,259.86,12019.17,01/11/2024,North Sea Shipping,delivered
+SHP-10068,Dublin,Miami,1925.55,5798.31,01/02/2024,Continental Cargo,delivered
+SHP-10069,Genoa,Singapore,2421.12,20404.31,29/04/2024,Euro Logistics,delivered
+SHP-10070,Gdansk,Balboa,508.0,38160.77,29/11/2024,North Sea Shipping,delivered
+SHP-10071,Genoa,Valencia,420.0,31808.16,14/04/2024,North Sea Shipping,delivered
+SHP-10072,Hamburg,London,2687.91,21216.44,11/10/2024,Baltic Lines,delivered
+SHP-10073,Le Havre,New York,4805.59,31055.46,30/11/2024,North Sea Shipping,delivered
+SHP-10074,Valencia,Los Angeles,1366.88,12581.9,14/12/2024,Baltic Lines,customs_hold
+SHP-10075,Le Havre,Callao,1064.16,42042.18,24/05/2024,Euro Logistics,delivered
+SHP-10076,Istanbul,Cartagena,350.14,4531.27,23/12/2024,Euro Logistics,delayed
+SHP-10077,Lisbon,Buenos Aires,4994.11,43920.05,17/04/2024,Continental Cargo,delayed
+SHP-10078,Marseille,Callao,1307.17,37647.07,19/08/2024,Continental Cargo,delivered
+SHP-10079,Marseille,Piraeus,1053.51,47951.68,17/06/2024,Euro Logistics,delayed
+SHP-10080,Hamburg,Manzanillo,4611.33,30458.9,03/01/2024,Euro Logistics,in_transit
+SHP-10081,Genoa,Buenos Aires,4476.39,35179.82,20/07/2024,Euro Logistics,in_transit
+SHP-10082,Gothenburg,Manzanillo,388.08,1595.83,09/12/2024,Baltic Lines,in_transit
+SHP-10083,Marseille,Gothenburg,4137.42,17930.39,31/03/2024,Euro Logistics,delivered
+SHP-10084,Marseille,Shenzhen,2223.17,11114.96,11/01/2024,Continental Cargo,in_transit
+SHP-10085,Lisbon,Piraeus,957.96,40823.23,16/11/2024,Continental Cargo,delayed
+SHP-10086,Antwerp,Busan,4900.61,48366.46,19/01/2024,Continental Cargo,delivered
+SHP-10087,Lisbon,Seattle,1045.83,9844.54,22/11/2024,Baltic Lines,delivered
+SHP-10088,Barcelona,Cartagena,2501.88,8565.33,09/04/2024,North Sea Shipping,delivered
+SHP-10089,Hamburg,Singapore,637.59,46681.49,26/04/2024,Continental Cargo,delivered
+SHP-10090,Gothenburg,Tokyo,4959.76,34664.64,29/09/2024,Continental Cargo,in_transit
+SHP-10091,Valencia,New York,10.27,21384.37,10/12/2024,Euro Logistics,delayed
+SHP-10092,Marseille,Le Havre,4221.79,20373.45,03/03/2024,Baltic Lines,delivered
+SHP-10093,Istanbul,Seoul,4419.07,11266.18,22/05/2024,Baltic Lines,delivered
+SHP-10094,Marseille,Shanghai,1959.6,16768.56,19/10/2024,Euro Logistics,customs_hold
+SHP-10095,Antwerp,Le Havre,4788.9,45853.91,10/04/2024,North Sea Shipping,delivered
+SHP-10096,Rotterdam,Callao,3126.66,1442.24,09/08/2024,Euro Logistics,in_transit
+SHP-10097,Gothenburg,Genoa,4202.62,12395.32,30/08/2024,North Sea Shipping,customs_hold
+SHP-10098,Le Havre,Mumbai,4108.26,26007.77,01/05/2024,Euro Logistics,in_transit
+SHP-10099,Gdansk,Valencia,3820.61,31286.17,23/10/2024,Euro Logistics,delivered
+SHP-10100,London,Seoul,1887.29,44509.68,21/12/2024,Euro Logistics,in_transit
+SHP-10101,London,Valencia,274.42,30556.4,09/08/2024,Euro Logistics,delivered
+SHP-10102,London,Buenos Aires,261.49,42503.97,24/07/2024,Euro Logistics,in_transit
+SHP-10103,Genoa,Busan,4322.98,39384.37,15/11/2024,Euro Logistics,delivered
+SHP-10104,Piraeus,Le Havre,4399.75,30980.57,22/06/2024,Euro Logistics,delivered
+SHP-10105,Marseille,Savannah,962.81,5179.35,31/10/2024,Euro Logistics,in_transit
+SHP-10106,Le Havre,Shenzhen,4521.9,6342.78,17/09/2024,Continental Cargo,delivered
+SHP-10107,Piraeus,Montreal,2223.4,12195.47,23/01/2024,Euro Logistics,delivered
+SHP-10108,Gdansk,Le Havre,2565.87,32602.66,02/07/2024,Continental Cargo,in_transit
+SHP-10109,Istanbul,Kuala Lumpur,737.47,15468.29,24/06/2024,Continental Cargo,delivered
+SHP-10110,London,Vancouver,2932.41,33931.1,30/01/2024,North Sea Shipping,delivered
+SHP-10111,Le Havre,Buenos Aires,4293.58,21131.95,10/04/2024,North Sea Shipping,in_transit
+SHP-10112,Antwerp,Singapore,1708.09,33409.61,21/12/2024,Baltic Lines,in_transit
+SHP-10113,Marseille,Savannah,2830.7,16816.24,02/06/2024,Baltic Lines,delivered
+SHP-10114,Rotterdam,New York,4380.59,45531.62,10/09/2024,North Sea Shipping,delayed
+SHP-10115,Gothenburg,Busan,3466.26,23353.51,19/04/2024,North Sea Shipping,delivered
+SHP-10116,Dublin,Genoa,4036.45,18826.79,23/07/2024,North Sea Shipping,delayed
+SHP-10117,London,Gdansk,49.96,17926.44,11/10/2024,Euro Logistics,delivered
+SHP-10118,Piraeus,Shenzhen,3156.86,45639.8,03/07/2024,Euro Logistics,customs_hold
+SHP-10119,Antwerp,Shenzhen,1420.86,10986.3,14/05/2024,North Sea Shipping,delivered
+SHP-10120,Istanbul,London,893.12,1123.53,14/05/2024,Euro Logistics,delivered
+SHP-10121,Gothenburg,Jakarta,1894.92,39381.33,26/02/2024,Continental Cargo,customs_hold
+SHP-10122,Barcelona,New York,1201.13,40483.91,04/12/2024,North Sea Shipping,customs_hold
+SHP-10123,Dublin,Montreal,4408.38,43925.47,03/02/2024,Euro Logistics,delivered
+SHP-10124,Valencia,Jakarta,3974.59,9624.48,12/07/2024,Continental Cargo,delivered
+SHP-10125,Genoa,Callao,1223.13,2357.45,11/11/2024,North Sea Shipping,delayed
+SHP-10126,Barcelona,Kuala Lumpur,1638.74,2710.29,23/05/2024,North Sea Shipping,delayed
+SHP-10127,Gdansk,Houston,1046.58,4116.31,28/08/2024,Euro Logistics,delivered
+SHP-10128,Genoa,Manzanillo,3755.81,18744.59,22/09/2024,Baltic Lines,delivered
+SHP-10129,Lisbon,Istanbul,2627.62,24190.69,10/09/2024,Baltic Lines,delivered
+SHP-10130,Genoa,Callao,4605.97,29219.93,19/01/2024,North Sea Shipping,delivered
+SHP-10131,Antwerp,Valencia,4315.91,19825.2,05/06/2024,Baltic Lines,delayed
+SHP-10132,Gdansk,Manila,4677.53,18736.66,08/10/2024,Euro Logistics,delivered
+SHP-10133,Rotterdam,Barcelona,2222.8,17611.17,25/10/2024,Euro Logistics,delivered
+SHP-10134,Gdansk,Genoa,2130.8,23404.17,28/07/2024,Continental Cargo,delayed
+SHP-10135,Marseille,Hamburg,1912.16,9019.31,29/04/2024,Continental Cargo,in_transit
+SHP-10136,Marseille,Bangkok,1472.94,25113.16,06/10/2024,Euro Logistics,in_transit
+SHP-10137,Valencia,Busan,492.5,3613.87,20/01/2024,North Sea Shipping,delivered
+SHP-10138,Gothenburg,Genoa,1250.49,37273.31,15/12/2024,Continental Cargo,delivered
+SHP-10139,Gdansk,Jakarta,4992.03,37631.55,05/10/2024,Continental Cargo,delivered
+SHP-10140,Barcelona,Antwerp,4111.63,39167.26,25/07/2024,Baltic Lines,delayed
+SHP-10141,Dublin,Manzanillo,59.95,32721.85,17/03/2024,Baltic Lines,delivered
+SHP-10142,Lisbon,Osaka,2372.45,25815.48,09/10/2024,Baltic Lines,in_transit
+SHP-10143,Piraeus,Genoa,3959.68,15688.09,06/04/2024,Baltic Lines,in_transit
+SHP-10144,Lisbon,Dublin,1048.32,22526.1,12/10/2024,Euro Logistics,delivered
+SHP-10145,Gdansk,Jakarta,1528.21,36903.36,12/09/2024,Continental Cargo,delivered
+SHP-10146,Genoa,Le Havre,3428.97,20198.27,19/12/2024,Continental Cargo,delivered
+SHP-10147,London,Cartagena,3926.9,46111.1,19/03/2024,Continental Cargo,in_transit
+SHP-10148,Dublin,Seattle,4568.8,28715.24,19/07/2024,Baltic Lines,delivered
+SHP-10149,Genoa,Singapore,2672.69,9457.52,25/02/2024,Continental Cargo,in_transit
+SHP-10150,Piraeus,Callao,4473.77,4707.41,23/02/2024,North Sea Shipping,delivered
+SHP-10151,Lisbon,Seattle,2443.32,9375.27,05/02/2024,Baltic Lines,delivered
+SHP-10152,Antwerp,Barcelona,3298.02,3545.47,30/01/2024,Continental Cargo,delivered
+SHP-10153,Hamburg,Genoa,4298.61,20572.52,21/03/2024,Euro Logistics,delivered
+SHP-10154,Genoa,Los Angeles,3715.84,19480.2,15/04/2024,North Sea Shipping,delayed
+SHP-10155,Barcelona,Le Havre,4089.57,33256.39,22/03/2024,Continental Cargo,in_transit
+SHP-10156,Istanbul,Balboa,2295.05,10125.05,14/03/2024,Baltic Lines,delivered
+SHP-10157,Genoa,Seattle,4037.93,26316.53,18/10/2024,Baltic Lines,delivered
+SHP-10158,Gdansk,Seoul,3686.58,14431.19,21/08/2024,Continental Cargo,in_transit
+SHP-10159,Lisbon,Barcelona,1955.76,41180.31,30/03/2024,Baltic Lines,delivered
+SHP-10160,Valencia,Montreal,3666.35,22918.52,03/12/2024,North Sea Shipping,in_transit
+SHP-10161,Rotterdam,Lisbon,3493.37,2231.04,21/03/2024,Continental Cargo,delayed
+SHP-10162,Istanbul,Antwerp,3333.45,3383.86,21/04/2024,Baltic Lines,delivered
+SHP-10163,Dublin,Buenos Aires,606.59,18468.17,23/02/2024,Continental Cargo,delivered
+SHP-10164,Hamburg,Rotterdam,1037.26,2279.53,14/01/2024,Euro Logistics,in_transit
+SHP-10165,Gothenburg,New York,1906.09,37310.57,09/04/2024,Baltic Lines,delivered
+SHP-10166,Barcelona,Taipei,3545.64,6867.2,09/12/2024,Baltic Lines,delivered
+SHP-10167,Rotterdam,Bangkok,2742.37,12152.57,12/08/2024,North Sea Shipping,delivered
+SHP-10168,Barcelona,Manila,853.36,952.4,21/02/2024,North Sea Shipping,delivered
+SHP-10169,Istanbul,Lisbon,842.68,33586.04,06/01/2024,Continental Cargo,delivered
+SHP-10170,Marseille,Hanoi,1083.75,1770.52,11/12/2024,North Sea Shipping,delivered
+SHP-10171,London,Callao,4057.65,32068.56,03/12/2024,Euro Logistics,delivered
+SHP-10172,Barcelona,Valencia,262.55,283.05,12/07/2024,North Sea Shipping,customs_hold
+SHP-10173,Marseille,London,1000.33,851.12,15/01/2024,Euro Logistics,delivered
+SHP-10174,Antwerp,Balboa,3344.91,11067.36,19/02/2024,North Sea Shipping,in_transit
+SHP-10175,London,Dublin,2562.74,40790.44,14/06/2024,North Sea Shipping,in_transit
+SHP-10176,Valencia,Santos,1975.62,21422.62,28/04/2024,North Sea Shipping,delivered
+SHP-10177,Marseille,Hanoi,75.47,32716.94,07/01/2024,Baltic Lines,delivered
+SHP-10178,Antwerp,Singapore,3289.98,13958.96,15/11/2024,Continental Cargo,delivered
+SHP-10179,Valencia,Osaka,2055.78,38388.88,12/09/2024,Euro Logistics,in_transit
+SHP-10180,Dublin,Cartagena,857.71,47953.78,03/11/2024,Continental Cargo,customs_hold
+SHP-10181,Lisbon,Gdansk,3389.66,48619.72,21/12/2024,North Sea Shipping,delivered
+SHP-10182,Gothenburg,Marseille,4890.12,33335.21,04/02/2024,Continental Cargo,delivered
+SHP-10183,Valencia,Savannah,2244.83,25575.76,29/04/2024,Euro Logistics,delivered
+SHP-10184,Gdansk,Taipei,1544.59,36908.77,04/05/2024,Euro Logistics,delivered
+SHP-10185,Marseille,Houston,1483.43,7625.95,14/04/2024,Euro Logistics,delivered
+SHP-10186,Lisbon,Seattle,4942.76,22214.12,17/06/2024,North Sea Shipping,delivered
+SHP-10187,Gothenburg,Seoul,2604.6,48879.5,27/11/2024,Continental Cargo,in_transit
+SHP-10188,Antwerp,Piraeus,1713.97,10330.58,28/01/2024,North Sea Shipping,delayed
+SHP-10189,Lisbon,Busan,3040.51,19105.22,13/06/2024,North Sea Shipping,delivered
+SHP-10190,London,Singapore,4349.4,3545.75,08/04/2024,Euro Logistics,in_transit
+SHP-10191,Hamburg,Osaka,628.24,8725.11,08/10/2024,North Sea Shipping,delivered
+SHP-10192,Rotterdam,Le Havre,3625.08,15607.58,11/04/2024,North Sea Shipping,delivered
+SHP-10193,Gdansk,London,1515.85,28842.27,21/11/2024,North Sea Shipping,delivered
+SHP-10194,Dublin,Los Angeles,400.54,48629.13,22/07/2024,Baltic Lines,delivered
+SHP-10195,Piraeus,Le Havre,2526.71,36759.66,20/03/2024,Baltic Lines,delivered
+SHP-10196,Genoa,Le Havre,4270.28,37954.97,02/06/2024,North Sea Shipping,in_transit
+SHP-10197,Hamburg,Rotterdam,1902.56,15327.07,25/05/2024,Baltic Lines,in_transit
+SHP-10198,Piraeus,Singapore,1666.5,35757.43,10/04/2024,North Sea Shipping,delayed
+SHP-10199,London,Shanghai,4308.34,36531.91,10/07/2024,Baltic Lines,delivered
+SHP-10200,Genoa,Lisbon,4852.48,18688.59,07/09/2024,Continental Cargo,in_transit
+SHP-10201,Gdansk,Singapore,2044.23,1989.4,04/03/2024,Baltic Lines,customs_hold
+SHP-10202,Hamburg,Shenzhen,3814.87,47856.99,27/06/2024,Baltic Lines,in_transit
+SHP-10203,Marseille,Mumbai,3254.71,46329.61,06/05/2024,North Sea Shipping,delivered
+SHP-10204,Valencia,Istanbul,3154.95,33837.46,23/12/2024,North Sea Shipping,delivered
+SHP-10205,Piraeus,Balboa,737.26,12408.37,23/10/2024,North Sea Shipping,delivered
+SHP-10206,Dublin,Bangkok,3222.16,45848.3,22/07/2024,Euro Logistics,delivered
+SHP-10207,Antwerp,Le Havre,829.54,21372.23,20/12/2024,Continental Cargo,delivered
+SHP-10208,Istanbul,Kingston,4433.31,29324.68,29/07/2024,Euro Logistics,delivered
+SHP-10209,Gdansk,Piraeus,4071.23,13487.62,17/04/2024,Baltic Lines,in_transit
+SHP-10210,London,Manila,4082.04,128.85,05/02/2024,Baltic Lines,delivered
+SHP-10211,Gothenburg,Antwerp,3665.34,8573.18,10/07/2024,North Sea Shipping,in_transit
+SHP-10212,Antwerp,Houston,910.33,47426.74,18/08/2024,North Sea Shipping,delivered
+SHP-10213,London,Hanoi,4045.99,9634.65,28/07/2024,Baltic Lines,in_transit
+SHP-10214,Gdansk,Hong Kong,4341.88,8348.0,30/05/2024,Euro Logistics,delivered
+SHP-10215,Barcelona,Singapore,1711.09,29303.04,01/09/2024,Baltic Lines,in_transit
+SHP-10216,Rotterdam,Shanghai,305.75,37602.34,04/01/2024,Euro Logistics,delivered
+SHP-10217,Istanbul,Shanghai,1878.64,26027.7,16/05/2024,Baltic Lines,delivered
+SHP-10218,Marseille,Seattle,2147.55,18570.72,24/06/2024,Continental Cargo,delayed
+SHP-10219,Marseille,Kingston,1992.66,30559.91,01/07/2024,Continental Cargo,delayed
+SHP-10220,London,New York,4352.77,20120.33,12/03/2024,Euro Logistics,in_transit
+SHP-10221,Le Havre,Vancouver,1397.7,34978.27,07/05/2024,Continental Cargo,delivered
+SHP-10222,Gothenburg,Kingston,4349.33,25769.95,04/12/2024,North Sea Shipping,delivered
+SHP-10223,Gothenburg,Marseille,83.64,18042.27,24/01/2024,Continental Cargo,in_transit
+SHP-10224,Antwerp,Seattle,2422.94,36973.27,11/02/2024,Continental Cargo,delivered
+SHP-10225,Valencia,Los Angeles,4934.36,42862.15,21/02/2024,Baltic Lines,delivered
+SHP-10226,Antwerp,Kuala Lumpur,4349.36,43817.89,15/09/2024,Euro Logistics,delivered
+SHP-10227,Dublin,Bangkok,1507.09,33669.45,07/10/2024,Baltic Lines,delivered
+SHP-10228,Piraeus,Taipei,2411.1,27056.36,04/05/2024,North Sea Shipping,delivered
+SHP-10229,Gothenburg,Bangkok,527.8,49668.41,15/01/2024,North Sea Shipping,customs_hold
+SHP-10230,Marseille,Gothenburg,3831.66,11057.78,11/05/2024,Baltic Lines,customs_hold
+SHP-10231,Gothenburg,Taipei,3327.55,46140.67,20/11/2024,Baltic Lines,delivered
+SHP-10232,Lisbon,Genoa,4359.77,46592.41,03/11/2024,Euro Logistics,in_transit
+SHP-10233,Genoa,Gothenburg,3269.77,39264.84,11/08/2024,North Sea Shipping,delivered
+SHP-10234,Rotterdam,Barcelona,438.86,4502.51,30/10/2024,North Sea Shipping,in_transit
+SHP-10235,Rotterdam,Cartagena,1839.0,42673.85,13/07/2024,Euro Logistics,delivered
+SHP-10236,Gdansk,Santos,949.69,19437.87,04/08/2024,Continental Cargo,in_transit
+SHP-10237,Dublin,Balboa,4669.66,6359.05,05/12/2024,North Sea Shipping,delivered
+SHP-10238,London,Santos,4261.88,15830.51,31/05/2024,North Sea Shipping,delivered
+SHP-10239,Piraeus,Kuala Lumpur,3007.53,7336.24,06/12/2024,Euro Logistics,in_transit
+SHP-10240,Barcelona,Miami,4951.68,6217.03,27/12/2024,Baltic Lines,in_transit
+SHP-10241,Antwerp,Houston,1457.83,48326.46,31/01/2024,Continental Cargo,delivered
+SHP-10242,Lisbon,Osaka,4240.43,46724.92,25/04/2024,Euro Logistics,customs_hold
+SHP-10243,Dublin,Hanoi,4283.97,36383.4,02/06/2024,North Sea Shipping,customs_hold
+SHP-10244,Istanbul,Lisbon,1687.38,33911.04,27/06/2024,Baltic Lines,delivered
+SHP-10245,Istanbul,Antwerp,1412.18,46157.04,24/12/2024,Baltic Lines,delivered
+SHP-10246,Marseille,Savannah,4329.34,2753.46,29/12/2024,Continental Cargo,delivered
+SHP-10247,Hamburg,Cartagena,688.24,34812.98,29/05/2024,North Sea Shipping,delivered
+SHP-10248,Dublin,Shenzhen,3676.73,506.17,21/10/2024,Euro Logistics,in_transit
+SHP-10249,Le Havre,Kuala Lumpur,1883.09,49135.89,13/12/2024,North Sea Shipping,customs_hold
+SHP-10250,Rotterdam,Istanbul,4870.81,9022.66,27/01/2024,Euro Logistics,customs_hold
+SHP-10251,Gothenburg,Genoa,2967.17,48487.86,17/11/2024,Baltic Lines,delivered
+SHP-10252,Rotterdam,London,1983.53,15169.35,01/11/2024,North Sea Shipping,in_transit
+SHP-10253,Genoa,Kingston,3292.76,38897.65,28/11/2024,Baltic Lines,delivered
+SHP-10254,Gothenburg,Valencia,1836.93,6044.02,12/02/2024,Euro Logistics,delivered
+SHP-10255,Gothenburg,Miami,1125.06,29363.18,20/10/2024,Baltic Lines,delivered
+SHP-10256,Lisbon,Hong Kong,3971.82,9095.77,04/09/2024,Baltic Lines,delivered
+SHP-10257,Hamburg,Hong Kong,1626.48,35702.72,02/10/2024,North Sea Shipping,delivered
+SHP-10258,Lisbon,Tokyo,1969.29,40882.27,28/09/2024,Baltic Lines,delivered
+SHP-10259,Le Havre,Savannah,2695.14,40950.44,29/11/2024,Euro Logistics,in_transit
+SHP-10260,Antwerp,Kingston,4488.06,9074.18,02/11/2024,North Sea Shipping,delivered
+SHP-10261,Piraeus,Marseille,615.66,6484.36,15/04/2024,North Sea Shipping,delivered
+SHP-10262,Barcelona,Seoul,423.51,6279.62,01/06/2024,Continental Cargo,customs_hold
+SHP-10263,Hamburg,Le Havre,4885.53,32925.06,07/05/2024,Continental Cargo,delivered
+SHP-10264,Istanbul,Antwerp,3295.96,22273.77,22/10/2024,Baltic Lines,in_transit
+SHP-10265,Istanbul,Piraeus,3031.06,25553.99,18/12/2024,Euro Logistics,in_transit
+SHP-10266,London,Rotterdam,184.15,7126.28,20/04/2024,North Sea Shipping,in_transit
+SHP-10267,Antwerp,Savannah,1795.65,6468.18,14/11/2024,Baltic Lines,delivered
+SHP-10268,Barcelona,Rotterdam,1909.22,45187.81,23/07/2024,Baltic Lines,delivered
+SHP-10269,Barcelona,Balboa,2127.0,34741.04,01/10/2024,North Sea Shipping,delivered
+SHP-10270,Lisbon,Hamburg,4976.8,34855.31,08/04/2024,Continental Cargo,in_transit
+SHP-10271,Gothenburg,Miami,3024.92,21013.34,19/03/2024,Continental Cargo,customs_hold
+SHP-10272,Genoa,Gothenburg,130.04,30200.18,09/02/2024,Continental Cargo,delivered
+SHP-10273,Rotterdam,Balboa,2742.07,3344.67,23/11/2024,Euro Logistics,delivered
+SHP-10274,Marseille,Hamburg,732.07,39914.96,20/05/2024,Euro Logistics,delivered
+SHP-10275,Antwerp,Gothenburg,4758.94,39147.54,04/03/2024,North Sea Shipping,delivered
+SHP-10276,Valencia,Barcelona,2944.34,40349.57,18/02/2024,Continental Cargo,in_transit
+SHP-10277,Le Havre,Antwerp,2757.94,30392.97,25/01/2024,North Sea Shipping,delivered
+SHP-10278,Dublin,Gdansk,903.77,40313.95,13/12/2024,Baltic Lines,delivered
+SHP-10279,Hamburg,Rotterdam,47.98,25702.59,20/03/2024,North Sea Shipping,delivered
+SHP-10280,Gdansk,Hamburg,264.8,36284.69,08/07/2024,North Sea Shipping,in_transit
+SHP-10281,Genoa,New York,915.93,49313.0,27/08/2024,Continental Cargo,delivered
+SHP-10282,Genoa,Vancouver,4708.41,44075.32,27/04/2024,Continental Cargo,in_transit
+SHP-10283,Rotterdam,Marseille,2032.87,15671.21,16/02/2024,Euro Logistics,delivered
+SHP-10284,Antwerp,Bangkok,825.98,2917.71,26/05/2024,Baltic Lines,delayed
+SHP-10285,London,Le Havre,3385.33,46625.45,10/03/2024,Baltic Lines,delivered
+SHP-10286,Gothenburg,Balboa,4440.46,34909.2,26/07/2024,Euro Logistics,in_transit
+SHP-10287,Valencia,Shanghai,3570.94,35144.46,25/06/2024,North Sea Shipping,customs_hold
+SHP-10288,Gothenburg,Vancouver,3420.55,2165.68,17/08/2024,North Sea Shipping,in_transit
+SHP-10289,Valencia,Vancouver,4519.04,8781.97,06/07/2024,North Sea Shipping,delivered
+SHP-10290,London,Le Havre,2477.79,8565.67,27/02/2024,Continental Cargo,delayed
+SHP-10291,Antwerp,Santos,4253.96,42897.42,28/05/2024,Continental Cargo,delivered
+SHP-10292,Barcelona,Osaka,11.67,31577.26,20/07/2024,North Sea Shipping,customs_hold
+SHP-10293,Valencia,Manzanillo,2577.89,44676.22,25/08/2024,Baltic Lines,delivered
+SHP-10294,London,Montreal,2302.04,14952.61,24/02/2024,Euro Logistics,delivered
+SHP-10295,Lisbon,Hanoi,2010.64,492.74,08/08/2024,Baltic Lines,delivered
+SHP-10296,Istanbul,Miami,4492.6,20565.42,06/09/2024,Euro Logistics,delivered
+SHP-10297,Gothenburg,Rotterdam,1130.86,19798.17,02/06/2024,Continental Cargo,delivered
+SHP-10298,Hamburg,Santos,4057.81,5479.31,12/08/2024,Baltic Lines,delivered
+SHP-10299,Marseille,Le Havre,29.55,44184.63,29/12/2024,North Sea Shipping,delivered
+SHP-10300,Barcelona,Seoul,668.83,21081.74,18/06/2024,Euro Logistics,delivered
+SHP-10301,Antwerp,Los Angeles,4798.51,49147.29,01/03/2024,Baltic Lines,delivered
+SHP-10302,Piraeus,Balboa,3571.75,16278.14,23/07/2024,Baltic Lines,delivered
+SHP-10303,Rotterdam,Tokyo,631.05,17238.82,07/01/2024,North Sea Shipping,delivered
+SHP-10304,Le Havre,Genoa,2148.61,29874.49,05/01/2024,Baltic Lines,delivered
+SHP-10305,Barcelona,Houston,413.53,21476.15,12/11/2024,North Sea Shipping,in_transit
+SHP-10306,Hamburg,London,1406.05,5795.25,14/05/2024,North Sea Shipping,in_transit
+SHP-10307,Genoa,Shenzhen,2369.73,39146.71,22/02/2024,North Sea Shipping,delivered
+SHP-10308,Le Havre,Savannah,3144.73,7478.87,02/03/2024,North Sea Shipping,delivered
+SHP-10309,Barcelona,Shenzhen,4645.53,21343.83,11/11/2024,North Sea Shipping,delivered
+SHP-10310,London,Gothenburg,2036.78,15356.98,20/11/2024,North Sea Shipping,delivered
+SHP-10311,Genoa,Los Angeles,307.22,21382.29,27/01/2024,Continental Cargo,delivered
+SHP-10312,Marseille,Hamburg,4715.02,35593.7,06/05/2024,Continental Cargo,delayed
+SHP-10313,Hamburg,Seoul,3.18,33038.52,13/06/2024,North Sea Shipping,delivered
+SHP-10314,Barcelona,Seattle,504.26,9282.76,08/09/2024,Continental Cargo,delivered
+SHP-10315,Rotterdam,Hong Kong,3344.9,34163.93,07/03/2024,Continental Cargo,delivered
+SHP-10316,Dublin,Istanbul,3714.79,29466.11,05/11/2024,Continental Cargo,delivered
+SHP-10317,Barcelona,Osaka,2921.84,4407.2,24/02/2024,North Sea Shipping,in_transit
+SHP-10318,Gdansk,Taipei,205.67,48418.09,01/12/2024,North Sea Shipping,delivered
+SHP-10319,Piraeus,Hong Kong,374.86,27351.62,24/06/2024,Continental Cargo,in_transit
+SHP-10320,Dublin,Shenzhen,2668.02,7725.93,06/03/2024,North Sea Shipping,delivered
+SHP-10321,Lisbon,Rotterdam,4457.99,37979.79,13/10/2024,Continental Cargo,delayed
+SHP-10322,Piraeus,Callao,3586.77,45546.92,04/02/2024,Baltic Lines,delivered
+SHP-10323,Valencia,Miami,3954.53,8388.41,20/05/2024,North Sea Shipping,delivered
+SHP-10324,Gdansk,Mumbai,3972.05,34705.48,22/07/2024,Baltic Lines,in_transit
+SHP-10325,Le Havre,Miami,4857.71,8317.64,17/09/2024,Baltic Lines,in_transit
+SHP-10326,Genoa,Lisbon,3036.29,10385.88,02/01/2024,North Sea Shipping,in_transit
+SHP-10327,Gdansk,Shanghai,4395.84,39542.81,21/08/2024,Continental Cargo,delivered
+SHP-10328,Antwerp,Barcelona,3541.42,27629.94,28/03/2024,North Sea Shipping,delivered
+SHP-10329,Antwerp,Barcelona,195.93,7449.57,22/05/2024,North Sea Shipping,delivered
+SHP-10330,Dublin,Mumbai,3212.24,12487.95,17/04/2024,Euro Logistics,delivered
+SHP-10331,Marseille,Callao,3026.0,18487.05,12/02/2024,Continental Cargo,in_transit
+SHP-10332,Genoa,Montreal,1474.83,49263.8,16/11/2024,Euro Logistics,delayed
+SHP-10333,Antwerp,Hamburg,884.09,48581.66,02/10/2024,Euro Logistics,in_transit
+SHP-10334,Lisbon,Gdansk,4728.31,12904.39,16/11/2024,North Sea Shipping,delayed
+SHP-10335,Antwerp,Genoa,1344.33,29104.11,21/07/2024,North Sea Shipping,delivered
+SHP-10336,Lisbon,Le Havre,1843.52,45113.3,17/02/2024,Baltic Lines,delivered
+SHP-10337,Hamburg,Hanoi,944.71,24551.39,02/04/2024,Continental Cargo,delivered
+SHP-10338,Hamburg,Hanoi,4087.59,34383.97,06/04/2024,Euro Logistics,delivered
+SHP-10339,Genoa,London,2275.39,32273.68,25/07/2024,Euro Logistics,in_transit
+SHP-10340,Hamburg,Shanghai,3016.67,18924.86,11/01/2024,Euro Logistics,delayed
+SHP-10341,Dublin,Manzanillo,4673.42,6652.34,12/02/2024,Continental Cargo,delivered
+SHP-10342,Gothenburg,Seattle,67.98,48319.72,24/02/2024,Continental Cargo,delayed
+SHP-10343,Rotterdam,Shenzhen,696.58,37995.6,15/08/2024,North Sea Shipping,delivered
+SHP-10344,Piraeus,Kuala Lumpur,1219.42,27199.15,16/05/2024,Euro Logistics,delivered
+SHP-10345,London,Hong Kong,2723.44,5173.18,31/07/2024,North Sea Shipping,delivered
+SHP-10346,Antwerp,Tokyo,1133.76,19299.88,29/06/2024,Continental Cargo,delivered
+SHP-10347,Valencia,Balboa,1924.03,44216.98,27/02/2024,Baltic Lines,delivered
+SHP-10348,Rotterdam,Busan,509.13,47794.66,01/07/2024,Euro Logistics,in_transit
+SHP-10349,Rotterdam,Gdansk,4616.64,45997.69,23/01/2024,North Sea Shipping,delivered
+SHP-10350,Istanbul,Genoa,2998.26,33987.69,17/03/2024,Continental Cargo,in_transit
+SHP-10351,Barcelona,Istanbul,4377.07,13591.11,12/09/2024,Continental Cargo,customs_hold
+SHP-10352,Dublin,Singapore,3944.39,43092.61,17/03/2024,North Sea Shipping,delivered
+SHP-10353,Genoa,Valencia,3606.86,39288.03,01/09/2024,Euro Logistics,delivered
+SHP-10354,Genoa,Hamburg,723.77,16186.52,06/03/2024,North Sea Shipping,in_transit
+SHP-10355,Marseille,Genoa,2471.29,24090.36,30/07/2024,Continental Cargo,delivered
+SHP-10356,Gothenburg,London,1916.23,27489.5,02/10/2024,Baltic Lines,delivered
+SHP-10357,Le Havre,Busan,1923.44,29069.15,03/08/2024,North Sea Shipping,in_transit
+SHP-10358,Antwerp,Gdansk,14.83,49695.57,09/01/2024,Continental Cargo,in_transit
+SHP-10359,Hamburg,Taipei,298.36,17499.91,12/03/2024,Continental Cargo,delivered
+SHP-10360,Le Havre,Buenos Aires,4859.11,45652.05,04/05/2024,North Sea Shipping,delayed
+SHP-10361,London,Jakarta,586.62,34804.25,14/03/2024,Baltic Lines,in_transit
+SHP-10362,Lisbon,Le Havre,1858.74,35085.02,05/12/2024,Euro Logistics,delivered
+SHP-10363,Gdansk,Manila,151.41,18293.95,10/02/2024,North Sea Shipping,delivered
+SHP-10364,Gdansk,Dublin,749.01,9162.1,12/03/2024,Continental Cargo,delivered
+SHP-10365,Lisbon,Genoa,2220.15,32260.12,07/01/2024,Continental Cargo,delivered
+SHP-10366,London,Manzanillo,161.08,37569.09,14/09/2024,North Sea Shipping,delivered
+SHP-10367,Le Havre,Dublin,3399.68,43805.03,10/10/2024,Continental Cargo,delayed
+SHP-10368,Istanbul,Barcelona,3546.91,21212.33,21/03/2024,Continental Cargo,customs_hold
+SHP-10369,Istanbul,Gothenburg,4889.64,6300.41,18/04/2024,Baltic Lines,in_transit
+SHP-10370,Antwerp,Lisbon,918.88,37312.49,13/10/2024,Euro Logistics,delayed
+SHP-10371,Piraeus,Los Angeles,1566.29,32112.45,13/07/2024,North Sea Shipping,delivered
+SHP-10372,Marseille,Manzanillo,2121.4,13532.48,23/02/2024,Euro Logistics,delivered
+SHP-10373,Dublin,Genoa,140.73,14146.24,04/10/2024,Euro Logistics,delivered
+SHP-10374,Gdansk,Shanghai,3782.73,15490.55,09/10/2024,North Sea Shipping,in_transit
+SHP-10375,London,Rotterdam,1346.21,48834.32,16/10/2024,Euro Logistics,in_transit
+SHP-10376,Dublin,Los Angeles,228.88,15763.29,07/06/2024,Euro Logistics,customs_hold
+SHP-10377,Dublin,Antwerp,4793.72,25035.79,10/06/2024,Baltic Lines,in_transit
+SHP-10378,Hamburg,Balboa,487.35,20393.96,14/09/2024,Euro Logistics,delivered
+SHP-10379,Dublin,Kuala Lumpur,118.91,39813.66,01/09/2024,Euro Logistics,delivered
+SHP-10380,Hamburg,Balboa,2315.8,44265.93,17/02/2024,North Sea Shipping,delayed
+SHP-10381,Dublin,Balboa,3271.27,38452.84,23/03/2024,Continental Cargo,delivered
+SHP-10382,Hamburg,Piraeus,1454.56,31192.36,08/08/2024,Euro Logistics,delayed
+SHP-10383,Dublin,Balboa,1938.48,10480.59,08/11/2024,Euro Logistics,customs_hold
+SHP-10384,Gdansk,Callao,4972.03,4915.43,08/01/2024,North Sea Shipping,in_transit
+SHP-10385,Barcelona,Buenos Aires,4337.73,39879.28,14/02/2024,Baltic Lines,delivered
+SHP-10386,Marseille,Manila,4670.31,8115.55,23/05/2024,Continental Cargo,delivered
+SHP-10387,Rotterdam,Hanoi,3553.42,23064.02,30/08/2024,Continental Cargo,in_transit
+SHP-10388,Piraeus,Manzanillo,4620.84,46994.48,18/10/2024,Baltic Lines,delivered
+SHP-10389,Le Havre,Antwerp,2005.0,42857.2,14/12/2024,North Sea Shipping,delivered
+SHP-10390,Istanbul,Montreal,4760.25,18715.47,15/12/2024,Baltic Lines,delivered
+SHP-10391,Barcelona,Balboa,213.86,48872.71,30/01/2024,North Sea Shipping,in_transit
+SHP-10392,Istanbul,Shanghai,773.23,5309.64,11/07/2024,North Sea Shipping,in_transit
+SHP-10393,Le Havre,Singapore,1115.64,43714.24,08/12/2024,Euro Logistics,delivered
+SHP-10394,Piraeus,Manzanillo,2675.81,40923.57,25/02/2024,Euro Logistics,delivered
+SHP-10395,Rotterdam,Lisbon,3841.2,10013.58,17/06/2024,Euro Logistics,delivered
+SHP-10396,Gdansk,Houston,1063.57,37077.17,28/02/2024,Continental Cargo,delivered
+SHP-10397,Istanbul,Kuala Lumpur,4742.69,7318.41,19/04/2024,Continental Cargo,in_transit
+SHP-10398,Gdansk,Gothenburg,312.47,40436.25,08/08/2024,Baltic Lines,delivered
+SHP-10399,Antwerp,Tokyo,4763.25,34199.39,18/05/2024,Continental Cargo,in_transit
+SHP-10400,Rotterdam,Kuala Lumpur,346.76,20283.17,01/06/2024,Baltic Lines,delayed
+SHP-10401,Istanbul,Osaka,3348.39,13009.39,28/01/2024,Euro Logistics,delayed
+SHP-10402,Genoa,Piraeus,4816.85,14880.4,11/04/2024,Continental Cargo,customs_hold
+SHP-10403,Piraeus,Los Angeles,2677.76,39203.68,22/12/2024,Baltic Lines,delivered
+SHP-10404,Lisbon,Cartagena,1946.0,546.08,01/11/2024,North Sea Shipping,delivered
+SHP-10405,Gothenburg,Savannah,3082.75,16220.44,11/06/2024,Euro Logistics,delivered
+SHP-10406,Piraeus,Kuala Lumpur,2497.48,15854.57,11/12/2024,Baltic Lines,delivered
+SHP-10407,Lisbon,Shanghai,4941.2,47169.02,05/03/2024,Baltic Lines,in_transit
+SHP-10408,Gdansk,Hong Kong,182.91,37298.09,06/04/2024,Baltic Lines,in_transit
+SHP-10409,Dublin,Manila,3004.92,10846.06,17/04/2024,North Sea Shipping,customs_hold
+SHP-10410,Gdansk,Shanghai,1851.6,18221.53,03/06/2024,Continental Cargo,delivered
+SHP-10411,Le Havre,Taipei,3496.74,32463.14,21/08/2024,Baltic Lines,delivered
+SHP-10412,Marseille,Santos,2129.53,48704.8,20/06/2024,Euro Logistics,customs_hold
+SHP-10413,Piraeus,Le Havre,1865.92,27660.04,24/03/2024,Baltic Lines,delivered
+SHP-10414,Le Havre,Kingston,3442.91,21902.81,25/05/2024,Euro Logistics,customs_hold
+SHP-10415,Dublin,Hong Kong,448.64,870.5,29/07/2024,Euro Logistics,delivered
+SHP-10416,Dublin,Montreal,4636.18,5030.12,15/08/2024,Euro Logistics,in_transit
+SHP-10417,Le Havre,Lisbon,1059.75,38855.17,09/10/2024,Baltic Lines,delivered
+SHP-10418,Le Havre,Los Angeles,4752.78,17563.15,25/08/2024,Baltic Lines,delayed
+SHP-10419,Gothenburg,Lisbon,38.52,18763.46,24/04/2024,Continental Cargo,delivered
+SHP-10420,Gothenburg,Rotterdam,1537.33,45138.52,31/07/2024,North Sea Shipping,delivered
+SHP-10421,Valencia,Lisbon,163.86,1361.03,10/07/2024,Continental Cargo,delivered
+SHP-10422,Gdansk,Le Havre,1209.53,48675.84,08/04/2024,Baltic Lines,delayed
+SHP-10423,Dublin,Cartagena,2145.8,46972.62,18/07/2024,North Sea Shipping,delivered
+SHP-10424,Marseille,Vancouver,792.64,11586.93,29/12/2024,North Sea Shipping,delivered
+SHP-10425,Gothenburg,Cartagena,3921.51,42159.38,17/11/2024,Continental Cargo,delayed
+SHP-10426,Hamburg,Genoa,1019.21,4708.61,11/08/2024,Euro Logistics,in_transit
+SHP-10427,Gdansk,Kuala Lumpur,139.58,35393.42,10/02/2024,Baltic Lines,delivered
+SHP-10428,Lisbon,Jakarta,4917.08,31741.43,02/07/2024,North Sea Shipping,delivered
+SHP-10429,Valencia,Busan,1484.96,26794.09,05/05/2024,Baltic Lines,in_transit
+SHP-10430,Gothenburg,Mumbai,1375.19,46752.05,17/11/2024,Euro Logistics,in_transit
+SHP-10431,Gdansk,Hong Kong,555.1,46363.59,03/03/2024,Euro Logistics,delivered
+SHP-10432,Barcelona,Hanoi,464.34,24737.54,04/07/2024,North Sea Shipping,delivered
+SHP-10433,Piraeus,Tokyo,2069.02,24351.54,16/11/2024,Euro Logistics,delivered
+SHP-10434,Genoa,Gothenburg,4448.62,31695.91,18/08/2024,North Sea Shipping,delivered
+SHP-10435,London,Hanoi,3298.5,31579.11,17/01/2024,Euro Logistics,customs_hold
+SHP-10436,Marseille,Los Angeles,4974.58,30019.64,03/01/2024,North Sea Shipping,delivered
+SHP-10437,Barcelona,Taipei,964.63,1526.28,12/01/2024,North Sea Shipping,delivered
+SHP-10438,Marseille,Taipei,4492.91,1523.41,11/03/2024,North Sea Shipping,delivered
+SHP-10439,Lisbon,Jakarta,1338.32,24104.66,17/02/2024,Continental Cargo,in_transit
+SHP-10440,Gothenburg,Antwerp,2335.49,40460.14,11/08/2024,Baltic Lines,customs_hold
+SHP-10441,Barcelona,Hanoi,989.78,42309.49,23/05/2024,Baltic Lines,delivered
+SHP-10442,Dublin,Savannah,1558.27,39715.27,06/09/2024,Baltic Lines,delayed
+SHP-10443,Genoa,Seattle,3735.52,40803.82,14/11/2024,Euro Logistics,in_transit
+SHP-10444,Genoa,Shenzhen,2835.93,18729.33,19/11/2024,Euro Logistics,delivered
+SHP-10445,Valencia,Seoul,4790.51,12690.53,28/07/2024,Continental Cargo,in_transit
+SHP-10446,Valencia,Manzanillo,4751.92,26548.38,22/07/2024,Euro Logistics,delivered
+SHP-10447,Dublin,Marseille,2147.22,9336.45,05/05/2024,Euro Logistics,delivered
+SHP-10448,Marseille,Gdansk,725.63,15756.92,05/01/2024,Continental Cargo,in_transit
+SHP-10449,Lisbon,Genoa,1069.26,28395.09,13/06/2024,North Sea Shipping,in_transit
+SHP-10450,Genoa,Antwerp,3009.21,26386.75,22/02/2024,Continental Cargo,in_transit
+SHP-10451,Valencia,Kingston,374.58,44638.57,03/08/2024,Baltic Lines,delivered
+SHP-10452,Marseille,Shenzhen,986.02,40146.12,12/09/2024,Euro Logistics,customs_hold
+SHP-10453,Genoa,Taipei,620.9,8598.43,16/06/2024,Baltic Lines,delivered
+SHP-10454,London,Barcelona,89.67,39176.12,21/10/2024,Euro Logistics,delayed
+SHP-10455,Barcelona,Jakarta,4208.29,20170.4,30/09/2024,Euro Logistics,delivered
+SHP-10456,London,Singapore,2349.73,41501.02,31/07/2024,Continental Cargo,delivered
+SHP-10457,Dublin,Piraeus,2002.02,27844.69,09/06/2024,Baltic Lines,in_transit
+SHP-10458,Genoa,Barcelona,3482.44,22756.36,24/11/2024,Euro Logistics,delayed
+SHP-10459,Gdansk,Hong Kong,146.93,2439.32,06/01/2024,North Sea Shipping,delivered
+SHP-10460,Marseille,Le Havre,1132.09,4446.44,07/07/2024,Euro Logistics,customs_hold
+SHP-10461,Le Havre,Mumbai,1298.81,39257.95,26/02/2024,Euro Logistics,customs_hold
+SHP-10462,Rotterdam,Hamburg,1646.98,30656.89,13/07/2024,Continental Cargo,in_transit
+SHP-10463,Valencia,Jakarta,2917.47,6039.08,12/06/2024,North Sea Shipping,in_transit
+SHP-10464,Valencia,Lisbon,3184.7,33428.35,24/09/2024,North Sea Shipping,in_transit
+SHP-10465,Gothenburg,Houston,4881.76,16129.47,04/09/2024,North Sea Shipping,delivered
+SHP-10466,Dublin,Antwerp,3557.05,17682.83,04/05/2024,North Sea Shipping,in_transit
+SHP-10467,Rotterdam,Houston,301.8,705.75,20/04/2024,Baltic Lines,delayed
+SHP-10468,Antwerp,Houston,523.12,10472.64,29/10/2024,Continental Cargo,in_transit
+SHP-10469,Barcelona,New York,3276.62,42397.96,24/02/2024,North Sea Shipping,delivered
+SHP-10470,Marseille,Gothenburg,4875.34,43399.55,19/09/2024,North Sea Shipping,in_transit
+SHP-10471,Antwerp,Singapore,1389.55,8251.61,06/06/2024,Euro Logistics,delivered
+SHP-10472,Valencia,Hong Kong,3725.26,12066.09,23/08/2024,North Sea Shipping,delivered
+SHP-10473,Piraeus,Kingston,2654.66,17630.24,01/03/2024,Euro Logistics,delivered
+SHP-10474,Antwerp,Kuala Lumpur,1984.94,21570.88,19/06/2024,Euro Logistics,delivered
+SHP-10475,Marseille,Hong Kong,246.15,19157.0,04/08/2024,North Sea Shipping,delivered
+SHP-10476,Genoa,Hanoi,2970.45,26501.66,09/09/2024,Baltic Lines,delivered
+SHP-10477,London,Manzanillo,1245.1,5598.59,28/02/2024,Euro Logistics,delayed
+SHP-10478,Gdansk,Hamburg,1194.22,26629.98,21/05/2024,North Sea Shipping,delayed
+SHP-10479,Lisbon,Gothenburg,1959.84,5110.15,20/12/2024,Continental Cargo,delivered
+SHP-10480,Hamburg,Osaka,1738.49,14435.23,01/11/2024,Continental Cargo,in_transit
+SHP-10481,Rotterdam,Hanoi,2516.45,35038.54,01/09/2024,Continental Cargo,delayed
+SHP-10482,Lisbon,London,851.58,34088.05,26/03/2024,North Sea Shipping,delivered
+SHP-10483,Piraeus,Kuala Lumpur,4811.23,33318.27,07/08/2024,Continental Cargo,delivered
+SHP-10484,Barcelona,Singapore,854.04,38025.02,05/01/2024,Continental Cargo,customs_hold
+SHP-10485,Gdansk,Shanghai,2441.79,12413.15,26/02/2024,Euro Logistics,delayed
+SHP-10486,Gdansk,Balboa,4952.07,41776.18,25/09/2024,North Sea Shipping,in_transit
+SHP-10487,Dublin,Hong Kong,500.41,40204.44,20/06/2024,Baltic Lines,delivered
+SHP-10488,Marseille,Santos,1287.07,24350.34,05/07/2024,Baltic Lines,delivered
+SHP-10489,Marseille,Barcelona,3550.93,44574.05,05/12/2024,Baltic Lines,delivered
+SHP-10490,Gothenburg,Vancouver,3641.21,1085.33,29/07/2024,North Sea Shipping,in_transit
+SHP-10491,Hamburg,Istanbul,2489.41,12256.17,22/12/2024,Baltic Lines,delivered
+SHP-10492,Lisbon,Bangkok,969.61,47742.98,23/11/2024,Euro Logistics,customs_hold
+SHP-10493,Valencia,Callao,3394.17,44966.11,18/08/2024,North Sea Shipping,delivered
+SHP-10494,Gothenburg,Piraeus,4440.03,19581.76,01/08/2024,Continental Cargo,delivered
+SHP-10495,London,Savannah,2600.63,17196.56,09/11/2024,Euro Logistics,delivered
+SHP-10496,Piraeus,Cartagena,4840.78,39627.41,27/05/2024,Euro Logistics,customs_hold
+SHP-10497,Piraeus,Balboa,736.08,34062.11,24/09/2024,Continental Cargo,in_transit
+SHP-10498,Gothenburg,Manila,1518.58,14448.58,30/05/2024,Euro Logistics,delivered
+SHP-10499,Antwerp,Barcelona,4127.44,6215.62,07/09/2024,Continental Cargo,delivered
+SHP-10500,Marseille,Kingston,4170.63,2542.61,11/03/2024,Continental Cargo,delayed
+SHP-10501,Dublin,Miami,3326.8,38455.82,20/03/2024,Euro Logistics,in_transit
+SHP-10502,Hamburg,Shenzhen,2160.54,45917.08,28/05/2024,North Sea Shipping,delivered
+SHP-10503,Valencia,Piraeus,1244.02,33941.09,16/07/2024,Baltic Lines,delivered
+SHP-10504,Valencia,Hong Kong,4465.22,46013.7,01/11/2024,Continental Cargo,delivered
+SHP-10505,Genoa,Balboa,4379.72,40228.79,12/03/2024,North Sea Shipping,delivered
+SHP-10506,Genoa,Buenos Aires,998.02,15284.56,01/06/2024,Baltic Lines,delivered
+SHP-10507,Genoa,Le Havre,480.66,26352.24,21/12/2024,Continental Cargo,delivered
+SHP-10508,Gothenburg,Piraeus,2342.16,21412.08,03/08/2024,Baltic Lines,delivered
+SHP-10509,Valencia,Buenos Aires,132.6,38350.15,15/02/2024,North Sea Shipping,in_transit
+SHP-10510,Barcelona,London,2901.82,18686.9,13/11/2024,Continental Cargo,delivered
+SHP-10511,Le Havre,Gothenburg,630.12,33520.46,24/08/2024,Baltic Lines,delayed
+SHP-10512,Rotterdam,Mumbai,1351.24,49309.37,24/02/2024,Continental Cargo,in_transit
+SHP-10513,Le Havre,Antwerp,2827.43,34545.12,01/02/2024,Euro Logistics,in_transit
+SHP-10514,Gothenburg,Miami,3696.95,2698.36,14/04/2024,North Sea Shipping,in_transit
+SHP-10515,Piraeus,Jakarta,1118.11,33800.25,20/03/2024,Continental Cargo,in_transit
+SHP-10516,Lisbon,Shanghai,4028.18,31202.01,12/04/2024,Euro Logistics,delivered
+SHP-10517,Hamburg,Seattle,4399.56,26015.14,06/05/2024,North Sea Shipping,delivered
+SHP-10518,London,Miami,2219.36,2829.88,03/03/2024,Continental Cargo,delivered
+SHP-10519,Hamburg,London,4208.68,27358.63,09/11/2024,Baltic Lines,delayed
+SHP-10520,Gdansk,Taipei,2162.05,31828.05,04/04/2024,North Sea Shipping,delayed
+SHP-10521,Gothenburg,London,854.29,37096.15,06/10/2024,North Sea Shipping,delivered
+SHP-10522,Barcelona,Antwerp,3337.84,47956.62,09/09/2024,Continental Cargo,in_transit
+SHP-10523,Genoa,Gothenburg,3488.41,5411.43,01/08/2024,Baltic Lines,delivered
+SHP-10524,Barcelona,New York,601.07,19502.0,24/10/2024,Continental Cargo,delivered
+SHP-10525,Gothenburg,Kingston,3099.57,2179.46,30/06/2024,North Sea Shipping,delivered
+SHP-10526,Lisbon,New York,1384.88,49088.6,02/07/2024,North Sea Shipping,delivered
+SHP-10527,Lisbon,Vancouver,1953.43,3185.15,01/12/2024,North Sea Shipping,delivered
+SHP-10528,Lisbon,Cartagena,1696.79,35773.36,12/03/2024,Continental Cargo,in_transit
+SHP-10529,Gothenburg,Barcelona,4617.42,3457.09,26/11/2024,Baltic Lines,delivered
+SHP-10530,Piraeus,Seattle,3295.03,28823.15,16/09/2024,Continental Cargo,delivered
+SHP-10531,Marseille,Savannah,4776.0,17437.36,12/11/2024,Baltic Lines,delivered
+SHP-10532,London,Manila,1158.91,33279.79,12/09/2024,Baltic Lines,delivered
+SHP-10533,Antwerp,London,527.61,44043.73,15/07/2024,Baltic Lines,customs_hold
+SHP-10534,London,Montreal,1252.79,1919.04,07/02/2024,Baltic Lines,in_transit
+SHP-10535,Gdansk,Callao,4203.48,46181.36,13/06/2024,Euro Logistics,in_transit
+SHP-10536,Genoa,Jakarta,4944.36,28710.29,12/04/2024,North Sea Shipping,delivered
+SHP-10537,Piraeus,Balboa,1430.8,10099.58,23/03/2024,Baltic Lines,delayed
+SHP-10538,Dublin,Shenzhen,430.55,1260.94,08/12/2024,Euro Logistics,delivered
+SHP-10539,Dublin,Jakarta,4466.51,18010.07,27/07/2024,Euro Logistics,delivered
+SHP-10540,Gothenburg,Manzanillo,2641.01,9547.34,16/04/2024,Baltic Lines,delivered
+SHP-10541,Marseille,Montreal,4498.83,42678.41,04/02/2024,Baltic Lines,delivered
+SHP-10542,Genoa,Singapore,2845.98,6403.26,21/09/2024,Continental Cargo,delivered
+SHP-10543,Piraeus,Busan,257.87,27049.87,12/01/2024,North Sea Shipping,delayed
+SHP-10544,Barcelona,Rotterdam,1952.44,17927.36,21/03/2024,Continental Cargo,delivered
+SHP-10545,Gdansk,London,4266.05,46593.86,13/09/2024,Continental Cargo,delivered
+SHP-10546,London,Santos,3487.74,5588.18,29/08/2024,Continental Cargo,in_transit
+SHP-10547,London,Piraeus,2107.32,10065.54,31/01/2024,North Sea Shipping,delivered
+SHP-10548,Le Havre,Genoa,4620.91,33183.64,01/02/2024,North Sea Shipping,delivered
+SHP-10549,Dublin,Cartagena,4521.67,35169.39,19/01/2024,Continental Cargo,customs_hold
+SHP-10550,Genoa,Seattle,3696.58,46471.71,09/10/2024,Baltic Lines,customs_hold
+SHP-10551,Barcelona,Seoul,520.75,24855.01,25/04/2024,Continental Cargo,delivered
+SHP-10552,Barcelona,Busan,107.71,2815.06,10/04/2024,Baltic Lines,in_transit
+SHP-10553,Lisbon,Tokyo,2762.7,2654.41,12/07/2024,North Sea Shipping,delivered
+SHP-10554,Genoa,Buenos Aires,689.28,21925.75,11/11/2024,Continental Cargo,delivered
+SHP-10555,Marseille,Le Havre,4590.38,11946.6,17/02/2024,Euro Logistics,delivered
+SHP-10556,Lisbon,Santos,2840.46,49547.39,08/01/2024,North Sea Shipping,delayed
+SHP-10557,Rotterdam,Mumbai,634.02,9070.64,23/01/2024,Continental Cargo,delivered
+SHP-10558,Gothenburg,London,4990.45,6529.33,22/07/2024,Baltic Lines,in_transit
+SHP-10559,Gothenburg,Singapore,382.35,46921.59,15/04/2024,Baltic Lines,in_transit
+SHP-10560,Le Havre,Piraeus,4488.25,42945.07,15/08/2024,Continental Cargo,customs_hold
+SHP-10561,Dublin,Buenos Aires,1463.77,32699.51,26/09/2024,Continental Cargo,delivered
+SHP-10562,Istanbul,Miami,522.34,17364.44,29/07/2024,Baltic Lines,delivered
+SHP-10563,Antwerp,Jakarta,4207.21,26073.7,05/06/2024,North Sea Shipping,delivered
+SHP-10564,Lisbon,Kuala Lumpur,179.82,11793.51,13/08/2024,Baltic Lines,customs_hold
+SHP-10565,London,Houston,4181.71,13551.41,28/10/2024,Baltic Lines,delivered
+SHP-10566,Rotterdam,Mumbai,1395.82,30506.9,10/09/2024,Euro Logistics,delayed
+SHP-10567,Genoa,Valencia,222.56,10326.22,04/04/2024,Baltic Lines,delivered
+SHP-10568,Gothenburg,Barcelona,157.01,38161.67,14/01/2024,Continental Cargo,customs_hold
+SHP-10569,Valencia,Rotterdam,4051.31,29568.38,15/01/2024,Continental Cargo,in_transit
+SHP-10570,Gdansk,Le Havre,4328.78,39141.5,30/01/2024,Euro Logistics,in_transit
+SHP-10571,Lisbon,Balboa,1437.45,49545.01,30/09/2024,Baltic Lines,delivered
+SHP-10572,Lisbon,Cartagena,3845.18,13042.03,14/07/2024,Baltic Lines,in_transit
+SHP-10573,Valencia,London,659.8,808.41,15/12/2024,Continental Cargo,delivered
+SHP-10574,Antwerp,Santos,1479.48,28575.58,20/01/2024,Continental Cargo,delivered
+SHP-10575,Gothenburg,Rotterdam,3912.24,40522.46,07/11/2024,Euro Logistics,delivered
+SHP-10576,Gdansk,Kingston,1605.29,13262.65,01/04/2024,Baltic Lines,delivered
+SHP-10577,Piraeus,Shanghai,2332.46,48295.98,02/09/2024,North Sea Shipping,delivered
+SHP-10578,Gdansk,Bangkok,1382.59,30535.91,09/06/2024,Euro Logistics,delivered
+SHP-10579,Barcelona,Hamburg,1298.07,24771.7,26/04/2024,North Sea Shipping,delivered
+SHP-10580,Gdansk,Manzanillo,248.37,5766.61,20/01/2024,North Sea Shipping,in_transit
+SHP-10581,Le Havre,Valencia,2899.66,2145.68,26/04/2024,Euro Logistics,customs_hold
+SHP-10582,Barcelona,Rotterdam,81.08,42254.3,29/06/2024,Euro Logistics,in_transit
+SHP-10583,Marseille,Hong Kong,387.86,22218.44,18/09/2024,Euro Logistics,delivered
+SHP-10584,Marseille,Cartagena,1857.11,41143.51,31/07/2024,Euro Logistics,in_transit
+SHP-10585,Valencia,Antwerp,715.83,16360.7,03/07/2024,Continental Cargo,customs_hold
+SHP-10586,Valencia,Manzanillo,1873.89,47126.85,30/05/2024,Euro Logistics,delivered
+SHP-10587,London,Barcelona,4651.58,45598.04,14/01/2024,Euro Logistics,in_transit
+SHP-10588,Dublin,Marseille,2554.23,39054.64,17/09/2024,Continental Cargo,customs_hold
+SHP-10589,Genoa,Savannah,163.48,36326.68,14/07/2024,Euro Logistics,customs_hold
+SHP-10590,Valencia,Busan,2827.23,49890.76,18/11/2024,Baltic Lines,delivered
+SHP-10591,Rotterdam,Vancouver,3991.13,30374.75,03/12/2024,Baltic Lines,delivered
+SHP-10592,Antwerp,Cartagena,1465.68,12239.25,04/05/2024,Continental Cargo,delivered
+SHP-10593,Marseille,Taipei,3465.52,22278.12,28/07/2024,Continental Cargo,delivered
+SHP-10594,Istanbul,Miami,382.68,18146.73,04/09/2024,North Sea Shipping,delivered
+SHP-10595,Genoa,Busan,2846.93,41347.86,05/03/2024,North Sea Shipping,in_transit
+SHP-10596,Genoa,Balboa,2923.98,6950.1,13/05/2024,Continental Cargo,delivered
+SHP-10597,Rotterdam,Bangkok,2042.81,25276.05,16/03/2024,Baltic Lines,in_transit
+SHP-10598,Dublin,Shenzhen,4499.41,43826.46,08/01/2024,North Sea Shipping,delivered
+SHP-10599,Barcelona,Buenos Aires,3557.05,23519.52,21/02/2024,North Sea Shipping,delayed
+SHP-10600,Le Havre,Dublin,120.15,8388.44,07/02/2024,North Sea Shipping,delivered
+SHP-10601,Istanbul,Gothenburg,4521.35,17750.67,24/07/2024,North Sea Shipping,in_transit
+SHP-10602,Rotterdam,Piraeus,4487.18,44922.78,29/10/2024,Euro Logistics,customs_hold
+SHP-10603,London,Singapore,3693.87,17780.13,17/08/2024,Baltic Lines,in_transit
+SHP-10604,Lisbon,Le Havre,1446.81,23881.45,09/03/2024,North Sea Shipping,in_transit
+SHP-10605,Gdansk,Miami,419.41,44785.18,30/10/2024,Continental Cargo,in_transit
+SHP-10606,Piraeus,Gothenburg,1602.52,8877.28,28/10/2024,Continental Cargo,customs_hold
+SHP-10607,Rotterdam,Busan,1487.09,17088.8,15/10/2024,Baltic Lines,delivered
+SHP-10608,Genoa,Marseille,3786.62,47678.01,22/01/2024,North Sea Shipping,delivered
+SHP-10609,Barcelona,Cartagena,4397.98,15752.65,26/06/2024,Continental Cargo,delivered
+SHP-10610,Barcelona,Hamburg,2433.44,11220.49,27/03/2024,Continental Cargo,customs_hold
+SHP-10611,Barcelona,Seattle,3767.47,46229.57,07/12/2024,Continental Cargo,delivered
+SHP-10612,Antwerp,Buenos Aires,4194.03,37755.49,15/01/2024,Euro Logistics,customs_hold
+SHP-10613,Istanbul,Santos,3995.06,382.92,14/01/2024,Continental Cargo,delivered
+SHP-10614,Gdansk,Le Havre,3660.58,26068.65,20/08/2024,Continental Cargo,delayed
+SHP-10615,Lisbon,Taipei,2222.3,21641.68,14/05/2024,Euro Logistics,delayed
+SHP-10616,Barcelona,Kingston,582.75,17718.37,10/02/2024,North Sea Shipping,in_transit
+SHP-10617,Marseille,Manila,2535.55,13841.6,18/11/2024,Euro Logistics,in_transit
+SHP-10618,Marseille,Seoul,2167.17,46621.78,23/09/2024,Continental Cargo,delivered
+SHP-10619,Istanbul,Kingston,4188.26,31322.74,20/11/2024,Euro Logistics,delivered
+SHP-10620,Gdansk,Gothenburg,4360.64,11049.47,10/04/2024,Continental Cargo,delivered
+SHP-10621,Piraeus,Hanoi,3667.94,14165.85,11/04/2024,Euro Logistics,customs_hold
+SHP-10622,Le Havre,Osaka,16.49,3409.7,12/10/2024,North Sea Shipping,in_transit
+SHP-10623,London,Dublin,3440.06,30688.24,19/11/2024,North Sea Shipping,in_transit
+SHP-10624,Piraeus,Vancouver,3284.88,9044.21,02/06/2024,North Sea Shipping,delayed
+SHP-10625,Gothenburg,Houston,2451.36,31519.87,02/11/2024,Continental Cargo,delivered
+SHP-10626,Barcelona,Hong Kong,1095.04,48147.8,27/05/2024,Baltic Lines,customs_hold
+SHP-10627,Marseille,London,3312.26,5835.17,25/08/2024,Continental Cargo,in_transit
+SHP-10628,Marseille,Lisbon,3524.24,38695.4,04/09/2024,Baltic Lines,in_transit
+SHP-10629,Gothenburg,London,145.3,13432.8,20/04/2024,Baltic Lines,delivered
+SHP-10630,Dublin,Marseille,1308.4,15915.04,19/07/2024,Baltic Lines,delivered
+SHP-10631,Barcelona,Mumbai,1341.95,36422.93,22/06/2024,Euro Logistics,delivered
+SHP-10632,Genoa,Busan,2862.74,8368.43,15/04/2024,Euro Logistics,customs_hold
+SHP-10633,Gdansk,Montreal,1648.76,30267.81,11/01/2024,Euro Logistics,delayed
+SHP-10634,Rotterdam,Piraeus,4561.19,38353.76,10/10/2024,Euro Logistics,in_transit
+SHP-10635,Istanbul,Osaka,1810.81,9962.07,21/03/2024,Baltic Lines,delayed
+SHP-10636,Antwerp,Barcelona,4006.53,45537.16,18/06/2024,Baltic Lines,delivered
+SHP-10637,Lisbon,London,4700.1,1851.94,11/01/2024,Euro Logistics,delivered
+SHP-10638,Dublin,Houston,211.9,14190.33,13/01/2024,North Sea Shipping,in_transit
+SHP-10639,Lisbon,London,169.37,37508.27,12/07/2024,Baltic Lines,delivered
+SHP-10640,Lisbon,Hamburg,4309.99,3872.53,15/09/2024,Baltic Lines,delivered
+SHP-10641,Lisbon,Santos,3024.56,7634.79,28/10/2024,Baltic Lines,delivered
+SHP-10642,Gdansk,Barcelona,3923.97,21286.38,12/01/2024,Continental Cargo,delivered
+SHP-10643,Antwerp,Hong Kong,1321.72,32819.73,29/08/2024,Baltic Lines,delivered
+SHP-10644,Rotterdam,Busan,4834.45,28071.76,04/09/2024,Continental Cargo,delayed
+SHP-10645,Istanbul,Miami,1223.45,909.77,11/09/2024,Baltic Lines,customs_hold
+SHP-10646,Dublin,Santos,3573.04,22640.9,22/10/2024,Euro Logistics,delivered
+SHP-10647,Antwerp,Valencia,1849.42,28179.51,25/11/2024,Continental Cargo,delivered
+SHP-10648,Dublin,Callao,4879.1,4814.68,27/03/2024,North Sea Shipping,delayed
+SHP-10649,Piraeus,Savannah,1250.22,7109.46,11/11/2024,Baltic Lines,delivered
+SHP-10650,Le Havre,Cartagena,3803.03,2993.7,09/09/2024,Continental Cargo,delivered
+SHP-10651,Lisbon,Genoa,4171.7,1873.66,18/12/2024,Baltic Lines,delayed
+SHP-10652,Barcelona,Osaka,3775.31,39745.05,06/10/2024,Baltic Lines,delivered
+SHP-10653,Gothenburg,London,1609.53,35457.97,20/09/2024,Euro Logistics,customs_hold
+SHP-10654,Genoa,Singapore,1878.74,37856.49,23/03/2024,Euro Logistics,delivered
+SHP-10655,Piraeus,Taipei,195.79,21237.9,28/03/2024,Baltic Lines,delivered
+SHP-10656,Le Havre,Buenos Aires,2091.03,512.46,01/03/2024,Baltic Lines,customs_hold
+SHP-10657,Lisbon,Balboa,1355.9,16153.19,09/07/2024,North Sea Shipping,delivered
+SHP-10658,Istanbul,Balboa,1022.71,30719.29,31/12/2024,Continental Cargo,delivered
+SHP-10659,Barcelona,Los Angeles,2314.67,46813.31,10/03/2024,North Sea Shipping,delivered
+SHP-10660,Le Havre,Los Angeles,49.6,20844.33,17/03/2024,Baltic Lines,delivered
+SHP-10661,London,Marseille,3507.47,10003.42,18/02/2024,Baltic Lines,delivered
+SHP-10662,London,Montreal,2343.74,7864.83,28/06/2024,North Sea Shipping,delivered
+SHP-10663,London,Shenzhen,1373.27,41046.68,06/08/2024,Continental Cargo,delivered
+SHP-10664,Dublin,Gothenburg,4671.57,28077.56,24/11/2024,North Sea Shipping,delivered
+SHP-10665,Hamburg,Hong Kong,3653.43,14035.28,14/05/2024,Euro Logistics,delivered
+SHP-10666,Istanbul,Savannah,3224.33,19178.18,21/10/2024,Continental Cargo,customs_hold
+SHP-10667,Lisbon,Montreal,3342.65,23696.67,27/03/2024,Euro Logistics,in_transit
+SHP-10668,Antwerp,Bangkok,4647.77,30765.44,14/03/2024,North Sea Shipping,delivered
+SHP-10669,London,Genoa,389.4,48493.61,11/03/2024,Baltic Lines,delivered
+SHP-10670,Piraeus,Marseille,1513.14,38012.37,03/05/2024,Baltic Lines,delivered
+SHP-10671,Genoa,Los Angeles,1775.28,41940.54,11/06/2024,Euro Logistics,delayed
+SHP-10672,Le Havre,Osaka,4776.82,47277.22,22/05/2024,North Sea Shipping,delayed
+SHP-10673,Istanbul,Valencia,2450.72,39458.8,16/12/2024,Euro Logistics,in_transit
+SHP-10674,Genoa,Manzanillo,1741.23,1313.51,06/07/2024,Baltic Lines,in_transit
+SHP-10675,Marseille,Le Havre,1069.29,28011.71,07/04/2024,Baltic Lines,delivered
+SHP-10676,Valencia,Shanghai,979.58,18081.52,09/04/2024,Euro Logistics,in_transit
+SHP-10677,Marseille,Hong Kong,4555.25,45794.56,14/09/2024,Euro Logistics,in_transit
+SHP-10678,London,Manzanillo,1375.12,23962.81,23/01/2024,Continental Cargo,delivered
+SHP-10679,London,Cartagena,4116.72,43166.11,29/08/2024,Baltic Lines,delivered
+SHP-10680,Piraeus,Manzanillo,3753.06,40381.16,20/01/2024,Continental Cargo,delivered
+SHP-10681,Valencia,Kuala Lumpur,3528.35,8886.54,08/03/2024,Euro Logistics,delivered
+SHP-10682,Le Havre,Taipei,280.71,31892.03,01/02/2024,Continental Cargo,delivered
+SHP-10683,Istanbul,Hamburg,4917.03,9749.41,10/11/2024,Euro Logistics,delivered
+SHP-10684,Gothenburg,Marseille,4488.73,8502.22,27/10/2024,Continental Cargo,delivered
+SHP-10685,Gothenburg,Lisbon,2082.19,33402.74,01/02/2024,Euro Logistics,delivered
+SHP-10686,Dublin,Miami,738.0,13368.46,29/03/2024,Baltic Lines,delivered
+SHP-10687,Gdansk,Shenzhen,3443.74,20492.11,21/11/2024,Euro Logistics,delivered
+SHP-10688,Istanbul,Piraeus,589.01,23339.3,22/12/2024,Euro Logistics,in_transit
+SHP-10689,Piraeus,Bangkok,581.75,4573.56,14/02/2024,North Sea Shipping,delivered
+SHP-10690,Gothenburg,Tokyo,3833.73,39447.4,21/04/2024,Continental Cargo,delivered
+SHP-10691,Valencia,London,1539.26,34060.49,07/04/2024,North Sea Shipping,delivered
+SHP-10692,Genoa,Antwerp,890.43,7064.28,10/06/2024,Baltic Lines,delivered
+SHP-10693,Antwerp,Hamburg,4417.9,8896.75,31/05/2024,Continental Cargo,in_transit
+SHP-10694,Barcelona,Bangkok,2449.68,28955.87,27/06/2024,Baltic Lines,delayed
+SHP-10695,Gothenburg,Manila,184.14,41744.47,16/07/2024,North Sea Shipping,delivered
+SHP-10696,Antwerp,Le Havre,1734.93,40554.87,27/05/2024,North Sea Shipping,delivered
+SHP-10697,Istanbul,Buenos Aires,4149.37,39725.04,16/02/2024,North Sea Shipping,delivered
+SHP-10698,Piraeus,Rotterdam,157.72,5809.14,03/12/2024,North Sea Shipping,delivered
+SHP-10699,Piraeus,Savannah,1615.29,28210.28,03/12/2024,Euro Logistics,delivered
+SHP-10700,Rotterdam,Callao,1794.74,45056.15,22/03/2024,Baltic Lines,delivered
+SHP-10701,Marseille,Manzanillo,4514.95,9396.22,02/07/2024,Continental Cargo,delivered
+SHP-10702,Istanbul,Hanoi,3760.35,21978.49,11/11/2024,Baltic Lines,in_transit
+SHP-10703,Lisbon,Le Havre,3654.91,23704.93,04/05/2024,Continental Cargo,in_transit
+SHP-10704,Gdansk,Genoa,2413.05,20087.6,21/01/2024,North Sea Shipping,in_transit
+SHP-10705,Valencia,Miami,539.72,21323.42,17/05/2024,Baltic Lines,in_transit
+SHP-10706,Hamburg,Miami,832.34,15064.11,01/11/2024,North Sea Shipping,customs_hold
+SHP-10707,Gdansk,Jakarta,649.89,16690.7,28/01/2024,Euro Logistics,delivered
+SHP-10708,Dublin,Kuala Lumpur,4007.55,22962.74,25/03/2024,Baltic Lines,delivered
+SHP-10709,Hamburg,Shenzhen,4414.83,15099.05,11/02/2024,North Sea Shipping,delivered
+SHP-10710,Antwerp,Le Havre,451.29,12274.39,16/12/2024,Continental Cargo,delivered
+SHP-10711,Hamburg,Istanbul,500.02,27513.96,20/07/2024,North Sea Shipping,delayed
+SHP-10712,Gothenburg,Gdansk,4156.82,35325.89,19/02/2024,Baltic Lines,delivered
+SHP-10713,Dublin,Jakarta,1999.72,16389.24,24/05/2024,Baltic Lines,in_transit
+SHP-10714,Istanbul,Singapore,1734.66,33510.34,27/10/2024,Euro Logistics,delivered
+SHP-10715,Gdansk,Hanoi,3839.34,18488.17,23/06/2024,Euro Logistics,in_transit
+SHP-10716,Dublin,Gothenburg,4572.97,32296.58,11/03/2024,Baltic Lines,delivered
+SHP-10717,Antwerp,Marseille,2177.29,17012.35,30/11/2024,North Sea Shipping,delivered
+SHP-10718,Barcelona,Marseille,1934.38,41072.69,18/01/2024,Continental Cargo,customs_hold
+SHP-10719,Genoa,Hanoi,818.13,34132.87,24/02/2024,Baltic Lines,delayed
+SHP-10720,Marseille,Balboa,3663.49,32810.64,26/07/2024,Euro Logistics,delivered
+SHP-10721,Hamburg,Cartagena,2535.1,34330.62,06/01/2024,Baltic Lines,in_transit
+SHP-10722,Gothenburg,Lisbon,2112.57,2772.84,05/08/2024,Continental Cargo,in_transit
+SHP-10723,Rotterdam,Seattle,4035.72,45415.13,14/09/2024,Continental Cargo,in_transit
+SHP-10724,Lisbon,Genoa,4220.92,48589.92,27/02/2024,North Sea Shipping,customs_hold
+SHP-10725,Istanbul,Gothenburg,4351.64,4046.46,04/01/2024,Continental Cargo,customs_hold
+SHP-10726,Lisbon,Savannah,1289.55,25769.07,10/11/2024,Baltic Lines,delivered
+SHP-10727,Piraeus,Antwerp,199.7,43401.44,23/08/2024,Continental Cargo,delivered
+SHP-10728,Gdansk,Balboa,1846.8,21313.84,11/12/2024,Continental Cargo,in_transit
+SHP-10729,London,Santos,1336.54,14697.32,01/08/2024,Euro Logistics,delivered
+SHP-10730,Barcelona,Callao,178.56,5628.58,19/01/2024,Baltic Lines,delivered
+SHP-10731,Rotterdam,Santos,473.32,36353.03,20/11/2024,Baltic Lines,delivered
+SHP-10732,Barcelona,Istanbul,4859.28,34465.15,04/05/2024,Baltic Lines,delivered
+SHP-10733,Marseille,Gdansk,191.92,30487.21,22/11/2024,Euro Logistics,delivered
+SHP-10734,Lisbon,Bangkok,1689.19,31855.22,03/06/2024,Baltic Lines,delivered
+SHP-10735,Hamburg,Rotterdam,3608.11,37147.11,10/02/2024,Baltic Lines,customs_hold
+SHP-10736,Dublin,Shenzhen,2854.69,49746.17,11/11/2024,North Sea Shipping,in_transit
+SHP-10737,London,Gdansk,2866.89,10799.7,11/08/2024,Continental Cargo,in_transit
+SHP-10738,Dublin,Hanoi,1384.63,33588.41,05/11/2024,Baltic Lines,delayed
+SHP-10739,Gothenburg,Antwerp,1363.76,20388.78,10/01/2024,Baltic Lines,in_transit
+SHP-10740,Barcelona,Hamburg,2312.47,39523.4,21/11/2024,Continental Cargo,delivered
+SHP-10741,Antwerp,Tokyo,3545.19,11091.83,09/11/2024,Continental Cargo,in_transit
+SHP-10742,Gdansk,New York,2939.78,31756.89,17/06/2024,Baltic Lines,delivered
+SHP-10743,Istanbul,Shanghai,1715.08,16016.16,15/08/2024,North Sea Shipping,delivered
+SHP-10744,Lisbon,Houston,1053.58,34901.38,10/12/2024,Baltic Lines,delivered
+SHP-10745,London,Kingston,4261.53,48387.79,19/11/2024,Baltic Lines,in_transit
+SHP-10746,Marseille,Bangkok,1038.15,49244.19,08/07/2024,Continental Cargo,delivered
+SHP-10747,Marseille,Valencia,3372.67,1526.75,15/11/2024,North Sea Shipping,in_transit
+SHP-10748,Gdansk,Le Havre,2077.26,38258.76,25/05/2024,Baltic Lines,customs_hold
+SHP-10749,Genoa,Santos,658.92,30375.73,04/03/2024,Euro Logistics,delivered
+SHP-10750,Antwerp,Taipei,2853.94,8972.19,22/03/2024,Baltic Lines,in_transit
+SHP-10751,Marseille,Osaka,2091.19,29982.46,12/06/2024,Continental Cargo,in_transit
+SHP-10752,Gothenburg,Balboa,4801.22,38099.57,11/06/2024,Baltic Lines,delivered
+SHP-10753,Genoa,Houston,3784.26,14349.86,18/08/2024,North Sea Shipping,customs_hold
+SHP-10754,Hamburg,Lisbon,1442.39,26656.65,20/06/2024,Baltic Lines,in_transit
+SHP-10755,Gothenburg,Hong Kong,1917.08,32672.56,02/08/2024,Baltic Lines,delivered
+SHP-10756,London,Montreal,1121.35,30504.82,14/09/2024,Euro Logistics,in_transit
+SHP-10757,Lisbon,Dublin,4727.47,16284.76,07/05/2024,North Sea Shipping,in_transit
+SHP-10758,Piraeus,Balboa,455.29,18546.28,03/11/2024,Baltic Lines,in_transit
+SHP-10759,Le Havre,Shenzhen,4251.62,8110.89,07/07/2024,North Sea Shipping,delivered
+SHP-10760,Valencia,Shenzhen,1613.96,14684.45,16/01/2024,North Sea Shipping,in_transit
+SHP-10761,Piraeus,London,3418.51,22210.48,03/05/2024,North Sea Shipping,customs_hold
+SHP-10762,Istanbul,Manzanillo,556.23,30220.14,18/06/2024,North Sea Shipping,delivered
+SHP-10763,Lisbon,Singapore,34.91,1664.51,12/12/2024,Baltic Lines,delayed
+SHP-10764,Piraeus,Gothenburg,352.29,20883.63,13/05/2024,Euro Logistics,in_transit
+SHP-10765,Gdansk,Manzanillo,4946.05,35752.47,12/08/2024,Baltic Lines,delayed
+SHP-10766,London,Barcelona,4058.41,41423.97,21/01/2024,Continental Cargo,delivered
+SHP-10767,Valencia,Miami,3146.53,22030.29,04/03/2024,Euro Logistics,delivered
+SHP-10768,Barcelona,Savannah,3768.01,5633.6,27/03/2024,Continental Cargo,delivered
+SHP-10769,Marseille,Kuala Lumpur,4564.92,39787.88,17/04/2024,Continental Cargo,delivered
+SHP-10770,Gothenburg,Singapore,2291.48,35468.69,05/05/2024,Continental Cargo,delivered
+SHP-10771,Lisbon,Valencia,1653.64,22546.29,12/05/2024,Continental Cargo,in_transit
+SHP-10772,Dublin,Jakarta,740.55,14457.1,23/04/2024,Continental Cargo,in_transit
+SHP-10773,Lisbon,Antwerp,1533.66,35806.04,17/10/2024,Continental Cargo,delivered
+SHP-10774,Piraeus,Balboa,1474.75,37199.47,21/12/2024,North Sea Shipping,delivered
+SHP-10775,Barcelona,Gothenburg,1286.9,11434.51,18/04/2024,Continental Cargo,delivered
+SHP-10776,London,Hamburg,1821.13,25454.15,21/09/2024,Baltic Lines,delivered
+SHP-10777,Valencia,Manila,4862.03,32210.38,27/10/2024,Continental Cargo,delivered
+SHP-10778,Genoa,Houston,3242.06,43545.57,03/09/2024,North Sea Shipping,delivered
+SHP-10779,Genoa,Shanghai,3343.89,3284.39,25/04/2024,Continental Cargo,delivered
+SHP-10780,Hamburg,Antwerp,3043.4,36451.65,02/03/2024,North Sea Shipping,delivered
+SHP-10781,Piraeus,Cartagena,4563.56,45319.79,25/09/2024,North Sea Shipping,in_transit
+SHP-10782,Marseille,Kingston,164.69,31338.78,17/06/2024,Euro Logistics,delivered
+SHP-10783,Istanbul,Santos,4363.14,48523.34,29/01/2024,Baltic Lines,in_transit
+SHP-10784,Antwerp,London,1280.73,36984.82,19/12/2024,North Sea Shipping,delivered
+SHP-10785,Lisbon,New York,887.56,48969.91,16/05/2024,Continental Cargo,delivered
+SHP-10786,Antwerp,Singapore,4530.75,6670.82,04/06/2024,Euro Logistics,delivered
+SHP-10787,Antwerp,Savannah,3808.52,23890.25,20/02/2024,Euro Logistics,delivered
+SHP-10788,Gothenburg,Singapore,982.53,5864.5,12/02/2024,Baltic Lines,delivered
+SHP-10789,Istanbul,Savannah,1075.36,24387.17,18/10/2024,Euro Logistics,in_transit
+SHP-10790,Le Havre,Taipei,3600.05,22159.96,25/11/2024,North Sea Shipping,in_transit
+SHP-10791,Gothenburg,Montreal,3777.84,49612.27,08/05/2024,Baltic Lines,in_transit
+SHP-10792,Piraeus,Callao,883.07,25389.28,20/09/2024,Continental Cargo,customs_hold
+SHP-10793,Barcelona,Rotterdam,4336.37,12488.65,20/05/2024,Continental Cargo,in_transit
+SHP-10794,Rotterdam,Hanoi,2438.16,15994.42,17/09/2024,Baltic Lines,delivered
+SHP-10795,Hamburg,Singapore,3802.31,33665.16,18/02/2024,Baltic Lines,delivered
+SHP-10796,Gothenburg,Santos,4112.88,9720.1,25/02/2024,North Sea Shipping,delivered
+SHP-10797,Istanbul,Barcelona,1600.42,26543.46,22/02/2024,Continental Cargo,customs_hold
+SHP-10798,Antwerp,Cartagena,3359.6,16222.08,08/04/2024,Baltic Lines,in_transit
+SHP-10799,Le Havre,Manila,3050.81,7898.78,21/09/2024,Baltic Lines,in_transit
+SHP-10800,Dublin,Lisbon,3898.88,13505.69,14/05/2024,Baltic Lines,customs_hold

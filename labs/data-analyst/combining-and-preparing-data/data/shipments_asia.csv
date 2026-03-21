@@ -1,0 +1,1001 @@
+shipment_id,origin,destination,weight_kg,cost_usd,ship_date,carrier,status,supplier_id
+SHP-00001,Kuala Lumpur,London,36.45,35406.66,2024-01-31,Asia Cargo,delivered,3
+SHP-00002,Osaka,Piraeus,354.75,11938.33,2024-12-08,Orient Lines,delivered,9
+SHP-00003,Hanoi,Cartagena,2881.27,12187.71,2024-08-30,Orient Lines,delivered,7
+SHP-00004,Manila,Le Havre,1771.81,20584.56,2024-01-28,Pacific Express,delivered,47
+SHP-00005,Bangkok,Taipei,1243.66,9550.93,2024-08-17,Asia Cargo,delivered,18
+SHP-00006,Taipei,Rotterdam,4372.49,3815.48,2024-10-08,Pacific Express,delivered,35
+SHP-00007,Osaka,Shanghai,4845.0,46322.03,2024-05-01,Asia Cargo,delivered,31
+SHP-00008,Mumbai,Lisbon,4512.26,8273.62,2024-01-02,Orient Lines,delivered,30
+SHP-00009,Singapore,Le Havre,3483.11,36538.74,2024-10-11,Orient Lines,delivered,19
+SHP-00010,Mumbai,Singapore,2896.11,27132.65,2024-06-09,Pacific Express,delivered,31
+SHP-00011,Jakarta,Vancouver,787.58,48040.91,2024-02-11,Asia Cargo,delivered,5
+SHP-00012,Manila,Rotterdam,2019.18,47082.73,2024-10-18,Asia Cargo,in_transit,3
+SHP-00013,Kuala Lumpur,Bangkok,2096.41,29204.43,2024-09-24,Global Freight,customs_hold,14
+SHP-00014,Manila,Genoa,1193.81,19819.5,2024-12-09,Global Freight,delivered,49
+SHP-00015,Busan,Singapore,47.07,31076.9,2024-10-15,Pacific Express,delivered,14
+SHP-00016,Jakarta,Hamburg,662.72,17482.99,2024-02-05,Asia Cargo,delivered,11
+SHP-00017,Taipei,Santos,3517.85,30603.3,2024-11-30,Pacific Express,in_transit,36
+SHP-00018,Singapore,Kingston,518.38,43912.44,2024-05-15,Pacific Express,delayed,48
+SHP-00019,Jakarta,Manila,1362.1,30261.25,2024-06-24,Asia Cargo,in_transit,17
+SHP-00020,Jakarta,Houston,1255.98,45412.54,2024-01-27,Pacific Express,in_transit,18
+SHP-00021,Shanghai,Tokyo,1668.12,6584.44,2024-05-14,Asia Cargo,in_transit,36
+SHP-00022,Hanoi,Le Havre,2804.75,5638.1,2024-12-19,Asia Cargo,delivered,24
+SHP-00023,Kuala Lumpur,Buenos Aires,740.89,6415.9,2024-06-06,Global Freight,delayed,3
+SHP-00024,Busan,Istanbul,1050.78,12514.01,2024-02-22,Global Freight,in_transit,27
+SHP-00025,Kuala Lumpur,Manila,4628.86,11875.03,2024-03-24,Asia Cargo,delayed,2
+SHP-00026,Seoul,Piraeus,3912.04,20615.07,2024-12-08,Asia Cargo,delivered,45
+SHP-00027,Tokyo,Gothenburg,4360.9,42936.73,2024-04-23,Asia Cargo,delayed,30
+SHP-00028,Bangkok,Marseille,4102.77,43572.59,2024-04-24,Pacific Express,in_transit,26
+SHP-00029,Bangkok,Antwerp,4321.83,48346.11,2024-05-22,Global Freight,in_transit,26
+SHP-00030,Manila,Santos,1656.08,1428.65,2024-05-13,Asia Cargo,in_transit,17
+SHP-00031,Shanghai,Taipei,2983.06,17317.07,2024-06-09,Orient Lines,in_transit,33
+SHP-00032,Tokyo,Gothenburg,4497.57,9544.43,2024-01-23,Orient Lines,delivered,35
+SHP-00033,Manila,Kingston,985.58,21593.31,2024-12-06,Global Freight,in_transit,43
+SHP-00034,Osaka,Taipei,3598.91,15051.1,2024-06-07,Orient Lines,delivered,45
+SHP-00035,Singapore,Buenos Aires,636.88,21051.29,2024-07-13,Asia Cargo,in_transit,20
+SHP-00036,Hong Kong,Buenos Aires,4168.71,15228.55,2024-04-17,Orient Lines,in_transit,39
+SHP-00037,Manila,Genoa,2325.21,22135.88,2024-04-19,Orient Lines,in_transit,48
+SHP-00038,Seoul,Kingston,424.44,25796.83,2024-11-20,Global Freight,delivered,49
+SHP-00039,Mumbai,Balboa,1552.44,40337.82,2024-03-16,Pacific Express,delivered,31
+SHP-00040,Kuala Lumpur,Singapore,2277.35,44312.54,2024-10-21,Asia Cargo,in_transit,25
+SHP-00041,Taipei,Lisbon,1220.3,32820.1,2024-01-03,Pacific Express,in_transit,15
+SHP-00042,Seoul,Vancouver,2323.02,27892.42,2024-03-03,Orient Lines,delivered,30
+SHP-00043,Manila,Vancouver,4939.47,29792.84,2024-08-14,Orient Lines,delayed,36
+SHP-00044,Taipei,Hanoi,3718.41,23759.99,2024-05-12,Asia Cargo,delayed,18
+SHP-00045,Shenzhen,Vancouver,2423.24,12000.33,2024-08-13,Pacific Express,in_transit,16
+SHP-00046,Singapore,Piraeus,1598.89,27030.6,2024-03-11,Asia Cargo,delivered,45
+SHP-00047,Seoul,Busan,321.61,20409.59,2024-10-04,Orient Lines,delivered,14
+SHP-00048,Osaka,Dublin,1947.69,38501.3,2024-12-22,Pacific Express,delayed,49
+SHP-00049,Kuala Lumpur,Gothenburg,2385.16,47139.95,2024-06-01,Orient Lines,delayed,27
+SHP-00050,Jakarta,Santos,3999.44,44895.68,2024-09-06,Asia Cargo,delivered,32
+SHP-00051,Shanghai,Gothenburg,1680.98,33973.14,2024-07-26,Asia Cargo,delayed,9
+SHP-00052,Kuala Lumpur,Santos,135.32,19731.31,2024-10-15,Pacific Express,delivered,28
+SHP-00053,Seoul,New York,909.05,13044.81,2024-06-16,Asia Cargo,delivered,22
+SHP-00054,Shenzhen,Gothenburg,1391.64,47562.65,2024-08-03,Global Freight,delayed,31
+SHP-00055,Shanghai,Santos,260.9,47598.39,2024-04-24,Pacific Express,in_transit,42
+SHP-00056,Shanghai,Seoul,4748.08,10008.07,2024-01-11,Asia Cargo,delivered,31
+SHP-00057,Manila,Taipei,2820.07,10937.33,2024-12-24,Global Freight,in_transit,11
+SHP-00058,Kuala Lumpur,Seattle,4818.69,35931.94,2024-03-24,Global Freight,delivered,2
+SHP-00059,Busan,Marseille,2879.2,45405.91,2024-07-11,Orient Lines,customs_hold,13
+SHP-00060,Tokyo,Savannah,3453.23,31380.76,2024-02-22,Global Freight,delayed,39
+SHP-00061,Shenzhen,Taipei,3981.24,28318.33,2024-01-22,Global Freight,delivered,43
+SHP-00062,Bangkok,Singapore,2530.05,17094.5,2024-08-03,Orient Lines,delivered,24
+SHP-00063,Manila,New York,3536.69,21802.58,2024-09-24,Global Freight,in_transit,35
+SHP-00064,Shenzhen,Los Angeles,2324.64,41295.44,2024-10-30,Global Freight,delivered,16
+SHP-00065,Osaka,Bangkok,1395.0,22567.56,2024-08-25,Orient Lines,delivered,32
+SHP-00066,Osaka,Genoa,909.61,10645.39,2024-05-12,Global Freight,delivered,39
+SHP-00067,Hanoi,Antwerp,2779.18,25855.53,2024-04-07,Pacific Express,delivered,27
+SHP-00068,Taipei,Buenos Aires,3790.94,34545.94,2024-11-26,Orient Lines,delivered,2
+SHP-00069,Tokyo,Barcelona,1108.37,34604.77,2024-06-05,Global Freight,delivered,34
+SHP-00070,Bangkok,Le Havre,4983.16,27541.9,2024-06-29,Orient Lines,delivered,17
+SHP-00071,Mumbai,Jakarta,3606.56,15811.62,2024-10-01,Asia Cargo,delivered,48
+SHP-00072,Taipei,Antwerp,3623.06,48831.52,2024-09-25,Global Freight,customs_hold,13
+SHP-00073,Singapore,London,1804.72,15148.27,2024-12-28,Asia Cargo,delivered,4
+SHP-00074,Jakarta,Barcelona,3487.24,6357.66,2024-09-08,Pacific Express,delayed,37
+SHP-00075,Singapore,Los Angeles,2393.83,17068.26,2024-01-27,Global Freight,customs_hold,31
+SHP-00076,Tokyo,Bangkok,2003.84,3750.4,2024-11-18,Pacific Express,delivered,37
+SHP-00077,Singapore,Hong Kong,4969.59,5966.66,2024-08-01,Asia Cargo,in_transit,25
+SHP-00078,Taipei,Valencia,1487.12,29446.83,2024-08-07,Global Freight,in_transit,4
+SHP-00079,Kuala Lumpur,Hong Kong,4737.98,10429.01,2024-04-18,Global Freight,in_transit,11
+SHP-00080,Mumbai,Shenzhen,2760.19,7868.8,2024-07-28,Orient Lines,in_transit,31
+SHP-00081,Singapore,Seoul,1157.77,35362.44,2024-12-25,Orient Lines,delivered,15
+SHP-00082,Busan,Hamburg,3939.25,31271.65,2024-12-04,Asia Cargo,delivered,35
+SHP-00083,Mumbai,Manzanillo,745.37,13318.34,2024-03-13,Pacific Express,delivered,20
+SHP-00084,Kuala Lumpur,Cartagena,4606.0,21985.71,2024-08-27,Global Freight,in_transit,18
+SHP-00085,Jakarta,Santos,2469.23,4068.07,2024-01-21,Orient Lines,in_transit,39
+SHP-00086,Singapore,Tokyo,457.09,48097.46,2024-10-21,Pacific Express,customs_hold,44
+SHP-00087,Osaka,Antwerp,2881.45,38167.29,2024-03-30,Orient Lines,delivered,29
+SHP-00088,Busan,Antwerp,907.85,29287.21,2024-11-21,Orient Lines,customs_hold,31
+SHP-00089,Bangkok,Dublin,1666.88,33523.17,2024-03-23,Global Freight,delivered,32
+SHP-00090,Singapore,Kingston,4726.0,40687.62,2024-10-08,Pacific Express,delivered,21
+SHP-00091,Singapore,Genoa,580.05,38638.77,2024-09-20,Pacific Express,in_transit,35
+SHP-00092,Taipei,Dublin,271.49,25946.05,2024-11-14,Orient Lines,in_transit,49
+SHP-00093,Shanghai,Busan,1335.65,6594.11,2024-05-27,Orient Lines,delayed,32
+SHP-00094,Tokyo,Seoul,4865.75,30463.14,2024-05-02,Asia Cargo,delivered,1
+SHP-00095,Jakarta,Dublin,466.5,49613.24,2024-02-28,Orient Lines,customs_hold,42
+SHP-00096,Osaka,Kuala Lumpur,2492.13,35844.34,2024-09-17,Global Freight,delivered,31
+SHP-00097,Taipei,Rotterdam,2284.2,7274.87,2024-04-07,Asia Cargo,delayed,18
+SHP-00098,Shenzhen,Dublin,1699.71,39396.48,2024-05-16,Pacific Express,delivered,20
+SHP-00099,Osaka,Savannah,2899.83,33014.04,2024-03-17,Orient Lines,delivered,23
+SHP-00100,Bangkok,Buenos Aires,3814.48,18891.64,2024-06-13,Asia Cargo,customs_hold,16
+SHP-00101,Kuala Lumpur,Gothenburg,1168.2,38788.45,2024-01-23,Global Freight,in_transit,46
+SHP-00102,Busan,Gothenburg,1930.7,33201.26,2024-11-29,Asia Cargo,delivered,3
+SHP-00103,Seoul,Miami,4826.79,16633.14,2024-02-21,Orient Lines,delivered,30
+SHP-00104,Shanghai,Manila,2050.19,32756.33,2024-03-20,Pacific Express,delivered,17
+SHP-00105,Bangkok,Montreal,3463.68,32509.34,2024-06-17,Orient Lines,customs_hold,41
+SHP-00106,Hanoi,Houston,4361.98,1843.16,2024-02-05,Asia Cargo,in_transit,19
+SHP-00107,Mumbai,Hong Kong,2170.14,4967.23,2024-11-20,Pacific Express,delivered,45
+SHP-00108,Singapore,Tokyo,230.43,39817.37,2024-05-30,Global Freight,delivered,10
+SHP-00109,Mumbai,Vancouver,2060.55,34105.93,2024-04-02,Asia Cargo,delivered,40
+SHP-00110,Osaka,Gothenburg,3098.74,12079.45,2024-10-25,Asia Cargo,delivered,41
+SHP-00111,Singapore,New York,1277.01,519.4,2024-08-26,Global Freight,in_transit,11
+SHP-00112,Tokyo,Valencia,4726.21,49383.2,2024-06-02,Orient Lines,in_transit,30
+SHP-00113,Osaka,Marseille,996.49,19265.43,2024-09-04,Pacific Express,delivered,37
+SHP-00114,Bangkok,Cartagena,1479.71,34978.99,2024-01-12,Orient Lines,delivered,37
+SHP-00115,Osaka,Balboa,3891.67,48681.46,2024-11-06,Orient Lines,delayed,19
+SHP-00116,Shenzhen,London,3035.52,17648.43,2024-11-21,Asia Cargo,in_transit,44
+SHP-00117,Shenzhen,Kingston,3404.44,6882.12,2024-02-19,Pacific Express,delivered,29
+SHP-00118,Shanghai,Savannah,1824.62,6614.02,2024-05-31,Global Freight,in_transit,12
+SHP-00119,Mumbai,Kuala Lumpur,3932.67,43829.21,2024-07-06,Global Freight,delayed,17
+SHP-00120,Busan,Los Angeles,4836.94,14792.32,2024-06-22,Pacific Express,delivered,5
+SHP-00121,Seoul,London,4300.77,36224.62,2024-07-22,Global Freight,delivered,26
+SHP-00122,Shanghai,Hamburg,2683.09,22766.56,2024-12-10,Global Freight,in_transit,41
+SHP-00123,Bangkok,Taipei,3374.35,23600.27,2024-11-13,Global Freight,delayed,15
+SHP-00124,Manila,Singapore,3177.2,23240.16,2024-12-24,Global Freight,in_transit,8
+SHP-00125,Seoul,Mumbai,4731.33,15253.01,2024-09-09,Pacific Express,delivered,35
+SHP-00126,Seoul,Gothenburg,2268.49,33540.79,2024-12-22,Orient Lines,in_transit,47
+SHP-00127,Seoul,Dublin,3274.78,41692.97,2024-11-11,Orient Lines,customs_hold,18
+SHP-00128,Shanghai,Gdansk,1086.74,22262.56,2024-04-30,Global Freight,delivered,44
+SHP-00129,Bangkok,Santos,4508.53,32259.1,2024-02-01,Orient Lines,delivered,8
+SHP-00130,Osaka,New York,458.82,10644.69,2024-11-23,Pacific Express,delivered,22
+SHP-00131,Mumbai,Kuala Lumpur,3935.0,10300.02,2024-10-10,Asia Cargo,in_transit,15
+SHP-00132,Bangkok,Manila,3943.32,29819.28,2024-05-21,Asia Cargo,customs_hold,35
+SHP-00133,Singapore,Shenzhen,550.08,43329.07,2024-03-08,Pacific Express,delivered,16
+SHP-00134,Kuala Lumpur,Genoa,79.4,13305.11,2024-03-05,Orient Lines,delivered,48
+SHP-00135,Tokyo,Los Angeles,2241.65,18133.85,2024-10-30,Pacific Express,delivered,15
+SHP-00136,Kuala Lumpur,Seoul,3636.35,45442.15,2024-12-03,Global Freight,delivered,2
+SHP-00137,Shanghai,Los Angeles,4236.57,21342.37,2024-02-25,Orient Lines,in_transit,29
+SHP-00138,Tokyo,Hong Kong,1610.9,7459.27,2024-03-05,Global Freight,in_transit,38
+SHP-00139,Jakarta,Genoa,1904.83,29889.72,2024-05-30,Orient Lines,delivered,28
+SHP-00140,Tokyo,Jakarta,4264.04,32563.29,2024-10-09,Asia Cargo,delivered,15
+SHP-00141,Hong Kong,Piraeus,4137.18,19966.57,2024-02-18,Global Freight,delivered,43
+SHP-00142,Singapore,Gdansk,4767.99,34356.71,2024-08-30,Pacific Express,delivered,6
+SHP-00143,Tokyo,Le Havre,483.27,36952.86,2024-03-07,Pacific Express,in_transit,36
+SHP-00144,Jakarta,Piraeus,3350.23,20569.89,2024-12-06,Orient Lines,delayed,47
+SHP-00145,Shanghai,Barcelona,3002.25,17614.73,2024-10-22,Asia Cargo,delivered,31
+SHP-00146,Mumbai,Taipei,1750.89,27835.46,2024-02-28,Global Freight,in_transit,28
+SHP-00147,Osaka,Buenos Aires,4872.75,40930.42,2024-11-10,Pacific Express,in_transit,43
+SHP-00148,Osaka,Antwerp,145.25,13699.86,2024-06-07,Global Freight,delivered,12
+SHP-00149,Osaka,Kuala Lumpur,2831.82,20069.18,2024-03-13,Pacific Express,delivered,34
+SHP-00150,Mumbai,Gothenburg,2099.45,17077.75,2024-07-08,Global Freight,in_transit,50
+SHP-00151,Kuala Lumpur,Seattle,425.24,2677.81,2024-03-21,Pacific Express,in_transit,18
+SHP-00152,Taipei,Kingston,2120.36,30373.45,2024-07-31,Global Freight,delivered,33
+SHP-00153,Tokyo,Istanbul,2149.85,14198.16,2024-12-13,Orient Lines,delivered,20
+SHP-00154,Shanghai,London,1976.62,29986.28,2024-01-04,Asia Cargo,delivered,14
+SHP-00155,Shenzhen,Jakarta,3820.92,14507.88,2024-03-02,Pacific Express,delivered,28
+SHP-00156,Seoul,Kuala Lumpur,1901.35,35198.38,2024-09-13,Global Freight,delivered,48
+SHP-00157,Shanghai,Le Havre,94.2,46062.06,2024-06-09,Orient Lines,in_transit,46
+SHP-00158,Manila,Dublin,1447.93,20281.36,2024-06-15,Asia Cargo,delayed,40
+SHP-00159,Taipei,Gdansk,441.11,42231.99,2024-05-04,Orient Lines,in_transit,34
+SHP-00160,Tokyo,Lisbon,4352.69,37302.95,2024-04-23,Global Freight,in_transit,5
+SHP-00161,Jakarta,Callao,570.58,25522.11,2024-06-27,Global Freight,in_transit,42
+SHP-00162,Osaka,Kuala Lumpur,1181.73,7364.89,2024-04-11,Asia Cargo,in_transit,49
+SHP-00163,Shenzhen,Manzanillo,377.23,47567.04,2024-11-17,Orient Lines,delivered,37
+SHP-00164,Shenzhen,Savannah,2244.8,46211.51,2024-10-16,Global Freight,delayed,41
+SHP-00165,Bangkok,Manila,2199.09,23472.61,2024-11-19,Global Freight,in_transit,38
+SHP-00166,Shanghai,Istanbul,2536.93,15554.87,2024-08-19,Pacific Express,delivered,19
+SHP-00167,Tokyo,Manzanillo,4321.32,42771.9,2024-11-10,Orient Lines,delivered,36
+SHP-00168,Shenzhen,Seoul,2248.94,40500.31,2024-11-29,Asia Cargo,delivered,31
+SHP-00169,Jakarta,Manila,4788.63,22553.63,2024-06-24,Pacific Express,delivered,12
+SHP-00170,Shanghai,Rotterdam,3538.25,49549.75,2024-09-25,Asia Cargo,delivered,19
+SHP-00171,Hong Kong,Dublin,3872.44,33960.94,2024-01-27,Global Freight,delivered,7
+SHP-00172,Jakarta,Balboa,1933.13,12637.19,2024-12-02,Asia Cargo,delivered,38
+SHP-00173,Manila,Kuala Lumpur,4583.77,15546.08,2024-12-01,Orient Lines,delivered,46
+SHP-00174,Tokyo,Marseille,2794.83,32192.49,2024-06-17,Asia Cargo,in_transit,48
+SHP-00175,Manila,Vancouver,467.72,33539.28,2024-09-17,Global Freight,delivered,20
+SHP-00176,Seoul,Busan,1708.99,38319.5,2024-04-08,Asia Cargo,customs_hold,10
+SHP-00177,Tokyo,Barcelona,4222.22,5101.98,2024-10-03,Pacific Express,in_transit,50
+SHP-00178,Kuala Lumpur,Jakarta,2986.43,7754.93,2024-04-02,Asia Cargo,in_transit,3
+SHP-00179,Hong Kong,Gdansk,3381.98,11914.63,2024-08-15,Global Freight,in_transit,29
+SHP-00180,Mumbai,Santos,1196.22,48281.55,2024-08-28,Asia Cargo,delivered,37
+SHP-00181,Taipei,New York,3847.31,38917.3,2024-09-14,Orient Lines,customs_hold,13
+SHP-00182,Shenzhen,Seattle,692.42,12537.66,2024-11-24,Orient Lines,delayed,36
+SHP-00183,Busan,Hong Kong,3557.15,25819.67,2024-03-04,Global Freight,delivered,11
+SHP-00184,Singapore,Valencia,4526.58,7410.07,2024-08-11,Pacific Express,customs_hold,15
+SHP-00185,Osaka,Valencia,4423.21,46527.07,2024-07-31,Pacific Express,delivered,24
+SHP-00186,Mumbai,Gothenburg,4972.63,18776.89,2024-01-15,Global Freight,customs_hold,46
+SHP-00187,Manila,Piraeus,3957.01,6923.1,2024-05-26,Orient Lines,in_transit,9
+SHP-00188,Shenzhen,Los Angeles,2243.28,312.3,2024-02-10,Pacific Express,delivered,10
+SHP-00189,Jakarta,Seattle,2639.09,5603.78,2024-05-27,Asia Cargo,delivered,4
+SHP-00190,Mumbai,Dublin,3194.94,31159.39,2024-02-02,Pacific Express,delayed,32
+SHP-00191,Kuala Lumpur,Santos,82.67,25793.02,2024-05-03,Asia Cargo,delivered,1
+SHP-00192,Kuala Lumpur,Istanbul,1203.2,20857.55,2024-12-06,Pacific Express,delivered,24
+SHP-00193,Tokyo,Vancouver,2720.64,39331.3,2024-09-16,Pacific Express,delivered,31
+SHP-00194,Shanghai,Callao,1934.71,18696.45,2024-01-09,Global Freight,in_transit,23
+SHP-00195,Mumbai,Kingston,3141.47,38586.49,2024-06-19,Asia Cargo,delivered,35
+SHP-00196,Bangkok,Manzanillo,875.86,38968.17,2024-08-25,Orient Lines,in_transit,9
+SHP-00197,Tokyo,New York,185.4,10119.47,2024-04-12,Pacific Express,delivered,20
+SHP-00198,Jakarta,Lisbon,4945.62,27174.38,2024-05-09,Pacific Express,in_transit,13
+SHP-00199,Singapore,Istanbul,4310.76,2437.81,2024-12-01,Global Freight,delivered,24
+SHP-00200,Hong Kong,Lisbon,3716.67,44737.14,2024-07-16,Global Freight,customs_hold,32
+SHP-00201,Hanoi,Houston,1837.05,39874.68,2024-05-16,Pacific Express,in_transit,6
+SHP-00202,Hong Kong,Seattle,4975.49,9063.8,2024-05-30,Global Freight,delivered,21
+SHP-00203,Manila,Barcelona,1532.83,30150.95,2024-08-06,Asia Cargo,in_transit,23
+SHP-00204,Taipei,Seoul,3634.21,45584.78,2024-11-10,Orient Lines,delivered,4
+SHP-00205,Tokyo,Kingston,3187.74,18197.39,2024-12-13,Asia Cargo,customs_hold,10
+SHP-00206,Osaka,Seattle,3390.61,21936.73,2024-03-05,Pacific Express,delivered,42
+SHP-00207,Bangkok,Gdansk,1914.58,28383.87,2024-11-05,Asia Cargo,in_transit,24
+SHP-00208,Bangkok,Valencia,3815.54,28717.39,2024-09-28,Global Freight,delivered,42
+SHP-00209,Singapore,Rotterdam,4802.62,1344.37,2024-04-05,Orient Lines,delivered,36
+SHP-00210,Tokyo,Hamburg,3874.93,35216.69,2024-04-19,Global Freight,in_transit,32
+SHP-00211,Mumbai,Jakarta,679.07,3748.9,2024-03-29,Orient Lines,customs_hold,44
+SHP-00212,Osaka,Genoa,3339.37,35491.55,2024-10-08,Global Freight,delayed,11
+SHP-00213,Hanoi,Callao,870.87,18106.53,2024-04-24,Pacific Express,customs_hold,9
+SHP-00214,Mumbai,Houston,131.91,27723.37,2024-07-07,Orient Lines,delayed,36
+SHP-00215,Seoul,Montreal,4421.29,3334.12,2024-07-22,Orient Lines,delivered,50
+SHP-00216,Hong Kong,Cartagena,369.22,48620.37,2024-11-24,Pacific Express,delivered,44
+SHP-00217,Jakarta,Istanbul,642.11,41461.23,2024-10-09,Asia Cargo,in_transit,9
+SHP-00218,Hong Kong,Miami,4553.61,2817.87,2024-03-04,Asia Cargo,delivered,11
+SHP-00219,Bangkok,London,1730.44,47048.16,2024-05-25,Pacific Express,delivered,41
+SHP-00220,Jakarta,Antwerp,626.29,15176.09,2024-09-30,Pacific Express,delivered,11
+SHP-00221,Kuala Lumpur,Savannah,771.39,32953.71,2024-11-05,Global Freight,delayed,37
+SHP-00222,Shanghai,Seoul,406.57,47429.92,2024-10-22,Global Freight,in_transit,50
+SHP-00223,Kuala Lumpur,Dublin,3090.73,1562.78,2024-11-17,Global Freight,in_transit,20
+SHP-00224,Taipei,Rotterdam,4023.54,34265.29,2024-06-01,Orient Lines,delivered,4
+SHP-00225,Seoul,Valencia,2078.4,23248.89,2024-06-23,Asia Cargo,delivered,46
+SHP-00226,Bangkok,Istanbul,4876.88,6581.77,2024-07-08,Pacific Express,delivered,30
+SHP-00227,Tokyo,Antwerp,2248.26,7086.84,2024-01-26,Global Freight,customs_hold,40
+SHP-00228,Hong Kong,Rotterdam,4813.45,45120.43,2024-06-16,Global Freight,delivered,11
+SHP-00229,Taipei,Miami,2334.34,43959.83,2024-09-11,Pacific Express,delivered,26
+SHP-00230,Jakarta,New York,4833.45,10796.46,2024-06-29,Pacific Express,delivered,32
+SHP-00231,Kuala Lumpur,Manzanillo,3362.77,14323.13,2024-01-05,Pacific Express,delivered,17
+SHP-00232,Hanoi,Gdansk,3819.4,18328.57,2024-07-24,Pacific Express,in_transit,13
+SHP-00233,Bangkok,Buenos Aires,1443.36,19348.12,2024-08-18,Global Freight,delayed,40
+SHP-00234,Manila,Montreal,594.5,48755.39,2024-07-20,Global Freight,in_transit,22
+SHP-00235,Jakarta,Gdansk,3774.95,9992.94,2024-09-17,Orient Lines,delivered,3
+SHP-00236,Shanghai,Kuala Lumpur,3568.1,40208.09,2024-09-22,Orient Lines,delivered,33
+SHP-00237,Seoul,Genoa,4656.88,15960.58,2024-07-20,Global Freight,in_transit,33
+SHP-00238,Osaka,Miami,2661.93,35451.55,2024-06-02,Orient Lines,delayed,24
+SHP-00239,Bangkok,Balboa,548.47,20856.19,2024-06-06,Pacific Express,in_transit,17
+SHP-00240,Manila,Savannah,2888.38,36083.94,2024-10-25,Orient Lines,delivered,41
+SHP-00241,Hanoi,Montreal,3873.14,19040.51,2024-12-14,Asia Cargo,delivered,45
+SHP-00242,Tokyo,Osaka,95.18,15718.94,2024-03-18,Orient Lines,in_transit,27
+SHP-00243,Jakarta,Montreal,4602.64,43647.24,2024-02-01,Asia Cargo,delivered,36
+SHP-00244,Bangkok,Kingston,2392.12,18872.4,2024-03-29,Orient Lines,delayed,22
+SHP-00245,Jakarta,Istanbul,3379.5,43389.34,2024-12-14,Global Freight,in_transit,13
+SHP-00246,Mumbai,Antwerp,2790.65,11282.11,2024-06-01,Global Freight,in_transit,45
+SHP-00247,Hanoi,Houston,1585.55,17472.72,2024-05-20,Global Freight,delivered,44
+SHP-00248,Jakarta,Gothenburg,4478.85,19756.9,2024-06-25,Asia Cargo,delivered,19
+SHP-00249,Hanoi,Bangkok,1732.14,22146.69,2024-05-11,Orient Lines,delivered,35
+SHP-00250,Singapore,Buenos Aires,3481.01,6906.78,2024-11-11,Asia Cargo,delivered,43
+SHP-00251,Busan,Vancouver,1128.75,11680.19,2024-02-21,Orient Lines,delivered,31
+SHP-00252,Tokyo,Balboa,3853.94,308.81,2024-10-08,Asia Cargo,delivered,31
+SHP-00253,Taipei,Manzanillo,997.68,48197.51,2024-06-13,Global Freight,in_transit,50
+SHP-00254,Tokyo,Manzanillo,2870.88,26780.86,2024-01-20,Asia Cargo,delivered,12
+SHP-00255,Busan,Seoul,4985.86,19879.88,2024-09-10,Asia Cargo,customs_hold,19
+SHP-00256,Busan,Seoul,46.83,28419.7,2024-02-24,Global Freight,delivered,42
+SHP-00257,Jakarta,Vancouver,2469.82,46931.1,2024-09-15,Orient Lines,delivered,8
+SHP-00258,Bangkok,Hanoi,3655.73,32431.85,2024-04-05,Pacific Express,in_transit,19
+SHP-00259,Kuala Lumpur,Balboa,3786.54,8815.97,2024-11-23,Orient Lines,delayed,33
+SHP-00260,Bangkok,Hong Kong,2004.47,4814.49,2024-03-12,Orient Lines,delivered,16
+SHP-00261,Shanghai,Hamburg,1918.18,22364.44,2024-05-16,Global Freight,delivered,47
+SHP-00262,Kuala Lumpur,Shanghai,1308.13,18009.63,2024-04-30,Pacific Express,in_transit,30
+SHP-00263,Singapore,Hanoi,2027.38,25150.9,2024-12-26,Global Freight,in_transit,41
+SHP-00264,Busan,Barcelona,1838.04,11081.42,2024-03-09,Orient Lines,delivered,48
+SHP-00265,Kuala Lumpur,Gdansk,2079.52,27484.26,2024-08-29,Asia Cargo,in_transit,44
+SHP-00266,Shenzhen,Seattle,4365.74,4139.42,2024-08-16,Global Freight,delivered,37
+SHP-00267,Tokyo,Singapore,4143.96,45149.26,2024-04-13,Asia Cargo,delivered,34
+SHP-00268,Taipei,Jakarta,3401.64,35860.05,2024-09-07,Pacific Express,delayed,29
+SHP-00269,Shenzhen,Mumbai,2267.43,25686.73,2024-08-21,Pacific Express,in_transit,44
+SHP-00270,Shenzhen,Marseille,3616.54,19827.64,2024-01-02,Asia Cargo,in_transit,3
+SHP-00271,Hong Kong,Istanbul,3502.07,27081.12,2024-01-31,Pacific Express,customs_hold,31
+SHP-00272,Shanghai,Barcelona,2044.63,38460.15,2024-11-24,Orient Lines,delivered,25
+SHP-00273,Taipei,Gothenburg,1878.54,34152.38,2024-12-04,Asia Cargo,in_transit,23
+SHP-00274,Tokyo,Shenzhen,4964.24,19683.28,2024-03-06,Asia Cargo,delayed,49
+SHP-00275,Shanghai,Marseille,2315.29,35968.74,2024-08-05,Orient Lines,delayed,16
+SHP-00276,Taipei,Istanbul,776.03,9464.6,2024-02-27,Pacific Express,delayed,27
+SHP-00277,Kuala Lumpur,Tokyo,1203.71,3411.18,2024-10-31,Pacific Express,delivered,44
+SHP-00278,Hanoi,Mumbai,1224.05,2259.62,2024-08-12,Asia Cargo,delivered,49
+SHP-00279,Osaka,Mumbai,701.11,49674.5,2024-04-29,Global Freight,in_transit,50
+SHP-00280,Manila,Genoa,1184.9,43819.1,2024-12-04,Asia Cargo,delivered,18
+SHP-00281,Shanghai,Buenos Aires,4742.63,43991.71,2024-03-30,Orient Lines,in_transit,4
+SHP-00282,Bangkok,Manzanillo,3356.88,39300.94,2024-06-12,Orient Lines,delivered,20
+SHP-00283,Hong Kong,Shenzhen,3772.2,23702.27,2024-04-25,Global Freight,delayed,10
+SHP-00284,Shenzhen,New York,4573.75,28141.18,2024-08-01,Asia Cargo,delivered,17
+SHP-00285,Mumbai,Piraeus,3233.71,46115.19,2024-07-08,Pacific Express,delivered,13
+SHP-00286,Shanghai,Antwerp,1886.15,30268.22,2024-01-21,Pacific Express,delivered,49
+SHP-00287,Kuala Lumpur,Kingston,2794.47,23995.74,2024-06-19,Global Freight,customs_hold,1
+SHP-00288,Mumbai,Osaka,4810.41,5909.94,2024-09-02,Asia Cargo,in_transit,46
+SHP-00289,Mumbai,Lisbon,4575.67,27626.36,2024-05-24,Orient Lines,delivered,42
+SHP-00290,Bangkok,Marseille,1308.18,25665.19,2024-09-11,Orient Lines,delivered,47
+SHP-00291,Taipei,Genoa,4571.7,18566.71,2024-07-30,Pacific Express,in_transit,15
+SHP-00292,Hanoi,Kuala Lumpur,81.59,27687.91,2024-10-26,Orient Lines,delivered,13
+SHP-00293,Bangkok,London,1899.51,41676.47,2024-09-12,Global Freight,delivered,32
+SHP-00294,Hanoi,Manzanillo,3698.1,23068.41,2024-06-29,Asia Cargo,delivered,35
+SHP-00295,Taipei,Shenzhen,4584.54,27129.74,2024-11-24,Pacific Express,delivered,5
+SHP-00296,Osaka,Kingston,243.05,368.87,2024-03-11,Asia Cargo,delivered,10
+SHP-00297,Shanghai,Busan,2528.91,18691.37,2024-11-12,Orient Lines,in_transit,2
+SHP-00298,Shanghai,Santos,2758.44,641.96,2024-09-28,Global Freight,delivered,19
+SHP-00299,Shanghai,Miami,4065.88,33717.95,2024-04-01,Pacific Express,delayed,34
+SHP-00300,Seoul,Rotterdam,960.06,26346.48,2024-06-30,Global Freight,in_transit,6
+SHP-00301,Bangkok,Lisbon,2295.26,12198.23,2024-12-22,Asia Cargo,delivered,6
+SHP-00302,Manila,Manzanillo,3798.05,4720.35,2024-07-13,Orient Lines,in_transit,4
+SHP-00303,Manila,Shanghai,3514.37,4180.17,2024-08-10,Global Freight,in_transit,7
+SHP-00304,Busan,Vancouver,4595.8,11526.84,2024-12-20,Orient Lines,delivered,5
+SHP-00305,Manila,Antwerp,4496.61,28197.32,2024-01-17,Asia Cargo,customs_hold,21
+SHP-00306,Shanghai,Busan,2935.39,37625.11,2024-12-30,Orient Lines,customs_hold,20
+SHP-00307,Seoul,Cartagena,1202.74,41740.8,2024-07-18,Global Freight,delivered,48
+SHP-00308,Seoul,Hong Kong,2504.21,48717.45,2024-01-28,Pacific Express,delivered,5
+SHP-00309,Bangkok,Seattle,3845.14,47745.18,2024-07-22,Global Freight,delivered,18
+SHP-00310,Shenzhen,Valencia,2453.27,17822.77,2024-07-11,Orient Lines,delivered,38
+SHP-00311,Manila,Gothenburg,428.93,30949.86,2024-05-06,Pacific Express,delivered,10
+SHP-00312,Hong Kong,Callao,771.81,19511.62,2024-07-03,Pacific Express,delivered,20
+SHP-00313,Taipei,Gdansk,3806.85,5156.46,2024-02-14,Asia Cargo,delivered,36
+SHP-00314,Jakarta,Miami,2040.52,1361.78,2024-06-30,Pacific Express,in_transit,21
+SHP-00315,Osaka,Gothenburg,62.2,20719.81,2024-02-13,Asia Cargo,in_transit,11
+SHP-00316,Manila,Gothenburg,847.92,13482.5,2024-05-17,Orient Lines,delivered,11
+SHP-00317,Hong Kong,Antwerp,2105.8,24237.35,2024-02-09,Global Freight,delivered,16
+SHP-00318,Hanoi,Callao,2479.26,30852.61,2024-08-22,Pacific Express,delivered,1
+SHP-00319,Hong Kong,Piraeus,4208.15,19025.5,2024-06-17,Orient Lines,delivered,42
+SHP-00320,Kuala Lumpur,Jakarta,1502.53,30180.4,2024-12-21,Asia Cargo,delivered,12
+SHP-00321,Hong Kong,Genoa,1457.6,34763.14,2024-09-08,Asia Cargo,delivered,18
+SHP-00322,Osaka,Lisbon,1825.4,46606.75,2024-04-12,Asia Cargo,in_transit,36
+SHP-00323,Shanghai,New York,4714.9,10521.94,2024-05-29,Pacific Express,delayed,27
+SHP-00324,Manila,Houston,696.33,15176.49,2024-05-09,Asia Cargo,in_transit,25
+SHP-00325,Tokyo,Valencia,4953.51,23987.77,2024-07-24,Orient Lines,delivered,24
+SHP-00326,Hanoi,Santos,2969.3,45724.34,2024-02-25,Asia Cargo,in_transit,23
+SHP-00327,Seoul,Manzanillo,3063.58,28182.85,2024-11-26,Orient Lines,customs_hold,22
+SHP-00328,Shenzhen,Le Havre,530.17,4975.4,2024-04-23,Asia Cargo,delivered,26
+SHP-00329,Taipei,Balboa,2943.16,25048.27,2024-06-25,Pacific Express,delivered,19
+SHP-00330,Hong Kong,Bangkok,580.79,47036.77,2024-03-13,Global Freight,delivered,30
+SHP-00331,Shenzhen,Busan,2605.81,17447.6,2024-02-19,Orient Lines,in_transit,29
+SHP-00332,Bangkok,Singapore,1501.67,40518.79,2024-02-28,Pacific Express,delayed,42
+SHP-00333,Tokyo,Balboa,4000.35,46499.63,2024-05-04,Asia Cargo,in_transit,22
+SHP-00334,Jakarta,Le Havre,4792.33,11631.18,2024-07-26,Asia Cargo,delivered,43
+SHP-00335,Hong Kong,Lisbon,146.45,30724.64,2024-04-11,Orient Lines,in_transit,25
+SHP-00336,Shanghai,Busan,1029.32,37628.66,2024-02-02,Pacific Express,in_transit,35
+SHP-00337,Seoul,Gdansk,1630.26,22904.64,2024-05-14,Orient Lines,delivered,41
+SHP-00338,Bangkok,Seattle,1943.5,19657.57,2024-02-28,Global Freight,delivered,30
+SHP-00339,Kuala Lumpur,Shenzhen,4068.78,35314.12,2024-06-01,Pacific Express,in_transit,21
+SHP-00340,Tokyo,Rotterdam,1527.25,9193.07,2024-12-21,Asia Cargo,delivered,27
+SHP-00341,Kuala Lumpur,Jakarta,2874.24,21180.79,2024-09-06,Asia Cargo,in_transit,32
+SHP-00342,Singapore,Kuala Lumpur,935.9,42107.16,2024-11-13,Pacific Express,delayed,1
+SHP-00343,Taipei,Kuala Lumpur,976.04,19228.01,2024-10-14,Orient Lines,delivered,32
+SHP-00344,Hong Kong,Valencia,2443.75,4179.4,2024-01-16,Asia Cargo,delivered,18
+SHP-00345,Mumbai,Santos,1443.71,39047.97,2024-10-16,Orient Lines,delivered,8
+SHP-00346,Kuala Lumpur,Taipei,1339.81,27178.15,2024-07-06,Pacific Express,in_transit,29
+SHP-00347,Jakarta,Busan,4948.88,5165.7,2024-11-30,Asia Cargo,delivered,3
+SHP-00348,Taipei,Hamburg,1743.21,40845.59,2024-08-12,Pacific Express,in_transit,16
+SHP-00349,Mumbai,Savannah,3445.82,43059.38,2024-11-08,Orient Lines,delivered,9
+SHP-00350,Shenzhen,Busan,4067.74,40281.75,2024-10-18,Global Freight,delivered,39
+SHP-00351,Jakarta,Hanoi,1618.61,35217.49,2024-05-28,Global Freight,customs_hold,33
+SHP-00352,Busan,Balboa,4076.0,6822.67,2024-07-29,Pacific Express,customs_hold,42
+SHP-00353,Seoul,Kuala Lumpur,1248.76,35584.17,2024-05-06,Orient Lines,delivered,37
+SHP-00354,Manila,Antwerp,3139.25,18789.86,2024-02-08,Pacific Express,delivered,48
+SHP-00355,Singapore,Gdansk,2273.75,24427.82,2024-10-24,Pacific Express,delayed,47
+SHP-00356,Tokyo,New York,3174.39,34879.58,2024-02-02,Orient Lines,delivered,28
+SHP-00357,Osaka,Busan,2473.83,16177.11,2024-05-25,Global Freight,delivered,9
+SHP-00358,Kuala Lumpur,Houston,3941.62,44713.03,2024-01-25,Pacific Express,delivered,30
+SHP-00359,Shanghai,Jakarta,4647.2,7941.28,2024-08-21,Pacific Express,customs_hold,28
+SHP-00360,Mumbai,Kuala Lumpur,4410.8,15128.18,2024-05-20,Pacific Express,in_transit,17
+SHP-00361,Tokyo,Gdansk,3322.71,32463.11,2024-01-27,Orient Lines,in_transit,47
+SHP-00362,Hanoi,London,2146.44,4605.4,2024-02-18,Pacific Express,delivered,5
+SHP-00363,Seoul,Savannah,1131.34,34015.14,2024-01-05,Pacific Express,in_transit,8
+SHP-00364,Osaka,Le Havre,3470.31,23911.13,2024-04-27,Orient Lines,delivered,7
+SHP-00365,Tokyo,Genoa,1838.12,14997.8,2024-07-14,Asia Cargo,in_transit,44
+SHP-00366,Seoul,Bangkok,2652.78,473.31,2024-11-28,Asia Cargo,delivered,47
+SHP-00367,Mumbai,Callao,3741.47,45998.71,2024-11-11,Orient Lines,delayed,6
+SHP-00368,Busan,Hong Kong,700.5,6201.7,2024-07-15,Global Freight,customs_hold,21
+SHP-00369,Shenzhen,Jakarta,1239.31,32248.8,2024-05-07,Global Freight,in_transit,45
+SHP-00370,Shanghai,Kingston,4379.2,10312.01,2024-11-06,Asia Cargo,in_transit,19
+SHP-00371,Manila,Mumbai,3919.12,39699.21,2024-05-02,Orient Lines,delivered,16
+SHP-00372,Taipei,Callao,2969.85,26437.91,2024-01-07,Global Freight,customs_hold,9
+SHP-00373,Hong Kong,Cartagena,2104.61,27340.49,2024-03-29,Orient Lines,customs_hold,50
+SHP-00374,Tokyo,Seoul,2937.02,738.98,2024-04-20,Pacific Express,customs_hold,26
+SHP-00375,Jakarta,Barcelona,3143.04,25077.4,2024-07-31,Orient Lines,in_transit,6
+SHP-00376,Manila,Santos,2688.51,7676.39,2024-02-12,Global Freight,delivered,14
+SHP-00377,Shenzhen,Kuala Lumpur,2682.18,19567.04,2024-11-20,Pacific Express,delivered,28
+SHP-00378,Hanoi,Rotterdam,290.0,4356.33,2024-08-10,Pacific Express,delivered,39
+SHP-00379,Shanghai,Marseille,3330.56,32919.72,2024-03-30,Pacific Express,delivered,9
+SHP-00380,Hanoi,Shanghai,819.58,47653.16,2024-09-24,Global Freight,delivered,9
+SHP-00381,Hanoi,Antwerp,3664.81,5946.93,2024-01-16,Global Freight,delayed,18
+SHP-00382,Jakarta,Singapore,1315.12,48753.78,2024-11-17,Pacific Express,delivered,33
+SHP-00383,Bangkok,Mumbai,2498.3,28365.96,2024-07-07,Asia Cargo,delivered,7
+SHP-00384,Busan,Cartagena,3370.77,5810.91,2024-09-17,Pacific Express,delivered,1
+SHP-00385,Mumbai,Seoul,2359.09,19179.82,2024-03-17,Asia Cargo,customs_hold,3
+SHP-00386,Jakarta,Manzanillo,2097.14,16124.01,2024-08-01,Global Freight,delivered,5
+SHP-00387,Kuala Lumpur,Gdansk,597.44,33682.62,2024-01-27,Asia Cargo,delivered,34
+SHP-00388,Shanghai,Lisbon,345.1,23281.45,2024-05-24,Global Freight,delivered,36
+SHP-00389,Taipei,Shanghai,1844.91,14615.17,2024-06-04,Asia Cargo,delivered,38
+SHP-00390,Taipei,Osaka,3662.45,27350.63,2024-05-05,Asia Cargo,delivered,27
+SHP-00391,Shanghai,London,2707.96,31815.29,2024-12-21,Pacific Express,customs_hold,1
+SHP-00392,Shenzhen,Kingston,1881.69,36917.23,2024-06-06,Pacific Express,delivered,16
+SHP-00393,Hong Kong,Houston,4805.94,48629.33,2024-03-13,Global Freight,delivered,15
+SHP-00394,Busan,Vancouver,2065.58,44784.12,2024-08-22,Pacific Express,in_transit,33
+SHP-00395,Seoul,Callao,4099.9,3787.78,2024-10-17,Pacific Express,delivered,9
+SHP-00396,Mumbai,Barcelona,1305.32,15784.7,2024-07-20,Global Freight,delivered,18
+SHP-00397,Mumbai,Bangkok,4717.8,6848.79,2024-10-26,Pacific Express,delivered,11
+SHP-00398,Taipei,New York,1570.51,6080.8,2024-07-02,Asia Cargo,delivered,30
+SHP-00399,Singapore,Jakarta,452.56,40389.47,2024-06-04,Pacific Express,delivered,21
+SHP-00400,Seoul,Hong Kong,3555.93,48421.58,2024-07-21,Pacific Express,in_transit,17
+SHP-00401,Osaka,Hanoi,155.89,20249.39,2024-08-19,Asia Cargo,delivered,7
+SHP-00402,Shenzhen,Jakarta,607.71,3130.38,2024-04-23,Asia Cargo,delivered,26
+SHP-00403,Bangkok,Balboa,3151.67,32252.02,2024-10-25,Global Freight,delayed,5
+SHP-00404,Shanghai,Bangkok,989.15,32317.05,2024-03-06,Pacific Express,delayed,22
+SHP-00405,Tokyo,Mumbai,4711.43,2579.35,2024-10-20,Orient Lines,delayed,26
+SHP-00406,Taipei,Tokyo,1913.96,21361.87,2024-06-30,Asia Cargo,delayed,18
+SHP-00407,Singapore,Valencia,4417.18,1780.74,2024-11-13,Asia Cargo,in_transit,32
+SHP-00408,Hong Kong,Buenos Aires,2395.42,4431.69,2024-07-15,Asia Cargo,delivered,42
+SHP-00409,Busan,Vancouver,1246.11,49704.66,2024-10-05,Pacific Express,customs_hold,46
+SHP-00410,Bangkok,Los Angeles,2722.82,24259.74,2024-10-16,Global Freight,delivered,12
+SHP-00411,Shanghai,Genoa,2985.78,1513.71,2024-05-23,Pacific Express,delayed,31
+SHP-00412,Jakarta,Istanbul,3834.33,49980.31,2024-03-22,Pacific Express,delivered,16
+SHP-00413,Singapore,Santos,4081.52,45867.11,2024-01-29,Asia Cargo,in_transit,25
+SHP-00414,Bangkok,Shenzhen,880.91,29646.35,2024-12-23,Global Freight,delayed,2
+SHP-00415,Hanoi,Istanbul,4737.82,28202.14,2024-10-15,Asia Cargo,delayed,32
+SHP-00416,Jakarta,Marseille,878.2,1946.29,2024-01-29,Asia Cargo,in_transit,2
+SHP-00417,Jakarta,Los Angeles,3.92,45898.91,2024-04-13,Asia Cargo,delivered,12
+SHP-00418,Busan,Genoa,298.25,7428.22,2024-12-26,Asia Cargo,in_transit,34
+SHP-00419,Osaka,Gdansk,4802.81,18710.86,2024-12-05,Orient Lines,in_transit,22
+SHP-00420,Singapore,Genoa,682.69,7917.32,2024-08-11,Orient Lines,in_transit,12
+SHP-00421,Hanoi,Buenos Aires,3467.96,46445.82,2024-07-01,Asia Cargo,in_transit,12
+SHP-00422,Hong Kong,Marseille,3670.11,14761.14,2024-03-31,Pacific Express,customs_hold,37
+SHP-00423,Hong Kong,Cartagena,162.4,30139.31,2024-11-09,Asia Cargo,in_transit,7
+SHP-00424,Busan,Houston,703.65,37279.9,2024-05-01,Global Freight,customs_hold,11
+SHP-00425,Manila,Bangkok,4108.4,33517.73,2024-06-20,Orient Lines,delivered,14
+SHP-00426,Mumbai,Bangkok,1752.73,39361.65,2024-01-01,Pacific Express,delivered,47
+SHP-00427,Hong Kong,Hanoi,4422.82,24679.45,2024-07-12,Global Freight,delivered,7
+SHP-00428,Osaka,Los Angeles,3943.76,28923.87,2024-12-17,Asia Cargo,delivered,5
+SHP-00429,Shenzhen,Seoul,1474.9,15969.91,2024-02-23,Pacific Express,delivered,25
+SHP-00430,Seoul,Bangkok,2735.46,44911.3,2024-02-17,Global Freight,in_transit,40
+SHP-00431,Busan,Los Angeles,3522.67,21594.6,2024-11-30,Asia Cargo,in_transit,28
+SHP-00432,Seoul,Singapore,506.74,10317.25,2024-04-07,Orient Lines,in_transit,47
+SHP-00433,Busan,Santos,1326.69,14112.08,2024-05-01,Pacific Express,delivered,37
+SHP-00434,Jakarta,Houston,768.37,18073.4,2024-08-06,Pacific Express,delivered,43
+SHP-00435,Manila,Seattle,2401.9,4894.5,2024-04-15,Asia Cargo,in_transit,6
+SHP-00436,Taipei,Jakarta,1542.11,19903.49,2024-09-07,Global Freight,delivered,35
+SHP-00437,Hong Kong,Shenzhen,1855.42,19103.19,2024-04-05,Orient Lines,delivered,29
+SHP-00438,Taipei,Hamburg,1131.6,13464.67,2024-02-01,Asia Cargo,in_transit,43
+SHP-00439,Tokyo,Hong Kong,3340.87,40418.6,2024-07-30,Asia Cargo,in_transit,25
+SHP-00440,Osaka,Vancouver,2093.45,26798.94,2024-08-31,Asia Cargo,delivered,6
+SHP-00441,Hong Kong,Seoul,2510.76,45027.73,2024-10-19,Asia Cargo,delivered,49
+SHP-00442,Taipei,Shenzhen,4745.33,8399.88,2024-04-18,Asia Cargo,delivered,28
+SHP-00443,Tokyo,Balboa,2177.25,49863.6,2024-11-17,Asia Cargo,delayed,17
+SHP-00444,Bangkok,Singapore,435.59,27840.39,2024-10-09,Global Freight,delayed,34
+SHP-00445,Taipei,Shanghai,3932.86,31171.74,2024-09-24,Orient Lines,delivered,10
+SHP-00446,Seoul,Cartagena,2939.88,37930.95,2024-02-21,Pacific Express,in_transit,7
+SHP-00447,Shenzhen,Barcelona,4337.44,44012.78,2024-07-29,Global Freight,delivered,32
+SHP-00448,Kuala Lumpur,Seattle,2365.5,8651.38,2024-07-25,Asia Cargo,in_transit,44
+SHP-00449,Hanoi,Lisbon,194.39,44484.23,2024-06-18,Asia Cargo,delivered,31
+SHP-00450,Busan,Antwerp,4485.21,1060.63,2024-06-04,Global Freight,delivered,32
+SHP-00451,Osaka,Balboa,491.54,43451.56,2024-03-09,Global Freight,customs_hold,29
+SHP-00452,Shenzhen,Genoa,1347.47,20867.8,2024-11-26,Pacific Express,delivered,14
+SHP-00453,Busan,Dublin,3704.85,37986.69,2024-07-10,Pacific Express,delivered,11
+SHP-00454,Tokyo,Marseille,3547.99,20199.09,2024-09-25,Pacific Express,delivered,13
+SHP-00455,Osaka,Mumbai,1247.83,22849.61,2024-07-03,Asia Cargo,delivered,30
+SHP-00456,Jakarta,Lisbon,3177.23,6237.45,2024-01-16,Asia Cargo,delivered,39
+SHP-00457,Taipei,Shenzhen,4802.62,23755.39,2024-10-09,Global Freight,delivered,17
+SHP-00458,Hanoi,Bangkok,1425.7,19358.96,2024-03-24,Asia Cargo,delayed,42
+SHP-00459,Mumbai,Balboa,1034.05,32596.79,2024-09-19,Pacific Express,delayed,50
+SHP-00460,Manila,Shanghai,2370.75,6659.09,2024-03-29,Pacific Express,delivered,39
+SHP-00461,Shenzhen,Marseille,3563.85,35482.94,2024-05-20,Orient Lines,delayed,23
+SHP-00462,Taipei,Hamburg,1091.44,15142.15,2024-09-23,Orient Lines,in_transit,1
+SHP-00463,Jakarta,Kingston,4832.44,41976.95,2024-10-14,Global Freight,delivered,7
+SHP-00464,Taipei,Singapore,1681.75,13860.34,2024-06-15,Global Freight,delivered,46
+SHP-00465,Busan,Manzanillo,1494.31,7538.97,2024-05-03,Pacific Express,delayed,39
+SHP-00466,Hong Kong,Kingston,1598.27,7039.48,2024-01-14,Orient Lines,customs_hold,17
+SHP-00467,Busan,Dublin,2023.29,36849.77,2024-10-25,Asia Cargo,delivered,46
+SHP-00468,Mumbai,Balboa,2673.41,39255.61,2024-12-09,Global Freight,delivered,11
+SHP-00469,Osaka,Kingston,4382.54,9097.74,2024-02-19,Orient Lines,delivered,17
+SHP-00470,Hanoi,Buenos Aires,3814.71,9194.26,2024-12-14,Global Freight,in_transit,15
+SHP-00471,Bangkok,London,3721.18,15388.91,2024-06-18,Global Freight,delivered,19
+SHP-00472,Taipei,Jakarta,2352.95,43326.35,2024-10-25,Pacific Express,delivered,13
+SHP-00473,Jakarta,Taipei,4337.56,19114.38,2024-06-01,Orient Lines,delivered,10
+SHP-00474,Seoul,Osaka,1713.68,49360.22,2024-08-22,Asia Cargo,delivered,46
+SHP-00475,Seoul,Hong Kong,2438.16,31570.09,2024-03-31,Global Freight,in_transit,1
+SHP-00476,Taipei,Antwerp,1047.31,38688.44,2024-10-22,Asia Cargo,delivered,49
+SHP-00477,Shenzhen,Bangkok,647.47,21713.89,2024-08-07,Orient Lines,delivered,31
+SHP-00478,Hong Kong,Shanghai,189.11,10010.74,2024-07-10,Pacific Express,delayed,49
+SHP-00479,Osaka,Vancouver,953.29,33853.57,2024-11-16,Asia Cargo,delivered,23
+SHP-00480,Singapore,Kuala Lumpur,513.99,25191.66,2024-06-05,Asia Cargo,delivered,3
+SHP-00481,Singapore,Barcelona,2279.9,26038.41,2024-09-25,Global Freight,delivered,44
+SHP-00482,Seoul,Piraeus,4980.7,24534.43,2024-04-06,Asia Cargo,customs_hold,26
+SHP-00483,Shanghai,London,1121.99,49244.73,2024-04-18,Pacific Express,in_transit,11
+SHP-00484,Tokyo,Gdansk,3555.69,39616.75,2024-07-11,Global Freight,in_transit,40
+SHP-00485,Shanghai,Seattle,4973.4,33115.4,2024-11-30,Pacific Express,delivered,8
+SHP-00486,Hong Kong,Valencia,1901.58,27386.76,2024-08-30,Asia Cargo,delivered,44
+SHP-00487,Manila,Shanghai,1505.93,33100.15,2024-12-05,Global Freight,in_transit,45
+SHP-00488,Seoul,Dublin,4153.35,5290.47,2024-11-12,Pacific Express,delivered,7
+SHP-00489,Taipei,Osaka,3045.2,38909.05,2024-09-24,Asia Cargo,delivered,27
+SHP-00490,Singapore,Hanoi,197.51,24842.92,2024-04-16,Orient Lines,delivered,1
+SHP-00491,Shanghai,Kingston,445.47,5566.02,2024-10-20,Orient Lines,delivered,6
+SHP-00492,Shenzhen,Miami,375.7,36192.63,2024-05-11,Asia Cargo,delivered,19
+SHP-00493,Singapore,New York,250.88,40668.26,2024-01-21,Global Freight,delivered,44
+SHP-00494,Bangkok,Le Havre,3692.83,4795.17,2024-01-24,Pacific Express,delayed,43
+SHP-00495,Manila,Hanoi,1643.64,44731.65,2024-11-14,Global Freight,delayed,6
+SHP-00496,Bangkok,Piraeus,914.76,20068.84,2024-08-21,Global Freight,delayed,45
+SHP-00497,Osaka,Los Angeles,3999.6,32459.88,2024-03-26,Pacific Express,delivered,47
+SHP-00498,Shanghai,Hanoi,519.01,45565.78,2024-09-04,Orient Lines,delivered,25
+SHP-00499,Shenzhen,Istanbul,3056.99,43135.66,2024-03-07,Orient Lines,customs_hold,8
+SHP-00500,Busan,Dublin,2203.72,3213.64,2024-12-01,Global Freight,delivered,44
+SHP-00501,Jakarta,Cartagena,3619.01,11238.05,2024-12-08,Global Freight,delivered,45
+SHP-00502,Hanoi,Montreal,476.66,33102.58,2024-05-07,Orient Lines,delivered,44
+SHP-00503,Manila,Gothenburg,743.7,41330.57,2024-11-09,Pacific Express,delivered,11
+SHP-00504,Jakarta,Los Angeles,4259.43,43477.31,2024-02-08,Orient Lines,delivered,22
+SHP-00505,Singapore,Mumbai,2534.89,27547.25,2024-07-12,Orient Lines,delayed,6
+SHP-00506,Taipei,Valencia,4006.41,22432.52,2024-09-12,Orient Lines,delivered,32
+SHP-00507,Hanoi,Manzanillo,89.34,20201.81,2024-01-19,Pacific Express,delayed,39
+SHP-00508,Kuala Lumpur,Callao,1523.34,25441.47,2024-04-15,Orient Lines,customs_hold,24
+SHP-00509,Osaka,Mumbai,4083.04,42223.66,2024-06-18,Orient Lines,in_transit,24
+SHP-00510,Hanoi,Valencia,570.56,37978.03,2024-04-23,Pacific Express,delivered,41
+SHP-00511,Shenzhen,Barcelona,2738.68,18725.82,2024-02-24,Pacific Express,delayed,32
+SHP-00512,Seoul,Dublin,535.25,30562.05,2024-04-06,Pacific Express,customs_hold,26
+SHP-00513,Mumbai,New York,4122.86,9569.41,2024-06-22,Pacific Express,in_transit,3
+SHP-00514,Busan,Callao,4187.41,29461.11,2024-08-18,Orient Lines,in_transit,33
+SHP-00515,Seoul,Houston,22.19,36823.89,2024-10-10,Orient Lines,delayed,31
+SHP-00516,Busan,Miami,3905.52,45513.57,2024-12-20,Asia Cargo,in_transit,9
+SHP-00517,Tokyo,Gothenburg,3287.78,30327.73,2024-06-13,Orient Lines,delivered,39
+SHP-00518,Busan,Rotterdam,1368.34,48181.5,2024-05-30,Orient Lines,delayed,9
+SHP-00519,Hong Kong,Seattle,3500.22,37433.92,2024-06-02,Global Freight,in_transit,36
+SHP-00520,Manila,Busan,1004.84,31227.17,2024-05-28,Global Freight,customs_hold,9
+SHP-00521,Hanoi,Manzanillo,4875.91,8931.74,2024-10-04,Global Freight,in_transit,49
+SHP-00522,Bangkok,Buenos Aires,2402.11,28553.38,2024-12-07,Orient Lines,in_transit,35
+SHP-00523,Singapore,Le Havre,4041.62,26160.36,2024-01-13,Orient Lines,delivered,43
+SHP-00524,Shanghai,Osaka,1335.26,39287.33,2024-05-26,Global Freight,delivered,4
+SHP-00525,Hanoi,Barcelona,1020.4,27081.55,2024-07-02,Orient Lines,delivered,44
+SHP-00526,Hanoi,Buenos Aires,4324.28,37133.52,2024-10-14,Orient Lines,delivered,45
+SHP-00527,Singapore,Kingston,235.38,19110.05,2024-08-01,Global Freight,customs_hold,4
+SHP-00528,Shanghai,Hamburg,1015.83,43449.06,2024-08-14,Asia Cargo,delayed,46
+SHP-00529,Hanoi,Manzanillo,1839.02,29439.85,2024-11-04,Asia Cargo,in_transit,13
+SHP-00530,Singapore,Valencia,887.54,34148.81,2024-04-05,Asia Cargo,in_transit,8
+SHP-00531,Hong Kong,Seoul,2142.82,27852.1,2024-03-07,Asia Cargo,in_transit,17
+SHP-00532,Shanghai,Piraeus,2331.92,46877.85,2024-01-21,Asia Cargo,customs_hold,39
+SHP-00533,Shanghai,Callao,3078.24,33111.42,2024-09-08,Global Freight,delivered,46
+SHP-00534,Bangkok,Vancouver,1100.2,9234.26,2024-02-04,Asia Cargo,delivered,35
+SHP-00535,Hong Kong,Bangkok,1747.34,44175.67,2024-12-05,Global Freight,delivered,19
+SHP-00536,Mumbai,Montreal,2652.73,49831.72,2024-11-28,Pacific Express,delivered,23
+SHP-00537,Taipei,Rotterdam,4522.53,30704.37,2024-11-14,Asia Cargo,customs_hold,44
+SHP-00538,Busan,Genoa,1907.17,39820.52,2024-02-28,Orient Lines,delivered,47
+SHP-00539,Singapore,Tokyo,4556.72,41114.35,2024-07-10,Orient Lines,delivered,19
+SHP-00540,Busan,Manzanillo,962.97,25719.04,2024-02-19,Asia Cargo,customs_hold,50
+SHP-00541,Jakarta,Santos,37.15,3320.32,2024-12-09,Asia Cargo,delayed,28
+SHP-00542,Osaka,Hong Kong,1028.3,41446.0,2024-08-10,Pacific Express,in_transit,10
+SHP-00543,Shanghai,New York,3584.48,1942.42,2024-02-07,Pacific Express,delivered,17
+SHP-00544,Jakarta,Singapore,2875.02,11420.9,2024-05-12,Orient Lines,delivered,41
+SHP-00545,Hong Kong,Le Havre,1582.36,19505.62,2024-03-01,Pacific Express,in_transit,40
+SHP-00546,Tokyo,Savannah,228.06,42420.15,2024-07-02,Pacific Express,delivered,44
+SHP-00547,Singapore,Seattle,432.98,38275.45,2024-08-12,Orient Lines,delivered,43
+SHP-00548,Shanghai,Los Angeles,782.04,11032.29,2024-07-19,Global Freight,customs_hold,10
+SHP-00549,Singapore,Balboa,4434.95,48270.0,2024-11-27,Global Freight,customs_hold,1
+SHP-00550,Jakarta,Buenos Aires,707.3,2136.57,2024-10-20,Orient Lines,delivered,6
+SHP-00551,Singapore,Busan,3741.61,45182.14,2024-06-25,Asia Cargo,delivered,42
+SHP-00552,Osaka,Miami,712.7,9240.44,2024-11-11,Global Freight,delivered,12
+SHP-00553,Manila,Cartagena,4261.33,42576.82,2024-10-08,Orient Lines,in_transit,5
+SHP-00554,Singapore,Kingston,337.28,4955.21,2024-10-24,Orient Lines,customs_hold,23
+SHP-00555,Seoul,Kingston,3277.54,5047.25,2024-11-13,Pacific Express,delayed,21
+SHP-00556,Taipei,Valencia,1642.07,32988.14,2024-12-21,Asia Cargo,in_transit,24
+SHP-00557,Shenzhen,Genoa,4793.32,8473.54,2024-06-09,Asia Cargo,in_transit,46
+SHP-00558,Hanoi,Manzanillo,2180.9,42013.5,2024-03-09,Global Freight,delayed,30
+SHP-00559,Taipei,Istanbul,3873.95,24374.22,2024-02-25,Asia Cargo,in_transit,6
+SHP-00560,Osaka,Antwerp,4293.64,7043.08,2024-10-02,Asia Cargo,delivered,41
+SHP-00561,Tokyo,Bangkok,4460.58,42486.88,2024-11-19,Pacific Express,delayed,38
+SHP-00562,Hong Kong,Savannah,1064.2,1880.98,2024-05-13,Orient Lines,in_transit,10
+SHP-00563,Bangkok,Lisbon,1116.92,38618.63,2024-05-28,Asia Cargo,delivered,33
+SHP-00564,Tokyo,Lisbon,1819.65,579.05,2024-05-02,Asia Cargo,in_transit,9
+SHP-00565,Taipei,Hanoi,896.14,47438.16,2024-12-03,Asia Cargo,in_transit,31
+SHP-00566,Bangkok,Seoul,1094.49,24407.73,2024-02-02,Global Freight,delivered,3
+SHP-00567,Manila,Busan,2589.67,39583.45,2024-07-17,Orient Lines,delayed,3
+SHP-00568,Shanghai,Manzanillo,1620.69,35201.63,2024-09-23,Global Freight,delayed,17
+SHP-00569,Kuala Lumpur,Santos,2851.02,18864.15,2024-07-12,Global Freight,in_transit,5
+SHP-00570,Jakarta,Hamburg,1881.96,45366.76,2024-09-21,Orient Lines,delivered,23
+SHP-00571,Taipei,Los Angeles,4435.92,379.55,2024-03-12,Orient Lines,delivered,5
+SHP-00572,Jakarta,Manzanillo,1404.41,7554.51,2024-03-21,Global Freight,in_transit,8
+SHP-00573,Manila,London,2073.36,16544.73,2024-02-28,Orient Lines,in_transit,31
+SHP-00574,Mumbai,Savannah,806.65,41676.58,2024-01-12,Asia Cargo,delivered,37
+SHP-00575,Kuala Lumpur,Hanoi,674.05,25656.51,2024-10-20,Asia Cargo,delivered,17
+SHP-00576,Busan,Hanoi,2583.45,20302.54,2024-10-15,Pacific Express,delayed,47
+SHP-00577,Manila,Barcelona,4736.3,10868.84,2024-11-06,Orient Lines,delayed,11
+SHP-00578,Mumbai,Dublin,3004.39,39741.07,2024-04-03,Global Freight,delivered,44
+SHP-00579,Bangkok,New York,2982.87,3488.7,2024-07-12,Orient Lines,delivered,2
+SHP-00580,Mumbai,Vancouver,4298.03,25242.76,2024-08-02,Asia Cargo,in_transit,12
+SHP-00581,Taipei,Montreal,2999.27,43893.74,2024-09-29,Pacific Express,delivered,43
+SHP-00582,Seoul,Seattle,2696.66,109.95,2024-12-13,Orient Lines,delivered,24
+SHP-00583,Osaka,Seoul,3488.37,21476.37,2024-09-03,Orient Lines,delivered,48
+SHP-00584,Busan,Cartagena,489.04,6737.46,2024-09-01,Asia Cargo,delayed,6
+SHP-00585,Singapore,Seattle,4383.89,20461.9,2024-04-06,Pacific Express,in_transit,1
+SHP-00586,Kuala Lumpur,Vancouver,589.58,409.34,2024-12-01,Asia Cargo,in_transit,21
+SHP-00587,Hong Kong,Gdansk,533.36,21332.28,2024-10-26,Global Freight,delivered,35
+SHP-00588,Hong Kong,Cartagena,1828.54,13814.25,2024-12-14,Orient Lines,in_transit,27
+SHP-00589,Jakarta,Buenos Aires,2412.6,18542.14,2024-10-11,Orient Lines,delivered,20
+SHP-00590,Kuala Lumpur,Istanbul,3871.09,19936.58,2024-03-11,Pacific Express,in_transit,29
+SHP-00591,Shenzhen,Manila,501.84,25441.76,2024-06-22,Pacific Express,delivered,41
+SHP-00592,Shanghai,Hong Kong,4116.37,23609.85,2024-11-03,Orient Lines,delivered,17
+SHP-00593,Mumbai,Gdansk,400.66,1935.88,2024-07-15,Orient Lines,in_transit,34
+SHP-00594,Singapore,Seattle,287.79,38691.74,2024-03-30,Orient Lines,delivered,13
+SHP-00595,Osaka,Kingston,4653.83,25931.76,2024-04-09,Pacific Express,in_transit,33
+SHP-00596,Jakarta,London,3076.14,33717.52,2024-07-03,Asia Cargo,in_transit,11
+SHP-00597,Tokyo,Antwerp,3898.47,17688.73,2024-07-21,Orient Lines,in_transit,34
+SHP-00598,Shanghai,Bangkok,4595.93,27502.15,2024-10-13,Global Freight,delivered,18
+SHP-00599,Mumbai,Seattle,4815.3,22765.21,2024-07-25,Pacific Express,delivered,27
+SHP-00600,Jakarta,Hong Kong,2793.37,25183.3,2024-06-23,Pacific Express,delayed,17
+SHP-00601,Busan,Santos,4065.83,28765.95,2024-12-21,Orient Lines,customs_hold,37
+SHP-00602,Taipei,Rotterdam,3787.49,48063.87,2024-08-22,Orient Lines,delayed,2
+SHP-00603,Taipei,Jakarta,1289.47,19164.53,2024-04-22,Asia Cargo,delayed,27
+SHP-00604,Bangkok,Vancouver,2678.49,35055.89,2024-05-14,Asia Cargo,delivered,26
+SHP-00605,Manila,Piraeus,380.61,46573.24,2024-08-31,Global Freight,delivered,37
+SHP-00606,Singapore,Shenzhen,4735.62,34171.21,2024-04-07,Orient Lines,in_transit,16
+SHP-00607,Hanoi,Rotterdam,4363.78,10378.59,2024-04-13,Asia Cargo,delayed,23
+SHP-00608,Seoul,Taipei,599.83,3970.45,2024-12-05,Orient Lines,in_transit,49
+SHP-00609,Osaka,Santos,4789.99,42408.13,2024-07-09,Global Freight,delivered,37
+SHP-00610,Osaka,Antwerp,2454.28,49220.51,2024-09-18,Global Freight,delivered,49
+SHP-00611,Kuala Lumpur,Jakarta,271.21,39973.53,2024-09-01,Pacific Express,delivered,26
+SHP-00612,Osaka,Balboa,3879.63,22886.94,2024-03-02,Orient Lines,delivered,1
+SHP-00613,Shanghai,Balboa,1054.16,29071.36,2024-06-15,Global Freight,in_transit,17
+SHP-00614,Seoul,Buenos Aires,1314.61,13506.94,2024-11-09,Global Freight,delivered,32
+SHP-00615,Hong Kong,Busan,2095.76,37622.18,2024-07-05,Orient Lines,delivered,12
+SHP-00616,Kuala Lumpur,Jakarta,4896.37,34316.3,2024-02-21,Global Freight,delayed,36
+SHP-00617,Hong Kong,Gothenburg,980.72,40011.87,2024-03-17,Orient Lines,delayed,12
+SHP-00618,Hong Kong,Houston,672.79,44668.86,2024-11-18,Global Freight,in_transit,20
+SHP-00619,Singapore,Buenos Aires,4292.58,2433.08,2024-02-20,Asia Cargo,delivered,17
+SHP-00620,Taipei,Callao,481.96,37242.43,2024-05-13,Global Freight,delivered,36
+SHP-00621,Busan,Hamburg,1721.03,20617.46,2024-06-28,Asia Cargo,in_transit,42
+SHP-00622,Manila,Santos,873.11,39026.44,2024-06-30,Global Freight,in_transit,32
+SHP-00623,Shenzhen,Valencia,4448.22,19084.5,2024-05-26,Orient Lines,in_transit,10
+SHP-00624,Osaka,Manila,3203.08,46431.91,2024-08-03,Orient Lines,delayed,5
+SHP-00625,Tokyo,Hanoi,1718.46,15708.43,2024-11-30,Global Freight,in_transit,39
+SHP-00626,Manila,Lisbon,1356.6,22272.67,2024-07-04,Orient Lines,delivered,12
+SHP-00627,Osaka,Tokyo,625.64,11769.63,2024-05-08,Pacific Express,delivered,26
+SHP-00628,Tokyo,Taipei,319.43,43940.61,2024-10-07,Pacific Express,delivered,26
+SHP-00629,Jakarta,Bangkok,520.09,30924.2,2024-02-13,Orient Lines,delivered,16
+SHP-00630,Hanoi,Barcelona,2216.08,6364.26,2024-09-26,Asia Cargo,delivered,43
+SHP-00631,Bangkok,Genoa,4321.27,23386.31,2024-10-03,Global Freight,delivered,9
+SHP-00632,Hanoi,Santos,885.59,29899.33,2024-11-19,Orient Lines,delivered,41
+SHP-00633,Jakarta,Marseille,4544.66,24108.5,2024-04-26,Pacific Express,delivered,24
+SHP-00634,Hong Kong,Hamburg,779.01,577.26,2024-09-24,Asia Cargo,delivered,31
+SHP-00635,Jakarta,Shanghai,3439.01,24621.99,2024-09-01,Global Freight,delivered,28
+SHP-00636,Shenzhen,Barcelona,2985.22,39848.53,2024-10-07,Global Freight,delivered,36
+SHP-00637,Hong Kong,Lisbon,1249.86,35761.15,2024-11-26,Orient Lines,delayed,15
+SHP-00638,Singapore,Hong Kong,2111.49,12016.11,2024-11-09,Global Freight,delivered,48
+SHP-00639,Jakarta,Antwerp,2064.81,42681.43,2024-04-03,Asia Cargo,delivered,41
+SHP-00640,Taipei,Montreal,2264.11,35038.61,2024-09-08,Asia Cargo,delivered,10
+SHP-00641,Shanghai,Santos,111.14,48618.01,2024-05-24,Global Freight,delivered,29
+SHP-00642,Hanoi,Shanghai,1164.44,7576.65,2024-09-09,Asia Cargo,delivered,20
+SHP-00643,Shenzhen,Houston,4989.82,23211.04,2024-01-17,Global Freight,delivered,49
+SHP-00644,Seoul,Singapore,1332.88,19651.47,2024-10-05,Orient Lines,delivered,17
+SHP-00645,Osaka,Gothenburg,4141.35,6141.98,2024-12-31,Asia Cargo,delivered,29
+SHP-00646,Mumbai,Seoul,996.3,36779.37,2024-02-18,Asia Cargo,delivered,44
+SHP-00647,Singapore,Genoa,793.48,36425.44,2024-10-08,Pacific Express,delivered,41
+SHP-00648,Singapore,Osaka,1802.45,2651.77,2024-12-07,Asia Cargo,customs_hold,16
+SHP-00649,Manila,Le Havre,1622.91,8409.65,2024-05-21,Pacific Express,delivered,16
+SHP-00650,Shanghai,Mumbai,2905.59,34553.03,2024-12-18,Asia Cargo,delivered,6
+SHP-00651,Mumbai,Hanoi,2499.85,34312.93,2024-06-22,Pacific Express,delivered,42
+SHP-00652,Seoul,Santos,3957.44,6335.08,2024-04-29,Global Freight,customs_hold,42
+SHP-00653,Shenzhen,Istanbul,4027.72,21964.01,2024-04-08,Pacific Express,in_transit,23
+SHP-00654,Hanoi,Jakarta,1253.86,2022.45,2024-12-27,Orient Lines,in_transit,35
+SHP-00655,Hanoi,Houston,949.28,9372.01,2024-06-27,Global Freight,in_transit,18
+SHP-00656,Osaka,Seattle,4572.41,27748.29,2024-02-05,Asia Cargo,delivered,17
+SHP-00657,Jakarta,Gdansk,2270.67,38807.1,2024-09-16,Orient Lines,in_transit,2
+SHP-00658,Kuala Lumpur,Gdansk,3880.19,11977.39,2024-02-02,Orient Lines,delivered,44
+SHP-00659,Taipei,Buenos Aires,771.08,14192.3,2024-07-28,Global Freight,delivered,34
+SHP-00660,Manila,Singapore,219.36,46893.09,2024-04-01,Pacific Express,delivered,32
+SHP-00661,Mumbai,Taipei,159.57,32105.5,2024-07-17,Orient Lines,delivered,45
+SHP-00662,Kuala Lumpur,Hamburg,245.9,11075.1,2024-02-06,Pacific Express,customs_hold,14
+SHP-00663,Manila,Houston,4642.05,41612.28,2024-08-27,Pacific Express,delivered,48
+SHP-00664,Busan,Dublin,4110.22,39722.77,2024-01-30,Global Freight,delivered,47
+SHP-00665,Tokyo,Marseille,390.14,10834.21,2024-09-22,Pacific Express,delivered,15
+SHP-00666,Jakarta,Gothenburg,947.71,26333.29,2024-05-07,Asia Cargo,in_transit,36
+SHP-00667,Hong Kong,Taipei,3831.53,28849.35,2024-12-11,Orient Lines,in_transit,28
+SHP-00668,Busan,Hong Kong,834.46,9060.81,2024-07-24,Global Freight,in_transit,35
+SHP-00669,Kuala Lumpur,Valencia,4667.63,45129.12,2024-10-08,Global Freight,delayed,27
+SHP-00670,Shenzhen,Callao,2153.23,36307.09,2024-11-07,Asia Cargo,in_transit,14
+SHP-00671,Hong Kong,Buenos Aires,4630.77,12741.75,2024-08-19,Orient Lines,customs_hold,1
+SHP-00672,Hanoi,Seoul,4914.79,29808.35,2024-09-22,Asia Cargo,customs_hold,20
+SHP-00673,Shanghai,Marseille,4921.98,10780.4,2024-06-10,Pacific Express,in_transit,45
+SHP-00674,Osaka,Antwerp,4595.6,25588.01,2024-10-19,Asia Cargo,delivered,30
+SHP-00675,Bangkok,Manila,692.47,18385.79,2024-10-25,Asia Cargo,delivered,20
+SHP-00676,Tokyo,Cartagena,1999.29,45898.2,2024-02-09,Global Freight,in_transit,12
+SHP-00677,Taipei,Cartagena,4097.67,4813.43,2024-11-24,Global Freight,delivered,37
+SHP-00678,Hong Kong,Bangkok,3900.72,46097.48,2024-06-20,Global Freight,delayed,28
+SHP-00679,Hong Kong,Jakarta,4349.0,11374.55,2024-11-30,Pacific Express,in_transit,41
+SHP-00680,Hong Kong,Mumbai,1524.26,2107.05,2024-10-03,Asia Cargo,delivered,45
+SHP-00681,Mumbai,Manila,253.07,36592.35,2024-07-20,Orient Lines,in_transit,37
+SHP-00682,Jakarta,Bangkok,1110.82,14524.66,2024-07-20,Asia Cargo,delivered,6
+SHP-00683,Taipei,Cartagena,3726.7,27430.21,2024-05-14,Pacific Express,delivered,28
+SHP-00684,Shenzhen,Jakarta,3810.28,24072.08,2024-04-11,Orient Lines,delivered,37
+SHP-00685,Mumbai,Buenos Aires,3080.18,36796.6,2024-05-06,Asia Cargo,delivered,50
+SHP-00686,Hong Kong,Genoa,3423.85,28822.11,2024-02-27,Orient Lines,delivered,23
+SHP-00687,Mumbai,Genoa,1722.95,32787.72,2024-06-05,Asia Cargo,customs_hold,40
+SHP-00688,Osaka,Valencia,3116.1,22051.15,2024-04-29,Asia Cargo,in_transit,10
+SHP-00689,Shenzhen,Bangkok,562.3,2774.17,2024-11-13,Asia Cargo,delayed,19
+SHP-00690,Shanghai,Piraeus,3469.13,5608.34,2024-08-18,Orient Lines,delivered,14
+SHP-00691,Hanoi,Santos,1059.77,27343.89,2024-05-12,Orient Lines,in_transit,10
+SHP-00692,Hanoi,Kingston,92.43,29171.1,2024-12-05,Pacific Express,delivered,4
+SHP-00693,Singapore,Osaka,3946.05,30917.34,2024-01-28,Orient Lines,in_transit,1
+SHP-00694,Tokyo,Gothenburg,3302.03,33165.93,2024-12-03,Global Freight,delayed,2
+SHP-00695,Singapore,Manzanillo,1932.92,48990.65,2024-09-17,Pacific Express,delayed,32
+SHP-00696,Osaka,Seattle,2658.04,9361.55,2024-09-13,Orient Lines,in_transit,46
+SHP-00697,Shanghai,Mumbai,1237.34,26494.3,2024-06-19,Orient Lines,delivered,11
+SHP-00698,Shanghai,Istanbul,3421.71,17801.14,2024-06-03,Asia Cargo,customs_hold,33
+SHP-00699,Singapore,Mumbai,3129.15,43939.93,2024-01-16,Global Freight,delivered,22
+SHP-00700,Busan,Lisbon,3284.83,4435.36,2024-07-14,Asia Cargo,delivered,37
+SHP-00701,Seoul,Le Havre,4852.7,45491.28,2024-06-17,Orient Lines,delivered,14
+SHP-00702,Manila,Jakarta,2905.36,34218.23,2024-04-13,Asia Cargo,delivered,46
+SHP-00703,Busan,Vancouver,4547.86,21531.71,2024-03-15,Asia Cargo,delivered,36
+SHP-00704,Jakarta,Taipei,921.08,41984.15,2024-03-15,Pacific Express,in_transit,27
+SHP-00705,Hong Kong,Marseille,2215.3,46691.74,2024-11-22,Global Freight,delivered,13
+SHP-00706,Tokyo,Kuala Lumpur,924.14,38134.25,2024-11-09,Global Freight,in_transit,40
+SHP-00707,Mumbai,Seattle,1161.3,34384.53,2024-07-02,Pacific Express,in_transit,31
+SHP-00708,Seoul,Miami,4230.77,23464.74,2024-11-28,Global Freight,delivered,25
+SHP-00709,Taipei,Los Angeles,687.99,9703.33,2024-01-17,Orient Lines,in_transit,1
+SHP-00710,Busan,Antwerp,4751.02,11166.58,2024-12-09,Asia Cargo,in_transit,5
+SHP-00711,Seoul,Valencia,4335.71,24522.65,2024-06-15,Orient Lines,delayed,28
+SHP-00712,Hong Kong,Seoul,3039.85,41225.21,2024-06-09,Orient Lines,in_transit,48
+SHP-00713,Kuala Lumpur,Seattle,2681.03,32087.62,2024-12-26,Pacific Express,delivered,29
+SHP-00714,Taipei,Seoul,4388.96,12323.8,2024-10-02,Orient Lines,customs_hold,3
+SHP-00715,Jakarta,Gothenburg,2580.88,31550.9,2024-01-26,Asia Cargo,delivered,26
+SHP-00716,Busan,Marseille,3868.5,14331.43,2024-03-26,Orient Lines,delivered,4
+SHP-00717,Hanoi,Vancouver,4518.43,23205.77,2024-11-26,Orient Lines,delivered,33
+SHP-00718,Tokyo,Shenzhen,3893.77,46895.23,2024-12-22,Asia Cargo,delivered,21
+SHP-00719,Taipei,Tokyo,894.8,29536.26,2024-12-30,Asia Cargo,delayed,6
+SHP-00720,Singapore,Genoa,3458.74,45362.77,2024-03-24,Pacific Express,delivered,46
+SHP-00721,Taipei,Callao,1815.04,26214.67,2024-07-15,Asia Cargo,delivered,25
+SHP-00722,Shanghai,Hanoi,4561.31,28296.3,2024-12-03,Asia Cargo,delivered,10
+SHP-00723,Seoul,Singapore,2098.2,15510.44,2024-08-16,Global Freight,in_transit,8
+SHP-00724,Busan,Jakarta,4802.19,226.47,2024-05-09,Pacific Express,delivered,32
+SHP-00725,Jakarta,Shanghai,3040.12,24698.67,2024-04-21,Orient Lines,delivered,29
+SHP-00726,Tokyo,Seattle,3000.71,12273.42,2024-10-07,Global Freight,in_transit,36
+SHP-00727,Osaka,Busan,245.07,7455.4,2024-11-30,Global Freight,delivered,3
+SHP-00728,Manila,Cartagena,4190.15,14957.16,2024-02-14,Pacific Express,delivered,12
+SHP-00729,Seoul,Balboa,1422.26,33063.18,2024-12-24,Asia Cargo,customs_hold,48
+SHP-00730,Kuala Lumpur,Gdansk,4657.43,4701.66,2024-06-02,Global Freight,delivered,25
+SHP-00731,Osaka,Singapore,3792.33,42173.32,2024-02-03,Global Freight,delivered,8
+SHP-00732,Hanoi,Antwerp,1646.38,20717.21,2024-04-17,Asia Cargo,in_transit,7
+SHP-00733,Kuala Lumpur,Callao,2644.97,4429.1,2024-12-18,Global Freight,delivered,21
+SHP-00734,Singapore,Vancouver,2875.93,31181.05,2024-03-07,Orient Lines,delivered,41
+SHP-00735,Taipei,Houston,4040.0,44189.0,2024-04-29,Global Freight,customs_hold,1
+SHP-00736,Tokyo,Seoul,2324.7,39846.79,2024-04-16,Orient Lines,delivered,22
+SHP-00737,Bangkok,Buenos Aires,4030.31,10656.28,2024-11-23,Asia Cargo,in_transit,17
+SHP-00738,Shenzhen,Singapore,1539.21,25359.15,2024-06-14,Pacific Express,delivered,22
+SHP-00739,Bangkok,Lisbon,3622.12,30818.87,2024-01-15,Asia Cargo,delivered,22
+SHP-00740,Busan,Balboa,2395.8,23751.3,2024-01-19,Asia Cargo,delivered,41
+SHP-00741,Taipei,Santos,4479.7,23150.38,2024-07-30,Pacific Express,delayed,20
+SHP-00742,Kuala Lumpur,Balboa,1577.86,26817.48,2024-04-16,Global Freight,in_transit,23
+SHP-00743,Tokyo,Manila,1402.66,1607.1,2024-07-11,Asia Cargo,in_transit,25
+SHP-00744,Seoul,Seattle,584.66,39128.08,2024-06-06,Global Freight,in_transit,18
+SHP-00745,Hong Kong,Bangkok,2485.52,11920.23,2024-08-19,Global Freight,delivered,20
+SHP-00746,Seoul,Jakarta,1871.39,1917.88,2024-04-13,Pacific Express,delivered,2
+SHP-00747,Shenzhen,Los Angeles,4524.83,7746.18,2024-06-23,Orient Lines,in_transit,34
+SHP-00748,Singapore,Genoa,716.9,43596.36,2024-09-21,Asia Cargo,delivered,3
+SHP-00749,Taipei,Gothenburg,3568.53,26141.13,2024-01-03,Global Freight,customs_hold,44
+SHP-00750,Osaka,Seattle,4359.44,16697.82,2024-01-24,Pacific Express,delivered,43
+SHP-00751,Hanoi,Marseille,112.89,37936.77,2024-11-23,Asia Cargo,delivered,13
+SHP-00752,Singapore,Antwerp,2661.61,38650.72,2024-12-09,Pacific Express,delivered,11
+SHP-00753,Singapore,Jakarta,76.78,31166.1,2024-09-20,Pacific Express,delivered,23
+SHP-00754,Jakarta,Genoa,1355.62,47166.73,2024-05-25,Asia Cargo,delivered,20
+SHP-00755,Kuala Lumpur,Piraeus,2703.12,2583.77,2024-01-15,Orient Lines,delayed,4
+SHP-00756,Tokyo,Gothenburg,269.47,21351.96,2024-04-01,Orient Lines,in_transit,20
+SHP-00757,Bangkok,Osaka,3564.64,33559.97,2024-09-30,Pacific Express,customs_hold,49
+SHP-00758,Shenzhen,New York,2839.16,4691.16,2024-12-23,Orient Lines,delivered,20
+SHP-00759,Manila,Manzanillo,3551.22,23296.56,2024-04-28,Asia Cargo,delivered,40
+SHP-00760,Singapore,Gdansk,1960.69,34995.75,2024-12-06,Global Freight,in_transit,21
+SHP-00761,Taipei,Houston,151.81,23792.95,2024-06-28,Orient Lines,delivered,11
+SHP-00762,Singapore,Istanbul,3022.4,6413.33,2024-02-22,Orient Lines,delayed,7
+SHP-00763,Bangkok,Buenos Aires,3247.43,39631.93,2024-09-29,Orient Lines,delivered,27
+SHP-00764,Mumbai,Montreal,1218.83,7993.06,2024-09-03,Orient Lines,delivered,14
+SHP-00765,Osaka,Savannah,2156.03,49011.25,2024-10-17,Global Freight,delivered,16
+SHP-00766,Seoul,Kingston,3348.19,36981.38,2024-12-30,Orient Lines,delivered,39
+SHP-00767,Taipei,Genoa,2775.66,41110.05,2024-03-31,Global Freight,customs_hold,5
+SHP-00768,Kuala Lumpur,Hong Kong,3427.7,29840.45,2024-07-13,Global Freight,delivered,43
+SHP-00769,Shanghai,Hong Kong,1088.45,6988.89,2024-10-24,Pacific Express,in_transit,43
+SHP-00770,Seoul,Valencia,2656.51,19529.63,2024-10-22,Orient Lines,delivered,44
+SHP-00771,Busan,Genoa,1499.03,39727.62,2024-12-13,Global Freight,delayed,28
+SHP-00772,Hanoi,Istanbul,4951.45,29157.21,2024-11-09,Orient Lines,delayed,19
+SHP-00773,Shanghai,Gdansk,4505.43,48396.58,2024-01-01,Global Freight,delivered,19
+SHP-00774,Osaka,Tokyo,1176.59,35125.98,2024-07-20,Global Freight,in_transit,26
+SHP-00775,Hong Kong,Le Havre,2725.82,33141.25,2024-08-31,Asia Cargo,delivered,25
+SHP-00776,Osaka,Gdansk,4199.89,7755.65,2024-12-09,Asia Cargo,delivered,5
+SHP-00777,Manila,Tokyo,720.41,44250.19,2024-12-02,Orient Lines,customs_hold,9
+SHP-00778,Tokyo,Kuala Lumpur,3211.39,20821.98,2024-08-21,Orient Lines,in_transit,30
+SHP-00779,Jakarta,Le Havre,2760.47,22529.79,2024-06-30,Asia Cargo,delivered,39
+SHP-00780,Shanghai,Cartagena,2491.04,36559.12,2024-12-30,Global Freight,delivered,35
+SHP-00781,Kuala Lumpur,Gdansk,167.79,1941.36,2024-09-04,Global Freight,delivered,31
+SHP-00782,Hanoi,Bangkok,710.87,36578.09,2024-05-23,Orient Lines,delivered,34
+SHP-00783,Busan,Montreal,442.69,23648.96,2024-12-05,Pacific Express,in_transit,35
+SHP-00784,Shenzhen,Savannah,1562.84,2686.07,2024-06-24,Pacific Express,delivered,33
+SHP-00785,Busan,Los Angeles,2870.04,16609.12,2024-06-29,Global Freight,delivered,3
+SHP-00786,Hanoi,Seattle,3747.25,36362.24,2024-10-15,Global Freight,delivered,31
+SHP-00787,Kuala Lumpur,Hanoi,2864.51,32833.18,2024-05-29,Pacific Express,delivered,6
+SHP-00788,Seoul,Miami,384.77,39198.95,2024-05-09,Asia Cargo,in_transit,18
+SHP-00789,Osaka,Hamburg,71.51,5621.89,2024-03-30,Asia Cargo,in_transit,24
+SHP-00790,Shenzhen,Hanoi,1306.63,35053.7,2024-09-05,Asia Cargo,in_transit,3
+SHP-00791,Bangkok,Hong Kong,4836.74,29797.43,2024-03-19,Orient Lines,in_transit,27
+SHP-00792,Shenzhen,Gothenburg,1190.12,22037.24,2024-11-22,Asia Cargo,delivered,47
+SHP-00793,Osaka,Istanbul,272.1,13256.56,2024-02-29,Pacific Express,delivered,26
+SHP-00794,Taipei,Marseille,2381.59,47415.18,2024-09-29,Asia Cargo,delivered,46
+SHP-00795,Hong Kong,Los Angeles,1313.49,26545.58,2024-08-10,Pacific Express,delivered,29
+SHP-00796,Hong Kong,Balboa,1578.79,26536.16,2024-01-22,Pacific Express,delayed,41
+SHP-00797,Bangkok,Le Havre,3052.62,32620.69,2024-05-19,Global Freight,delivered,7
+SHP-00798,Singapore,Manzanillo,2921.09,23082.37,2024-12-11,Asia Cargo,in_transit,38
+SHP-00799,Shenzhen,Osaka,2600.0,33902.02,2024-04-02,Global Freight,delivered,44
+SHP-00800,Shanghai,Bangkok,60.3,4930.05,2024-02-23,Orient Lines,delivered,47
+SHP-00801,Singapore,Hamburg,965.8,1233.84,2024-02-17,Pacific Express,customs_hold,43
+SHP-00802,Busan,Osaka,4752.47,31922.24,2024-12-28,Pacific Express,delivered,39
+SHP-00803,Seoul,Gothenburg,3282.14,44999.87,2024-10-16,Asia Cargo,delayed,45
+SHP-00804,Seoul,Hamburg,1473.2,33040.87,2024-02-08,Orient Lines,customs_hold,18
+SHP-00805,Shenzhen,Le Havre,3461.26,33395.58,2024-06-14,Global Freight,delivered,5
+SHP-00806,Singapore,Mumbai,1914.3,16666.1,2024-01-31,Global Freight,customs_hold,17
+SHP-00807,Seoul,Valencia,347.46,48972.13,2024-04-12,Orient Lines,delivered,32
+SHP-00808,Tokyo,Manila,2703.39,21591.12,2024-11-10,Pacific Express,delayed,46
+SHP-00809,Singapore,Taipei,174.79,3567.1,2024-05-08,Orient Lines,delivered,32
+SHP-00810,Seoul,Manzanillo,3201.86,46648.04,2024-12-06,Orient Lines,delivered,45
+SHP-00811,Bangkok,Lisbon,2873.41,25793.38,2024-09-08,Orient Lines,delivered,47
+SHP-00812,Shenzhen,Singapore,2700.87,215.2,2024-12-18,Orient Lines,delivered,35
+SHP-00813,Busan,Istanbul,1667.53,15176.26,2024-01-29,Pacific Express,delivered,22
+SHP-00814,Tokyo,New York,3802.39,14533.44,2024-04-13,Asia Cargo,in_transit,25
+SHP-00815,Manila,Osaka,1494.7,19535.73,2024-02-24,Global Freight,delivered,41
+SHP-00816,Taipei,Osaka,700.14,9694.98,2024-10-30,Asia Cargo,delivered,5
+SHP-00817,Shenzhen,Santos,3217.22,25009.22,2024-08-18,Pacific Express,delivered,4
+SHP-00818,Bangkok,Seoul,2027.84,10623.32,2024-11-30,Orient Lines,customs_hold,35
+SHP-00819,Seoul,Savannah,1165.31,3648.07,2024-03-13,Orient Lines,in_transit,31
+SHP-00820,Busan,Montreal,229.49,35079.78,2024-03-07,Pacific Express,delivered,4
+SHP-00821,Busan,Marseille,4103.79,4909.75,2024-11-08,Asia Cargo,delayed,5
+SHP-00822,Osaka,Hong Kong,571.34,29769.12,2024-11-11,Asia Cargo,delivered,13
+SHP-00823,Hong Kong,Piraeus,4057.7,49110.53,2024-12-13,Orient Lines,delivered,44
+SHP-00824,Kuala Lumpur,Santos,687.08,41829.53,2024-04-19,Pacific Express,in_transit,22
+SHP-00825,Tokyo,Jakarta,1369.83,37889.63,2024-03-27,Global Freight,in_transit,29
+SHP-00826,Mumbai,Savannah,203.97,5043.39,2024-11-19,Orient Lines,in_transit,2
+SHP-00827,Busan,Houston,404.07,410.84,2024-02-15,Global Freight,delivered,50
+SHP-00828,Taipei,Kuala Lumpur,1031.2,32009.29,2024-09-24,Orient Lines,delivered,12
+SHP-00829,Kuala Lumpur,Seoul,2981.56,35874.08,2024-11-09,Pacific Express,in_transit,20
+SHP-00830,Bangkok,Dublin,23.35,11820.17,2024-03-01,Pacific Express,in_transit,49
+SHP-00831,Jakarta,Miami,1096.77,38528.05,2024-12-03,Asia Cargo,delivered,13
+SHP-00832,Tokyo,Manila,3426.38,48430.26,2024-08-30,Orient Lines,delivered,43
+SHP-00833,Busan,Seoul,270.61,18241.44,2024-04-17,Orient Lines,delivered,40
+SHP-00834,Shenzhen,New York,217.07,37033.82,2024-10-02,Asia Cargo,delivered,2
+SHP-00835,Taipei,Miami,580.77,44759.2,2024-08-15,Global Freight,delivered,48
+SHP-00836,Manila,Genoa,1150.7,5551.14,2024-04-26,Pacific Express,delivered,27
+SHP-00837,Osaka,Shenzhen,1877.97,11072.1,2024-08-29,Orient Lines,delivered,28
+SHP-00838,Seoul,Busan,4639.47,22776.79,2024-07-17,Global Freight,delivered,47
+SHP-00839,Mumbai,Callao,1793.27,13521.24,2024-06-20,Asia Cargo,delivered,37
+SHP-00840,Shanghai,Antwerp,682.94,42589.99,2024-08-22,Orient Lines,delivered,22
+SHP-00841,Mumbai,Barcelona,3018.38,39487.87,2024-11-22,Asia Cargo,in_transit,36
+SHP-00842,Osaka,London,432.83,42855.84,2024-09-07,Asia Cargo,in_transit,30
+SHP-00843,Singapore,Shanghai,3650.22,36822.13,2024-05-06,Asia Cargo,delivered,38
+SHP-00844,Mumbai,Savannah,4731.29,45692.05,2024-01-03,Orient Lines,customs_hold,3
+SHP-00845,Taipei,Miami,168.59,26579.53,2024-09-02,Pacific Express,delivered,16
+SHP-00846,Tokyo,Buenos Aires,3765.52,34673.33,2024-07-27,Asia Cargo,delivered,19
+SHP-00847,Mumbai,Manzanillo,4994.76,845.71,2024-12-08,Global Freight,delivered,30
+SHP-00848,Osaka,Cartagena,3736.56,1269.45,2024-08-20,Orient Lines,in_transit,46
+SHP-00849,Hong Kong,Shenzhen,3949.4,18552.5,2024-08-25,Pacific Express,delayed,5
+SHP-00850,Hong Kong,Piraeus,2654.84,14864.67,2024-05-18,Asia Cargo,in_transit,6
+SHP-00851,Kuala Lumpur,Piraeus,3678.94,2787.84,2024-12-11,Global Freight,delayed,8
+SHP-00852,Hong Kong,Gdansk,2327.03,2091.67,2024-07-06,Asia Cargo,in_transit,46
+SHP-00853,Tokyo,Buenos Aires,3546.83,10275.39,2024-06-20,Asia Cargo,delivered,42
+SHP-00854,Taipei,Savannah,4355.72,35157.04,2024-04-25,Global Freight,delivered,18
+SHP-00855,Jakarta,Balboa,2114.93,2770.28,2024-07-09,Global Freight,delivered,33
+SHP-00856,Jakarta,Taipei,2351.08,26618.63,2024-09-29,Global Freight,delivered,24
+SHP-00857,Shenzhen,Balboa,4726.85,40449.35,2024-02-03,Asia Cargo,delayed,30
+SHP-00858,Tokyo,Hong Kong,1953.72,8981.65,2024-02-09,Pacific Express,delivered,8
+SHP-00859,Hanoi,Kuala Lumpur,2481.9,43755.91,2024-09-23,Pacific Express,delivered,44
+SHP-00860,Jakarta,Kuala Lumpur,2369.79,21035.49,2024-11-26,Pacific Express,delivered,5
+SHP-00861,Shanghai,London,4174.82,26005.04,2024-06-20,Orient Lines,in_transit,42
+SHP-00862,Manila,Genoa,2431.0,33309.47,2024-09-28,Orient Lines,delivered,37
+SHP-00863,Seoul,Marseille,859.1,13037.37,2024-09-04,Global Freight,customs_hold,50
+SHP-00864,Osaka,Mumbai,742.12,14254.88,2024-03-26,Asia Cargo,in_transit,19
+SHP-00865,Seoul,Shenzhen,4196.74,34658.32,2024-12-07,Asia Cargo,delivered,8
+SHP-00866,Shanghai,Genoa,2872.84,22072.39,2024-07-08,Asia Cargo,delivered,46
+SHP-00867,Shanghai,Kingston,1585.06,17225.16,2024-07-09,Orient Lines,delivered,11
+SHP-00868,Jakarta,Marseille,607.89,1295.01,2024-09-12,Asia Cargo,customs_hold,21
+SHP-00869,Seoul,Shanghai,4850.77,27329.97,2024-09-16,Global Freight,in_transit,19
+SHP-00870,Taipei,Barcelona,4848.04,37720.37,2024-10-20,Asia Cargo,in_transit,47
+SHP-00871,Busan,Valencia,1693.75,5660.17,2024-09-02,Pacific Express,delivered,36
+SHP-00872,Tokyo,Marseille,124.47,30895.22,2024-04-22,Orient Lines,delivered,21
+SHP-00873,Shanghai,Seattle,3206.74,29192.4,2024-04-23,Global Freight,delivered,6
+SHP-00874,Jakarta,Valencia,3385.48,47883.3,2024-09-19,Orient Lines,delivered,21
+SHP-00875,Kuala Lumpur,Seattle,2558.02,2849.58,2024-12-07,Global Freight,delivered,46
+SHP-00876,Osaka,Le Havre,1848.47,18672.92,2024-05-25,Global Freight,delivered,29
+SHP-00877,Osaka,Buenos Aires,438.45,36406.28,2024-08-15,Orient Lines,delayed,19
+SHP-00878,Seoul,Le Havre,3643.16,20738.98,2024-10-27,Pacific Express,delivered,20
+SHP-00879,Taipei,Vancouver,4933.2,3352.48,2024-10-29,Orient Lines,delivered,27
+SHP-00880,Manila,Antwerp,2072.86,27812.9,2024-12-29,Asia Cargo,delivered,25
+SHP-00881,Singapore,Buenos Aires,2453.18,41148.82,2024-06-03,Global Freight,delivered,48
+SHP-00882,Taipei,London,134.69,172.21,2024-05-14,Global Freight,customs_hold,41
+SHP-00883,Taipei,Jakarta,3269.24,44639.69,2024-08-01,Asia Cargo,delivered,45
+SHP-00884,Manila,Rotterdam,142.7,38247.68,2024-09-09,Pacific Express,in_transit,24
+SHP-00885,Kuala Lumpur,Los Angeles,2828.09,43423.88,2024-11-17,Orient Lines,customs_hold,8
+SHP-00886,Bangkok,Miami,3664.92,926.38,2024-05-12,Asia Cargo,in_transit,10
+SHP-00887,Bangkok,New York,4391.65,6818.09,2024-03-24,Pacific Express,delivered,27
+SHP-00888,Manila,Istanbul,244.05,14618.62,2024-11-23,Pacific Express,delivered,50
+SHP-00889,Manila,Shenzhen,3823.56,29958.19,2024-03-26,Global Freight,delayed,44
+SHP-00890,Shenzhen,Marseille,1357.66,34913.48,2024-07-04,Pacific Express,delivered,23
+SHP-00891,Osaka,Kuala Lumpur,64.98,25932.63,2024-07-09,Orient Lines,delivered,11
+SHP-00892,Tokyo,Busan,773.2,11094.62,2024-04-06,Pacific Express,delivered,5
+SHP-00893,Tokyo,Kuala Lumpur,4617.09,24001.94,2024-06-08,Global Freight,delivered,29
+SHP-00894,Busan,Seattle,2615.84,48507.07,2024-03-29,Global Freight,delivered,8
+SHP-00895,Mumbai,Kuala Lumpur,4284.15,7160.85,2024-04-26,Global Freight,delivered,9
+SHP-00896,Tokyo,Le Havre,3454.25,39212.28,2024-02-09,Pacific Express,in_transit,49
+SHP-00897,Hong Kong,Seoul,982.16,1688.0,2024-12-03,Pacific Express,delivered,17
+SHP-00898,Shanghai,Bangkok,1508.58,563.11,2024-02-19,Pacific Express,customs_hold,14
+SHP-00899,Kuala Lumpur,Osaka,924.32,17609.11,2024-02-16,Asia Cargo,delayed,18
+SHP-00900,Kuala Lumpur,Istanbul,1761.34,42764.15,2024-11-09,Asia Cargo,delivered,5
+SHP-00901,Tokyo,Savannah,3816.34,26465.5,2024-04-08,Global Freight,delivered,49
+SHP-00902,Jakarta,Shanghai,4867.91,4979.35,2024-04-19,Orient Lines,delivered,38
+SHP-00903,Seoul,Valencia,3367.79,5410.86,2024-06-30,Orient Lines,delivered,33
+SHP-00904,Mumbai,Dublin,564.67,49231.41,2024-03-04,Orient Lines,delivered,9
+SHP-00905,Taipei,Gdansk,3523.8,27878.75,2024-01-21,Pacific Express,delivered,8
+SHP-00906,Hong Kong,Barcelona,2285.0,36821.91,2024-12-17,Orient Lines,delivered,27
+SHP-00907,Singapore,Le Havre,944.33,3526.98,2024-08-31,Global Freight,delivered,44
+SHP-00908,Taipei,Balboa,526.31,21931.01,2024-12-03,Pacific Express,delivered,26
+SHP-00909,Hong Kong,Savannah,4887.87,37084.54,2024-03-27,Pacific Express,delivered,13
+SHP-00910,Bangkok,Osaka,2975.01,49533.53,2024-03-03,Asia Cargo,delayed,47
+SHP-00911,Taipei,Antwerp,3824.2,38310.31,2024-10-30,Global Freight,in_transit,42
+SHP-00912,Hong Kong,Istanbul,2379.39,30178.11,2024-07-26,Orient Lines,delivered,10
+SHP-00913,Shenzhen,New York,540.63,12571.96,2024-09-11,Asia Cargo,in_transit,9
+SHP-00914,Shanghai,Taipei,3689.12,41524.11,2024-09-12,Pacific Express,customs_hold,25
+SHP-00915,Kuala Lumpur,Balboa,1635.12,15172.49,2024-11-15,Pacific Express,in_transit,43
+SHP-00916,Shenzhen,Vancouver,3837.98,39646.93,2024-04-13,Global Freight,in_transit,32
+SHP-00917,Jakarta,Hamburg,2712.42,40483.61,2024-10-03,Pacific Express,customs_hold,3
+SHP-00918,Hong Kong,Jakarta,1918.46,15762.23,2024-07-11,Orient Lines,delivered,3
+SHP-00919,Seoul,Buenos Aires,3297.23,38980.15,2024-12-27,Asia Cargo,delivered,9
+SHP-00920,Singapore,Gothenburg,2437.53,5513.63,2024-12-11,Orient Lines,in_transit,44
+SHP-00921,Jakarta,Cartagena,2349.36,28134.66,2024-03-21,Pacific Express,delivered,32
+SHP-00922,Kuala Lumpur,Gothenburg,3084.89,17670.55,2024-05-25,Global Freight,delivered,38
+SHP-00923,Shanghai,Kuala Lumpur,4184.75,17476.4,2024-10-25,Pacific Express,in_transit,41
+SHP-00924,Bangkok,Gothenburg,487.2,17289.89,2024-07-01,Orient Lines,delivered,43
+SHP-00925,Mumbai,Rotterdam,1173.49,15639.37,2024-02-13,Pacific Express,delayed,8
+SHP-00926,Bangkok,Hanoi,99.05,16339.54,2024-08-23,Orient Lines,in_transit,27
+SHP-00927,Singapore,Tokyo,3479.94,29420.06,2024-06-11,Orient Lines,in_transit,21
+SHP-00928,Kuala Lumpur,Hong Kong,4041.73,5047.83,2024-12-11,Asia Cargo,delivered,33
+SHP-00929,Shenzhen,Kingston,1698.03,30760.65,2024-07-05,Orient Lines,delivered,41
+SHP-00930,Osaka,Singapore,4201.98,26814.91,2024-05-27,Global Freight,delivered,37
+SHP-00931,Hong Kong,London,3123.05,47899.16,2024-10-23,Pacific Express,in_transit,18
+SHP-00932,Tokyo,Cartagena,4006.03,23789.65,2024-04-17,Global Freight,in_transit,42
+SHP-00933,Osaka,Marseille,2523.45,15030.46,2024-12-05,Global Freight,delivered,26
+SHP-00934,Singapore,Montreal,2577.09,33594.43,2024-10-07,Asia Cargo,delayed,41
+SHP-00935,Hanoi,Vancouver,4313.62,28863.32,2024-04-19,Orient Lines,delivered,41
+SHP-00936,Jakarta,Montreal,4263.95,45346.45,2024-10-16,Pacific Express,delivered,24
+SHP-00937,Taipei,Manila,1202.25,37334.35,2024-06-02,Orient Lines,delivered,5
+SHP-00938,Manila,Busan,4229.91,13383.39,2024-05-26,Asia Cargo,delivered,39
+SHP-00939,Mumbai,Lisbon,1192.8,7540.61,2024-01-15,Asia Cargo,in_transit,20
+SHP-00940,Taipei,Houston,2799.35,21834.84,2024-11-27,Pacific Express,delivered,18
+SHP-00941,Seoul,Tokyo,1292.36,40186.73,2024-12-03,Asia Cargo,in_transit,3
+SHP-00942,Hanoi,Houston,3911.28,2813.6,2024-02-12,Global Freight,in_transit,5
+SHP-00943,Busan,Dublin,4483.92,33600.02,2024-02-16,Orient Lines,customs_hold,47
+SHP-00944,Osaka,Jakarta,1180.59,28570.12,2024-09-13,Pacific Express,delivered,38
+SHP-00945,Shenzhen,Vancouver,1259.41,44234.01,2024-05-01,Pacific Express,in_transit,21
+SHP-00946,Bangkok,Savannah,3686.31,40301.79,2024-04-30,Orient Lines,delivered,7
+SHP-00947,Seoul,Busan,4849.63,22001.8,2024-05-10,Pacific Express,delivered,24
+SHP-00948,Hanoi,Taipei,1582.79,21217.88,2024-12-15,Asia Cargo,customs_hold,10
+SHP-00949,Bangkok,Los Angeles,3578.5,41077.2,2024-01-11,Pacific Express,delayed,43
+SHP-00950,Shenzhen,Mumbai,3453.57,39450.7,2024-05-02,Global Freight,in_transit,20
+SHP-00951,Manila,Gdansk,4515.83,34278.15,2024-09-30,Asia Cargo,delayed,25
+SHP-00952,Shanghai,Lisbon,4637.57,45900.44,2024-06-03,Pacific Express,customs_hold,49
+SHP-00953,Mumbai,Marseille,1052.33,44517.82,2024-08-12,Global Freight,delayed,50
+SHP-00954,Manila,Dublin,3946.69,13738.12,2024-02-11,Orient Lines,delivered,27
+SHP-00955,Busan,Piraeus,3587.07,43844.22,2024-02-21,Asia Cargo,in_transit,33
+SHP-00956,Tokyo,Istanbul,2104.64,36475.12,2024-10-07,Global Freight,delivered,2
+SHP-00957,Shenzhen,Mumbai,3207.04,9227.79,2024-08-15,Asia Cargo,delivered,13
+SHP-00958,Manila,Marseille,1568.95,4157.49,2024-03-21,Asia Cargo,delivered,50
+SHP-00959,Osaka,Manzanillo,3815.93,42355.67,2024-12-17,Orient Lines,in_transit,21
+SHP-00960,Taipei,Los Angeles,4367.59,6718.81,2024-03-29,Global Freight,in_transit,13
+SHP-00961,Tokyo,Dublin,1838.31,19705.03,2024-07-12,Asia Cargo,delivered,2
+SHP-00962,Busan,Buenos Aires,3235.71,31350.04,2024-02-15,Orient Lines,delivered,45
+SHP-00963,Osaka,Manila,249.39,30919.3,2024-11-03,Global Freight,delivered,24
+SHP-00964,Seoul,Cartagena,587.19,35943.24,2024-08-10,Orient Lines,delayed,32
+SHP-00965,Tokyo,London,3567.96,9567.68,2024-05-16,Global Freight,in_transit,25
+SHP-00966,Seoul,Le Havre,4281.76,30024.14,2024-05-24,Asia Cargo,delivered,27
+SHP-00967,Shenzhen,Kuala Lumpur,144.35,48807.6,2024-04-30,Orient Lines,delayed,24
+SHP-00968,Kuala Lumpur,Balboa,3236.35,4332.65,2024-08-28,Asia Cargo,delayed,45
+SHP-00969,Hong Kong,Balboa,1061.48,19205.6,2024-08-04,Global Freight,delivered,36
+SHP-00970,Shanghai,Singapore,1664.65,11780.33,2024-06-30,Pacific Express,delivered,33
+SHP-00971,Kuala Lumpur,Gothenburg,1512.89,19765.11,2024-07-08,Asia Cargo,customs_hold,36
+SHP-00972,Shanghai,Savannah,897.27,8534.83,2024-09-09,Global Freight,delayed,9
+SHP-00973,Tokyo,Genoa,3551.42,21674.84,2024-05-13,Pacific Express,delivered,9
+SHP-00974,Taipei,Antwerp,3739.24,46315.54,2024-05-24,Global Freight,in_transit,49
+SHP-00975,Busan,Hamburg,2585.1,21816.98,2024-03-25,Global Freight,in_transit,32
+SHP-00976,Shenzhen,Kuala Lumpur,2778.6,46146.5,2024-11-21,Orient Lines,delivered,10
+SHP-00977,Shanghai,London,916.12,23538.86,2024-03-24,Orient Lines,delivered,32
+SHP-00978,Shanghai,Valencia,1782.92,35466.01,2024-09-05,Orient Lines,delivered,47
+SHP-00979,Osaka,Kuala Lumpur,618.71,4724.22,2024-05-25,Asia Cargo,delayed,48
+SHP-00980,Jakarta,Antwerp,2816.46,33173.73,2024-04-18,Pacific Express,delivered,37
+SHP-00981,Seoul,Dublin,4602.11,12345.56,2024-09-12,Pacific Express,delayed,2
+SHP-00982,Singapore,Balboa,4906.68,6143.45,2024-07-10,Pacific Express,delayed,10
+SHP-00983,Shanghai,Hong Kong,2301.44,35399.95,2024-09-02,Orient Lines,in_transit,18
+SHP-00984,Kuala Lumpur,Kingston,29.52,48490.04,2024-12-01,Orient Lines,delivered,47
+SHP-00985,Hanoi,Cartagena,647.04,43170.78,2024-11-25,Global Freight,delivered,4
+SHP-00986,Hanoi,Singapore,2736.01,30134.46,2024-02-17,Orient Lines,delivered,16
+SHP-00987,Shenzhen,Lisbon,446.4,42624.67,2024-03-24,Orient Lines,in_transit,19
+SHP-00988,Manila,Manzanillo,771.1,14962.41,2024-08-09,Global Freight,delayed,39
+SHP-00989,Seoul,Istanbul,3327.77,41611.04,2024-09-19,Asia Cargo,delivered,25
+SHP-00990,Taipei,Antwerp,2815.5,21182.38,2024-08-04,Global Freight,in_transit,28
+SHP-00991,Manila,Le Havre,465.19,25691.41,2024-08-25,Asia Cargo,in_transit,46
+SHP-00992,Seoul,Houston,2636.63,32378.91,2024-02-12,Global Freight,delivered,6
+SHP-00993,Busan,Los Angeles,1502.32,49210.1,2024-12-16,Global Freight,delayed,34
+SHP-00994,Hong Kong,Barcelona,2842.89,27572.17,2024-01-24,Pacific Express,delivered,27
+SHP-00995,Tokyo,New York,3304.45,28445.49,2024-05-09,Global Freight,delivered,6
+SHP-00996,Shenzhen,Miami,81.84,37038.78,2024-08-24,Asia Cargo,in_transit,26
+SHP-00997,Shanghai,Hong Kong,2081.55,35233.71,2024-06-09,Orient Lines,in_transit,29
+SHP-00998,Kuala Lumpur,Hamburg,1707.0,45909.69,2024-04-05,Asia Cargo,delivered,48
+SHP-00999,Kuala Lumpur,Hamburg,4358.14,5361.22,2024-09-30,Pacific Express,delivered,8
+SHP-01000,Shanghai,Hanoi,3279.18,23035.14,2024-07-26,Orient Lines,delivered,40

@@ -1,0 +1,887 @@
+{
+  "constellation_name": "Global Earth Observation Network",
+  "operator": "International Space Monitoring Agency",
+  "last_updated": "2025-01-31T12:00:00Z",
+  "satellites": [
+    {
+      "satellite_id": "SAT-001",
+      "name": "Sentinel-1",
+      "orbit_type": "LEO",
+      "launch_date": "2021-01-14",
+      "altitude_km": 27901.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 42.4,
+          "signal_strength_dbm": -108.1,
+          "temperature_c": 68.4,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 65.7,
+          "signal_strength_dbm": -86.6,
+          "temperature_c": 29.5,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 76.4,
+          "signal_strength_dbm": -91.1,
+          "temperature_c": -26.8,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 26.9,
+          "signal_strength_dbm": -57.4,
+          "temperature_c": 7.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 37.3,
+          "signal_strength_dbm": -91.9,
+          "temperature_c": -18.8,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-002",
+      "name": "Sentinel-2",
+      "orbit_type": "LEO",
+      "launch_date": "2022-09-09",
+      "altitude_km": 12127.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 60.5,
+          "signal_strength_dbm": -62.1,
+          "temperature_c": 60.5,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 35.2,
+          "signal_strength_dbm": -54.6,
+          "temperature_c": 43.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 82.0,
+          "signal_strength_dbm": -101.4,
+          "temperature_c": 57.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 36.4,
+          "signal_strength_dbm": -107.8,
+          "temperature_c": 8.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 20.3,
+          "signal_strength_dbm": -54.1,
+          "temperature_c": 38.7,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-003",
+      "name": "Sentinel-3",
+      "orbit_type": "LEO",
+      "launch_date": "2020-10-12",
+      "altitude_km": 33773.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 61.6,
+          "signal_strength_dbm": -70.5,
+          "temperature_c": 1.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 71.1,
+          "signal_strength_dbm": -97.4,
+          "temperature_c": -9.9,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 42.1,
+          "signal_strength_dbm": -90.9,
+          "temperature_c": 14.1,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 41.8,
+          "signal_strength_dbm": -100.6,
+          "temperature_c": -18.6,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 36.5,
+          "signal_strength_dbm": -89.0,
+          "temperature_c": 1.8,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-004",
+      "name": "Sentinel-4",
+      "orbit_type": "GEO",
+      "launch_date": "2023-06-03",
+      "altitude_km": 34852.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 39.6,
+          "signal_strength_dbm": -105.7,
+          "temperature_c": 31.3,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 63.2,
+          "signal_strength_dbm": -107.0,
+          "temperature_c": -27.1,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 28.5,
+          "signal_strength_dbm": -106.8,
+          "temperature_c": 12.6,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 76.4,
+          "signal_strength_dbm": -56.5,
+          "temperature_c": 32.9,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 69.3,
+          "signal_strength_dbm": -91.3,
+          "temperature_c": 51.7,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-005",
+      "name": "Sentinel-5",
+      "orbit_type": "SSO",
+      "launch_date": "2023-05-21",
+      "altitude_km": 2620.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 30.5,
+          "signal_strength_dbm": -61.2,
+          "temperature_c": 62.0,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 27.8,
+          "signal_strength_dbm": -91.4,
+          "temperature_c": 34.4,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 57.6,
+          "signal_strength_dbm": -53.2,
+          "temperature_c": -15.6,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 93.0,
+          "signal_strength_dbm": -86.5,
+          "temperature_c": 40.0,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 83.1,
+          "signal_strength_dbm": -57.1,
+          "temperature_c": 15.3,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-006",
+      "name": "Horizon-1",
+      "orbit_type": "LEO",
+      "launch_date": "2022-03-04",
+      "altitude_km": 28132.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 58.3,
+          "signal_strength_dbm": -59.3,
+          "temperature_c": -1.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 68.4,
+          "signal_strength_dbm": -102.4,
+          "temperature_c": -19.7,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 46.1,
+          "signal_strength_dbm": -71.0,
+          "temperature_c": 49.2,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 52.1,
+          "signal_strength_dbm": -85.2,
+          "temperature_c": 32.1,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 97.9,
+          "signal_strength_dbm": -87.0,
+          "temperature_c": 4.1,
+          "status": "degraded"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-007",
+      "name": "Horizon-2",
+      "orbit_type": "SSO",
+      "launch_date": "2023-05-20",
+      "altitude_km": 17841.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 83.0,
+          "signal_strength_dbm": -77.3,
+          "temperature_c": -6.4,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 79.1,
+          "signal_strength_dbm": -67.3,
+          "temperature_c": 53.7,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 67.4,
+          "signal_strength_dbm": -82.2,
+          "temperature_c": 25.5,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 34.1,
+          "signal_strength_dbm": -52.6,
+          "temperature_c": -23.0,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 74.8,
+          "signal_strength_dbm": -74.2,
+          "temperature_c": 52.0,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-008",
+      "name": "Horizon-3",
+      "orbit_type": "LEO",
+      "launch_date": "2020-09-16",
+      "altitude_km": 21999.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 37.4,
+          "signal_strength_dbm": -101.7,
+          "temperature_c": 28.1,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 80.6,
+          "signal_strength_dbm": -70.3,
+          "temperature_c": 15.3,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 51.2,
+          "signal_strength_dbm": -75.3,
+          "temperature_c": -10.4,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 44.0,
+          "signal_strength_dbm": -62.3,
+          "temperature_c": 38.0,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 77.4,
+          "signal_strength_dbm": -55.1,
+          "temperature_c": 69.0,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-009",
+      "name": "Horizon-4",
+      "orbit_type": "SSO",
+      "launch_date": "2020-12-01",
+      "altitude_km": 20010.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 88.2,
+          "signal_strength_dbm": -106.3,
+          "temperature_c": 60.1,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 20.1,
+          "signal_strength_dbm": -76.4,
+          "temperature_c": 67.9,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 88.9,
+          "signal_strength_dbm": -58.1,
+          "temperature_c": -6.5,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 70.0,
+          "signal_strength_dbm": -67.3,
+          "temperature_c": 10.6,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 63.6,
+          "signal_strength_dbm": -70.3,
+          "temperature_c": 17.5,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-010",
+      "name": "Horizon-5",
+      "orbit_type": "GEO",
+      "launch_date": "2022-07-17",
+      "altitude_km": 13952.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 32.3,
+          "signal_strength_dbm": -50.2,
+          "temperature_c": 37.0,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 20.9,
+          "signal_strength_dbm": -71.1,
+          "temperature_c": -15.6,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 72.6,
+          "signal_strength_dbm": -51.5,
+          "temperature_c": -16.4,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 71.4,
+          "signal_strength_dbm": -85.0,
+          "temperature_c": 15.6,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 69.9,
+          "signal_strength_dbm": -82.7,
+          "temperature_c": 12.4,
+          "status": "degraded"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-011",
+      "name": "Polar-1",
+      "orbit_type": "MEO",
+      "launch_date": "2021-03-30",
+      "altitude_km": 16799.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 54.0,
+          "signal_strength_dbm": -109.6,
+          "temperature_c": 19.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 77.0,
+          "signal_strength_dbm": -93.8,
+          "temperature_c": 62.7,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 22.7,
+          "signal_strength_dbm": -107.7,
+          "temperature_c": 18.3,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 29.1,
+          "signal_strength_dbm": -81.1,
+          "temperature_c": 39.0,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 78.4,
+          "signal_strength_dbm": -78.4,
+          "temperature_c": 55.9,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-012",
+      "name": "Polar-2",
+      "orbit_type": "LEO",
+      "launch_date": "2023-02-19",
+      "altitude_km": 1554.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 91.2,
+          "signal_strength_dbm": -104.7,
+          "temperature_c": 17.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 74.7,
+          "signal_strength_dbm": -77.6,
+          "temperature_c": 28.0,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 92.3,
+          "signal_strength_dbm": -77.9,
+          "temperature_c": -28.9,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 61.0,
+          "signal_strength_dbm": -81.8,
+          "temperature_c": 43.4,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 48.2,
+          "signal_strength_dbm": -51.3,
+          "temperature_c": -0.5,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-013",
+      "name": "Polar-3",
+      "orbit_type": "GEO",
+      "launch_date": "2024-04-11",
+      "altitude_km": 23691.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 82.8,
+          "signal_strength_dbm": -94.4,
+          "temperature_c": 32.9,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 65.8,
+          "signal_strength_dbm": -70.6,
+          "temperature_c": -0.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 42.9,
+          "signal_strength_dbm": -105.0,
+          "temperature_c": 20.6,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 40.2,
+          "signal_strength_dbm": -73.1,
+          "temperature_c": -2.5,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 21.1,
+          "signal_strength_dbm": -103.3,
+          "temperature_c": -12.5,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-014",
+      "name": "Polar-4",
+      "orbit_type": "GEO",
+      "launch_date": "2021-03-09",
+      "altitude_km": 27109.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 40.9,
+          "signal_strength_dbm": -68.0,
+          "temperature_c": 18.5,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 47.4,
+          "signal_strength_dbm": -104.9,
+          "temperature_c": -15.5,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 87.0,
+          "signal_strength_dbm": -64.8,
+          "temperature_c": 11.3,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 39.0,
+          "signal_strength_dbm": -83.6,
+          "temperature_c": 33.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 66.2,
+          "signal_strength_dbm": -59.5,
+          "temperature_c": -24.6,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-015",
+      "name": "Polar-5",
+      "orbit_type": "LEO",
+      "launch_date": "2020-06-30",
+      "altitude_km": 21964.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 33.4,
+          "signal_strength_dbm": -86.1,
+          "temperature_c": 0.1,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 50.4,
+          "signal_strength_dbm": -67.7,
+          "temperature_c": 17.5,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 62.4,
+          "signal_strength_dbm": -83.9,
+          "temperature_c": -1.1,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 50.6,
+          "signal_strength_dbm": -91.1,
+          "temperature_c": 23.0,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 27.8,
+          "signal_strength_dbm": -78.1,
+          "temperature_c": 5.4,
+          "status": "degraded"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-016",
+      "name": "Equator-1",
+      "orbit_type": "GEO",
+      "launch_date": "2022-01-30",
+      "altitude_km": 8086.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 41.6,
+          "signal_strength_dbm": -61.9,
+          "temperature_c": -4.5,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 56.9,
+          "signal_strength_dbm": -69.5,
+          "temperature_c": -5.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 61.6,
+          "signal_strength_dbm": -69.3,
+          "temperature_c": 69.3,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 63.8,
+          "signal_strength_dbm": -69.6,
+          "temperature_c": 53.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 52.9,
+          "signal_strength_dbm": -78.5,
+          "temperature_c": 38.5,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-017",
+      "name": "Equator-2",
+      "orbit_type": "GEO",
+      "launch_date": "2021-08-12",
+      "altitude_km": 27601.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 35.4,
+          "signal_strength_dbm": -108.6,
+          "temperature_c": -20.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 96.0,
+          "signal_strength_dbm": -71.7,
+          "temperature_c": 40.8,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 26.9,
+          "signal_strength_dbm": -73.7,
+          "temperature_c": 7.6,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 91.7,
+          "signal_strength_dbm": -68.3,
+          "temperature_c": -4.7,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 72.8,
+          "signal_strength_dbm": -105.5,
+          "temperature_c": 15.3,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-018",
+      "name": "Equator-3",
+      "orbit_type": "GEO",
+      "launch_date": "2021-08-24",
+      "altitude_km": 32685.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 33.0,
+          "signal_strength_dbm": -105.6,
+          "temperature_c": 47.7,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 51.1,
+          "signal_strength_dbm": -50.2,
+          "temperature_c": -4.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 34.2,
+          "signal_strength_dbm": -105.8,
+          "temperature_c": 67.9,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 68.8,
+          "signal_strength_dbm": -99.3,
+          "temperature_c": 19.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 63.3,
+          "signal_strength_dbm": -84.1,
+          "temperature_c": 31.4,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-019",
+      "name": "Equator-4",
+      "orbit_type": "GEO",
+      "launch_date": "2020-10-12",
+      "altitude_km": 19467.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 22.8,
+          "signal_strength_dbm": -105.8,
+          "temperature_c": 42.8,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 21.5,
+          "signal_strength_dbm": -80.1,
+          "temperature_c": 35.3,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 94.6,
+          "signal_strength_dbm": -70.1,
+          "temperature_c": -3.4,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 92.4,
+          "signal_strength_dbm": -75.5,
+          "temperature_c": 21.5,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 58.3,
+          "signal_strength_dbm": -85.8,
+          "temperature_c": 42.8,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "satellite_id": "SAT-020",
+      "name": "Equator-5",
+      "orbit_type": "LEO",
+      "launch_date": "2022-05-11",
+      "altitude_km": 32112.0,
+      "readings": [
+        {
+          "timestamp": "2025-01-28T00:00:00Z",
+          "battery_pct": 96.3,
+          "signal_strength_dbm": -60.9,
+          "temperature_c": 18.2,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T06:00:00Z",
+          "battery_pct": 46.7,
+          "signal_strength_dbm": -91.8,
+          "temperature_c": -24.5,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-28T12:00:00Z",
+          "battery_pct": 49.2,
+          "signal_strength_dbm": -58.8,
+          "temperature_c": 4.0,
+          "status": "degraded"
+        },
+        {
+          "timestamp": "2025-01-28T18:00:00Z",
+          "battery_pct": 80.8,
+          "signal_strength_dbm": -92.6,
+          "temperature_c": -9.7,
+          "status": "active"
+        },
+        {
+          "timestamp": "2025-01-29T00:00:00Z",
+          "battery_pct": 97.4,
+          "signal_strength_dbm": -70.4,
+          "temperature_c": -0.1,
+          "status": "degraded"
+        }
+      ]
+    }
+  ]
+}
