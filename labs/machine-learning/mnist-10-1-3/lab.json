@@ -1,0 +1,5 @@
+{
+  "title": "AI6 10.1.3 Companion: Train a Neural Network on MNIST",
+  "description": "Build a neural network from scratch in NumPy, then compare it with scikit-learn's MLPClassifier on the classic handwritten-digit task.",
+  "programme": "Machine Learning Level 6"
+}
