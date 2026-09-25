@@ -148,6 +148,18 @@ To add a new module:
 Each module is available at `jupyter.corndel.com/{module-name}/lab/index.html`.
 The landing page at `jupyter.corndel.com/` links to all modules.
 
+### Unlisted labs
+
+Add `"unlisted": true` to a lab's `lab.json` to build it without listing it on
+the landing page. It is still reachable at its URL, so content can link to it
+directly. Link to a single notebook with `?path=`:
+
+```
+https://jupyter.corndel.com/{lab-name}/lab/index.html?path=my_notebook.ipynb
+```
+
+The DA4 labs under `labs/data-analyst/da4-*` are unlisted and linked from Metis.
+
 ### Shared content
 
 If multiple modules need the same data files, put them in `modules/_shared/`.
