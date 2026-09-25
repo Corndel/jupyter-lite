@@ -323,6 +323,9 @@ def generate_landing_page(labs, output_dir):
     else:
         programmes = sorted({m.get("programme") for m in lab_metas if m.get("programme")})
 
+    # Unlisted labs are built and reachable by URL, but kept off the landing page
+    lab_metas = [m for m in lab_metas if not m.get("unlisted")]
+
     # Split sandbox modules from programme modules
     sandboxes = [m for m in lab_metas if m.get("sandbox")]
     programme_labs = [m for m in lab_metas if not m.get("sandbox")]
