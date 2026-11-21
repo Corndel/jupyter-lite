@@ -31,7 +31,7 @@ python build.py
 To build a single module (faster iteration),
 
 ```bash
-python build.py --modules python-101 --skip-base
+python build.py --labs python-foundations --skip-base
 ```
 
 To serve the built site locally,
@@ -158,7 +158,8 @@ directly. Link to a single notebook with `?path=`:
 https://jupyter.corndel.com/{lab-name}/lab/index.html?path=my_notebook.ipynb
 ```
 
-The DA4 labs under `labs/data-analyst/da4-*` are unlisted and linked from Metis.
+The DA4 labs under `labs/data-analyst/da4-*` and the DE5 labs under
+`labs/data-engineering/de5-*` are unlisted and linked from Metis.
 
 ### Shared content
 

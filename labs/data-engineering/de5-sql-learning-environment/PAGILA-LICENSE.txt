@@ -1,0 +1,26 @@
+pagila.sqlite holds the Pagila sample database, loaded by generate_db.py from
+devrimgunduz/pagila (https://github.com/devrimgunduz/pagila), commit
+5ba5a57aeb159f75f02aca2432d3c262186d13d3: the same pagila-schema.sql and
+pagila-data.sql as Corndel/DE-sql-learning-environment-AWS. Pagila is a
+PostgreSQL port of the Sakila sample database, which Mike Hillyer of the
+MySQL AB documentation team developed. Pagila's licence follows.
+
+PostgreSQL License
+
+Copyright (c) 2015-2026, Devrim Gündüz <devrim@gunduz.org>
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose, without fee, and without a written agreement
+is hereby granted, provided that the above copyright notice and this
+paragraph and the following two paragraphs appear in all copies.
+
+IN NO EVENT SHALL DEVRIM GÜNDÜZ BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
+ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
+DEVRIM GÜNDÜZ HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+DEVRIM GÜNDÜZ SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS,
+AND DEVRIM GÜNDÜZ HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
+UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
