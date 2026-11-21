@@ -13,6 +13,9 @@ jupyterlab-geojson>=3.4.0,<4
 jupyterlab-black
 jupysql
 duckdb-engine
+# Renders Plotly figures (its JupyterLab extension); keep in step with the
+# plotly version notebooks install with %pip (DE5 data security lab)
+plotly==7.1.0
 
 # JupyterLab Themes
 jupyterlab-night
